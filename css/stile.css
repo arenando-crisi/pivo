@@ -1,4 +1,51 @@
 .header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
     display: flex;
-    
+    background-color: #F0F0F0;
+    font-family: Montreal;
+    align-items: center;
+    height: 100px;
+}
+
+.logo{
+    padding: 10px;
+    margin-left: 146px;
+}
+
+.menù{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menù li{
+    display: inline-block;
+    padding: 10px;
+}
+
+.menù li a{
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
+.cta{
+
+}
+
+.button{
+    padding: 15px;
+    background-color: black;
+    color: #F0F0F0;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 50px;
+    font-family: montreal_bold;
+    width: 150px;
+    text-align: center;
+    margin-right: 146px;
 }
