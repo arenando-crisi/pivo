@@ -7,12 +7,28 @@
     background-color: #F0F0F0;
     font-family: Montreal;
     align-items: center;
-    height: 100px;
+    height: 10%;
+    transition: 0.4s;
 }
 
 .logo{
     padding: 10px;
-    margin-left: 146px;
+    margin-left: 10%;
+}
+
+.menùol{
+    display: block;
+    font-family: montreal_bold;
+    text-align: center;
+}
+
+.menùol li{
+    list-style-type: none;
+}
+
+.menùol li a{
+    color: #F0F0F0;
+    text-decoration: none;
 }
 
 .menù{
@@ -34,7 +50,7 @@
 }
 
 .cta{
-
+    margin-right: 10%;
 }
 
 .button{
@@ -47,5 +63,61 @@
     font-family: montreal_bold;
     width: 150px;
     text-align: center;
-    margin-right: 146px;
+    margin-right: 10%;
 }
+
+.hamburger{
+    display: none;
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 100;
+    top: 10%;
+    left: 0;
+    background-color: rgb(0,0,0);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+@media screen and (max-width: 390px) {
+    .menù{
+        display: none;
+    }
+
+    .cta{
+        display: none;
+    }
+
+    .hamburger{
+        display: block;
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        right: 10%;
+
+    }
+
+    .breadup, .meat, .breaddown{
+        background-color: black;
+        display: block;
+        height: 3px;
+        margin-bottom: 33%;
+        transition: 0.4s;
+    }
+
+    .change .breadup {
+        transform: rotate(-45deg) translate(-6px, 8px);
+      }
+      
+    .change .meat {
+        opacity: 0;
+    }
+      
+    .change .breaddown {
+        transform: rotate(45deg) translate(-10px, -12px);
+    }
+}
+

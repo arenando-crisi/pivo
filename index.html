@@ -13,9 +13,8 @@
 <body>
     <div class="header">
       <div class="logo">
-        <img src="asset/logo.png" alt="logo pivo" height="58px">
+        <a href=""><img src="asset/logo.png" alt="logo pivo" height="58px"></a>
       </div>
-      
       <ul class="menù">
         <li><a href="">Scopri di più</a></li>
         <li>|</li>
@@ -24,6 +23,20 @@
       <div class="cta">
         <a href="" class="button">Scarica l'app</a>
       </div>
+      <div class="hamburger" onclick="burgertox(this);openNav()">
+        <div class="breadup"></div>
+        <div class="meat"></div>
+        <div class="breaddown"></div>
+      </div>
     </div>
+
+    <div id="myNav" class="overlay">
+      <ul class="menùol">
+        <li><a href="">Scopri di più</a></li>
+        <li><a href="">Chi siamo</a></li>
+      </ul>
+    </div>
+
+    <script src="js/animations.js"></script>
 </body>
 </html>
