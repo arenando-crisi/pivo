@@ -21,7 +21,7 @@
         <li><a href="">Chi siamo</a></li>
       </ul>
       <div class="cta">
-        <a class="button" onclick="scrollpos()">Scarica l'app</a>
+        <a class="button" href="">Scarica l'app</a>
       </div>
       <div class="hamburger" onclick="burgertox(this);openNav()">
         <div class="breadup"></div>
@@ -37,14 +37,25 @@
 
     <div class="hero">
       <div class="contenitorevideo">
-        <video id="video" autoplay muted loop src="/asset/MVI_1815.mp4"></video>
+        <!--<video id="video" autoplay muted loop src="/asset/MVI_1815.mp4"></video>-->
       </div>
-      <h1>Pivó</h1>
-      <p id="claim">
+      <h1 class="titolo">Pivó</h1>
+      <p class="claim">
         Per chi vive la strada, per chi vive lo streetbasket
+      </p>
+      <p class="tagline1">
+        Sei solo come un cane e non sai con chi parlare di basket?<br>
+        Vorresti organizzare partite e allenamenti,<br>
+        ma non sei laureato in ingegneria gestionale?<br>
+        Sei stanco di giocare con i soliti tre scemi?
       </p>
     </div>
 
+    <div class="trigger1"></div>
+
     <script src="js/animations.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
+    <script src="js/scroller.js"></script>
 </body>
 </html>

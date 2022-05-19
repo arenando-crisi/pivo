@@ -16,8 +16,3 @@ function openNav() {
         document.getElementById("scrittemenù2").style.opacity = 100;
     }
 }//chiedere come togliere il brutto effetto sulle scritte
-
-function scrollpos(){
-    setInterval(scrollpos,100);
-    console.log(window.scrollY);
-}
