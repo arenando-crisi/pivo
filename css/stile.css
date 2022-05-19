@@ -1,3 +1,31 @@
+body{
+    margin: 0;
+}
+
+div{
+    margin: 0;
+}
+
+h1{
+    position: relative;
+    margin: 0;
+    font-family: Formula;
+    font-size: 35vw;
+    color: #dfff9c;
+    text-align: center;
+    top: 20vh;
+}
+
+#claim{
+    position: relative;
+    margin: 0;
+    font-family: Montreal;
+    font-size: 3vw;
+    text-align: center;
+    color: #dfff9c;
+    top: 3vh;
+}  
+
 .header{
     width: 100%;
     position: fixed;
@@ -17,18 +45,17 @@
 }
 
 .menùol{
-    display: block;
     font-family: montreal_bold;
     text-align: center;
+    position: relative;
+    top: 30%;
+    padding: 10%;
+    opacity: 0;
 }
 
-.menùol li{
-    list-style-type: none;
-}
-
-.menùol li a{
-    color: #F0F0F0;
+.menùol a{
     text-decoration: none;
+    color: #F0F0F0;
 }
 
 .menù{
@@ -79,7 +106,22 @@
     left: 0;
     background-color: rgb(0,0,0);
     overflow-x: hidden;
-    transition: 0.5s;
+    transition: 0.4s;
+}
+
+.hero{
+    margin: 0;
+    position: relative;
+    display: block;
+}
+
+#video{
+    position: fixed;
+    z-index: -1;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
 }
 
 @media screen and (max-width: 390px) {
@@ -118,6 +160,20 @@
       
     .change .breaddown {
         transform: rotate(45deg) translate(-10px, -12px);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .logo{
+        margin-left: 9%;
+    }
+
+    .cta{
+        margin-right: 7%;
+    }
+
+    .button{
+        width: 100px;
     }
 }
 

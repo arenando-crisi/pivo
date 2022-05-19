@@ -21,7 +21,7 @@
         <li><a href="">Chi siamo</a></li>
       </ul>
       <div class="cta">
-        <a href="" class="button">Scarica l'app</a>
+        <a class="button" onclick="scrollpos()">Scarica l'app</a>
       </div>
       <div class="hamburger" onclick="burgertox(this);openNav()">
         <div class="breadup"></div>
@@ -31,10 +31,18 @@
     </div>
 
     <div id="myNav" class="overlay">
-      <ul class="menùol">
-        <li><a href="">Scopri di più</a></li>
-        <li><a href="">Chi siamo</a></li>
-      </ul>
+        <div id="scrittemenù1" class="menùol"><a href="">Scopri di più</a></div>
+        <div id="scrittemenù2" class="menùol"><a href="">Chi siamo</a></div>
+    </div>
+
+    <div class="hero">
+      <div class="contenitorevideo">
+        <video id="video" autoplay muted loop src="/asset/MVI_1815.mp4"></video>
+      </div>
+      <h1>Pivó</h1>
+      <p id="claim">
+        Per chi vive la strada, per chi vive lo streetbasket
+      </p>
     </div>
 
     <script src="js/animations.js"></script>
