@@ -1,8 +1,8 @@
 gsap.registerPlugin(ScrollTrigger);
 
 gsap.to(".titolo", {
-    scale: 0.2,
-    y: 200,
+    scale: 0.75,
+    y: 470,
     duration: 1,
     scrollTrigger: {
         trigger: ".trigger1",
@@ -17,7 +17,7 @@ gsap.to(".claim", {
     duration: 1,
     opacity: 0,
     scrollTrigger: {
-        trigger: ".trigger1",
+        trigger: ".trigger3",
         markers:true,
         start: "top 50%",
         end: "bottom 50%",
