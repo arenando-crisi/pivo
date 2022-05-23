@@ -157,44 +157,59 @@ div{
 
 .hero{
     background-color: #A07EFF;
-    height: 100vh;
+    height: 300vh;
     width: 100vw;
     z-index: 1;
-    position: fixed;
-    display: flex;
-    flex-wrap: wrap;
+    position: absolute;
+    display: block;
 }
 
 .titolo{
-    position: relative;
-    top: -2vh;
+    position: fixed;
+    top: 0vh;
     margin: 0;
     padding: 0;
     font-family: Formula;
     font-size: 20vw;
     width: 55vw;
     z-index: 2;
+    text-align: left;
 }
 
 .video{
-    position: relative;
-    top: 0;
-    right: 0;
-    margin: 1vw;
+    position: fixed;
+    top: 1vh;
+    right: 1vw;
     width: 43vw;
     height: 96.5vh;
     overflow: hidden;
+    border-radius: 25px;
+    z-index: 3;
 }
 
 .claim{
+    position: absolute;
+    font-family: Montreal;
+    font-size: 3vw;
+    bottom: 203vh;
+    left: 1.5vw;
+}
 
+.claim2{
+    position: absolute;
+    font-family: Montreal;
+    opacity: 0;
+    width: 30vw;
+    font-size: 3vw;
+    bottom: 140vh;
+    left: 1.5vw;
 }
 
 /*-------------------------------TRIGGER-------------------------------*/
 
 .trigger1{
     position: absolute;
-    top: 100vh;
+    top: 52vh;
     left: 0;
     width: 100vw;
     height: 1px;
@@ -204,7 +219,57 @@ div{
 
 .trigger2{
     position: absolute;
-    top: 0;
+    top: 40vh;
+    left: 0;
+    width: 100vw;
+    height: 12vh;
+    border: 1px solid black;
+    z-index: 1000;
+}
+
+.trigger3{
+    position: absolute;
+    top: 40vh;
+    left: 0;
+    width: 100vw;
+    height: 24vh;
+    border: 1px solid black;
+    z-index: 1000;
+}
+
+.trigger4{
+    position: absolute;
+    top: 52vh;
+    left: 0;
+    width: 100vw;
+    height: 12vh;
+    border: 1px solid black;
+    z-index: 1000;
+}
+
+.trigger5{
+    position: absolute;
+    top: 100vh;
+    left: 0;
+    width: 100vw;
+    height: 15vh;
+    border: 1px solid black;
+    z-index: 1000;
+}
+
+.trigger6{
+    position: absolute;
+    top: 100vh;
+    left: 0;
+    width: 100vw;
+    height: 30vh;
+    border: 1px solid black;
+    z-index: 1000;
+}
+
+.trigger7{
+    position: absolute;
+    top: 130vh;
     left: 0;
     width: 100vw;
     height: 1px;
@@ -212,5 +277,13 @@ div{
     z-index: 1000;
 }
 
-/*-------------------------------TAGLINES E RESIZED VIDEO-------------------------------*/
+.triggerheader{
+    position: absolute;
+    top: 300vh;
+    left: 0;
+    width: 100vw;
+    height: 1px;
+    border: 1px solid black;
+    z-index: 1000;
+}
 
