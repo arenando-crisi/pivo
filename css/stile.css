@@ -187,6 +187,13 @@ div{
     z-index: 3;
 }
 
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    .video{
+        width: 100vw;
+        height: 50vh;
+    }
+}
+
 .claim{
     position: absolute;
     font-family: Montreal;
