@@ -57,6 +57,17 @@ gsap.to(".titolo", {
     }
 })
 
+gsap.to(".calltoaction", {
+    opacity: 1,
+    duration: 0.4,
+    scrollTrigger: {
+        trigger: ".trigger7",
+        toggleActions: 'restart none none reverse',
+        start: "top 0%",
+        end: "bottom 0%",
+    }
+})
+
 gsap.fromTo(".titolo",{fontSize:'20vw'}, {
     fontSize: '8vW',
     duration: 0.4,

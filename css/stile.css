@@ -153,11 +153,11 @@ div{
 }
 
 
-/*-------------------------------TITOLO E CLAIM-------------------------------*/
+/*-------------------------------TITOLO/CLAIM e CALL TO ACTION-------------------------------*/
 
 .hero{
     background-color: #A07EFF;
-    height: 300vh;
+    height: 230vh;
     width: 100vw;
     z-index: 1;
     position: absolute;
@@ -191,7 +191,7 @@ div{
     position: absolute;
     font-family: Montreal;
     font-size: 3vw;
-    bottom: 203vh;
+    top: 82vh;
     left: 1.5vw;
 }
 
@@ -201,8 +201,35 @@ div{
     opacity: 0;
     width: 30vw;
     font-size: 3vw;
-    bottom: 140vh;
+    top: 130vh;
     left: 1.5vw;
+}
+
+.calltoaction{
+    position: absolute;
+    font-family: Formula;
+    font-size: 5vw;
+    z-index: 5;
+    width: 100vw;
+    top:165vh;
+    color: #DFFF9C;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bottonecta{
+    padding: 15px;
+    background-color: #F0F0F0;
+    color: black;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 50px;
+    font-family: montreal_bold;
+    font-size: 1.5vw;
+    width: 15vw;
+    text-align: center;
 }
 
 /*-------------------------------TRIGGER-------------------------------*/
@@ -279,7 +306,7 @@ div{
 
 .triggerheader{
     position: absolute;
-    top: 300vh;
+    top: 230vh;
     left: 0;
     width: 100vw;
     height: 1px;
