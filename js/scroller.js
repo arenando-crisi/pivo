@@ -1,7 +1,7 @@
 gsap.registerPlugin(ScrollTrigger);
 
-gsap.to(".headerblack", {
-    y: '10vh',
+gsap.fromTo(".headerblack", {top: "-10vh"} , {
+    top: "0vh",
     duration: 0.4,
     scrollTrigger: {
         trigger: ".triggerheaderb1",
@@ -11,43 +11,19 @@ gsap.to(".headerblack", {
     }
 })
 
-gsap.to(".headerblack", {
-    y: '10vh',
+gsap.fromTo(".header", {opacity: 0} , {
+    opacity: 1,
     duration: 0.4,
     scrollTrigger: {
-        trigger: ".triggerheaderw1",
-        toggleActions: 'reverse none none restart',
-        start: "top 0%",
-        end: "bottom 0%",
-    }
-})
-
-gsap.to(".header", {
-    y: '10vh',
-    delay: 0.4,
-    duration: 0.4,
-    scrollTrigger: {
-        trigger: ".triggerheaderw1",
+        trigger: ".triggerheaderw2",
         toggleActions: 'restart none none reverse',
         start: "top 0%",
         end: "bottom 0%",
     }
 })
 
-gsap.to(".header", {
-    y: '10vh',
-    duration: 0.4,
-    scrollTrigger: {
-        trigger: ".triggerheaderb2",
-        toggleActions: 'reverse none none restart',
-        start: "top 0%",
-        end: "bottom 0%",
-    }
-})
-
-gsap.to(".headerblack", {
-    y: '10vh',
-    delay: 0.4,
+gsap.fromTo(".header", {opacity: 1} , {
+    opacity: 0,
     duration: 0.4,
     scrollTrigger: {
         trigger: ".triggerheaderb2",
@@ -57,23 +33,11 @@ gsap.to(".headerblack", {
     }
 })
 
-gsap.to(".headerblack", {
-    y: '10vh',
+gsap.fromTo(".header", {opacity: 0} , {
+    opacity: 1,
     duration: 0.4,
     scrollTrigger: {
-        trigger: ".triggerheaderw2",
-        toggleActions: 'reverse none none restart',
-        start: "top 0%",
-        end: "bottom 0%",
-    }
-})
-
-gsap.to(".header", {
-    y: '10vh',
-    delay: 0.4,
-    duration: 0.4,
-    scrollTrigger: {
-        trigger: ".triggerheaderw2",
+        trigger: ".triggerheaderw1",
         toggleActions: 'restart none none reverse',
         start: "top 0%",
         end: "bottom 0%",

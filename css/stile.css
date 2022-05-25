@@ -13,7 +13,7 @@ div{
 .header{
     width: 100vw;
     position: fixed;
-    top: -10vh;
+    top: 0vh;
     left: 0;
     display: flex;
     background-color: #F0F0F0;
@@ -551,12 +551,16 @@ div{
 }
 
 .rec1{
+    position: absolute;
     background-color: #DFFF9C;
     border-radius: 30px;
     font-family: Montreal;
     width: 15vw;
+    height: 41vh;
     margin: 0;
     padding: 0;
+    top: 35vh;
+    left: 5vw;
 }
 
 .textrec1{
@@ -581,6 +585,336 @@ div{
     margin: 0;
     bottom: 0;
 }
+
+.rec2{
+    position: absolute;
+    display: flex;
+    background-color: #FA4928;
+    border-radius: 30px;
+    font-family: Montreal;
+    width: 30vw;
+    height: 16vh;
+    margin: 0;
+    padding: 0;
+    top: 35vh;
+    left: 22vw;
+}
+
+.contenitorerec{
+    display: block;
+}
+
+.textrec2{
+    padding: 1vw;
+}
+
+.prof2{
+    display: flex;
+}
+
+.nomerec2{
+    position: relative;
+    font-family: montreal_bold;
+    padding-top: 1.5vh;
+    width: 5vw;
+    height: 1vh;
+    margin: 0;
+}
+
+.profilorec2{
+    width: 4vw;
+    margin: 0;
+    bottom: 0;
+}
+
+.rec3{
+    position: absolute;
+    display: inline-block;
+    background-color: #DFFF9C;
+    border-radius: 30px;
+    font-family: Montreal;
+    width: 30vw;
+    height: 53vh;
+    margin: 0;
+    padding: 0;
+    top: 55vh;
+    left: 22vw;
+}
+
+.textrec3{
+    padding: 1vw;
+}
+
+.prof3{
+    display: flex;
+}
+
+.nomerec3{
+    position: relative;
+    font-family: montreal_bold;
+    padding-top: 1.5vh;
+    width: 5vw;
+    height: 1vh;
+    margin: 0;
+}
+
+.profilorec3{
+    width: 4vw;
+    margin: 0;
+    bottom: 0;
+}
+
+.rec4{
+    position: absolute;
+    display: inline-block;
+    background-color: #A07EFF;
+    border-radius: 30px;
+    font-family: Montreal;
+    width: 30vw;
+    height: 39vh;
+    margin: 0;
+    padding: 0;
+    top: 35vh;
+    left: 54vw;
+}
+
+.textrec4{
+    padding: 1vw;
+}
+
+.prof4{
+    display: flex;
+}
+
+.nomerec4{
+    position: relative;
+    font-family: montreal_bold;
+    padding-top: 1.5vh;
+    width: 5vw;
+    height: 1vh;
+    margin: 0;
+}
+
+.profilorec4{
+    width: 4vw;
+    margin: 0;
+    bottom: 0;
+}
+
+.rec5{
+    position: absolute;
+    display: block;
+    background-color: #A07EFF;
+    border-radius: 30px;
+    font-family: Montreal;
+    width: 15vw;
+    height: 20vh;
+    margin: 0;
+    padding: 0;
+    top: 80vh;
+    left: 5vw;
+}
+
+.textrec5{
+    padding: 1vw;
+}
+
+.prof5{
+    display: flex;
+}
+
+.nomerec5{
+    position: relative;
+    font-family: montreal_bold;
+    padding-top: 1.5vh;
+    width: 5vw;
+    height: 1vh;
+    margin: 0;
+}
+
+.profilorec5{
+    width: 4vw;
+    margin: 0;
+    bottom: 0;
+}
+
+.rec6{
+    position: absolute;
+    display: block;
+    background-color: #FA4928;
+    border-radius: 30px;
+    font-family: Montreal;
+    width: 15vw;
+    height: 20vh;
+    margin: 0;
+    padding: 0;
+    top: 80vh;
+    left: 54vw;
+}
+
+.textrec6{
+    padding: 1vw;
+}
+
+.prof6{
+    display: flex;
+}
+
+.nomerec6{
+    position: relative;
+    font-family: montreal_bold;
+    padding-top: 1.5vh;
+    width: 5vw;
+    height: 1vh;
+    margin: 0;
+}
+
+.profilorec6{
+    width: 4vw;
+    margin: 0;
+    bottom: 0;
+}
+
+.rec7{
+    position: absolute;
+    display: block;
+    background-color: #A07EFF;
+    border-radius: 30px;
+    font-family: Montreal;
+    width: 15vw;
+    height: 20vh;
+    margin: 0;
+    padding: 0;
+    top: 80vh;
+    left: 70vw;
+}
+
+.textrec7{
+    padding: 1vw;
+}
+
+.prof7{
+    display: flex;
+}
+
+.nomerec7{
+    position: relative;
+    font-family: montreal_bold;
+    padding-top: 1.5vh;
+    width: 5vw;
+    height: 1vh;
+    margin: 0;
+}
+
+.profilorec7{
+    width: 4vw;
+    margin: 0;
+    bottom: 0;
+}
+
+/*-------------------------------CAMERETTA-------------------------------*/
+
+.ctadadefinire{
+    background-color: #FA4928;
+    top: 630vh;
+    height: 100vh;
+    width: 100vw;
+    z-index: 1;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titoletto{
+    position: relative;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    font-family: Montreal;
+    font-size: 2vw;
+    width: 100vw;
+    z-index: 2;
+    text-align: center;
+}
+
+.statement3{
+    position: relative;
+    top: 30vh;
+    margin: 0;
+    padding: 0;
+    font-family: Formula;
+    font-size: 5vw;
+    width: 100vw;
+    z-index: 2;
+    text-align: center;
+}
+
+.scarica{
+    position: relative;
+    top: 40vh;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    width: 13vw;
+    display: flex;
+    align-items: center;
+    z-index: 2;
+}
+
+.bottonescarica{
+    padding: 15px;
+    background-color: black;
+    color: #F0F0F0;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 50px;
+    font-family: montreal_bold;
+    font-size: 1.5vw;
+    width: 13vw;
+    text-align: center;
+}
+
+/*-------------------------------FOOTER-------------------------------*/
+.footer{
+    background-color: black;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    color: #F0F0F0;
+    font-family: montreal_bold;
+    font-size: 1.5vw;
+    width: 100vw;
+    height: 33vh;
+    top: 730vh;
+    margin: 0;
+    text-align: left;
+    z-index: 100;
+}
+
+.footerup{
+    display: flex;
+    justify-content: space-around;
+    padding: 10vh;
+}
+
+.blocchetto a{
+    display: flex;
+    flex-direction: column;
+    color: #F0F0F0;
+    font-family: Montreal;
+    font-size: 1vw; 
+    text-decoration: none;
+}
+
+.footerdown{
+    color: #F0F0F0;
+    font-family: Montreal;
+    font-size: 0.5vw;
+    width: 50vw;
+    position: relative;;
+    left: 37.5vw;
+  }
 
 /*-------------------------------TRIGGER-------------------------------*/
 
