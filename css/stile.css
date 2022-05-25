@@ -447,7 +447,8 @@ div{
     position: absolute;
     top: 52vh;
     left: 0;
-    width: 100vw;
+    width: 10vw;
+    display: none;
     height: 1px;
     border: 1px solid black;
     z-index: 1000;
@@ -457,7 +458,8 @@ div{
     position: absolute;
     top: 40vh;
     left: 0;
-    width: 100vw;
+    width: 10vw;
+    display: none;
     height: 12vh;
     border: 1px solid black;
     z-index: 1000;
@@ -467,7 +469,8 @@ div{
     position: absolute;
     top: 40vh;
     left: 0;
-    width: 100vw;
+    width: 10vw;
+    display: none;
     height: 24vh;
     border: 1px solid black;
     z-index: 1000;
@@ -477,7 +480,8 @@ div{
     position: absolute;
     top: 52vh;
     left: 0;
-    width: 100vw;
+    width: 10vw;
+    display: none;
     height: 12vh;
     border: 1px solid black;
     z-index: 1000;
@@ -487,7 +491,8 @@ div{
     position: absolute;
     top: 100vh;
     left: 0;
-    width: 100vw;
+    width: 10vw;
+    display: none;
     height: 15vh;
     border: 1px solid black;
     z-index: 1000;
@@ -497,7 +502,8 @@ div{
     position: absolute;
     top: 100vh;
     left: 0;
-    width: 100vw;
+    width: 10vw;
+    display: none;
     height: 30vh;
     border: 1px solid black;
     z-index: 1000;
@@ -507,7 +513,8 @@ div{
     position: absolute;
     top: 130vh;
     left: 0;
-    width: 100vw;
+    width: 10vw;
+    display: none;
     height: 1px;
     border: 1px solid black;
     z-index: 1000;
@@ -517,7 +524,8 @@ div{
     position: absolute;
     top: 230vh;
     left: 0;
-    width: 100vw;
+    width: 10vw;
+    display: none;
     height: 1px;
     border: 1px solid black;
     z-index: 1000;
