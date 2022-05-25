@@ -1,10 +1,79 @@
 gsap.registerPlugin(ScrollTrigger);
 
+gsap.to(".headerblack", {
+    y: '10vh',
+    duration: 0.4,
+    scrollTrigger: {
+        trigger: ".triggerheaderb1",
+        toggleActions: 'restart none none reverse',
+        start: "top 0%",
+        end: "bottom 0%",
+    }
+})
+
+gsap.to(".headerblack", {
+    y: '10vh',
+    duration: 0.4,
+    scrollTrigger: {
+        trigger: ".triggerheaderw1",
+        toggleActions: 'reverse none none restart',
+        start: "top 0%",
+        end: "bottom 0%",
+    }
+})
+
+gsap.to(".header", {
+    y: '10vh',
+    delay: 0.4,
+    duration: 0.4,
+    scrollTrigger: {
+        trigger: ".triggerheaderw1",
+        toggleActions: 'restart none none reverse',
+        start: "top 0%",
+        end: "bottom 0%",
+    }
+})
+
 gsap.to(".header", {
     y: '10vh',
     duration: 0.4,
     scrollTrigger: {
-        trigger: ".triggerheader",
+        trigger: ".triggerheaderb2",
+        toggleActions: 'reverse none none restart',
+        start: "top 0%",
+        end: "bottom 0%",
+    }
+})
+
+gsap.to(".headerblack", {
+    y: '10vh',
+    delay: 0.4,
+    duration: 0.4,
+    scrollTrigger: {
+        trigger: ".triggerheaderb2",
+        toggleActions: 'restart none none reverse',
+        start: "top 0%",
+        end: "bottom 0%",
+    }
+})
+
+gsap.to(".headerblack", {
+    y: '10vh',
+    duration: 0.4,
+    scrollTrigger: {
+        trigger: ".triggerheaderw2",
+        toggleActions: 'reverse none none restart',
+        start: "top 0%",
+        end: "bottom 0%",
+    }
+})
+
+gsap.to(".header", {
+    y: '10vh',
+    delay: 0.4,
+    duration: 0.4,
+    scrollTrigger: {
+        trigger: ".triggerheaderw2",
         toggleActions: 'restart none none reverse',
         start: "top 0%",
         end: "bottom 0%",

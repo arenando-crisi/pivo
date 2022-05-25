@@ -20,6 +20,19 @@ div{
     font-family: Montreal;
     align-items: center;
     height: 10vh;
+    z-index: 100;
+}
+
+.headerblack{
+    width: 100vw;
+    position: fixed;
+    top: -10vh;
+    left: 0;
+    display: flex;
+    background-color: black;
+    font-family: Montreal;
+    align-items: center;
+    height: 10vh;
     z-index: 99;
 }
 
@@ -30,6 +43,17 @@ div{
 
 @media screen and (max-width: 768px) { /*  Ipad mini  */
     .logo{
+        margin-left: 9vw;
+    }
+}
+
+.logob{
+    padding: 0;
+    margin-left: 16vw;
+}
+
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    .logob{
         margin-left: 9vw;
     }
 }
@@ -59,6 +83,32 @@ div{
     }
 }
 
+.menùb{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.menùb li{
+    display: inline-block;
+    padding: 10px;
+    color: #F0F0F0;
+}
+
+.menùb li a{
+    color: #F0F0F0;
+    text-decoration: none;
+    display: block;
+}
+
+@media screen and (max-width: 390px) { /*  Telefono  */
+    .menùb{
+        display: none;
+    }
+}
+
 .cta{
     margin-right: 10vw;
     width: 140px;
@@ -80,6 +130,19 @@ div{
     padding: 15px;
     background-color: black;
     color: #F0F0F0;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 50px;
+    font-family: montreal_bold;
+    width: 110px;
+    text-align: center;
+    margin-right: 10vw;
+}
+
+.buttonb{
+    padding: 15px;
+    background-color: #F0F0F0;
+    color: black;
     display: inline-block;
     text-decoration: none;
     border-radius: 50px;
@@ -133,6 +196,26 @@ div{
     }
       
     .change .breaddown {
+        transform: rotate(45deg) translate(-10px, -12px);
+    }
+
+    .breadupb, .meatb, .breaddownb{
+        background-color: #F0F0F0;
+        display: block;
+        height: 3px;
+        margin-bottom: 33%;
+        transition: 0.4s;
+    }
+
+    .change .breadupb {
+        transform: rotate(-45deg) translate(-6px, 8px);
+      }
+      
+    .change .meatb {
+        opacity: 0;
+    }
+      
+    .change .breaddownb {
         transform: rotate(45deg) translate(-10px, -12px);
     }
 
@@ -520,9 +603,42 @@ div{
     z-index: 1000;
 }
 
-.triggerheader{
+.triggerheaderb1{
     position: absolute;
     top: 230vh;
+    left: 0;
+    width: 10vw;
+    display: none;
+    height: 1px;
+    border: 1px solid black;
+    z-index: 1000;
+}
+
+.triggerheaderb2{
+    position: absolute;
+    top: 430vh;
+    left: 0;
+    width: 10vw;
+    display: none;
+    height: 1px;
+    border: 1px solid black;
+    z-index: 1000;
+}
+
+.triggerheaderw1{
+    position: absolute;
+    top: 330vh;
+    left: 0;
+    width: 10vw;
+    display: none;
+    height: 1px;
+    border: 1px solid black;
+    z-index: 1000;
+}
+
+.triggerheaderw2{
+    position: absolute;
+    top: 530vh;
     left: 0;
     width: 10vw;
     display: none;
