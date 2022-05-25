@@ -239,6 +239,205 @@ div{
     text-align: center;
 }
 
+/*-------------------------------COSA SIAMO-------------------------------*/
+
+.cosasiamo{
+    background-color: #F0F0F0;
+    top: 230vh;
+    height: 100vh;
+    width: 100vw;
+    z-index: 1;
+    position: absolute;
+    display: flex;
+}
+
+.titoletto{
+    position: absolute;
+    top: 20vh;
+    margin: 0;
+    padding: 0;
+    font-family: Montreal;
+    font-size: 2vw;
+    width: 100vw;
+    z-index: 2;
+    text-align: center;
+}
+
+.statement{
+    position: absolute;
+    top: 30vh;
+    margin: 0;
+    padding: 0;
+    font-family: Formula;
+    font-size: 4vw;
+    width: 100vw;
+    z-index: 2;
+    text-align: center;
+}
+
+.esplora{
+    position: absolute;
+    top: 80vh;
+    left: 40vw;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    align-items: center;
+    z-index: 2;
+}
+
+.bottoneesplora{
+    padding: 15px;
+    background-color: black;
+    color: #F0F0F0;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 50px;
+    font-family: montreal_bold;
+    font-size: 1.5vw;
+    width: 13vw;
+    text-align: center;
+}
+
+/*-------------------------------COSA FAI-------------------------------*/
+
+.cosafai{
+    background-color: black;
+    top: 330vh;
+    height: 100vh;
+    width: 100vw;
+    z-index: 1;
+    position: absolute;
+    display: block;
+    align-items: center;
+}
+
+.titoletto2{
+    position: absolute;
+    top: 10vh;
+    margin: 0;
+    padding: 0;
+    color: #F0F0F0;
+    font-family: Montreal;
+    font-size: 2vw;
+    width: 100vw;
+    z-index: 2;
+    text-align: center;
+}
+
+.slide1{
+    background-color: #A07EFF;
+    border-radius: 16px;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    height: 60vh;
+    width: 60vw;
+    z-index: 2;
+    display: block;
+    align-items: center;
+    align-content: center;
+    top: 20vh;
+    left: 20vw;
+} 
+
+.organizza{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 3vh;
+    left: 2vw;
+    font-family: Montreal;
+    font-size: 2vw;
+    width: 100vw;
+    z-index: 2;
+    text-align: left;
+}
+
+.copyorganizza{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 10vh;
+    left: 2vw;
+    font-family: Formula;
+    font-size: 2.5vw;
+    width: 100vw;
+    z-index: 2;
+    text-align: left;
+}
+
+.img1{
+    position: absolute;
+    margin: 0;
+    padding: 1vw;
+    right: 0;
+    z-index: 2;
+}
+
+.bottonescopri{
+    padding: 15px;
+    background-color: black;
+    position: absolute;
+    color: #F0F0F0;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 50px;
+    font-family: montreal_bold;
+    font-size: 1.5vw;
+    width: 13vw;
+    text-align: center;
+    top: 45vh;
+    left: 12vw;
+}
+
+/*-------------------------------OBIETTIVI-------------------------------*/
+
+.obiettivi{
+    background-color: #F0F0F0;
+    top: 430vh;
+    height: 100vh;
+    width: 100vw;
+    z-index: 1;
+    position: absolute;
+    display: flex;
+}
+
+.titoletto{
+    position: absolute;
+    top: 20vh;
+    margin: 0;
+    padding: 0;
+    font-family: Montreal;
+    font-size: 2vw;
+    width: 100vw;
+    z-index: 2;
+    text-align: center;
+}
+
+.statement2{
+    position: absolute;
+    top: 30vh;
+    left: 1.5vw;
+    margin: 0;
+    padding: 0;
+    font-family: Formula;
+    font-size: 4vw;
+    width: 100vw;
+    z-index: 2;
+    text-align: left;
+}
+
+.screencommunity{
+    position: absolute;
+    margin: 0;
+    padding: 1vw;
+    top: 30vh;
+    right: 0;
+    vertical-align: middle;
+    z-index: 2;
+}
+
 /*-------------------------------TRIGGER-------------------------------*/
 
 .trigger1{
