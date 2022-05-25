@@ -64,7 +64,7 @@ gsap.to(".calltoaction", {
         trigger: ".trigger7",
         toggleActions: 'restart none none reverse',
         start: "top 0%",
-        end: "bottom 0%",
+        end: "bottom 0%",   
     }
 })
 
