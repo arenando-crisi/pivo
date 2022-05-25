@@ -400,7 +400,7 @@ div{
 
 .titoletto2{
     position: absolute;
-    top: 10vh;
+    top: 20vh;
     margin: 0;
     padding: 0;
     color: #F0F0F0;
@@ -524,6 +524,64 @@ div{
     z-index: 2;
 }
 
+/*-------------------------------COMMUNITY-------------------------------*/
+
+.community{
+    background-color: black;
+    top: 530vh;
+    height: 100vh;
+    width: 100vw;
+    z-index: 1;
+    position: absolute;
+    display: block;
+    align-items: center;
+}
+
+.titoletto2{
+    position: absolute;
+    top: 20vh;
+    margin: 0;
+    padding: 0;
+    color: #F0F0F0;
+    font-family: Montreal;
+    font-size: 2vw;
+    width: 100vw;
+    z-index: 2;
+    text-align: center;
+}
+
+.rec1{
+    background-color: #DFFF9C;
+    border-radius: 30px;
+    font-family: Montreal;
+    width: 15vw;
+    margin: 0;
+    padding: 0;
+}
+
+.textrec1{
+    padding: 1vw;
+}
+
+.prof1{
+    display: flex;
+    flex-direction: row;
+}
+
+.nomerec1{
+    position: relative;
+    font-family: montreal_bold;
+    width: 5vw;
+    margin: 0;
+    top: 50%;
+}
+
+.profilorec1{
+    width: 5vw;
+    margin: 0;
+    bottom: 0;
+}
+
 /*-------------------------------TRIGGER-------------------------------*/
 
 .trigger1{
@@ -605,7 +663,7 @@ div{
 
 .triggerheaderb1{
     position: absolute;
-    top: 230vh;
+    top: 220vh;
     left: 0;
     width: 10vw;
     display: none;
@@ -616,7 +674,7 @@ div{
 
 .triggerheaderb2{
     position: absolute;
-    top: 430vh;
+    top: 420vh;
     left: 0;
     width: 10vw;
     display: none;
@@ -627,7 +685,7 @@ div{
 
 .triggerheaderw1{
     position: absolute;
-    top: 330vh;
+    top: 320vh;
     left: 0;
     width: 10vw;
     display: none;
@@ -638,7 +696,7 @@ div{
 
 .triggerheaderw2{
     position: absolute;
-    top: 530vh;
+    top: 520vh;
     left: 0;
     width: 10vw;
     display: none;
