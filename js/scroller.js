@@ -173,7 +173,5 @@ gsap.fromTo(".video", {position:'fixed', top: '1vh'}, {
         scrub: true,
     }
 })
-
-
   
 

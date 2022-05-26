@@ -814,7 +814,7 @@ div{
 
 /*-------------------------------CAMERETTA-------------------------------*/
 
-.ctadadefinire{
+.ctadadefinire1{
     background-color: #FA4928;
     top: 630vh;
     height: 100vh;
@@ -826,18 +826,6 @@ div{
     flex-direction: column;
 }
 
-.titoletto{
-    position: relative;
-    top: 0;
-    margin: 0;
-    padding: 0;
-    font-family: Montreal;
-    font-size: 2vw;
-    width: 100vw;
-    z-index: 2;
-    text-align: center;
-}
-
 .statement3{
     position: relative;
     top: 30vh;
@@ -845,6 +833,7 @@ div{
     padding: 0;
     font-family: Formula;
     font-size: 5vw;
+    line-height: 12vh;
     width: 100vw;
     z-index: 2;
     text-align: center;
@@ -1039,3 +1028,157 @@ div{
     z-index: 1000;
 }
 
+/*-------------------------------SCOPRI DI PIÙ-------------------------------*/
+
+/*-------------------------------HEADER 1-------------------------------*/
+.header1{
+    width: 100vw;
+    position: fixed;
+    top: 0vh;
+    left: 0;
+    display: flex;
+    background-color: #F0F0F0;
+    font-family: Montreal;
+    align-items: center;
+    height: 10vh;
+    z-index: 100;
+}
+
+/*-------------------------------SCOPRI: ORGANIZZA-------------------------------*/
+
+.scopri_organizza{
+    background-color: #A07EFF;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: 1;
+    position: absolute;
+}
+
+.titoletto3{
+    position: relative;
+    top: 15vh;
+    margin: 0;
+    padding: 0;
+    font-family: Montreal;
+    font-size: 2vw;
+    width: 100vw;
+    z-index: 2;
+    text-align: center;
+}
+
+.statement4{
+    position: relative;
+    top: 20vh;
+    left: 5vw;
+    margin: 0;
+    padding: 0;
+    font-family: Formula;
+    font-size: 5vw;
+    line-height: 12vh;
+    width: 90vw;
+    z-index: 2;
+    text-align: left;
+}
+
+/*-------------------------------SCREEN ORGANIZZA-------------------------------*/
+
+.screen_organizza{
+    background-color: #F0F0F0;
+    top: 100vh;
+    height: 100vh;
+    width: 100vw;
+    z-index: 1;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.ctascreen{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    font-family: Formula;
+    font-size: 2vw;
+    width: 20vw;
+    text-align: center;
+    z-index: 2;
+}
+
+.txtscreen{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    font-family: Montreal;
+    font-size: 1vw;
+    width: 20vw;
+    text-align: center;
+    z-index: 2;
+}
+
+/*-------------------------------SCOPRI: GIOCA-------------------------------*/
+
+.scopri_gioca{
+    background-color: #DFFF9C;
+    top: 200vh;
+    height: 100vh;
+    width: 100vw;
+    z-index: 1;
+    position: absolute;
+}
+
+/*-------------------------------SCREEN GIOCA-------------------------------*/
+
+.screen_gioca{
+    background-color: #F0F0F0;
+    top: 300vh;
+    height: 100vh;
+    width: 100vw;
+    z-index: 1;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+/*-------------------------------SCOPRI: CONDIVIDI-------------------------------*/
+.scopri_condividi{
+    background-color: #FA4928;
+    top: 400vh;
+    height: 100vh;
+    width: 100vw;
+    z-index: 1;
+    position: absolute;
+}
+
+/*-------------------------------SCREEN CONDIVIDI-------------------------------*/
+
+.screen_condividi{
+    background-color: #F0F0F0;
+    top: 500vh;
+    height: 100vh;
+    width: 100vw;
+    z-index: 1;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+/*-------------------------------CAMERETTA 2-------------------------------*/
+
+.ctadadefinire2{
+    background-color: #A07EFF;
+    top: 630vh;
+    height: 100vh;
+    width: 100vw;
+    z-index: 1;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
