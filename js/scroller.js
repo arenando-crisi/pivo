@@ -174,4 +174,68 @@ gsap.fromTo(".video", {position:'fixed', top: '1vh'}, {
     }
 })
   
+gsap.fromTo(".headerblack1", {opacity: 0} , {
+    opacity: 1,
+    duration: 0.4,
+    scrollTrigger: {
+        trigger: ".triggers1",
+        toggleActions: 'restart none none reverse',
+        start: "top 0%",
+        end: "bottom 0%",
+    }
+})
 
+gsap.fromTo(".headerblack1", {opacity: 1} , {
+    opacity: 0,
+    duration: 0.4,
+    scrollTrigger: {
+        trigger: ".triggers2",
+        toggleActions: 'restart none none reverse',
+        start: "top 0%",
+        end: "bottom 0%",
+    }
+})
+
+gsap.fromTo(".headerblack1", {opacity: 0} , {
+    opacity: 1,
+    duration: 0.4,
+    scrollTrigger: {
+        trigger: ".triggers3",
+        toggleActions: 'restart none none reverse',
+        start: "top 0%",
+        end: "bottom 0%",
+    }
+})
+
+gsap.fromTo(".headerblack1", {opacity: 1} , {
+    opacity: 0,
+    duration: 0.4,
+    scrollTrigger: {
+        trigger: ".triggers4",
+        toggleActions: 'restart none none reverse',
+        start: "top 0%",
+        end: "bottom 0%",
+    }
+})
+
+gsap.fromTo(".headerblack1", {opacity: 0} , {
+    opacity: 1,
+    duration: 0.4,
+    scrollTrigger: {
+        trigger: ".triggers5",
+        toggleActions: 'restart none none reverse',
+        start: "top 0%",
+        end: "bottom 0%",
+    }
+})
+
+gsap.fromTo(".headerblack1", {opacity: 1} , {
+    opacity: 0,
+    duration: 0.4,
+    scrollTrigger: {
+        trigger: ".triggers6",
+        toggleActions: 'restart none none reverse',
+        start: "top 0%",
+        end: "bottom 0%",
+    }
+})
