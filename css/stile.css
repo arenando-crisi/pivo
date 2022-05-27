@@ -1385,3 +1385,71 @@ div{
     z-index: 1000;
     display: none;
 }
+/*-------------------------------CHI SIAMO-------------------------------*/
+
+/*-------------------------------VALORI-------------------------------*/
+
+.valori{
+    background-color: #FA4928;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: 1;
+    position: absolute;
+    display: flex;
+}
+
+.video1{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 30vh;
+    right: 5vw;
+    width: 43vw;
+    height: 60vh;
+    overflow: hidden;
+    border-radius: 25px;
+    z-index: 3;
+}
+
+/*-------------------------------VALORI SLIDE-------------------------------*/
+
+.valorislide{
+    background-color:black;
+    margin: 0;
+    padding: 0;
+    top: 100vh;
+    height: 100vh;
+    width: 100vw;
+    z-index: 1;
+    position: absolute;
+    display: flex;
+}
+
+.descrizione{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    bottom: 1vh;
+    font-family: Montreal;
+    font-size: 1vw;
+    width: 20vw;
+    text-align: left;
+    z-index: 2; 
+}
+
+/*-------------------------------CAMERETTA 3-------------------------------*/
+
+.ctadadefinire3{
+    background-color: #DFFF9C;
+    top: 630vh;
+    height: 100vh;
+    width: 100vw;
+    z-index: 1;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
