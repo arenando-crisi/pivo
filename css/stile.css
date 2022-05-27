@@ -499,6 +499,7 @@ div{
     position: absolute;
     display: block;
     align-items: center;
+    overflow: hidden;
 }
 
 .titoletto2{
@@ -578,6 +579,106 @@ div{
     text-align: center;
     top: 45vh;
     left: 12vw;
+}
+
+.slide2{
+    background-color: #DFFF9C;
+    border-radius: 16px;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    height: 60vh;
+    width: 60vw;
+    z-index: 2;
+    display: block;
+    align-items: center;
+    align-content: center;
+    top: 20vh;
+    left: 85vw;
+} 
+
+.gioca{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 3vh;
+    left: 2vw;
+    font-family: Montreal;
+    font-size: 2vw;
+    width: 10vw;
+    z-index: 2;
+    text-align: left;
+}
+
+.copygioca{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 10vh;
+    left: 2vw;
+    font-family: Formula;
+    font-size: 2.5vw;
+    width: 30vw;
+    z-index: 2;
+    text-align: left;
+}
+
+.img2{
+    position: absolute;
+    margin: 0;
+    padding: 1vh;
+    right: 2vw;
+    z-index: 2;
+}
+
+.slide3{
+    background-color: #FA4928;
+    border-radius: 16px;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    height: 60vh;
+    width: 60vw;
+    z-index: 2;
+    display: block;
+    align-items: center;
+    align-content: center;
+    top: 20vh;
+    left: 150vw;
+} 
+
+.condividi{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 3vh;
+    left: 2vw;
+    font-family: Montreal;
+    font-size: 2vw;
+    width: 10vw;
+    z-index: 2;
+    text-align: left;
+}
+
+.copycondividi{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 10vh;
+    left: 2vw;
+    font-family: Formula;
+    font-size: 2.5vw;
+    width: 30vw;
+    z-index: 2;
+    text-align: left;
+}
+
+.img3{
+    position: absolute;
+    margin: 0;
+    padding: 1vh;
+    right: 2vw;
+    z-index: 2;
 }
 
 /*-------------------------------OBIETTIVI-------------------------------*/
