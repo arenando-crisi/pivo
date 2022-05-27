@@ -493,7 +493,7 @@ div{
 .cosafai{
     background-color: black;
     top: 330vh;
-    height: 100vh;
+    height: 350vh;
     width: 100vw;
     z-index: 1;
     position: absolute;
@@ -502,7 +502,7 @@ div{
     overflow: hidden;
 }
 
-.titoletto2{
+.titolettosl{
     position: absolute;
     top: 10vh;
     margin: 0;
@@ -685,7 +685,7 @@ div{
 
 .obiettivi{
     background-color: #F0F0F0;
-    top: 430vh;
+    top: 680vh;
     height: 100vh;
     width: 100vw;
     z-index: 1;
@@ -732,13 +732,26 @@ div{
 
 .community{
     background-color: black;
-    top: 530vh;
+    top: 780vh;
     height: 100vh;
     width: 100vw;
     z-index: 1;
     position: absolute;
     display: block;
     align-items: center;
+}
+
+.titoletto2{
+    position: absolute;
+    top: 10vh;
+    margin: 0;
+    padding: 0;
+    color: #F0F0F0;
+    font-family: Montreal;
+    font-size: 2vw;
+    width: 100vw;
+    z-index: 2;
+    text-align: center;
 }
 
 .rec1{
@@ -1007,7 +1020,7 @@ div{
 
 .ctadadefinire1{
     background-color: #FA4928;
-    top: 630vh;
+    top: 880vh;
     height: 100vh;
     width: 100vw;
     z-index: 1;
@@ -1066,7 +1079,7 @@ div{
     font-size: 1.5vw;
     width: 100vw;
     height: 33vh;
-    top: 730vh;
+    top: 980vh;
     margin: 0;
     text-align: left;
     z-index: 100;
@@ -1188,7 +1201,7 @@ div{
 
 .triggerheaderb2{
     position: absolute;
-    top: 420vh;
+    top: 670vh;
     left: 0;
     width: 10vw;
     display: none;
@@ -1208,15 +1221,26 @@ div{
     z-index: 1000;
 }
 
-.triggerheaderw2{
+.triggerslider{
     position: absolute;
-    top: 520vh;
+    top: 320vh;
     left: 0;
     width: 10vw;
+    height: 260vh;
+    border: 1px solid rebeccapurple;
+    z-index: 1000;
     display: none;
+}
+
+.triggerheaderw2{
+    position: absolute;
+    top: 770vh;
+    left: 0;
+    width: 10vw;
     height: 1px;
     border: 1px solid black;
     z-index: 1000;
+    display: none;
 }
 
 /*---------------------------------------------------------------------------*/

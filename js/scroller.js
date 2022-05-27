@@ -256,4 +256,63 @@ gsap.fromTo(".headerblack1", {opacity: 0} , {
     }
 })
 
+gsap.fromTo(".slide1", {top: '20vh', left: '20vw'} , {
+    top: '280vh',
+    left: '-110vw',
+    duration: 0.4,
+    ease:Linear.easeNone,
+    scrollTrigger: {
+        trigger: ".triggerslider",
+        toggleActions: 'restart none none reverse',
+        start: "top 0%",
+        end: "bottom 0%",
+        scrub: true,
+    }
+})
+
+gsap.fromTo(".slide2", {top: '20vh', left: '85vw'} , {
+    top: '280vh',
+    left: '-45vw',
+    duration: 0.4,
+    ease:Linear.easeNone,
+    scrollTrigger: {
+        trigger: ".triggerslider",
+        toggleActions: 'restart none none reverse',
+        start: "top 0%",
+        end: "bottom 0%",
+        scrub: true,
+    }
+})
+
+gsap.fromTo(".slide3", {top: '20vh', left: '150vw'} , {
+    top: '280vh',
+    left: '20vw',
+    duration: 0.4,
+    ease:Linear.easeNone,
+    scrollTrigger: {
+        trigger: ".triggerslider",
+        toggleActions: 'restart none none reverse',
+        start: "top 0%",
+        end: "bottom 0%",
+        scrub: true,
+    }
+})
+
+gsap.fromTo(".titolettosl", {top: '10vh'} , {
+    top: '270vh',
+    duration: 0.4,
+    ease:Linear.easeNone,
+    scrollTrigger: {
+        trigger: ".triggerslider",
+        toggleActions: 'restart none none reverse',
+        start: "top 0%",
+        end: "bottom 0%",
+        scrub: true,
+    }
+})
+
+
+
+
+
 
