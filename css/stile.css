@@ -8,6 +8,10 @@ div{
     margin: 0;
 }
 
+/*---------------------------------------------------------------------------*/
+/*----------------------------       INDEX       ----------------------------*/
+/*---------------------------------------------------------------------------*/
+
 /*-------------------------------HEADER-------------------------------*/
 
 .header{
@@ -38,23 +42,23 @@ div{
 
 .logo{
     padding: 0;
-    margin-left: 16vw;
+    margin-left: 10vw;
 }
 
 @media screen and (max-width: 768px) { /*  Ipad mini  */
     .logo{
-        margin-left: 9vw;
+        margin-left: 17vw;
     }
 }
 
 .logob{
     padding: 0;
-    margin-left: 16vw;
+    margin-left: 10vw;
 }
 
 @media screen and (max-width: 768px) { /*  Ipad mini  */
     .logob{
-        margin-left: 9vw;
+        margin-left: 17vw;
     }
 }
 
@@ -64,6 +68,13 @@ div{
     justify-content: center;
     align-items: center;
     padding: 0;
+    margin-left: 6vw ;
+}
+
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    .menù{
+        margin-left: 0;
+    }
 }
 
 .menù li{
@@ -89,6 +100,13 @@ div{
     justify-content: center;
     align-items: center;
     padding: 0;
+    margin-left: 6vw ;
+}
+
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    .menùb{
+        margin-left: 0;
+    }
 }
 
 .menùb li{
@@ -139,6 +157,12 @@ div{
     margin-right: 10vw;
 }
 
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    .button{
+        margin-right: 12vw;
+    }
+}
+
 .buttonb{
     padding: 15px;
     background-color: #F0F0F0;
@@ -152,12 +176,32 @@ div{
     margin-right: 10vw;
 }
 
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    .buttonb{
+        margin-right: 12vw;
+    }
+}
+
 .hamburger{
     display: none;
 }
 
 @media screen and (max-width: 390px) { /*  Telefono  */
     .hamburger{
+        display: block;
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        right: 10vw;
+    }
+}
+
+.hamburgerb{
+    display: none;
+}
+
+@media screen and (max-width: 390px) { /*  Telefono  */
+    .hamburgerb{
         display: block;
         width: 30px;
         height: 30px;
@@ -207,15 +251,15 @@ div{
         transition: 0.4s;
     }
 
-    .change .breadupb {
+    .changeb .breadupb {
         transform: rotate(-45deg) translate(-6px, 8px);
       }
       
-    .change .meatb {
+    .changeb .meatb {
         opacity: 0;
     }
       
-    .change .breaddownb {
+    .changeb .breaddownb {
         transform: rotate(45deg) translate(-10px, -12px);
     }
 
@@ -259,6 +303,34 @@ div{
     text-align: left;
 }
 
+.titolomobile{
+    display: none;
+}
+
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    .titolo{
+        top: 62vh;
+    }
+}
+
+@media screen and (max-width: 390px) { /*  Telefono  */
+    .titolomobile{
+        display: block;
+        top: 62vh;
+        font-size: 35vw;
+        position: fixed;
+        margin: 0;
+        padding: 0;
+        font-family: Formula;
+        width: 100vw;
+        z-index: 2;
+        text-align: center;
+    }
+    .titolo{
+        display: none;
+    }
+}
+
 .video{
     position: fixed;
     top: 1vh;
@@ -272,8 +344,25 @@ div{
 
 @media screen and (max-width: 768px) { /*  Ipad mini  */
     .video{
-        width: 100vw;
-        height: 50vh;
+        display: none;
+    }
+}
+
+.videomobile{
+    display: none;
+}
+
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    .videomobile{
+        display: block;
+        position: fixed;
+        top: 1vh;
+        right: 1vw;
+        width: 98vw;
+        height: 60vh;
+        overflow: hidden;
+        border-radius: 25px;
+        z-index: 3;
     }
 }
 
@@ -283,6 +372,20 @@ div{
     font-size: 3vw;
     top: 82vh;
     left: 1.5vw;
+}
+
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    .claim{
+        top: 85vh;
+        font-size: 5vh;
+    }
+}
+
+@media screen and (max-width: 390px) { /*  Telefono  */
+    .claim{
+        top: 90vh;
+        font-size: 3vh;
+    }
 }
 
 .claim2{
@@ -1028,7 +1131,9 @@ div{
     z-index: 1000;
 }
 
-/*-------------------------------SCOPRI DI PIÙ-------------------------------*/
+/*---------------------------------------------------------------------------*/
+/*----------------------------   SCOPRI DI PIÙ   ----------------------------*/
+/*---------------------------------------------------------------------------*/
 
 /*-------------------------------HEADER 1 & FOOTER-------------------------------*/
 .header1{
@@ -1223,6 +1328,7 @@ div{
     height: 1px;
     border: 1px solid black;
     z-index: 1000;
+    display: none;
 }
 
 .triggers2{
@@ -1233,6 +1339,7 @@ div{
     height: 1px;
     border: 1px solid black;
     z-index: 1000;
+    display: none;
 }
 
 .triggers3{
@@ -1243,6 +1350,7 @@ div{
     height: 1px;
     border: 1px solid black;
     z-index: 1000;
+    display: none;
 }
 
 .triggers4{
@@ -1253,6 +1361,7 @@ div{
     height: 1px;
     border: 1px solid black;
     z-index: 1000;
+    display: none;
 }
 
 .triggers5{
@@ -1263,6 +1372,7 @@ div{
     height: 1px;
     border: 1px solid black;
     z-index: 1000;
+    display: none;
 }
 
 .triggers6{
@@ -1273,4 +1383,5 @@ div{
     height: 1px;
     border: 1px solid black;
     z-index: 1000;
+    display: none;
 }

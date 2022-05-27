@@ -1,5 +1,7 @@
 gsap.registerPlugin(ScrollTrigger);
 
+
+//-----------------------CAMBIAMENTO COLORE HEADER-------------------------------------------------
 gsap.fromTo(".headerblack", {top: "-10vh"} , {
     top: "0vh",
     duration: 0.4,
@@ -43,6 +45,8 @@ gsap.fromTo(".header", {opacity: 0} , {
         end: "bottom 0%",
     }
 })
+
+//-----------------------CAMBIAMENTO COLORE HERO-------------------------------------------------
 
 gsap.fromTo(".hero",{backgroundColor: '#FA4928'},{
     backgroundColor: '#000000',
@@ -218,6 +222,17 @@ gsap.fromTo(".headerblack1", {opacity: 1} , {
     }
 })
 
+gsap.fromTo(".headerblack1", {opacity: 1} , {
+    opacity: 0,
+    duration: 0.4,
+    scrollTrigger: {
+        trigger: ".triggers6",
+        toggleActions: 'restart none none reverse',
+        start: "top 0%",
+        end: "bottom 0%",
+    }
+})
+
 gsap.fromTo(".headerblack1", {opacity: 0} , {
     opacity: 1,
     duration: 0.4,
@@ -229,13 +244,4 @@ gsap.fromTo(".headerblack1", {opacity: 0} , {
     }
 })
 
-gsap.fromTo(".headerblack1", {opacity: 1} , {
-    opacity: 0,
-    duration: 0.4,
-    scrollTrigger: {
-        trigger: ".triggers6",
-        toggleActions: 'restart none none reverse',
-        start: "top 0%",
-        end: "bottom 0%",
-    }
-})
+

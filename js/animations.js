@@ -4,6 +4,10 @@ function burgertox(x) {
     x.classList.toggle("change");
 }
 
+function burgerbtox(x) {
+    x.classList.toggle("changeb");
+}//non funziona e non so perché
+
 function openNav() {
     cont++;
     if(cont%2==0){
