@@ -30,7 +30,7 @@ div{
 .headerblack{
     width: 100vw;
     position: fixed;
-    top: -10vh;
+    top: 0vh;
     left: 0;
     display: flex;
     background-color: black;
