@@ -177,6 +177,17 @@ gsap.fromTo(".video", {position:'fixed', top: '1vh'}, {
         scrub: true,
     }
 })
+
+gsap.fromTo(".headerblack1", {opacity: 0} , {
+    opacity: 1,
+    duration: 0.4,
+    scrollTrigger: {
+        trigger: ".triggerc1",
+        toggleActions: 'restart none none reverse',
+        start: "top 0%",
+        end: "bottom 0%",
+    }
+})
   
 gsap.fromTo(".headerblack1", {opacity: 0} , {
     opacity: 1,
