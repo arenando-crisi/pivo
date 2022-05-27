@@ -1374,6 +1374,20 @@ div{
 }
 /*-------------------------------CHI SIAMO-------------------------------*/
 
+.headerblack2{
+    width: 100vw;
+    position: fixed;
+    top: 0vh;
+    left: 0;
+    display: flex;
+    background-color: black;
+    font-family: Montreal;
+    align-items: center;
+    height: 10vh;
+    z-index: 101;
+    opacity: 0;
+}
+
 /*-------------------------------VALORI-------------------------------*/
 
 .valori{

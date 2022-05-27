@@ -2,6 +2,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 
 //-----------------------CAMBIAMENTO COLORE HEADER-------------------------------------------------
+
 gsap.fromTo(".headerblack", {top: "-10vh"} , {
     top: "0vh",
     duration: 0.4,
@@ -178,7 +179,7 @@ gsap.fromTo(".video", {position:'fixed', top: '1vh'}, {
     }
 })
 
-gsap.fromTo(".headerblack1", {opacity: 0} , {
+gsap.fromTo(".headerblack2", {opacity: 0} , {
     opacity: 1,
     duration: 0.4,
     scrollTrigger: {
