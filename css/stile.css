@@ -293,6 +293,40 @@ div{
     display: block;
 }
 
+.aboutus{
+    top: 1vh;
+    left: 1vw;
+}
+
+.aboutus a{
+    font-family: Montreal;
+    text-decoration: none;
+    color: #F0F0F0;
+    position: fixed;
+    top: 3vh;
+    left: 2vw;
+    font-size: 1vw;
+}
+
+.scarica1{
+    top: 1vh;
+    left: 1vw;
+    font-family: Montreal;
+    text-decoration: none;
+    color: #F0F0F0;
+    position: fixed;
+    top: 3vh;
+    left: 42vw;
+    font-size: 1vw;
+}
+
+.loghinoiniz{
+    position: fixed;
+    height: 5vh;
+    top: 2vh;
+    left: 23vw;
+}
+
 .titolo{
     position: fixed;
     top: 30vh;
@@ -338,6 +372,7 @@ div{
     position: absolute;
     top: 90vh;
     left: 22.5vw;
+    height: 2vh;
 }
 
 .video{

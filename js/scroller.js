@@ -126,6 +126,30 @@ gsap.to(".calltoaction", {
     }
 })
 
+gsap.fromTo(".scarica1",{left:'42vw'}, {
+    left:'32.5vw',
+    duration: 0.4,
+    scrollTrigger: {
+        trigger: ".trigger3",
+        toggleActions: 'restart none none reverse',
+        start: "top 0%",
+        end: "bottom 0%",
+        scrub: true,
+    }
+})
+
+gsap.fromTo(".loghinoiniz",{left:'23vw'}, {
+    left:'17.5vw',
+    duration: 0.4,
+    scrollTrigger: {
+        trigger: ".trigger3",
+        toggleActions: 'restart none none reverse',
+        start: "top 0%",
+        end: "bottom 0%",
+        scrub: true,
+    }
+})
+
 gsap.fromTo(".titolo",{fontSize:'9vw', left:'0'}, {
     fontSize: '8vW',
     left:'-6.5vw',
