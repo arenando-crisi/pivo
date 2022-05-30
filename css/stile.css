@@ -474,6 +474,21 @@ div{
     text-align: center;
 }
 
+.sticker{
+    position: absolute;
+    z-index: 100;
+}
+
+#stickernonombra{
+    position: relative;
+    display: block;
+}
+
+#stickerconombra{
+    position: absolute;
+    display: block;
+}
+
 /*-------------------------------COSA SIAMO-------------------------------*/
 
 .cosasiamo{

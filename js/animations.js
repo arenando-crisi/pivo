@@ -20,3 +20,25 @@ function openNav() {
         document.getElementById("scrittemenù2").style.opacity = 100;
     }
 }//chiedere come togliere il brutto effetto sulle scritte
+
+var dragValue;
+
+function move(id){
+    var element = document.getElementById("sticker");
+    element.style.position = "absolute";
+    element.onmousedown = function(){
+        dragValue = element;
+    }
+}
+
+document.onmouseup = function(e){
+    dragValue = null;
+}
+
+document.onmousemove = function(e){
+    var x = e.pageX;
+    var y = e.pageY;
+
+    dragValue.style.left = x - 100 + "px";
+    dragValue.style.top = y - 100 + "px";
+}
