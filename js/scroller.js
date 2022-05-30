@@ -150,7 +150,7 @@ gsap.fromTo(".loghinoiniz",{left:'23vw'}, {
     }
 })
 
-gsap.fromTo(".titolo",{fontSize:'9vw', left:'0'}, {
+gsap.fromTo(".titolo",{fontSize:'9vw', left:'-1vw'}, {
     fontSize: '8vW',
     left:'-6.5vw',
     duration: 0.4,
