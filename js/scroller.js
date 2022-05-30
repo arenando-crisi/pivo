@@ -85,7 +85,7 @@ gsap.to(".claim", {
 })
 
 gsap.to(".freccinascroll", {
-    top: '89vh',
+    top: '89.5vh',
     duration: 0.5,
     repeat: -1,
     yoyo: true
@@ -355,9 +355,5 @@ gsap.fromTo(".titolettosl", {top: '10vh'} , {
         scrub: true,
     }
 })
-
-
-
-
 
 
