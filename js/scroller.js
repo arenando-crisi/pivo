@@ -14,64 +14,84 @@ gsap.fromTo(".headerblack", {top: "-10vh"} , {
     }
 })
 
-gsap.fromTo(".header", {opacity: 0} , {
-    opacity: 1,
+let thw1 = gsap.timeline({scrollTrigger: {
+    trigger: ".triggerheaderw1",
+    toggleActions: 'restart none reverse none',
+    start: "top 0%",
+    end: "bottom 0%",
+}})
+thw1.to(".header", {
+    display: 'flex',
+    duration: 0,
+})
+thw1.to(".header", {
+    opacity: '1',
     duration: 0.4,
-    scrollTrigger: {
-        trigger: ".triggerheaderw2",
-        toggleActions: 'restart none none reverse',
-        start: "top 0%",
-        end: "bottom 0%",
-    }
+})
+thw1.to(".headerblack",  {
+    display: 'none',
+    duration: 0,
 })
 
-gsap.fromTo(".header", {opacity: 1} , {
+let thb2 = gsap.timeline({scrollTrigger: {
+    trigger: ".triggerheaderb2",
+    toggleActions: 'restart none reverse none',
+    start: "top 0%",
+    end: "bottom 0%",
+}})
+thb2.to(".headerblack", {
+    display: 'flex',
+    duration: 0,
+})
+thb2.to(".header", {
+    opacity: '0',
+    duration: 0.4,
+})
+thb2.to(".header",  {
+    display: 'none',
+    duration: 0,
+})
+
+let thw2 = gsap.timeline({scrollTrigger: {
+    trigger: ".triggerheaderw2",
+    toggleActions: 'restart none reverse none',
+    start: "top 0%",
+    end: "bottom 0%",
+}})
+thw2.to(".header", {
+    display: 'flex',
+    duration: 0,
+})
+thw2.to(".header", {
+    opacity: '1',
+    duration: 0.4,
+})
+thw2.to(".headerblack",  {
+    display: 'none',
+    duration: 0,
+})
+//-----------------------CAMBIAMENTO COLORE HERO-------------------------------------------------
+
+gsap.to(".claim", {
     opacity: 0,
     duration: 0.4,
     scrollTrigger: {
-        trigger: ".triggerheaderb2",
+        trigger: ".trigger2",
         toggleActions: 'restart none none reverse',
         start: "top 0%",
         end: "bottom 0%",
+        scrub: true,
     }
 })
 
-gsap.fromTo(".header", {opacity: 0} , {
-    opacity: 1,
-    duration: 0.4,
-    scrollTrigger: {
-        trigger: ".triggerheaderw1",
-        toggleActions: 'restart none none reverse',
-        start: "top 0%",
-        end: "bottom 0%",
-    }
+gsap.to(".freccinascroll", {
+    top: '89vh',
+    duration: 0.5,
+    repeat: -1,
+    yoyo: true
 })
 
-//-----------------------CAMBIAMENTO COLORE HERO-------------------------------------------------
-
-gsap.fromTo(".hero",{backgroundColor: '#FA4928'},{
-    backgroundColor: '#000000',
-    duration: 0.4,
-    scrollTrigger: {
-        trigger: ".trigger7",
-        toggleActions: 'restart none none reverse',
-        start: "top 0%",
-        end: "bottom 0%",
-    }
-})
-
-gsap.fromTo(".hero",{backgroundColor: '#A07EFF'},{
-    backgroundColor: '#FA4928',
-    duration: 0.4,
-    scrollTrigger: {
-        trigger: ".trigger1",
-        toggleActions: 'restart none none reverse',
-        start: "top 0%",
-        end: "bottom 0%",
-    }
-})
-
-gsap.to(".claim", {
+gsap.to(".freccinascroll", {
     opacity: 0,
     duration: 0.4,
     scrollTrigger: {
@@ -99,15 +119,16 @@ gsap.to(".calltoaction", {
     opacity: 1,
     duration: 0.4,
     scrollTrigger: {
-        trigger: ".trigger7",
+        trigger: ".trigger8",
         toggleActions: 'restart none none reverse',
         start: "top 0%",
         end: "bottom 0%",   
     }
 })
 
-gsap.fromTo(".titolo",{fontSize:'20vw'}, {
+gsap.fromTo(".titolo",{fontSize:'9vw', left:'0'}, {
     fontSize: '8vW',
+    left:'-6.5vw',
     duration: 0.4,
     scrollTrigger: {
         trigger: ".trigger3",
@@ -154,7 +175,7 @@ gsap.fromTo(".video", {width:'60vw'}, {
     }
 })
 
-gsap.fromTo(".video", {width:'43vw'}, {
+gsap.fromTo(".video", {width:'50vw'}, {
     width:'60vw',
     duration: 0.4,
     scrollTrigger: {
