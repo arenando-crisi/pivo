@@ -320,6 +320,19 @@ div{
     font-size: 1vw;
 }
 
+.cerchio1{
+    background-image: url(/asset/cerchio1.png);
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    background-position: 0% 50%;
+    z-index: 3;
+    position: absolute;
+    top: 60vh;
+    left: 10vw;
+    height: 10vh;
+    width: 10vw;
+}
+
 .loghinoiniz{
     position: fixed;
     height: 5vh;

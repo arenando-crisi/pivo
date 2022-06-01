@@ -355,5 +355,3 @@ gsap.fromTo(".titolettosl", {top: '10vh'} , {
         scrub: true,
     }
 })
-
-
