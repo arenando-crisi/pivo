@@ -322,15 +322,15 @@ div{
 
 .cerchio1{
     background-image: url(/asset/cerchio1.png);
-    background-size: 100vw;
+    background-size: 1000% 100%;
     background-repeat: no-repeat;
-    background-position: 0% 50%;
+    background-position: 0% 0%;
     z-index: 3;
-    position: absolute;
-    top: 60vh;
-    left: 10vw;
-    height: 10vh;
-    width: 10vw;
+    position: relative;
+    top: 45.5vh;
+    left: 26.5vw;
+    height: 8vw;
+    width: 10.5vw;
 }
 
 .loghinoiniz{
@@ -381,11 +381,16 @@ div{
 }
 
 .freccinascroll{
+    background-image: url(/asset/freccinascroll.png);
+    background-size: 3000% 100%;
+    background-repeat: no-repeat;
+    background-position: 0% 50%;
     z-index: 2;
     position: absolute;
     top: 90vh;
-    left: 22.5vw;
-    height: 2vh;
+    left: 22vw;
+    height: 5vw;
+    width: 5vw;
 }
 
 .video{

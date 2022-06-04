@@ -85,13 +85,18 @@ gsap.to(".claim", {
 })
 
 gsap.to(".freccinascroll", {
-    top: '89.5vh',
-    duration: 0.5,
-    repeat: -1,
-    yoyo: true
+    opacity: 0,
+    duration: 0.4,
+    scrollTrigger: {
+        trigger: ".trigger2",
+        toggleActions: 'restart none none reverse',
+        start: "top 0%",
+        end: "bottom 0%",
+        scrub: true,
+    }
 })
 
-gsap.to(".freccinascroll", {
+gsap.to(".cerchio1", {
     opacity: 0,
     duration: 0.4,
     scrollTrigger: {
