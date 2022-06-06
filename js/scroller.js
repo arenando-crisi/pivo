@@ -306,9 +306,9 @@ gsap.fromTo(".headerblack1", {opacity: 0} , {
     }
 })
 
-gsap.fromTo(".slide1", {top: '20vh', left: '20vw'} , {
+gsap.to(".slide1", {
     top: '280vh',
-    left: '-110vw',
+    left: '-80vw',
     duration: 0.4,
     ease:Linear.easeNone,
     scrollTrigger: {
@@ -320,7 +320,7 @@ gsap.fromTo(".slide1", {top: '20vh', left: '20vw'} , {
     }
 })
 
-gsap.fromTo(".slide2", {top: '20vh', left: '85vw'} , {
+gsap.to(".slide2", {
     top: '280vh',
     left: '-45vw',
     duration: 0.4,
@@ -334,7 +334,7 @@ gsap.fromTo(".slide2", {top: '20vh', left: '85vw'} , {
     }
 })
 
-gsap.fromTo(".slide3", {top: '20vh', left: '150vw'} , {
+gsap.to(".slide3", {
     top: '280vh',
     left: '20vw',
     duration: 0.4,
