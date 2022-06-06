@@ -35,6 +35,6 @@ cosacerchi.to(".cerchio4", {
 
 gsap.to(".freccinascroll", 2, {
   backgroundPosition:  "100% 50%",
-  ease:SteppedEase.config(29),
+  ease:SteppedEase.config(30),
   repeat: -1,
 });
