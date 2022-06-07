@@ -399,16 +399,11 @@ div{
 }
 
 .freccinascroll{
-    background-image: url(/asset/freccinascroll.png);
-    background-size: 3000% 100%;
-    background-repeat: no-repeat;
-    background-position: 0% 50%;
     z-index: 2;
     position: absolute;
     top: 90vh;
-    left: 22vw;
-    height: 5vw;
-    width: 5vw;
+    left: 22.5vw;
+    height: 2vh;
 }
 
 .video{
@@ -457,19 +452,6 @@ div{
     text-align: center;
 }
 
-.cerchio1{
-    background-image: url(/asset/cerchiobianco.png);
-    background-size: 2700% 100%;
-    background-repeat: no-repeat;
-    background-position: 0% 0%;
-    z-index: 3;
-    position: relative;
-    top: 50vh;
-    left: 27.5vw;
-    height: 3vw;
-    width: 8vw;
-}
-
 @media screen and (max-width: 768px) { /*  Ipad mini  */
     .claim{
         top: 85vh;
@@ -508,19 +490,6 @@ div{
     display: flex;
     align-items: center;
     flex-direction: column;
-}
-
-.cerchio2{
-    background-image: url(/asset/cerchiobianco.png);
-    background-size: 2700% 100%;
-    background-repeat: no-repeat;
-    background-position: 0% 0%;
-    z-index: 5;
-    position: absolute;
-    top: 163vh;
-    left: 57vw;
-    height: 8vw;
-    width: 18vw;
 }
 
 .bottonecta{
@@ -577,19 +546,6 @@ div{
     text-align: center;
 }
 
-.cerchio3{
-    background-image: url(/asset/cerchionero.png);
-    background-size: 2700% 100%;
-    background-repeat: no-repeat;
-    background-position: 0% 0%;
-    z-index: 5;
-    position: absolute;
-    top: 19vh;
-    left: 44vw;
-    height: 3vw;
-    width: 12vw;
-}
-
 .statement{
     position: relative;
     top: 30vh;
@@ -600,19 +556,6 @@ div{
     width: 100vw;
     z-index: 2;
     text-align: center;
-}
-
-.cerchio4{
-    background-image: url(/asset/cerchionero.png);
-    background-size: 2700% 100%;
-    background-repeat: no-repeat;
-    background-position: 0% 0%;
-    z-index: 5;
-    position: absolute;
-    top: 30vh;
-    left: 25vw;
-    height: 5vw;
-    width: 27vw;
 }
 
 .esplora{
