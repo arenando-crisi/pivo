@@ -534,6 +534,14 @@ div{
     font-size: 1.5vw;
     width: 15vw;
     text-align: center;
+    transition: 0.3s;
+    margin-top: 2vh;
+}
+
+.bottonecta:hover{
+    background-color: black;
+    color: #F0F0F0;
+    padding: 20px;
 }
 
 .sticker{
@@ -638,6 +646,13 @@ div{
     font-size: 1.5vw;
     width: 13vw;
     text-align: center;
+    transition: 0.3s;
+}
+
+.bottoneesplora:hover{
+    background-color: #F0F0F0;
+    color: black;
+    border: 2px solid black;
 }
 
 /*-------------------------------COSA FAI-------------------------------*/
@@ -682,10 +697,6 @@ div{
     top: 20vh;
     left: 50vw;
     transform: translate(-50%, 0%);
-}
-
-.slide1:hover{
-    width: 65vw;
 }
 
 .organizza{
