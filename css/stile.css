@@ -14,24 +14,6 @@ div{
 
 /*-------------------------------HEADER-------------------------------*/
 
-.splash{
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background-color: #ffffff;
-    z-index: 10000;
-    position: fixed;
-    display: block;
-    overflow: hidden;
-}
-
-.splash video{
-    top: 0;
-    left: 100vw;
-    width: 100vw;
-}
-
 .header{
     width: 100vw;
     position: fixed;
@@ -1390,7 +1372,6 @@ div{
     bottom: 5vh;
     right: 5vw;
     z-index: 100;
-    width: 12.5vw;
 }
 
 .rotate{
