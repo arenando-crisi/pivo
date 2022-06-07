@@ -14,24 +14,6 @@ div{
 
 /*-------------------------------HEADER-------------------------------*/
 
-.splash{
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background-color: #ffffff;
-    z-index: 10000;
-    position: fixed;
-    display: block;
-    overflow: hidden;
-}
-
-.splash video{
-    top: 0;
-    left: 100vw;
-    width: 100vw;
-}
-
 .header{
     width: 100vw;
     position: fixed;
@@ -338,6 +320,19 @@ div{
     font-size: 1vw;
 }
 
+.cerchio1{
+    background-image: url(/asset/cerchiobianco.png);
+    background-size: 2700% 100%;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    z-index: 3;
+    position: relative;
+    top: 50vh;
+    left: 27.5vw;
+    height: 3vw;
+    width: 8vw;
+}
+
 .loghinoiniz{
     position: fixed;
     height: 5vh;
@@ -386,11 +381,16 @@ div{
 }
 
 .freccinascroll{
+    background-image: url(/asset/freccinascroll.png);
+    background-size: 3000% 100%;
+    background-repeat: no-repeat;
+    background-position: 0% 50%;
     z-index: 2;
     position: absolute;
-    top: 90vh;
-    left: 22.5vw;
-    height: 2vh;
+    top: 87.5vh;
+    left: 22vw;
+    height: 5vw;
+    width: 5vw;
 }
 
 .video{
@@ -479,6 +479,19 @@ div{
     flex-direction: column;
 }
 
+.cerchio2{
+    background-image: url(/asset/cerchiobianco.png);
+    background-size: 2700% 100%;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    z-index: 5;
+    position: absolute;
+    top: 163vh;
+    left: 57vw;
+    height: 8vw;
+    width: 18vw;
+}
+
 .bottonecta{
     padding: 15px;
     background-color: #F0F0F0;
@@ -533,6 +546,19 @@ div{
     text-align: center;
 }
 
+.cerchio3{
+    background-image: url(/asset/cerchionero.png);
+    background-size: 2700% 100%;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    z-index: 5;
+    position: absolute;
+    top: 19vh;
+    left: 44vw;
+    height: 3vw;
+    width: 12vw;
+}
+
 .statement{
     position: relative;
     top: 30vh;
@@ -543,6 +569,19 @@ div{
     width: 100vw;
     z-index: 2;
     text-align: center;
+}
+
+.cerchio4{
+    background-image: url(/asset/cerchionero.png);
+    background-size: 2700% 100%;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    z-index: 5;
+    position: absolute;
+    top: 30vh;
+    left: 25vw;
+    height: 5vw;
+    width: 27vw;
 }
 
 .esplora{
@@ -610,8 +649,13 @@ div{
     align-items: center;
     align-content: center;
     top: 20vh;
-    left: 20vw;
-} 
+    left: 50vw;
+    transform: translate(-50%, 0%);
+}
+
+.slide1:hover{
+    width: 65vw;
+}
 
 .organizza{
     position: absolute;
@@ -633,7 +677,7 @@ div{
     top: 10vh;
     left: 2vw;
     font-family: Formula;
-    font-size: 2.4vw;
+    font-size: 2.5vw;
     width: 30vw;
     z-index: 2;
     text-align: left;
@@ -699,7 +743,7 @@ div{
     top: 10vh;
     left: 2vw;
     font-family: Formula;
-    font-size: 2.4vw;
+    font-size: 2.5vw;
     width: 30vw;
     z-index: 2;
     text-align: left;
@@ -749,7 +793,7 @@ div{
     top: 10vh;
     left: 2vw;
     font-family: Formula;
-    font-size: 2.4vw;
+    font-size: 2.5vw;
     width: 30vw;
     z-index: 2;
     text-align: left;
@@ -1390,7 +1434,6 @@ div{
     bottom: 5vh;
     right: 5vw;
     z-index: 100;
-    width: 12.5vw;
 }
 
 .rotate{
