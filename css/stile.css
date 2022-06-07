@@ -1365,7 +1365,27 @@ div{
     text-align: left;
     z-index: 100;
 }
+/*-------------------------------SCOPRI: ORGANIZZA-------------------------------*/
+.audioplayer{
+    position: fixed;
+    display: flex;
+    bottom: 5vh;
+    right: 5vw;
+    z-index: 100;
+}
 
+.rotate{
+    animation: rotation 5s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
 /*-------------------------------SCOPRI: ORGANIZZA-------------------------------*/
 
 .scopri_organizza{
