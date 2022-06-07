@@ -1,6 +1,19 @@
 gsap.registerPlugin(ScrollTrigger);
 
+let splashscr = gsap.timeline();
+splashscr.to(".splash", {
+  delay: 2.5,
+})
+splashscr.to(".splash", {
+  opacity: 0,
+  duration: 0.5,
+})
+splashscr.to(".splash", {
+  display: "none",
+})
+
 gsap.to(".cerchio1", 1, {
+  delay: 3,
   backgroundPosition:  "100% 50%",
   ease:SteppedEase.config(26),
 });
