@@ -85,13 +85,18 @@ gsap.to(".claim", {
 })
 
 gsap.to(".freccinascroll", {
-    top: '89.5vh',
-    duration: 0.5,
-    repeat: -1,
-    yoyo: true
+    opacity: 0,
+    duration: 0.4,
+    scrollTrigger: {
+        trigger: ".trigger2",
+        toggleActions: 'restart none none reverse',
+        start: "top 0%",
+        end: "bottom 0%",
+        scrub: true,
+    }
 })
 
-gsap.to(".freccinascroll", {
+gsap.to(".cerchio1", {
     opacity: 0,
     duration: 0.4,
     scrollTrigger: {
@@ -301,9 +306,9 @@ gsap.fromTo(".headerblack1", {opacity: 0} , {
     }
 })
 
-gsap.fromTo(".slide1", {top: '20vh', left: '20vw'} , {
+gsap.to(".slide1", {
     top: '280vh',
-    left: '-110vw',
+    left: '-80vw',
     duration: 0.4,
     ease:Linear.easeNone,
     scrollTrigger: {
@@ -315,7 +320,7 @@ gsap.fromTo(".slide1", {top: '20vh', left: '20vw'} , {
     }
 })
 
-gsap.fromTo(".slide2", {top: '20vh', left: '85vw'} , {
+gsap.to(".slide2", {
     top: '280vh',
     left: '-45vw',
     duration: 0.4,
@@ -329,7 +334,7 @@ gsap.fromTo(".slide2", {top: '20vh', left: '85vw'} , {
     }
 })
 
-gsap.fromTo(".slide3", {top: '20vh', left: '150vw'} , {
+gsap.to(".slide3", {
     top: '280vh',
     left: '20vw',
     duration: 0.4,
@@ -355,5 +360,3 @@ gsap.fromTo(".titolettosl", {top: '10vh'} , {
         scrub: true,
     }
 })
-
-
