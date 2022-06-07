@@ -308,7 +308,7 @@ gsap.fromTo(".headerblack1", {opacity: 0} , {
 
 gsap.to(".slide1", {
     top: '280vh',
-    left: '-80vw',
+    left: '-110vw',
     duration: 0.4,
     ease:Linear.easeNone,
     scrollTrigger: {
