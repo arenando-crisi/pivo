@@ -14,24 +14,6 @@ div{
 
 /*-------------------------------HEADER-------------------------------*/
 
-.splash{
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background-color: #ffffff;
-    z-index: 10000;
-    position: fixed;
-    display: block;
-    overflow: hidden;
-}
-
-.splash video{
-    top: 0;
-    left: 100vw;
-    width: 100vw;
-}
-
 .header{
     width: 100vw;
     position: fixed;
@@ -405,7 +387,7 @@ div{
     background-position: 0% 50%;
     z-index: 2;
     position: absolute;
-    top: 90vh;
+    top: 87.5vh;
     left: 22vw;
     height: 5vw;
     width: 5vw;
@@ -455,19 +437,6 @@ div{
     color: #F0F0F0;
     width: 48vw;
     text-align: center;
-}
-
-.cerchio1{
-    background-image: url(/asset/cerchiobianco.png);
-    background-size: 2700% 100%;
-    background-repeat: no-repeat;
-    background-position: 0% 0%;
-    z-index: 3;
-    position: relative;
-    top: 50vh;
-    left: 27.5vw;
-    height: 3vw;
-    width: 8vw;
 }
 
 @media screen and (max-width: 768px) { /*  Ipad mini  */
@@ -1465,7 +1434,6 @@ div{
     bottom: 5vh;
     right: 5vw;
     z-index: 100;
-    width: 12.5vw;
 }
 
 .rotate{
