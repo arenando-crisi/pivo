@@ -51,3 +51,9 @@ gsap.to(".freccinascroll", 2, {
   ease:SteppedEase.config(30),
   repeat: -1,
 });
+
+gsap.to(".freccinaorizzontale", 2, {
+  backgroundPosition:  "100% 50%",
+  ease:SteppedEase.config(30),
+  repeat: -1,
+});

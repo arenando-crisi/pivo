@@ -229,6 +229,84 @@ gsap.fromTo(".video", {position:'fixed', top: '1vh'}, {
     }
 })
 
+gsap.to(".rec1", {
+    opacity: 1,
+    transform: "scale(1)",
+    duration: 0.4,
+    ease: Back.easeOut.config(1.2),
+    scrollTrigger: {
+        trigger: ".triggerheaderw2",
+        toggleActions: 'restart none none reverse',
+        start: "top 0%",
+        end: "bottom 0%",
+    }
+})
+
+gsap.to(".rec2", {
+    opacity: 1,
+    transform: "scale(1)",
+    duration: 0.4,
+    ease: Back.easeOut.config(1.2),
+    scrollTrigger: {
+        trigger: ".triggerheaderw2",
+        toggleActions: 'restart none none reverse',
+        start: "top 0%",
+        end: "bottom 0%",
+    }
+})
+
+gsap.to(".rec3", {
+    opacity: 1,
+    transform: "scale(1)",
+    duration: 0.4,
+    ease: Back.easeOut.config(1.2),
+    scrollTrigger: {
+        trigger: ".triggerheaderw2",
+        toggleActions: 'restart none none reverse',
+        start: "top 0%",
+        end: "bottom 0%",
+    }
+})
+
+gsap.to(".rec4", {
+    opacity: 1,
+    transform: "scale(1)",
+    duration: 0.4,
+    ease: Back.easeOut.config(1.2),
+    scrollTrigger: {
+        trigger: ".triggerheaderw2",
+        toggleActions: 'restart none none reverse',
+        start: "top 0%",
+        end: "bottom 0%",
+    }
+})
+
+gsap.to(".rec5", {
+    opacity: 1,
+    transform: "scale(1)",
+    duration: 0.4,
+    ease: Back.easeOut.config(1.2),
+    scrollTrigger: {
+        trigger: ".triggerheaderw2",
+        toggleActions: 'restart none none reverse',
+        start: "top 0%",
+        end: "bottom 0%",
+    }
+})
+
+gsap.to(".rec6", {
+    opacity: 1,
+    transform: "scale(1)",
+    duration: 0.4,
+    ease: Back.easeOut.config(1.2),
+    scrollTrigger: {
+        trigger: ".triggerheaderw2",
+        toggleActions: 'restart none none reverse',
+        start: "top 0%",
+        end: "bottom 0%",
+    }
+})
+
 gsap.fromTo(".headerblack2", {opacity: 0} , {
     opacity: 1,
     duration: 0.4,
@@ -348,12 +426,67 @@ gsap.to(".slide3", {
     }
 })
 
-gsap.fromTo(".titolettosl", {top: '10vh'} , {
+gsap.to(".slidec1", {
+    top: '280vh',
+    left: '-80vw',
+    duration: 0.4,
+    ease:Linear.easeNone,
+    scrollTrigger: {
+        trigger: ".triggerc2",
+        toggleActions: 'restart none none reverse',
+        start: "top 0%",
+        end: "bottom 0%",
+        scrub: true,
+    }
+})
+
+gsap.to(".slidec2", {
+    top: '280vh',
+    left: '-45vw',
+    duration: 0.4,
+    ease:Linear.easeNone,
+    scrollTrigger: {
+        trigger: ".triggerc2",
+        toggleActions: 'restart none none reverse',
+        start: "top 0%",
+        end: "bottom 0%",
+        scrub: true,
+    }
+})
+
+gsap.to(".slidec3", {
+    top: '280vh',
+    left: '20vw',
+    duration: 0.4,
+    ease:Linear.easeNone,
+    scrollTrigger: {
+        trigger: ".triggerc2",
+        toggleActions: 'restart none none reverse',
+        start: "top 0%",
+        end: "bottom 0%",
+        scrub: true,
+    }
+})
+
+gsap.to(".titolettosl", {
     top: '270vh',
     duration: 0.4,
     ease:Linear.easeNone,
     scrollTrigger: {
         trigger: ".triggerslider",
+        toggleActions: 'restart none none reverse',
+        start: "top 0%",
+        end: "bottom 0%",
+        scrub: true,
+    }
+})
+
+gsap.to(".titolettosl2", {
+    top: '270vh',
+    duration: 0.4,
+    ease:Linear.easeNone,
+    scrollTrigger: {
+        trigger: ".triggerc2",
         toggleActions: 'restart none none reverse',
         start: "top 0%",
         end: "bottom 0%",

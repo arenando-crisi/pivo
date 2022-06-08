@@ -1,4 +1,5 @@
-var x = document.getElementById("audio");
+var r = Math.floor(Math.random() * 5) + 1;
+var x = document.getElementById("audio"+ r);
 var cont = 0;
 var degrees = 45;
 var looper;
@@ -9,19 +10,24 @@ function playAudio() {
     x.play();
     cont++;
     document.addEventListener('click', function handleClick(event) {
-        event.target.classList.add('rotate');
+      document.getElementById("player").classList.add('rotate');
       });
   }
   else {
     x.pause();
     cont++;
     document.addEventListener('click', function removeClick(event) {
-        event.target.classList.remove('rotate');
+      document.getElementById("player").classList.remove('rotate');
       });
   }
  
 }
 
-function pauseAudio() {
+window.onload = choosePic;
 
+var myPix = new Array("asset/audioplayer1.png","asset/audioplayer2.png","asset/audioplayer3.png");
+
+function choosePic() {
+     var randomNum = Math.floor(Math.random() * myPix.length);
+     document.getElementById("player").src = myPix[randomNum];
 }
