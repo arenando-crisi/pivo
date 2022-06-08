@@ -647,12 +647,12 @@ div{
     width: 13vw;
     text-align: center;
     transition: 0.3s;
+        border: 2px solid black;
 }
 
 .bottoneesplora:hover{
     background-color: #F0F0F0;
     color: black;
-    border: 2px solid black;
 }
 
 /*-------------------------------COSA FAI-------------------------------*/
@@ -747,6 +747,12 @@ div{
     text-align: center;
     top: 45vh;
     left: 12vw;
+    transition: 0.3s;
+}
+
+.bottonescopri:hover{
+    background-color: #F0F0F0;
+    color: black;
 }
 
 .slide2{
@@ -1150,37 +1156,37 @@ div{
 
 .rec5{
     position: absolute;
-    background-color: #FA4928;
+    background-color: #A07EFF;
     border-radius: 30px;
     font-family: Montreal;
     width: 35vw;
-    height: 15vh;
+    height: 40vh;
     margin: 0;
     padding: 0;
     top: 20vh;
     left: 59vw;
     transform: translate(-50%, -50%);
-    display: flex;
+    display: block;
     overflow: hidden;
     transform: scale(0);
     opacity: 0;
 }
 
 .contenitorerec5{
+    height: 15vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
 .imgrec5{
-    width: 30vw;
-    height: auto;
+    height: 25vh;
     overflow: hidden;
 }
 
 .textrec5{
     margin: 2vh;
-    width: 20vw;
+    width: 33vw;
 }
 
 .prof5{
@@ -1197,7 +1203,7 @@ div{
     padding: 0;
 }
 
-.profilorec5{
+.profilorec5 {
     width: 3vw;
     height: 3vw;
     margin: 0;
@@ -1208,37 +1214,31 @@ div{
 
 .rec6{
     position: absolute;
-    background-color: #DFFF9C;
+    background-color: #FA4928;
     border-radius: 30px;
     font-family: Montreal;
-    width: 35vw;
-    height: 42vh;
+    width: 16.5vw;
+    height: 17vh;
     margin: 0;
     padding: 0;
-    top: 39vh;
+    top: 64vh;
     left: 59vw;
     transform: translate(-50%, -50%);
-    display: block;
+    display: flex;
     overflow: hidden;
     transform: scale(0);
     opacity: 0;
 }
 
 .contenitorerec6{
-    height: 15vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.imgrec6{
-    height: 27vh;
-    overflow: hidden;
-}
-
 .textrec6{
     margin: 2vh;
-    width: 33vw;
+    width: 13vw;
 }
 
 .prof6{
@@ -1256,6 +1256,58 @@ div{
 }
 
 .profilorec6{
+    width: 3vw;
+    height: 3vw;
+    margin: 0;
+    bottom: 0;
+    overflow: hidden;
+    border-radius: 30px;
+}
+
+.rec7{
+    position: absolute;
+    background-color: #DFFF9C;
+    border-radius: 30px;
+    font-family: Montreal;
+    width: 16.5vw;
+    height: 17vh;
+    margin: 0;
+    padding: 0;
+    top: 64vh;
+    left: 77.5vw;
+    transform: translate(-50%, -50%);
+    display: flex;
+    overflow: hidden;
+    transform: scale(0);
+    opacity: 0;
+}
+
+.contenitorerec7{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.textrec7{
+    margin: 2vh;
+    width: 13vw;
+}
+
+.prof7{
+    display: flex;
+    vertical-align: middle;
+}
+
+.nomerec7{
+    position: relative;
+    font-family: montreal_bold;
+    margin: 1vw;
+    width: 12vw;
+    height: 1vh;
+    padding: 0;
+}
+
+.profilorec7{
     width: 3vw;
     height: 3vw;
     margin: 0;
@@ -1502,6 +1554,17 @@ div{
     display: none;
 }
 
+.triggerrec{
+    position: absolute;
+    top: 740vh;
+    left: 0;
+    width: 10vw;
+    height: 1px;
+    border: 1px solid black;
+    z-index: 1000;
+    display: none;
+}
+
 /*---------------------------------------------------------------------------*/
 /*----------------------------   SCOPRI DI PIÙ   ----------------------------*/
 /*---------------------------------------------------------------------------*/
@@ -1553,8 +1616,8 @@ div{
 .audioplayer{
     position: fixed;
     display: flex;
-    bottom: 5vh;
-    right: 5vw;
+    bottom: 6vh;
+    right: 0vw;
     z-index: 100;
     width: 12.5vw;
 }
@@ -1573,7 +1636,7 @@ div{
   }
 /*-------------------------------SCOPRI: ORGANIZZA-------------------------------*/
 
-.scopri_organizza{
+#scopri_organizza{
     background-color: #A07EFF;
     top: 0;
     height: 100vh;
@@ -1621,6 +1684,7 @@ div{
     justify-content: space-around;
     align-items: center;
     text-align: center;
+    vertical-align: baseline;
 }
 
 .ctascreen{
@@ -1629,9 +1693,11 @@ div{
     padding: 0;
     font-family: Formula;
     font-size: 2vw;
-    width: 20vw;
+    width: 32vw;
     text-align: center;
     z-index: 2;
+    margin-bottom: 3vh;
+    margin-top: 6vh;
 }
 
 .txtscreen{
@@ -1640,14 +1706,67 @@ div{
     padding: 0;
     font-family: Montreal;
     font-size: 1vw;
-    width: 20vw;
+    width: 32vw;
     text-align: center;
     z-index: 2;
 }
 
+.imgscreen1{
+    width: 32vw;
+    height: 10vh;
+    overflow: hidden;
+}
+
+.imgscreen2{
+    width: 32vw;
+    height: 50vh;
+    overflow: hidden;
+}
+
+.imgscreen3{
+    width: 32vw;
+    height: 30vh;
+    overflow: hidden;
+}
+
+.imgscreen4{
+    width: 32vw;
+    height: 10vh;
+    overflow: hidden;
+}
+
+.imgscreen5{
+    width: 32vw;
+    height: 50vh;
+    overflow: hidden;
+}
+
+.imgscreen6{
+    width: 32vw;
+    height: 30vh;
+    overflow: hidden;
+}
+
+.imgscreen7{
+    width: 32vw;
+    height: 10vh;
+    overflow: hidden;
+}
+
+.imgscreen8{
+    width: 32vw;
+    height: 50vh;
+    overflow: hidden;
+}
+
+.imgscreen9{
+    width: 32vw;
+    height: 30vh;
+    overflow: hidden;
+}
 /*-------------------------------SCOPRI: GIOCA-------------------------------*/
 
-.scopri_gioca{
+#scopri_gioca{
     background-color: #DFFF9C;
     top: 200vh;
     height: 100vh;
@@ -1672,7 +1791,8 @@ div{
 }
 
 /*-------------------------------SCOPRI: CONDIVIDI-------------------------------*/
-.scopri_condividi{
+
+#scopri_condividi{
     background-color: #FA4928;
     top: 400vh;
     height: 100vh;
@@ -1773,6 +1893,39 @@ div{
     left: 0;
     width: 10vw;
     height: 1px;
+    border: 1px solid black;
+    z-index: 1000;
+    display: none;
+}
+
+.triggerscreen1{
+    position: absolute;
+    top: 10vh;
+    left: 0;
+    width: 10vw;
+    height: 50vw;
+    border: 1px solid black;
+    z-index: 1000;
+    display: none;
+}
+
+.triggerscreen2{
+    position: absolute;
+    top: 200vh;
+    left: 0;
+    width: 10vw;
+    height: 50vw;
+    border: 1px solid black;
+    z-index: 1000;
+    display: none;
+}
+
+.triggerscreen3{
+    position: absolute;
+    top: 400vh;
+    left: 0;
+    width: 10vw;
+    height: 50vw;
     border: 1px solid black;
     z-index: 1000;
     display: none;

@@ -229,82 +229,53 @@ gsap.fromTo(".video", {position:'fixed', top: '1vh'}, {
     }
 })
 
-gsap.to(".rec1", {
+var rectl = gsap.timeline({scrollTrigger: {
+    trigger: ".triggerrec",
+    toggleActions: 'restart none reverse none',
+    start: "top 0%",
+    end: "bottom 0%",
+}})
+rectl.to(".rec1", {
     opacity: 1,
     transform: "scale(1)",
-    duration: 0.4,
+    duration: 0.3,
     ease: Back.easeOut.config(1.2),
-    scrollTrigger: {
-        trigger: ".triggerheaderw2",
-        toggleActions: 'restart none none reverse',
-        start: "top 0%",
-        end: "bottom 0%",
-    }
 })
-
-gsap.to(".rec2", {
+rectl.to(".rec5", {
     opacity: 1,
     transform: "scale(1)",
-    duration: 0.4,
+    duration: 0.3,
     ease: Back.easeOut.config(1.2),
-    scrollTrigger: {
-        trigger: ".triggerheaderw2",
-        toggleActions: 'restart none none reverse',
-        start: "top 0%",
-        end: "bottom 0%",
-    }
 })
-
-gsap.to(".rec3", {
+rectl.to(".rec3", {
     opacity: 1,
     transform: "scale(1)",
-    duration: 0.4,
+    duration: 0.3,
     ease: Back.easeOut.config(1.2),
-    scrollTrigger: {
-        trigger: ".triggerheaderw2",
-        toggleActions: 'restart none none reverse',
-        start: "top 0%",
-        end: "bottom 0%",
-    }
 })
-
-gsap.to(".rec4", {
+rectl.to(".rec2", {
     opacity: 1,
     transform: "scale(1)",
-    duration: 0.4,
+    duration: 0.3,
     ease: Back.easeOut.config(1.2),
-    scrollTrigger: {
-        trigger: ".triggerheaderw2",
-        toggleActions: 'restart none none reverse',
-        start: "top 0%",
-        end: "bottom 0%",
-    }
 })
-
-gsap.to(".rec5", {
+rectl.to(".rec7", {
     opacity: 1,
     transform: "scale(1)",
-    duration: 0.4,
+    duration: 0.3,
     ease: Back.easeOut.config(1.2),
-    scrollTrigger: {
-        trigger: ".triggerheaderw2",
-        toggleActions: 'restart none none reverse',
-        start: "top 0%",
-        end: "bottom 0%",
-    }
 })
-
-gsap.to(".rec6", {
+rectl.to(".rec4", {
     opacity: 1,
     transform: "scale(1)",
-    duration: 0.4,
+    duration: 0.3,
     ease: Back.easeOut.config(1.2),
-    scrollTrigger: {
-        trigger: ".triggerheaderw2",
-        toggleActions: 'restart none none reverse',
-        start: "top 0%",
-        end: "bottom 0%",
-    }
+})
+rectl.to(".rec6", {
+    opacity: 1,
+    transform: "scale(1)",
+    duration: 0.3,
+    ease: Back.easeOut.config(1.2),
 })
 
 gsap.fromTo(".headerblack2", {opacity: 0} , {
@@ -487,6 +458,114 @@ gsap.to(".titolettosl2", {
     ease:Linear.easeNone,
     scrollTrigger: {
         trigger: ".triggerc2",
+        toggleActions: 'restart none none reverse',
+        start: "top 0%",
+        end: "bottom 0%",
+        scrub: true,
+    }
+})
+
+gsap.to(".imgscreen1", {
+    height: '80vh',
+    duration: 0.4,
+    scrollTrigger: {
+        trigger: ".triggerscreen1",
+        toggleActions: 'restart none none reverse',
+        start: "top 0%",
+        end: "bottom 0%",
+        scrub: true,
+    }
+})
+
+gsap.to(".imgscreen2", {
+    height: '80vh',
+    duration: 0.4,
+    scrollTrigger: {
+        trigger: ".triggerscreen1",
+        toggleActions: 'restart none none reverse',
+        start: "top 0%",
+        end: "bottom 0%",
+        scrub: true,
+    }
+})
+
+gsap.to(".imgscreen3", {
+    height: '80vh',
+    duration: 0.4,
+    scrollTrigger: {
+        trigger: ".triggerscreen1",
+        toggleActions: 'restart none none reverse',
+        start: "top 0%",
+        end: "bottom 0%",
+        scrub: true,
+    }
+})
+
+gsap.to(".imgscreen4", {
+    height: '80vh',
+    duration: 0.4,
+    scrollTrigger: {
+        trigger: ".triggerscreen2",
+        toggleActions: 'restart none none reverse',
+        start: "top 0%",
+        end: "bottom 0%",
+        scrub: true,
+    }
+})
+
+gsap.to(".imgscreen5", {
+    height: '80vh',
+    duration: 0.4,
+    scrollTrigger: {
+        trigger: ".triggerscreen2",
+        toggleActions: 'restart none none reverse',
+        start: "top 0%",
+        end: "bottom 0%",
+        scrub: true,
+    }
+})
+
+gsap.to(".imgscreen6", {
+    height: '80vh',
+    duration: 0.4,
+    scrollTrigger: {
+        trigger: ".triggerscreen2",
+        toggleActions: 'restart none none reverse',
+        start: "top 0%",
+        end: "bottom 0%",
+        scrub: true,
+    }
+})
+
+gsap.to(".imgscreen7", {
+    height: '80vh',
+    duration: 0.4,
+    scrollTrigger: {
+        trigger: ".triggerscreen3",
+        toggleActions: 'restart none none reverse',
+        start: "top 0%",
+        end: "bottom 0%",
+        scrub: true,
+    }
+})
+
+gsap.to(".imgscreen8", {
+    height: '80vh',
+    duration: 0.4,
+    scrollTrigger: {
+        trigger: ".triggerscreen3",
+        toggleActions: 'restart none none reverse',
+        start: "top 0%",
+        end: "bottom 0%",
+        scrub: true,
+    }
+})
+
+gsap.to(".imgscreen9", {
+    height: '80vh',
+    duration: 0.4,
+    scrollTrigger: {
+        trigger: ".triggerscreen3",
         toggleActions: 'restart none none reverse',
         start: "top 0%",
         end: "bottom 0%",

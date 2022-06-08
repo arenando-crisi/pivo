@@ -56,6 +56,15 @@
       <div id="scrittemenù2" class="menùol"><a href="chisiamo.html">Chi siamo</a></div>
     </div>
 
+    <div id="audioplayer" class="audioplayer">
+      <a><img id="player" onclick="playAudio()" src="asset/audioplayer.png" alt="player audio" width="100%"></a>
+      <audio id="audio1" src="asset/02. Energy.mp3"></audio>
+      <audio id="audio2" src="asset/03 - Started From The Bottom.mp3"></audio>
+      <audio id="audio3" src="asset/03. 10 Bands.mp3"></audio>
+      <audio id="audio4" src="asset/04. Know Yourself.mp3"></audio>
+      <audio id="audio5" src="asset/05. No Tellin.mp3"></audio>
+    </div>
+
     <div class="hero">
       <div class="titolo">
         Pivó
@@ -65,7 +74,7 @@
         Pivó
       </div>
 
-      <div class="aboutus"><a href="chisiamo.html">Chi siamo</a></div>
+      <div class="aboutus" id="aboutus"><a href="chisiamo.html">Chi siamo</a></div>
 
       <div class="scarica1">Scarica l'app</div>
 
@@ -143,7 +152,7 @@
       </div>
 
       <div class="scopri">
-        <a class="bottonescopri" href="">Scopri di più</a>
+        <a class="bottonescopri" href="scopri.html#scopri_organizza">Scopri di più</a>
       </div>
 
     </div>
@@ -163,7 +172,7 @@
       </div>
 
       <div class="scopri">
-        <a class="bottonescopri" href="">Scopri di più</a>
+        <a class="bottonescopri" href="scopri.html#scopri_gioca">Scopri di più</a>
       </div>
 
     </div>
@@ -183,7 +192,7 @@
       </div>
 
       <div class="scopri">
-        <a class="bottonescopri" href="">Scopri di più</a>
+        <a class="bottonescopri" href="scopri.html#scopri_condividi">Scopri di più</a>
       </div>
 
     </div>
@@ -293,13 +302,18 @@
     </div>
 
     <div class="rec5">
-      <div class="contenitorerec5">
+      <div class="imgrec5">
+        <a><img src="asset/Vekkia 2.png" alt="immagine recensione 1" width=110%></a>
+      </div>
+
+      <div class="contenitorerec5" height="100%">
         <div class="textrec5">
-          Pivó mi permette di condividere i miei audio liberamente. Adoro condividere le mie canzoni preferite, sentite questa!        </div>
+          Grazie a pivó è nata una amicizia straodinaria con Mario. Ho rivalutato i filippini!
+        </div>
 
         <div class="prof5">
           <div class="profilorec5">
-            <a><img src="asset/Vekkia 2.png" alt="immagine recensione 2" width="100%"></a>
+            <a><img src="asset/Vekkia 2.png" alt="immagine recensione 1" width="100%"></a>
           </div>
 
           <div class="nomerec5">
@@ -307,26 +321,16 @@
           </div>
         </div>
       </div>
-
-      <div class="imgrec5">
-        <a><img src="asset/Vekkia 2.png" alt="immagine recensione 2" width="100%"></a>
-      </div>
-
     </div>
 
     <div class="rec6">
-      <div class="imgrec6">
-        <a><img src="asset/Vekkia 2.png" alt="immagine recensione 1" width=110%></a>
-      </div>
-
-      <div class="contenitorerec6" height="100%">
+      <div class="contenitorerec6">
         <div class="textrec6">
-          Grazie a pivó è nata una amicizia straodinaria con Mario. Ho rivalutato i filippini!
-        </div>
+          Pivó mi permette di condividere i miei audio liberamente. Adoro condividere le mie canzoni preferite, sentite questa!        </div>
 
         <div class="prof6">
-          <div class="profilorec1">
-            <a><img src="asset/Vekkia 2.png" alt="immagine recensione 1" width="100%"></a>
+          <div class="profilorec6">
+            <a><img src="asset/Vekkia 2.png" alt="immagine recensione 2" width="100%"></a>
           </div>
 
           <div class="nomerec6">
@@ -334,9 +338,28 @@
           </div>
         </div>
       </div>
+
     </div>
 
-  </div>
+    <div class="rec7">
+      <div class="contenitorerec7">
+        <div class="textrec7">
+          Pivó mi permette di condividere i miei audio liberamente. Adoro condividere le mie canzoni preferite, sentite questa!        </div>
+
+        <div class="prof7">
+          <div class="profilorec7">
+            <a><img src="asset/Vekkia 2.png" alt="immagine recensione 2" width="100%"></a>
+          </div>
+
+          <div class="nomerec7">
+            stoner95
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    </div>
 
    <div class="ctadadefinire1">
       <div class="titoletto">
@@ -388,6 +411,7 @@
     <div class="trigger6"></div>
     <div class="trigger7"></div>
     <div class="trigger8"></div>
+    <div class="triggerrec"></div>
     <div class="triggerslider"></div>
     
     <script src="js/animations.js"></script>
@@ -395,5 +419,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
     <script src="js/scroller.js"></script>
     <script src="js/Animazionipng.js"></script>
+    <script src="js/player.js"></script>
 </body>
 </html>
