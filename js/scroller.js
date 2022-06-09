@@ -238,43 +238,43 @@ var rectl = gsap.timeline({scrollTrigger: {
 rectl.to(".rec1", {
     opacity: 1,
     transform: "scale(1)",
-    duration: 0.3,
+    duration: 0.2,
     ease: Back.easeOut.config(1.2),
 })
 rectl.to(".rec5", {
     opacity: 1,
     transform: "scale(1)",
-    duration: 0.3,
+    duration: 0.2,
     ease: Back.easeOut.config(1.2),
 })
 rectl.to(".rec3", {
     opacity: 1,
     transform: "scale(1)",
-    duration: 0.3,
+    duration: 0.2,
     ease: Back.easeOut.config(1.2),
 })
 rectl.to(".rec2", {
     opacity: 1,
     transform: "scale(1)",
-    duration: 0.3,
+    duration: 0.2,
     ease: Back.easeOut.config(1.2),
 })
 rectl.to(".rec7", {
     opacity: 1,
     transform: "scale(1)",
-    duration: 0.3,
+    duration: 0.2,
     ease: Back.easeOut.config(1.2),
 })
 rectl.to(".rec4", {
     opacity: 1,
     transform: "scale(1)",
-    duration: 0.3,
+    duration: 0.2,
     ease: Back.easeOut.config(1.2),
 })
 rectl.to(".rec6", {
     opacity: 1,
     transform: "scale(1)",
-    duration: 0.3,
+    duration: 0.2,
     ease: Back.easeOut.config(1.2),
 })
 

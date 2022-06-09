@@ -18,6 +18,14 @@ gsap.to(".cerchio1", 1, {
   ease:SteppedEase.config(26),
 });
 
+/*var cm1 = gsap.to("#cerchiomouse1", 0.3, {
+  backgroundPosition:  "100% 50%",
+  ease:SteppedEase.config(26),
+  paused: true,
+});
+document.querySelector("#cerchiomouse1").onmouseover = () => cm1.play();
+document.querySelector("#cerchiomouse1").onmouseleave = () => cm1.reverse();*/
+
 gsap.to(".cerchio2", 1, {
   backgroundPosition:  "100% 50%",
   ease:SteppedEase.config(26),

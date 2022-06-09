@@ -316,6 +316,18 @@ div{
     left: 1vw;
 }
 
+#cerchiomouse1{
+    position: fixed;
+    top: 2.5vh;
+    left: 1.5vw;
+    height: 3vh;
+    width: 5vw;
+    background-image: url(/asset/cerchiobianco.png);
+    background-size: 2700% 100%;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+}
+
 .aboutus a{
     font-family: Montreal;
     text-decoration: none;
