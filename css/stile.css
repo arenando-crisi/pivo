@@ -2890,6 +2890,20 @@ div{
     opacity: 0;
 }
 
+#cerchiomouse7{
+    background-image: url('../asset/cerchionero.png');
+    background-size: 2700% 100%;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+}
+
+#cerchiomouse8{
+    background-image: url('../asset/cerchionero.png');
+    background-size: 2700% 100%;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+}
+
 /*-------------------------------VALORI-------------------------------*/
 
 .valori{
