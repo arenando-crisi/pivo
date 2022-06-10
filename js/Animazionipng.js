@@ -18,13 +18,53 @@ gsap.to(".cerchio1", 1, {
   ease:SteppedEase.config(26),
 });
 
-/*var cm1 = gsap.to("#cerchiomouse1", 0.3, {
+var cm1 = gsap.to("#cerchiomouse1", 0.3, {
   backgroundPosition:  "100% 50%",
   ease:SteppedEase.config(26),
   paused: true,
 });
 document.querySelector("#cerchiomouse1").onmouseover = () => cm1.play();
-document.querySelector("#cerchiomouse1").onmouseleave = () => cm1.reverse();*/
+document.querySelector("#cerchiomouse1").onmouseleave = () => cm1.reverse();
+
+var cm2 = gsap.to("#cerchiomouse2", 0.3, {
+  backgroundPosition:  "100% 50%",
+  ease:SteppedEase.config(26),
+  paused: true,
+});
+document.querySelector("#cerchiomouse2").onmouseover = () => cm2.play();
+document.querySelector("#cerchiomouse2").onmouseleave = () => cm2.reverse();
+
+var cm3 = gsap.to("#cerchiomouse3", 0.3, {
+  backgroundPosition:  "100% 50%",
+  ease:SteppedEase.config(26),
+  paused: true,
+});
+document.querySelector("#cerchiomouse3").onmouseover = () => cm3.play();
+document.querySelector("#cerchiomouse3").onmouseleave = () => cm3.reverse();
+
+var cm4 = gsap.to("#cerchiomouse4", 0.3, {
+  backgroundPosition:  "100% 50%",
+  ease:SteppedEase.config(26),
+  paused: true,
+});
+document.querySelector("#cerchiomouse4").onmouseover = () => cm4.play();
+document.querySelector("#cerchiomouse4").onmouseleave = () => cm4.reverse();
+
+var cm5 = gsap.to("#cerchiomouse5", 0.3, {
+  backgroundPosition:  "100% 50%",
+  ease:SteppedEase.config(26),
+  paused: true,
+});
+document.querySelector("#cerchiomouse5").onmouseover = () => cm5.play();
+document.querySelector("#cerchiomouse5").onmouseleave = () => cm5.reverse();
+
+var cm6 = gsap.to("#cerchiomouse6", 0.3, {
+  backgroundPosition:  "100% 50%",
+  ease:SteppedEase.config(26),
+  paused: true,
+});
+document.querySelector("#cerchiomouse6").onmouseover = () => cm6.play();
+document.querySelector("#cerchiomouse6").onmouseleave = () => cm6.reverse();
 
 gsap.to(".cerchio2", 1, {
   backgroundPosition:  "100% 50%",

@@ -120,6 +120,18 @@ gsap.to(".titolo", {
     }
 })
 
+gsap.to(".titolomobile", {
+    opacity: 0,
+    duration: 0.4,
+    scrollTrigger: {
+        trigger: ".trigger5",
+        toggleActions: 'restart none none reverse',
+        start: "top 0%",
+        end: "bottom 0%",
+        scrub: true,
+    }
+})
+
 gsap.to(".calltoaction", {
     opacity: 1,
     duration: 0.4,
@@ -131,7 +143,7 @@ gsap.to(".calltoaction", {
     }
 })
 
-gsap.fromTo(".scarica1",{left:'42vw'}, {
+gsap.to(".scarica1", {
     left:'32.5vw',
     duration: 0.4,
     scrollTrigger: {
@@ -143,7 +155,19 @@ gsap.fromTo(".scarica1",{left:'42vw'}, {
     }
 })
 
-gsap.fromTo(".loghinoiniz",{left:'23vw'}, {
+gsap.to("#cerchiomouse2", {
+    left:'32.5vw',
+    duration: 0.4,
+    scrollTrigger: {
+        trigger: ".trigger3",
+        toggleActions: 'restart none none reverse',
+        start: "top 0%",
+        end: "bottom 0%",
+        scrub: true,
+    }
+})
+
+gsap.to(".loghinoiniz", {
     left:'17.5vw',
     duration: 0.4,
     scrollTrigger: {
@@ -168,11 +192,11 @@ gsap.fromTo(".titolo",{fontSize:'9vw', left:'-1vw'}, {
     }
 })
 
-gsap.to(".claim2", {
-    opacity: 1,
+gsap.to(".videomobile", {
+    height: '94vh',
     duration: 0.4,
     scrollTrigger: {
-        trigger: ".trigger4",
+        trigger: ".trigger6",
         toggleActions: 'restart none none reverse',
         start: "top 0%",
         end: "bottom 0%",
@@ -180,7 +204,7 @@ gsap.to(".claim2", {
     }
 })
 
-gsap.fromTo(".claim2",{opacity: 1}, {
+gsap.to(".claim2", {
     opacity: 0,
     duration: 0.4,
     scrollTrigger: {
@@ -219,6 +243,19 @@ gsap.fromTo(".video", {width:'50vw'}, {
 gsap.fromTo(".video", {position:'fixed', top: '1vh'}, {
     position: 'absolute',
     top:'131vh',
+    duration: 0.4,
+    scrollTrigger: {
+        trigger: ".trigger7",
+        toggleActions: 'restart none none reverse',
+        start: "top 0%",
+        end: "bottom 0%",
+        scrub: true,
+    }
+})
+
+gsap.fromTo(".videomobile", {position:'fixed', top: '5vh'}, {
+    position: 'absolute',
+    top:'135vh',
     duration: 0.4,
     scrollTrigger: {
         trigger: ".trigger7",

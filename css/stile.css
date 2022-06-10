@@ -108,6 +108,20 @@ div{
     display: block;
 }
 
+#cerchiomouse3{
+    background-image: url(/asset/cerchionero.png);
+    background-size: 2700% 100%;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+}
+
+#cerchiomouse4{
+    background-image: url(/asset/cerchionero.png);
+    background-size: 2700% 100%;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+}
+
 @media screen and (max-width: 390px) { /*  Telefono  */
     .menù{
         display: none;
@@ -139,6 +153,20 @@ div{
     color: #F0F0F0;
     text-decoration: none;
     display: block;
+}
+
+#cerchiomouse5{
+    background-image: url(/asset/cerchiobianco.png);
+    background-size: 2700% 100%;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+}
+
+#cerchiomouse6{
+    background-image: url(/asset/cerchiobianco.png);
+    background-size: 2700% 100%;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
 }
 
 @media screen and (max-width: 390px) { /*  Telefono  */
@@ -311,6 +339,12 @@ div{
     display: block;
 }
 
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    .hero{
+        background-color: #f0f0f0;
+    }
+}
+
 .aboutus{
     top: 1vh;
     left: 1vw;
@@ -326,6 +360,13 @@ div{
     background-size: 2700% 100%;
     background-repeat: no-repeat;
     background-position: 0% 0%;
+    display: block;
+}
+
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    #cerchiomouse1{
+        display: none;
+    }
 }
 
 .aboutus a{
@@ -336,11 +377,25 @@ div{
     top: 3vh;
     left: 2vw;
     font-size: 1vw;
+    display: block;
+}
+
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    .aboutus a{
+        color: black;
+        font-size: 3vw;
+        top: 1.2vh;
+    }
+}
+
+@media screen and (max-width: 390px) { /*  Telefono  */
+    .aboutus a{
+        display: none;
+    }
 }
 
 .scarica1{
     top: 1vh;
-    left: 1vw;
     font-family: Montreal;
     text-decoration: none;
     color: #F0F0F0;
@@ -348,7 +403,50 @@ div{
     top: 3vh;
     left: 42vw;
     font-size: 1vw;
+    display: block;
 }
+
+#cerchiomouse2{
+    position: fixed;
+    top: 2.5vh;
+    left: 42vw;
+    height: 3vh;
+    width: 6vw;
+    background-image: url(/asset/cerchiobianco.png);
+    background-size: 2700% 100%;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    display: block;
+}
+
+.scarica1mobile{
+    display: none;
+}
+
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    .scarica1{
+        display: none;
+    }
+
+    .scarica1mobile{
+        top: 1vh;
+        font-family: Montreal;
+        text-decoration: none;
+        color: black;
+        position: fixed;
+        top: 1.2vh;
+        left: 82vw;
+        font-size: 3vw;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 390px) { /*  Telefono  */
+    .scarica1mobile{
+        display: none;
+    }
+}
+
 
 .cerchio1{
     background-image: url(/asset/cerchiobianco.png);
@@ -363,11 +461,37 @@ div{
     width: 8vw;
 }
 
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    .cerchio1{
+        background-image: url(/asset/cerchionero.png);
+    }
+}
+
 .loghinoiniz{
     position: fixed;
     height: 5vh;
     top: 2vh;
     left: 23vw;
+    display: block;
+}
+
+.loghinoinizmobile{
+    display: none;
+}
+
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    .loghinoiniz{
+        display: none;
+    }
+
+    .loghinoinizmobile{
+        position: fixed;
+        height: 4vh;
+        top: 0.4vh;
+        left: 50vw;
+        display: block;
+        transform: translate(-50%);
+    }
 }
 
 .titolo{
@@ -387,26 +511,26 @@ div{
 }
 
 @media screen and (max-width: 768px) { /*  Ipad mini  */
-    .titolo{
-        top: 62vh;
-    }
-}
-
-@media screen and (max-width: 390px) { /*  Telefono  */
     .titolomobile{
         display: block;
-        top: 62vh;
-        font-size: 35vw;
+        font-size: 25vw;
         position: fixed;
         margin: 0;
         padding: 0;
         font-family: Formula;
         width: 100vw;
         z-index: 2;
-        text-align: center;
+        text-align: left;
+        top: 64vh;
     }
     .titolo{
         display: none;
+    }
+}
+
+@media screen and (max-width: 390px) { /*  Telefono  */
+    .titolomobile{
+        font-size: 36vw;
     }
 }
   
@@ -421,6 +545,17 @@ div{
     left: 22vw;
     height: 5vw;
     width: 5vw;
+}
+
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    .freccinascroll{
+        background-image: url(/asset/freccinascrollnera.png);
+        top: 92vh;
+        left: 87vw;
+        height: 10vw;
+        width: 10vw;
+        transform: translate(-50%);
+    }
 }
 
 .video{
@@ -448,7 +583,7 @@ div{
     .videomobile{
         display: block;
         position: fixed;
-        top: 1vh;
+        top: 5vh;
         right: 1vw;
         width: 98vw;
         height: 60vh;
@@ -469,6 +604,24 @@ div{
     text-align: center;
 }
 
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    .claim{
+        color: black;
+        width: 95vw;
+        text-align: left;
+        left: 2vw;
+        font-size: 6vw;
+        top: 88vh;
+    }
+}
+
+@media screen and (max-width: 390px) { /*  Telefono  */
+    .claim{
+        left: 3vw;
+        top: 90vh;
+    }
+}
+
 .cerchio1{
     background-image: url(/asset/cerchiobianco.png);
     background-size: 2700% 100%;
@@ -483,23 +636,25 @@ div{
 }
 
 @media screen and (max-width: 768px) { /*  Ipad mini  */
-    .claim{
-        top: 85vh;
-        font-size: 5vh;
+    .cerchio1{
+        background-image: url(/asset/cerchionero.png);
+        top: 89vh;
+        left: 38vw;
+        height: 5vw;
+        width: 18vw;
     }
 }
 
 @media screen and (max-width: 390px) { /*  Telefono  */
-    .claim{
-        top: 90vh;
-        font-size: 3vh;
+    .cerchio1{
+        top: 90.5vh;
     }
 }
 
 .claim2{
     position: absolute;
     font-family: Montreal;
-    opacity: 0;
+    opacity: 1;
     width: 35vw;
     text-align: center;
     font-size: 2.5vw;
@@ -507,6 +662,17 @@ div{
     left: 1.5vw;
     color: #F0F0F0;
 }
+
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    .claim2{
+        width: 98vw;
+        text-align: left;
+        font-size: 5vw;
+        left: 1.5vw;
+        color: black;
+    }
+}
+
 
 .calltoaction{
     position: absolute;
@@ -520,6 +686,18 @@ div{
     display: flex;
     align-items: center;
     flex-direction: column;
+    text-align: left;
+    left: 0;
+}
+
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    .calltoaction{
+        font-size: 15vw;
+        width: 80vw;
+        text-align: center;
+        transform: translate(-50%);
+        left: 50vw;
+    }
 }
 
 .cerchio2{
@@ -534,6 +712,34 @@ div{
     height: 8vw;
     width: 18vw;
 }
+
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    .cerchio2{
+        top: 180vh;
+        left: 36vw;
+        height: 19vw;
+        width: 45vw;
+    }
+}
+
+@media screen and (max-width: 390px) { /*  Telefono  */
+    .cerchio2{
+        top: 174vh;
+    }
+}
+
+@media screen and (max-width: 375px) { /*  Telefono piccolo  */
+    .cerchio2{
+        top: 176.5vh;
+    }
+}
+
+@media screen and (max-width: 360px) { /*  Telefono piccolo piccolo  */
+    .cerchio2{
+        top: 175vh;
+    }
+}
+
 
 .bottonecta{
     padding: 15px;
@@ -550,6 +756,13 @@ div{
     margin-top: 2vh;
 }
 
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    .bottonecta{
+        width: 35vw;
+        font-size: 3.5vw;
+    }
+}
+
 .bottonecta:hover{
     background-color: black;
     color: #F0F0F0;
@@ -561,14 +774,39 @@ div{
     z-index: 100;
 }
 
-#stickernonombra{
-    position: relative;
-    display: block;
+#sticker{
+    position: absolute;
+    z-index: 100;
 }
 
-#stickerconombra{
+#sticker2{
     position: absolute;
-    display: block;
+    top: 50vh;
+    z-index: 100;
+}
+
+#sticker3{
+    position: absolute;
+    top: 100vh;
+    z-index: 100;
+}
+
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    .sticker{
+        display: none;
+    }
+    
+    #sticker{
+        display: none;
+    }
+    
+    #sticker2{
+        display: none;
+    }
+    
+    #sticker3{
+        display: none;
+    }
 }
 
 /*-------------------------------COSA SIAMO-------------------------------*/
@@ -586,8 +824,8 @@ div{
 }
 
 .titoletto{
-    position: relative;
-    top: 0;
+    position: absolute;
+    top: 20vh;
     margin: 0;
     padding: 0;
     font-family: Montreal;
@@ -595,6 +833,20 @@ div{
     width: 100vw;
     z-index: 2;
     text-align: center;
+}
+
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    .titoletto{
+        font-size: 5vw;
+        top: 5vh;
+    }
+}
+
+@media screen and (max-width: 390px) { /*  Telefono  */
+    .titoletto{
+        font-size: 7vw;
+        top: 9vh;
+    }
 }
 
 .cerchio3{
@@ -610,6 +862,24 @@ div{
     width: 12vw;
 }
 
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    .cerchio3{
+        top: 5vh;
+        left: 35vw;
+        height: 6vw;
+        width: 30vw;
+    }
+}
+
+@media screen and (max-width: 390px) { /*  Telefono  */
+    .cerchio3{
+        top: 9vh;
+        left: 29vw;
+        height: 8vw;
+        width: 42vw;
+    }
+}
+
 .statement{
     position: relative;
     top: 30vh;
@@ -620,6 +890,50 @@ div{
     width: 100vw;
     z-index: 2;
     text-align: center;
+    display: block;
+}
+
+.statementmobile{
+    display: none;
+}
+
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    .statementmobile{
+        position: relative;
+        top: 15vh;
+        margin: 0;
+        padding: 0;
+        font-family: Formula;
+        font-size: 7vw;
+        width: 90vw;
+        z-index: 2;
+        text-align: left;
+        display: block;
+        left: 3vw;
+    }
+
+    .statement{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 390px) { /*  Telefono  */
+    .statementmobile{
+        font-size: 9vw;
+        top: 20vh;
+    }
+}
+
+@media screen and (max-width: 375px) { /*  Telefono piccolo  */
+    .statementmobile{
+        top: 20vh;
+    }
+}
+
+@media screen and (max-width: 360px) { /*  Telefono piccolo piccolo  */
+    .statementmobile{
+        top: 18vh;
+    }
 }
 
 .cerchio4{
@@ -633,6 +947,13 @@ div{
     left: 25vw;
     height: 5vw;
     width: 27vw;
+    display: block;
+}
+
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    .cerchio4{
+        display: none;
+    }
 }
 
 .esplora{
@@ -647,6 +968,31 @@ div{
     z-index: 2;
 }
 
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    .esplora{
+        top: 20vh;
+        width: 30vw;
+    }
+}
+
+@media screen and (max-width: 390px) { /*  Telefono  */
+    .esplora{
+        top: 30vh;
+    }
+}
+
+@media screen and (max-width: 375px) { /*  Telefono piccolo  */
+    .esplora{
+        top: 23.5vh;
+    }
+}
+
+@media screen and (max-width: 360px) { /*  Telefono piccolo piccolo  */
+    .esplora{
+        top: 27vh;
+    }
+}
+
 .bottoneesplora{
     padding: 15px;
     background-color: black;
@@ -659,7 +1005,20 @@ div{
     width: 13vw;
     text-align: center;
     transition: 0.3s;
-        border: 2px solid black;
+    border: 2px solid black;
+}
+
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    .bottoneesplora{
+        font-size: 3vw;
+        width: 30vw;
+    }
+}
+
+@media screen and (max-width: 390px) { /*  Telefono  */
+    .bottoneesplora{
+        font-size: 5vw;
+    }
 }
 
 .bottoneesplora:hover{
@@ -679,6 +1038,12 @@ div{
     display: block;
     align-items: center;
     overflow: hidden;
+}
+
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    .cosafai{
+        display: none;
+    }
 }
 
 .titolettosl{
@@ -867,6 +1232,122 @@ div{
     z-index: 2;
 }
 
+.slide1mobile{
+    display: none;
+}
+
+.slide2mobile{
+    display: none;
+}
+
+.slide3mobile{
+    display: none;
+}
+
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    .slide1mobile{
+        display: block;
+        width: 100vw;
+        position: absolute;
+        top: 330vh;
+        height: 100vh;
+        background-color: #A07EFF;
+    }
+
+    .slide2mobile{
+        display: block;
+        width: 100vw;
+        position: absolute;
+        top: 430vh;
+        height: 100vh;
+        background-color: #DFFF9C;
+    }
+
+    .slide3mobile{
+        display: block;
+        width: 100vw;
+        position: absolute;
+        top: 530vh;
+        height: 100vh;
+        background-color: #FA4928;
+    }
+}
+
+.imgslmobile{
+    width: 90vw;
+    left: 5vw;
+    top: 4vh;
+    height: 45vh;
+    position: absolute;
+    overflow: hidden;
+    border-radius: 30px;
+}
+
+.titolettoslmobile{
+    position: absolute;
+    top: 52vh;
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-family: Montreal;
+    font-size: 4vw;
+    width: 20vw;
+    z-index: 2;
+    text-align: left;
+    left: 5vw;
+}
+
+@media screen and (max-width: 390px) { /*  Telefono  */
+    .titolettoslmobile{
+        font-size: 6vw;
+    }
+}
+
+.testoslmobile{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 58vh;
+    left: 5vw;
+    font-family: Formula;
+    font-size: 6vw;
+    width: 90vw;
+    z-index: 2;
+    text-align: left;
+}
+
+@media screen and (max-width: 390px) { /*  Telefono  */
+    .testoslmobile{
+        font-size: 8vw;
+    }
+}
+
+.bottoneslmobile{
+    padding: 15px;
+    background-color: black;
+    position: absolute;
+    color: #F0F0F0;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 50px;
+    font-family: montreal_bold;
+    font-size: 3vw;
+    width: 30vw;
+    text-align: center;
+    top: 89vh;
+    left: 50vw;
+    transform: translate(-50%);
+    transition: 0.3s;
+}
+
+@media screen and (max-width: 390px) { /*  Telefono  */
+    .bottoneslmobile{
+        font-size: 5vw;
+        width: 40vw;
+        top: 86.5vh;
+    }
+}
+
 /*-------------------------------OBIETTIVI-------------------------------*/
 
 .obiettivi{
@@ -879,16 +1360,11 @@ div{
     display: flex;
 }
 
-.titoletto{
-    position: absolute;
-    top: 20vh;
-    margin: 0;
-    padding: 0;
-    font-family: Montreal;
-    font-size: 2vw;
-    width: 100vw;
-    z-index: 2;
-    text-align: center;
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    .obiettivi{
+        top: 630vh;
+        flex-direction: column;
+    }
 }
 
 .statement2{
@@ -904,14 +1380,52 @@ div{
     text-align: left;
 }
 
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    .statement2{
+        display: none;
+    }
+}
+
 .screencommunity{
     position: absolute;
     margin: 0;
     padding: 1vw;
     top: 30vh;
-    right: 0;
+    width: 30vw;
+    right: 10vw;
     vertical-align: middle;
     z-index: 2;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    .screencommunity{
+        left: 4vw;
+        width: 90vw;
+        top: 60vh;
+        height: 35vh;
+    }
+}
+
+@media screen and (max-width: 390px) { /*  Telefono  */
+    .screencommunity{
+        top: 63vh;
+        height: 33vh;
+    }
+}
+
+@media screen and (max-width: 375px) { /*  Telefono piccolo  */
+    .screencommunity{
+        top: 70vh;
+        height: 26vh;
+    }
+}
+
+@media screen and (max-width: 360px) { /*  Telefono piccolo piccolo  */
+    .screencommunity{
+        top: 63vh;
+        height: 33vh;
+    }
 }
 
 /*-------------------------------COMMUNITY & RECENSIONI-------------------------------*/
@@ -925,6 +1439,12 @@ div{
     position: absolute;
     display: block;
     align-items: center;
+}
+
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    .community{
+        display: none;
+    }
 }
 
 .titoletto2{
@@ -1328,6 +1848,152 @@ div{
     border-radius: 30px;
 }
 
+.recemobile{
+    display: none;
+}
+
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    .recemobile{
+        position: absolute;
+        top: 730vh;
+        height: 100vh;
+        width: 100vw;
+        background-color: #000000;
+        display: block;
+    }
+}
+
+.titolettob{
+    position: absolute;
+    top: 5vh;
+    margin: 0;
+    padding: 0;
+    font-family: Montreal;
+    font-size: 5vw;
+    width: 100vw;
+    text-align: center;
+    color: #F0F0F0;
+}
+
+.rece{
+    top: 0vh;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: 1;
+    position: absolute;
+    display: flex;
+    text-align: center;
+    overflow: auto;
+    white-space: nowrap;
+    align-items: center;
+}
+
+.rece1{
+    top: 30vh;
+    margin: 2vw;
+    background-color: #A07EFF;
+    border-radius: 25px;
+    height: 60vh;
+}
+
+.rece2{
+    top: 30vh;
+    margin: 2vw;
+    background-color: #DFFF9C;
+    border-radius: 25px;
+    height: 60vh;
+}
+
+.rece3{
+    top: 30vh;
+    margin: 2vw;
+    background-color: #FA4928;
+    border-radius: 25px;
+    height: 60vh;
+}
+
+.rece4{
+    top: 30vh;
+    margin: 2vw;
+    background-color: #A07EFF;
+    border-radius: 25px;
+    height: 60vh;
+}
+
+.rece5{
+    top: 30vh;
+    margin: 2vw;
+    background-color: #DFFF9C;
+    border-radius: 25px;
+    height: 60vh;
+}
+
+.rece6{
+    top: 30vh;
+    margin: 2vw;
+    background-color: #FA4928;
+    border-radius: 25px;
+    height: 60vh;
+}
+
+.rece7{
+    top: 30vh;
+    margin: 2vw;
+    background-color: #A07EFF;
+    border-radius: 25px;
+    height: 60vh;
+}
+
+.imgrece1{
+    margin: 0;
+    padding: 0;
+    height: 40vh;
+    overflow: hidden;
+    border-radius: 25px 25px 0 0;
+}
+
+.nomerece{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    top: 2vh;
+    font-family: montreal_bold;
+    font-size: 3vw;
+    width: 50vw;
+    text-align: center;
+    z-index: 2;
+}
+
+@media screen and (max-width: 390px) { /*  Telefono  */
+    .nomerece{
+        font-size: 5vw;
+        width: 83vw;
+    }
+}
+
+.txtrece{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    top: 2vh;
+    font-family: Montreal;
+    font-size: 3vw;
+    width: 10vw;
+    text-align: left;
+    z-index: 2;
+    height: 14vh;
+    left: 3vw;
+}
+
+@media screen and (max-width: 390px) { /*  Telefono  */
+    .txtrece{
+        font-size: 5vw;
+        width: 83vw;
+        left: 7vw;
+    }
+}
+
 /*-------------------------------CAMERETTA-------------------------------*/
 
 .ctadadefinire1{
@@ -1342,6 +2008,12 @@ div{
     flex-direction: column;
 }
 
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    .ctadadefinire1{
+        top: 830vh;
+    }
+}
+
 .statement3{
     position: relative;
     top: 30vh;
@@ -1353,6 +2025,12 @@ div{
     width: 100vw;
     z-index: 2;
     text-align: center;
+}
+
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    .statement3{
+        display: none;
+    }
 }
 
 .scarica{
@@ -1380,6 +2058,26 @@ div{
     text-align: center;
 }
 
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    .scarica{
+        width: 30vw;
+    }
+    .bottonescarica{
+        font-size: 3vw;
+        width: 30vw;
+    }
+}
+
+@media screen and (max-width: 390px) { /*  Telefono  */
+    .scarica{
+        width: 50vw;
+    }
+    .bottonescarica{
+        font-size: 5vw;
+        width: 50vw;
+    }
+}
+
 /*-------------------------------FOOTER-------------------------------*/
 .footer{
     background-color: black;
@@ -1397,10 +2095,22 @@ div{
     z-index: 100;
 }
 
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    .footer{
+        top: 930vh;
+    }
+}
+
 .footerup{
     display: flex;
     justify-content: space-around;
     padding: 10vh;
+}
+
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    .footerup{
+        padding: 3vh;
+    }
 }
 
 .blocchetto a{
@@ -1412,6 +2122,12 @@ div{
     text-decoration: none;
 }
 
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    .blocchetto a{
+        font-size: 3vw; 
+    }
+}
+
 .footerdown{
     color: #F0F0F0;
     font-family: Montreal;
@@ -1419,7 +2135,15 @@ div{
     width: 50vw;
     position: relative;;
     left: 37.5vw;
-  }
+}
+
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    .footerdown{
+        font-size: 1.8vw;
+        left: 2vw;
+        width: 98vw;
+    }
+}
 
 /*-------------------------------TRIGGER INDEX-------------------------------*/
 
@@ -1478,6 +2202,12 @@ div{
     display: none;
 }
 
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    .trigger5{
+        top: 50vh;
+    }
+}
+
 .trigger6{
     position: absolute;
     top: 100vh;
@@ -1487,6 +2217,12 @@ div{
     border: 1px solid rebeccapurple;
     z-index: 1000;
     display: none;
+}
+
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    .trigger6{
+        top: 90vh;
+    }
 }
 
 .trigger7{
@@ -1533,6 +2269,12 @@ div{
     display: none;
 }
 
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    .triggerheaderb2{
+        top: 620vh;
+    }
+}
+
 .triggerheaderw1{
     position: absolute;
     top: 320vh;
@@ -1564,6 +2306,12 @@ div{
     border: 1px solid black;
     z-index: 1000;
     display: none;
+}
+
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    .triggerheaderw2{
+        top: 720vh;
+    }
 }
 
 .triggerrec{
@@ -1632,6 +2380,12 @@ div{
     right: 0vw;
     z-index: 100;
     width: 12.5vw;
+}
+
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    .audioplayer{
+        display: none;
+    }
 }
 
 .rotate{
