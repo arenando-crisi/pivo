@@ -2943,6 +2943,7 @@ div{
     z-index: 1;
     position: absolute;
     display: flex;
+    overflow: hidden;
 }
 
 .slidesx{
