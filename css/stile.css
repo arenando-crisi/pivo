@@ -1380,6 +1380,7 @@ div{
     display: flex;
 }
 
+
 @media screen and (max-width: 768px) { /*  Ipad mini  */
     .obiettivi{
         top: 630vh;
@@ -2131,6 +2132,7 @@ div{
     display: flex;
     justify-content: space-around;
     padding: 10vh;
+    align-items: center;
 }
 
 @media screen and (max-width: 768px) { /*  Ipad mini  */
@@ -2768,6 +2770,12 @@ div{
     justify-content: space-around;
     align-items: center;
     text-align: center;
+}
+
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    .screen_condividi{
+        display: none;
+    }
 }
 
 .screenmobilecondividi{
