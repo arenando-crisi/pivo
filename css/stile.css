@@ -1,7 +1,13 @@
 body{
     margin: 0;
-    height: 100000px;
+    height: 1013vh;
     width: 100vw;
+}
+
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    body{
+        height: 963vh;
+    }
 }
 
 div{
@@ -203,6 +209,13 @@ div{
     width: 110px;
     text-align: center;
     margin-right: 10vw;
+    border: 2px solid black;
+    transition: 0.3s;
+}
+
+.button:hover{
+    background-color: #F0F0F0;
+    color: black;
 }
 
 @media screen and (max-width: 768px) { /*  Ipad mini  */
@@ -222,6 +235,13 @@ div{
     width: 110px;
     text-align: center;
     margin-right: 10vw;
+    border: 2px solid #F0F0F0;
+    transition: 0.3s;
+}
+
+.buttonb:hover{
+    background-color: black;
+    color: #f0f0f0;
 }
 
 @media screen and (max-width: 768px) { /*  Ipad mini  */
@@ -771,24 +791,24 @@ div{
 
 .sticker{
     position: absolute;
-    z-index: 100;
+    z-index: 80;
 }
 
 #sticker{
     position: absolute;
-    z-index: 100;
+    z-index: 80;
 }
 
 #sticker2{
     position: absolute;
     top: 50vh;
-    z-index: 100;
+    z-index: 80;
 }
 
 #sticker3{
     position: absolute;
     top: 100vh;
-    z-index: 100;
+    z-index: 80;
 }
 
 @media screen and (max-width: 768px) { /*  Ipad mini  */
@@ -2056,6 +2076,12 @@ div{
     font-size: 1.5vw;
     width: 13vw;
     text-align: center;
+    transition: 0.3s;
+}
+
+.bottonescarica:hover{
+    background-color: #f0f0f0;
+    color: #000000;
 }
 
 @media screen and (max-width: 768px) { /*  Ipad mini  */
@@ -2505,7 +2531,7 @@ div{
     text-align: center;
     z-index: 2;
     margin-bottom: 3vh;
-    margin-top: 6vh;
+    margin-top: 15vh;
 }
 
 .txtscreen{
@@ -2890,18 +2916,18 @@ div{
     opacity: 0;
 }
 
-#cerchiomouse7{
+.cerchiocs{
     background-image: url('../asset/cerchionero.png');
     background-size: 2700% 100%;
     background-repeat: no-repeat;
-    background-position: 0% 0%;
+    background-position: 100% 0%;
 }
 
-#cerchiomouse8{
-    background-image: url('../asset/cerchionero.png');
+.cerchiocsb{
+    background-image: url('../asset/cerchiobianco.png');
     background-size: 2700% 100%;
     background-repeat: no-repeat;
-    background-position: 0% 0%;
+    background-position: 100% 0%;
 }
 
 /*-------------------------------VALORI-------------------------------*/
