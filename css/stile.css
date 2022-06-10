@@ -109,14 +109,14 @@ div{
 }
 
 #cerchiomouse3{
-    background-image: url(/asset/cerchionero.png);
+    background-image: url('../asset/cerchionero.png');
     background-size: 2700% 100%;
     background-repeat: no-repeat;
     background-position: 0% 0%;
 }
 
 #cerchiomouse4{
-    background-image: url(/asset/cerchionero.png);
+    background-image: url('../asset/cerchionero.png');
     background-size: 2700% 100%;
     background-repeat: no-repeat;
     background-position: 0% 0%;
@@ -156,14 +156,14 @@ div{
 }
 
 #cerchiomouse5{
-    background-image: url(/asset/cerchiobianco.png);
+    background-image: url('../asset/cerchiobianco.png');
     background-size: 2700% 100%;
     background-repeat: no-repeat;
     background-position: 0% 0%;
 }
 
 #cerchiomouse6{
-    background-image: url(/asset/cerchiobianco.png);
+    background-image: url('../asset/cerchiobianco.png');
     background-size: 2700% 100%;
     background-repeat: no-repeat;
     background-position: 0% 0%;
@@ -356,7 +356,7 @@ div{
     left: 1.5vw;
     height: 3vh;
     width: 5vw;
-    background-image: url(/asset/cerchiobianco.png);
+    background-image: url('../asset/cerchiobianco.png');
     background-size: 2700% 100%;
     background-repeat: no-repeat;
     background-position: 0% 0%;
@@ -412,7 +412,7 @@ div{
     left: 42vw;
     height: 3vh;
     width: 6vw;
-    background-image: url(/asset/cerchiobianco.png);
+    background-image: url('../asset/cerchiobianco.png');
     background-size: 2700% 100%;
     background-repeat: no-repeat;
     background-position: 0% 0%;
@@ -449,7 +449,7 @@ div{
 
 
 .cerchio1{
-    background-image: url(/asset/cerchiobianco.png);
+    background-image: url('../asset/cerchiobianco.png');
     background-size: 2700% 100%;
     background-repeat: no-repeat;
     background-position: 0% 0%;
@@ -463,7 +463,7 @@ div{
 
 @media screen and (max-width: 768px) { /*  Ipad mini  */
     .cerchio1{
-        background-image: url(/asset/cerchionero.png);
+        background-image: url('../asset/cerchionero.png');
     }
 }
 
@@ -535,7 +535,7 @@ div{
 }
   
 .freccinascroll{
-    background-image: url(/asset/freccinascroll.png);
+    background-image: url('../asset/freccinascroll.png');
     background-size: 3000% 100%;
     background-repeat: no-repeat;
     background-position: 0% 50%;
@@ -549,7 +549,7 @@ div{
 
 @media screen and (max-width: 768px) { /*  Ipad mini  */
     .freccinascroll{
-        background-image: url(/asset/freccinascrollnera.png);
+        background-image: url('../asset/freccinascrollnera.png');
         top: 92vh;
         left: 87vw;
         height: 10vw;
@@ -623,7 +623,7 @@ div{
 }
 
 .cerchio1{
-    background-image: url(/asset/cerchiobianco.png);
+    background-image: url('../asset/cerchiobianco.png');
     background-size: 2700% 100%;
     background-repeat: no-repeat;
     background-position: 0% 0%;
@@ -637,7 +637,7 @@ div{
 
 @media screen and (max-width: 768px) { /*  Ipad mini  */
     .cerchio1{
-        background-image: url(/asset/cerchionero.png);
+        background-image: url('../asset/cerchionero.png');
         top: 89vh;
         left: 38vw;
         height: 5vw;
@@ -701,7 +701,7 @@ div{
 }
 
 .cerchio2{
-    background-image: url(/asset/cerchiobianco.png);
+    background-image: url('../asset/cerchiobianco.png');
     background-size: 2700% 100%;
     background-repeat: no-repeat;
     background-position: 0% 0%;
@@ -850,7 +850,7 @@ div{
 }
 
 .cerchio3{
-    background-image: url(/asset/cerchionero.png);
+    background-image: url('../asset/cerchionero.png');
     background-size: 2700% 100%;
     background-repeat: no-repeat;
     background-position: 0% 0%;
@@ -937,7 +937,7 @@ div{
 }
 
 .cerchio4{
-    background-image: url(/asset/cerchionero.png);
+    background-image: url('../asset/cerchionero.png');
     background-size: 2700% 100%;
     background-repeat: no-repeat;
     background-position: 0% 0%;
@@ -2402,7 +2402,7 @@ div{
   }
 /*-------------------------------SCOPRI: ORGANIZZA-------------------------------*/
 
-#scopri_organizza{
+.scopri_organizza{
     background-color: #A07EFF;
     top: 0;
     height: 100vh;
@@ -2423,6 +2423,18 @@ div{
     text-align: center;
 }
 
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    .titoletto3{
+        font-size: 5vw;
+    }
+}
+
+@media screen and (max-width: 390px) { /*  Telefono  */
+    .titoletto3{
+        font-size: 6.5vw;
+    }
+}
+
 .statement4{
     position: relative;
     top: 20vh;
@@ -2435,6 +2447,30 @@ div{
     width: 90vw;
     z-index: 2;
     text-align: left;
+}
+
+.statement4mobile{
+    display: none;
+}
+
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    .statement4{
+        display: none;
+    }
+
+    .statement4mobile{
+        position: absolute;
+        bottom: 1vh;
+        left: 5vw;
+        margin: 0;
+        padding: 0;
+        font-family: Formula;
+        font-size: 8.5vw;
+        width: 90vw;
+        z-index: 2;
+        text-align: left;
+        display: block;
+    }
 }
 
 /*-------------------------------SCREEN ORGANIZZA-------------------------------*/
@@ -2451,6 +2487,12 @@ div{
     align-items: center;
     text-align: center;
     vertical-align: baseline;
+}
+
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    .screen_organizza{
+        display: none;
+    }
 }
 
 .ctascreen{
@@ -2530,6 +2572,104 @@ div{
     height: 30vh;
     overflow: hidden;
 }
+
+.screenmobileorganizza{
+    display: none;
+}
+
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    .screenmobileorganizza{
+        display: flex;
+        position: absolute;
+        background-color: #F0F0F0;
+        top: 100vh;
+        height: 100vh;
+        width: 100vw;
+        overflow: scroll;
+    }
+}
+
+.screen1mobile{
+    position: relative;
+    background-color: #A07EFF;
+    height: 85vh;
+    top: 6vh;
+    width: 90vw;
+    margin: 2vw;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.screen2mobile{
+    position: relative;
+    background-color: #DFFF9C;
+    height: 85vh;
+    top: 6vh;
+    width: 90vw;
+    margin: 2vw;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.screen3mobile{
+    position: relative;
+    background-color: #FA4928;
+    height: 85vh;
+    top: 6vh;
+    width: 90vw;
+    margin: 2vw;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 390px) { /*  Telefono  */
+    .screen1mobile{
+        margin: 4vw;
+    }
+
+    .screen2mobile{
+        margin: 4vw;
+    }
+
+    .screen3mobile{
+        margin: 4vw;
+    }
+}
+
+.ctascreenmobile{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    font-family: Formula;
+    font-size: 8.5vw;
+    width: 90vw;
+    text-align: center;
+    z-index: 2;
+    margin-bottom: 3vh;
+    margin-top: 3.5vh;
+}
+
+.txtscreenmobile{
+    font-family: Montreal;
+    font-size: 3vw;
+    margin-left: 5vw;
+    width: 80vw;
+    text-align: center;
+}
+
+.imgscreenmobile{
+    overflow: hidden;
+    margin: 5vh;
+}
+
+@media screen and (max-width: 390px) { /*  Telefono  */
+    .imgscreenmobile{
+        margin: 3vh;
+    }
+}
 /*-------------------------------SCOPRI: GIOCA-------------------------------*/
 
 #scopri_gioca{
@@ -2556,6 +2696,28 @@ div{
     text-align: center;
 }
 
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    .screen_gioca{
+        display: none;
+    }
+}
+
+.screenmobilegioca{
+    display: none;
+}
+
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    .screenmobilegioca{
+        display: flex;
+        position: absolute;
+        background-color: #F0F0F0;
+        top: 300vh;
+        height: 100vh;
+        width: 100vw;
+        overflow: scroll;
+    }
+}
+
 /*-------------------------------SCOPRI: CONDIVIDI-------------------------------*/
 
 #scopri_condividi{
@@ -2580,6 +2742,22 @@ div{
     justify-content: space-around;
     align-items: center;
     text-align: center;
+}
+
+.screenmobilecondividi{
+    display: none;
+}
+
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    .screenmobilecondividi{
+        display: flex;
+        position: absolute;
+        background-color: #F0F0F0;
+        top: 500vh;
+        height: 100vh;
+        width: 100vw;
+        overflow: scroll;
+    }
 }
 
 /*-------------------------------CAMERETTA 2-------------------------------*/
@@ -2959,7 +3137,7 @@ div{
 }
 
 .freccinaorizzontale{
-    background-image: url(/asset/freccinascrollnera.png);
+    background-image: url('../asset/freccinascrollnera.png');
     background-size: 3000% 100%;
     background-repeat: no-repeat;
     background-position: 0% 50%;

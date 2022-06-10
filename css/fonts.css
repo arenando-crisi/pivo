@@ -1,14 +1,14 @@
 @font-face {
     font-family: Formula;
-    src: url(/asset/fonts/PPFormula-ExtendedBold.otf);
+    src: url('../asset/fonts/PPFormula-ExtendedBold.otf');
   }
 
 @font-face {
     font-family: Montreal;
-    src: url(/asset/fonts/PPNeueMontreal-Medium.otf);
+    src: url('..//asset/fonts/PPNeueMontreal-Medium.otf');
   }
 
   @font-face {
     font-family: Montreal_bold;
-    src: url(/asset/fonts/PPNeueMontreal-Bold.otf);
+    src: url('..//asset/fonts/PPNeueMontreal-Bold.otf');
   }
