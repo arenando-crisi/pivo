@@ -20,28 +20,28 @@ atxt1.to(".atxt1", 0.1, {
 atxt1.to(".atxt1", 0.2, {
   top: '0vh',
   ease: "back.out(4)",
-},"<50%");
+},"<70%");
 atxt1.to(".atxt2", 0.1, {
   opacity: 1,
-},"<50%");
+},"<70%");
 atxt1.to(".atxt2", 0.2, {
   top: '0vh',
   ease: "back.out(4)",
-},"<50%");
+},"<70%");
 atxt1.to(".atxt3", 0.1, {
   opacity: 1,
-},"<50%");
+},"<70%");
 atxt1.to(".atxt3", 0.2, {
   top: '0vh',
   ease: "back.out(4)",
-},"<50%");
+},"<70%");
 atxt1.to(".atxt4", 0.1, {
   opacity: 1,
-},"<50%");
+},"<70%");
 atxt1.to(".atxt4", 0.2, {
   top: '0vh',
   ease: "back.out(4)",
-},"<50%");
+},"<70%");
 atxt1.to(".cerchio1", 1, {
   backgroundPosition:  "100% 50%",
   ease:SteppedEase.config(26),
@@ -55,31 +55,32 @@ atxt1_1.to(".atxt5", 0.1, {
 atxt1_1.to(".atxt5", 0.2, {
   top: '0vh',
   ease: "back.out(4)",
-},"<50%");
+},"<70%");
 atxt1_1.to(".atxt6", 0.1, {
   opacity: 1,
-},"<50%");
+},"<70%");
 atxt1_1.to(".atxt6", 0.2, {
   top: '0vh',
   ease: "back.out(4)",
-},"<50%");
+},"<70%");
 atxt1_1.to(".atxt7", 0.1, {
   opacity: 1,
-},"<50%");
+},"<70%");
 atxt1_1.to(".atxt7", 0.2, {
   top: '0vh',
   ease: "back.out(4)",
-},"<50%");
+},"<70%");
 atxt1_1.to(".atxt8", 0.1, {
   opacity: 1,
-},"<50%");
+},"<70%");
 atxt1_1.to(".atxt8", 0.2, {
   top: '0vh',
   ease: "back.out(4)",
-},"<50%");
+},"<70%");
 
 
-let atxt2 = gsap.timeline({scrollTrigger: {
+let atxt2 = gsap.timeline({
+  scrollTrigger: {
   trigger: ".trigger3",
   toggleActions: 'play none none none',
   start: "top 0%",
@@ -92,112 +93,112 @@ atxt2.to(".atxt9", 0.1, {
 atxt2.to(".atxt9", 0.2, {
   top: '0vh',
   ease: "back.out(4)",
-},"<50%");
+},"<70%");
 atxt2.to(".atxt10", 0.1, {
   opacity: 1,
-},"<50%");
+},"<70%");
 atxt2.to(".atxt10", 0.2, {
   top: '0vh',
   ease: "back.out(4)",
-},"<50%");
+},"<70%");
 atxt2.to(".atxt11", 0.1, {
   opacity: 1,
-},"<50%");
+},"<70%");
 atxt2.to(".atxt11", 0.2, {
   top: '0vh',
   ease: "back.out(4)",
-},"<50%");
+},"<70%");
 atxt2.to(".atxt12", 0.1, {
   opacity: 1,
-},"<50%");
+},"<70%");
 atxt2.to(".atxt12", 0.2, {
   top: '0vh',
   ease: "back.out(4)",
-},"<50%");
+},"<70%");
 atxt2.to(".atxt13", 0.1, {
   opacity: 1,
-},"<50%");
+},"<70%");
 atxt2.to(".atxt13", 0.2, {
   top: '0vh',
   ease: "back.out(4)",
-},"<50%");
+},"<70%");
 atxt2.to(".atxt14", 0.1, {
   opacity: 1,
-},"<50%");
+},"<70%");
 atxt2.to(".atxt14", 0.2, {
   top: '0vh',
   ease: "back.out(4)",
-},"<50%");
+},"<70%");
 atxt2.to(".atxt15", 0.1, {
   opacity: 1,
-},"<50%");
+},"<70%");
 atxt2.to(".atxt15", 0.2, {
   top: '0vh',
   ease: "back.out(4)",
-},"<50%");
+},"<70%");
 atxt2.to(".atxt16", 0.1, {
   opacity: 1,
-},"<50%");
+},"<70%");
 atxt2.to(".atxt16", 0.2, {
   top: '0vh',
   ease: "back.out(4)",
-},"<50%");
+},"<70%");
 atxt2.to(".atxt17", 0.1, {
   opacity: 1,
-},"<50%");
+},"<70%");
 atxt2.to(".atxt17", 0.2, {
   top: '0vh',
   ease: "back.out(4)",
-},"<50%");
+},"<70%");
 atxt2.to(".atxt18", 0.1, {
   opacity: 1,
 },"<250%");
 atxt2.to(".atxt18", 0.2, {
   top: '0vh',
   ease: "back.out(4)",
-},"<50%");
+},"<70%");
 atxt2.to(".atxt19", 0.1, {
   opacity: 1,
-},"<50%");
+},"<70%");
 atxt2.to(".atxt19", 0.2, {
   top: '0vh',
   ease: "back.out(4)",
-},"<50%");
+},"<70%");
 atxt2.to(".atxt20", 0.1, {
   opacity: 1,
-},"<50%");
+},"<70%");
 atxt2.to(".atxt20", 0.2, {
   top: '0vh',
   ease: "back.out(4)",
-},"<50%");
+},"<70%");
 atxt2.to(".atxt21", 0.1, {
   opacity: 1,
-},"<50%");
+},"<70%");
 atxt2.to(".atxt21", 0.2, {
   top: '0vh',
   ease: "back.out(4)",
-},"<50%");
+},"<70%");
 atxt2.to(".atxt22", 0.1, {
   opacity: 1,
-},"<50%");
+},"<70%");
 atxt2.to(".atxt22", 0.2, {
   top: '0vh',
   ease: "back.out(4)",
-},"<50%");
+},"<70%");
 atxt2.to(".atxt23", 0.1, {
   opacity: 1,
-},"<50%");
+},"<70%");
 atxt2.to(".atxt23", 0.2, {
   top: '0vh',
   ease: "back.out(4)",
-},"<50%");
+},"<70%");
 atxt2.to(".atxt24", 0.1, {
   opacity: 1,
-},"<50%");
+},"<70%");
 atxt2.to(".atxt24", 0.2, {
   top: '0vh',
   ease: "back.out(4)",
-},"<50%");
+},"<70%");
 
 
 var cm1 = gsap.to("#cerchiomouse1", 0.3, {
@@ -259,18 +260,282 @@ gsap.to(".cerchio2", 1, {
 }
 });
 
-let cosacerchi = gsap.timeline({scrollTrigger: {
+let cosacerchi = gsap.timeline({
+  scrollTrigger: {
   trigger: ".triggerheaderb1",
   toggleActions: 'play none none none',
   start: "top 0%",
   end: "bottom 0%",
-}})
+}});
 cosacerchi.to(".cerchio3", {
   backgroundPosition:  "100% 50%",
   ease:SteppedEase.config(26),
   duration: 0.5,
-})
+});
+cosacerchi.to(".atxt25", 0.1, {
+  opacity: 1,
+});
+cosacerchi.to(".atxt25", 0.2, {
+  top: '0vh',
+  ease: "back.out(4)",
+},"<70%");
+cosacerchi.to(".atxt26", 0.1, {
+  opacity: 1,
+},"<70%");
+cosacerchi.to(".atxt26", 0.2, {
+  top: '0vh',
+  ease: "back.out(4)",
+},"<70%");
+cosacerchi.to(".atxt27", 0.1, {
+  opacity: 1,
+},"<70%");
+cosacerchi.to(".atxt27", 0.2, {
+  top: '0vh',
+  ease: "back.out(4)",
+},"<70%");
+cosacerchi.to(".atxt28", 0.1, {
+  opacity: 1,
+},"<70%");
+cosacerchi.to(".atxt28", 0.2, {
+  top: '0vh',
+  ease: "back.out(4)",
+},"<70%");
+cosacerchi.to(".atxt29", 0.1, {
+  opacity: 1,
+},"<70%");
+cosacerchi.to(".atxt29", 0.2, {
+  top: '0vh',
+  ease: "back.out(4)",
+},"<70%");
+cosacerchi.to(".atxt30", 0.1, {
+  opacity: 1,
+},"<70%");
+cosacerchi.to(".atxt30", 0.2, {
+  top: '0vh',
+  ease: "back.out(4)",
+},"<70%");
+cosacerchi.to(".atxt31", 0.1, {
+  opacity: 1,
+},"<70%");
+cosacerchi.to(".atxt31", 0.2, {
+  top: '0vh',
+  ease: "back.out(4)",
+},"<70%");
+cosacerchi.to(".atxt32", 0.1, {
+  opacity: 1,
+},"<70%");
+cosacerchi.to(".atxt32", 0.2, {
+  top: '0vh',
+  ease: "back.out(4)",
+},"<70%");
+cosacerchi.to(".atxt33", 0.1, {
+  opacity: 1,
+},"<70%");
+cosacerchi.to(".atxt33", 0.2, {
+  top: '0vh',
+  ease: "back.out(4)",
+},"<70%");
+cosacerchi.to(".atxt34", 0.1, {
+  opacity: 1,
+},"<70%");
+cosacerchi.to(".atxt34", 0.2, {
+  top: '0vh',
+  ease: "back.out(4)",
+},"<70%");
+cosacerchi.to(".atxt35", 0.1, {
+  opacity: 1,
+},"<70%");
+cosacerchi.to(".atxt35", 0.2, {
+  top: '0vh',
+  ease: "back.out(4)",
+},"<70%");
 cosacerchi.to(".cerchio4", {
+  backgroundPosition:  "100% 50%",
+  ease:SteppedEase.config(26),
+  duration: 0.8,
+});
+
+gsap.to(".cerchio5", {
+  scrollTrigger: {
+    trigger: ".triggerheaderw1",
+    toggleActions: 'play none none none',
+    start: "top 0%",
+    end: "bottom 0%",
+  },  
+  backgroundPosition:  "100% 50%",
+  ease:SteppedEase.config(26),
+  duration: 0.8,
+});
+
+gsap.to(".cerchio6", {
+  scrollTrigger: {
+    trigger: ".triggerheaderw1",
+    toggleActions: 'play none none none',
+    start: "top 0%",
+    end: "bottom 0%",
+  },  
+  delay: 0.6,
+  backgroundPosition:  "100% 50%",
+  ease:SteppedEase.config(26),
+  duration: 0.8,
+});
+
+gsap.to(".cerchio7", {
+  scrollTrigger: {
+    trigger: ".triggerslc1",
+    toggleActions: 'play none none none',
+    start: "top 0%",
+    end: "bottom 0%",
+  },  
+  backgroundPosition:  "100% 50%",
+  ease:SteppedEase.config(26),
+  duration: 0.8,
+});
+
+gsap.to(".cerchio8", {
+  scrollTrigger: {
+    trigger: ".triggerslc2",
+    toggleActions: 'play none none none',
+    start: "top 0%",
+    end: "bottom 0%",
+  },  
+  backgroundPosition:  "100% 50%",
+  ease:SteppedEase.config(26),
+  duration: 0.8,
+});
+
+gsap.to(".cerchio9", {
+  scrollTrigger: {
+    trigger: ".triggerheaderw1",
+    toggleActions: 'play none none none',
+    start: "top 0%",
+    end: "bottom 0%",
+  },  
+  delay: 0.6,
+  backgroundPosition:  "100% 50%",
+  ease:SteppedEase.config(26),
+  duration: 0.8,
+});
+
+gsap.to(".cerchio10", {
+  scrollTrigger: {
+    trigger: ".triggerslc1",
+    toggleActions: 'play none none none',
+    start: "top 0%",
+    end: "bottom 0%",
+  },  
+  backgroundPosition:  "100% 50%",
+  ease:SteppedEase.config(26),
+  duration: 0.8,
+});
+
+gsap.to(".cerchio11", {
+  scrollTrigger: {
+    trigger: ".triggerslc2",
+    toggleActions: 'play none none none',
+    start: "top 0%",
+    end: "bottom 0%",
+  },  
+  backgroundPosition:  "100% 50%",
+  ease:SteppedEase.config(26),
+  duration: 0.8,
+});
+
+let cerchiobiettivi = gsap.timeline({
+  scrollTrigger: {
+  trigger: ".triggerheaderb2",
+  toggleActions: 'play none none none',
+  start: "top 0%",
+  end: "bottom 0%",
+}});
+cerchiobiettivi.to(".cerchio12", {
+  backgroundPosition:  "100% 50%",
+  ease:SteppedEase.config(26),
+  duration: 0.5,
+});
+cerchiobiettivi.to(".atxt36", 0.1, {
+  opacity: 1,
+});
+cerchiobiettivi.to(".atxt36", 0.2, {
+  top: '0vh',
+  ease: "back.out(4)",
+},"<70%");
+cerchiobiettivi.to(".atxt37", 0.1, {
+  opacity: 1,
+});
+cerchiobiettivi.to(".atxt37", 0.2, {
+  top: '0vh',
+  ease: "back.out(4)",
+},"<70%");
+cerchiobiettivi.to(".atxt38", 0.1, {
+  opacity: 1,
+});
+cerchiobiettivi.to(".atxt38", 0.2, {
+  top: '0vh',
+  ease: "back.out(4)",
+},"<70%");
+cerchiobiettivi.to(".atxt39", 0.1, {
+  opacity: 1,
+});
+cerchiobiettivi.to(".atxt39", 0.2, {
+  top: '0vh',
+  ease: "back.out(4)",
+},"<70%");
+cerchiobiettivi.to(".atxt40", 0.1, {
+  opacity: 1,
+});
+cerchiobiettivi.to(".atxt40", 0.2, {
+  top: '0vh',
+  ease: "back.out(4)",
+},"<70%");
+cerchiobiettivi.to(".atxt41", 0.1, {
+  opacity: 1,
+});
+cerchiobiettivi.to(".atxt41", 0.2, {
+  top: '0vh',
+  ease: "back.out(4)",
+},"<70%");
+cerchiobiettivi.to(".atxt42", 0.1, {
+  opacity: 1,
+});
+cerchiobiettivi.to(".atxt42", 0.2, {
+  top: '0vh',
+  ease: "back.out(4)",
+},"<70%");
+cerchiobiettivi.to(".atxt43", 0.1, {
+  opacity: 1,
+});
+cerchiobiettivi.to(".atxt43", 0.2, {
+  top: '0vh',
+  ease: "back.out(4)",
+},"<70%");
+cerchiobiettivi.to(".atxt44", 0.1, {
+  opacity: 1,
+});
+cerchiobiettivi.to(".atxt44", 0.2, {
+  top: '0vh',
+  ease: "back.out(4)",
+},"<70%");
+cerchiobiettivi.to(".atxt45", 0.1, {
+  opacity: 1,
+});
+cerchiobiettivi.to(".atxt45", 0.2, {
+  top: '0vh',
+  ease: "back.out(4)",
+},"<70%");
+cerchiobiettivi.to(".cerchio13", {
+  backgroundPosition:  "100% 50%",
+  ease:SteppedEase.config(26),
+  duration: 0.5,
+});
+
+gsap.to(".cerchio14", {
+  scrollTrigger: {
+    trigger: ".trigger9",
+    toggleActions: 'play none none none',
+    start: "top 0%",
+    end: "bottom 0%",
+  },  
   backgroundPosition:  "100% 50%",
   ease:SteppedEase.config(26),
   duration: 0.8,

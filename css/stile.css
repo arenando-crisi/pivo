@@ -6,24 +6,13 @@ body{
 
 @media screen and (max-width: 768px) { /*  Ipad mini  */
     body{
-        height: 963vh;
+        height: 943vh;
     }
 }
 
 div{
     margin: 0;
 }
-
-/* Hide scrollbar for Chrome, Safari and Opera */
-.example::-webkit-scrollbar {
-    display: none;
-  }
-  
-  /* Hide scrollbar for IE, Edge and Firefox */
-  .example {
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
-  }
 
 /*---------------------------------------------------------------------------*/
 /*----------------------------       INDEX       ----------------------------*/
@@ -961,6 +950,112 @@ div{
     opacity: 0;
     top: 1vh;
 }
+.atxt25{
+    position: relative;
+    opacity: 0;
+    top: 1vh;
+}
+.atxt26{
+    position: relative;
+    opacity: 0;
+    top: 1vh;
+}
+.atxt27{
+    position: relative;
+    opacity: 0;
+    top: 1vh;
+}
+.atxt28{
+    position: relative;
+    opacity: 0;
+    top: 1vh;
+}
+.atxt29{
+    position: relative;
+    opacity: 0;
+    top: 1vh;
+}
+.atxt30{
+    position: relative;
+    opacity: 0;
+    top: 1vh;
+}
+.atxt31{
+    position: relative;
+    opacity: 0;
+    top: 1vh;
+}
+.atxt32{
+    position: relative;
+    opacity: 0;
+    top: 1vh;
+}
+.atxt33{
+    position: relative;
+    opacity: 0;
+    top: 1vh;
+}
+.atxt34{
+    position: relative;
+    opacity: 0;
+    top: 1vh;
+}
+.atxt35{
+    position: relative;
+    opacity: 0;
+    top: 1vh;
+}
+.atxt36{
+    position: relative;
+    opacity: 0;
+    top: 1vh;
+}
+.atxt37{
+    position: relative;
+    opacity: 0;
+    top: 1vh;
+}
+.atxt38{
+    position: relative;
+    opacity: 0;
+    top: 1vh;
+}
+.atxt39{
+    position: relative;
+    opacity: 0;
+    top: 1vh;
+}
+.atxt40{
+    position: relative;
+    opacity: 0;
+    top: 1vh;
+}
+.atxt41{
+    position: relative;
+    opacity: 0;
+    top: 1vh;
+}
+.atxt42{
+    position: relative;
+    opacity: 0;
+    top: 1vh;
+}
+.atxt43{
+    position: relative;
+    opacity: 0;
+    top: 1vh;
+}
+.atxt44{
+    position: relative;
+    opacity: 0;
+    top: 1vh;
+}
+.atxt45{
+    position: relative;
+    opacity: 0;
+    top: 1vh;
+}
+
 
 /*-------------------------------COSA SIAMO-------------------------------*/
 
@@ -1216,13 +1311,13 @@ div{
     background-image: url('../asset/cerchiobianco.png');
     background-size: 2700% 100%;
     background-repeat: no-repeat;
-    background-position: 100% 0%;
+    background-position: 0% 0%;
     z-index: 5;
     position: absolute;
     top: 9vh;
-    left: 41vw;
+    left: 45.5vw;
     height: 3.5vw;
-    width: 18vw;
+    width: 9vw;
 }
 
 .slide1{
@@ -1259,7 +1354,7 @@ div{
     background-image: url('../asset/cerchionero.png');
     background-size: 2700% 100%;
     background-repeat: no-repeat;
-    background-position: 100% 0%;
+    background-position: 0% 0%;
     z-index: 5;
     position: absolute;
     top: 2vh;
@@ -1302,7 +1397,7 @@ div{
     width: 13vw;
     text-align: center;
     top: 45vh;
-    left: 12vw;
+    left: 8vw;
     transition: 0.3s;
 }
 
@@ -1344,7 +1439,7 @@ div{
     background-image: url('../asset/cerchionero.png');
     background-size: 2700% 100%;
     background-repeat: no-repeat;
-    background-position: 100% 0%;
+    background-position: 0% 0%;
     z-index: 5;
     position: absolute;
     top: 2.5vh;
@@ -1407,7 +1502,7 @@ div{
     background-image: url('../asset/cerchionero.png');
     background-size: 2700% 100%;
     background-repeat: no-repeat;
-    background-position: 100% 0%;
+    background-position: 0% 0%;
     z-index: 5;
     position: absolute;
     top: 2vh;
@@ -1479,13 +1574,20 @@ div{
 }
 
 .imgslmobile{
-    width: 90vw;
-    left: 5vw;
+    width: 60vw;
+    left: 20vw;
     top: 4vh;
     height: 45vh;
     position: absolute;
     overflow: hidden;
     border-radius: 30px;
+}
+
+@media screen and (max-width: 390px) { /*  Telefono  */
+    .imgslmobile{
+        width: 90vw;
+        left: 5vw;
+    }
 }
 
 .titolettoslmobile{
@@ -1500,6 +1602,49 @@ div{
     z-index: 2;
     text-align: left;
     left: 5vw;
+}
+
+.cerchio9{
+    background-image: url('../asset/cerchionero.png');
+    background-size: 2700% 100%;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    z-index: 5;
+    position: absolute;
+    top: 52vh;
+    left: 4vw;
+    height: 5vw;
+    width: 20vw;
+}
+
+@media screen and (max-width: 390px) { /*  Telefono  */
+
+1sd}
+
+.cerchio10{
+    background-image: url('../asset/cerchionero.png');
+    background-size: 2700% 100%;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    z-index: 5;
+    position: absolute;
+    top: 52vh;
+    left: 4vw;
+    height: 5vw;
+    width: 13vw;
+}
+
+.cerchio11{
+    background-image: url('../asset/cerchionero.png');
+    background-size: 2700% 100%;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    z-index: 5;
+    position: absolute;
+    top: 52vh;
+    left: 4vw;
+    height: 5vw;
+    width: 20vw;
 }
 
 @media screen and (max-width: 390px) { /*  Telefono  */
@@ -1576,19 +1721,61 @@ div{
 .statement2{
     position: absolute;
     top: 30vh;
-    left: 1.5vw;
+    left: 4vw;
     margin: 0;
     padding: 0;
     font-family: Formula;
     font-size: 4vw;
-    width: 70vw;
+    width: 45vw;
     z-index: 2;
     text-align: left;
+}
+
+.cerchio12{
+    background-image: url('../asset/cerchionero.png');
+    background-size: 2700% 100%;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    z-index: 5;
+    position: absolute;
+    top: 20vh;
+    left: 42vw;
+    height: 2.5vw;
+    width: 16vw;
 }
 
 @media screen and (max-width: 768px) { /*  Ipad mini  */
     .statement2{
         display: none;
+    }
+
+    .cerchio12{
+        top: 5.5vh;
+        left: 30vw;
+        height: 5vw;
+        width: 41vw;
+    }
+}
+
+.cerchio13{
+    background-image: url('../asset/cerchionero.png');
+    background-size: 2700% 100%;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    z-index: 5;
+    position: absolute;
+    top: 59vh;
+    left: 3.5vw;
+    height: 5.5vw;
+    width: 31vw;
+}
+
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    .cerchio13{
+        top: 37vh;
+        left: 2vw;
+        height: 9vw;
+        width: 56vw;
     }
 }
 
@@ -1597,8 +1784,9 @@ div{
     margin: 0;
     padding: 1vw;
     top: 30vh;
-    width: 30vw;
-    right: 10vw;
+    width: 40vw;
+    height: 60vh;
+    right: 4vw;
     vertical-align: middle;
     z-index: 2;
     overflow: hidden;
@@ -2233,6 +2421,19 @@ div{
     text-align: center;
 }
 
+.cerchio14{
+    background-image: url('../asset/cerchionero.png');
+    background-size: 2700% 100%;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    z-index: 5;
+    position: absolute;
+    top: 19vh;
+    left: 44vw;
+    height: 3vw;
+    width: 12vw;
+}
+
 @media screen and (max-width: 768px) { /*  Ipad mini  */
     .statement3{
         display: none;
@@ -2394,6 +2595,13 @@ div{
     display: none;
 }
 
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    .trigger3{
+        top: 30vh;
+        height: 15vh;
+    }
+}
+
 .trigger4{
     position: absolute;
     top: 52vh;
@@ -2461,6 +2669,17 @@ div{
     display: none;
 }
 
+.trigger9{
+    position: absolute;
+    top: 870vh;
+    left: 0;
+    width: 10vw;
+    height: 1px;
+    border: 1px solid black;
+    z-index: 1000;
+    display: none;
+}
+
 .triggerheaderb1{
     position: absolute;
     top: 220vh;
@@ -2511,6 +2730,34 @@ div{
     display: none;
 }
 
+.triggerslc1{
+    position: absolute;
+    top: 420vh;
+    left: 0;
+    width: 10vw;
+    height: 1px;
+    border: 1px solid gold;
+    z-index: 1000;
+    display: none;
+}
+
+.triggerslc2{
+    position: absolute;
+    top: 550vh;
+    left: 0;
+    width: 10vw;
+    height: 1px;
+    border: 1px solid gold;
+    z-index: 1000;
+    display: none;
+}
+
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    .triggerslc2{
+        top: 520vh;
+    }
+}
+
 .triggerheaderw2{
     position: absolute;
     top: 770vh;
@@ -2530,11 +2777,11 @@ div{
 
 .triggerrec{
     position: absolute;
-    top: 740vh;
+    top: 720vh;
     left: 0;
     width: 10vw;
-    height: 1px;
-    border: 1px solid black;
+    height: 50vh;
+    border: 1px solid rebeccapurple;
     z-index: 1000;
     display: none;
 }
@@ -3241,6 +3488,30 @@ div{
     margin: 0;
     padding: 0;
     right: 2vw;
+    top: 3.5vh;
+    width: 27vw;
+    height: 53vh;
+    overflow: hidden;
+    border-radius: 25px;
+}
+
+.img2{
+    margin: 0;
+    padding: 0;
+    right: 2vw;
+    top: 3.5vh;
+    width: 27vw;
+    height: 53vh;
+    overflow: hidden;
+    border-radius: 25px;
+}
+
+.img3{
+    margin: 0;
+    padding: 0;
+    right: 2vw;
+    top: 3.5vh;
+    width: 27vw;
     height: 53vh;
     overflow: hidden;
     border-radius: 25px;

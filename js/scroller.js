@@ -271,6 +271,7 @@ var rectl = gsap.timeline({scrollTrigger: {
     toggleActions: 'restart none reverse none',
     start: "top 0%",
     end: "bottom 0%",
+    scrub: true,
 }})
 rectl.to(".rec1", {
     opacity: 1,
