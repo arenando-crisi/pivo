@@ -12,11 +12,193 @@ splashscr.to(".splash", {
   display: "none",
 })
 
-gsap.to(".cerchio1", 1, {
+let atxt1 = gsap.timeline();
+atxt1.to(".atxt1", 0.1, {
   delay: 3,
+  opacity: 1,
+});
+atxt1.to(".atxt1", 0.2, {
+  top: '0vh',
+  ease: "back.out(4)",
+},"<50%");
+atxt1.to(".atxt2", 0.1, {
+  opacity: 1,
+},"<50%");
+atxt1.to(".atxt2", 0.2, {
+  top: '0vh',
+  ease: "back.out(4)",
+},"<50%");
+atxt1.to(".atxt3", 0.1, {
+  opacity: 1,
+},"<50%");
+atxt1.to(".atxt3", 0.2, {
+  top: '0vh',
+  ease: "back.out(4)",
+},"<50%");
+atxt1.to(".atxt4", 0.1, {
+  opacity: 1,
+},"<50%");
+atxt1.to(".atxt4", 0.2, {
+  top: '0vh',
+  ease: "back.out(4)",
+},"<50%");
+atxt1.to(".cerchio1", 1, {
   backgroundPosition:  "100% 50%",
   ease:SteppedEase.config(26),
 });
+
+let atxt1_1 = gsap.timeline();
+atxt1_1.to(".atxt5", 0.1, {
+  delay: 3.5,
+  opacity: 1,
+});
+atxt1_1.to(".atxt5", 0.2, {
+  top: '0vh',
+  ease: "back.out(4)",
+},"<50%");
+atxt1_1.to(".atxt6", 0.1, {
+  opacity: 1,
+},"<50%");
+atxt1_1.to(".atxt6", 0.2, {
+  top: '0vh',
+  ease: "back.out(4)",
+},"<50%");
+atxt1_1.to(".atxt7", 0.1, {
+  opacity: 1,
+},"<50%");
+atxt1_1.to(".atxt7", 0.2, {
+  top: '0vh',
+  ease: "back.out(4)",
+},"<50%");
+atxt1_1.to(".atxt8", 0.1, {
+  opacity: 1,
+},"<50%");
+atxt1_1.to(".atxt8", 0.2, {
+  top: '0vh',
+  ease: "back.out(4)",
+},"<50%");
+
+
+let atxt2 = gsap.timeline({scrollTrigger: {
+  trigger: ".trigger3",
+  toggleActions: 'play none none none',
+  start: "top 0%",
+  end: "bottom 0%",
+  scrub: true,
+}});
+atxt2.to(".atxt9", 0.1, {
+  opacity: 1,
+});
+atxt2.to(".atxt9", 0.2, {
+  top: '0vh',
+  ease: "back.out(4)",
+},"<50%");
+atxt2.to(".atxt10", 0.1, {
+  opacity: 1,
+},"<50%");
+atxt2.to(".atxt10", 0.2, {
+  top: '0vh',
+  ease: "back.out(4)",
+},"<50%");
+atxt2.to(".atxt11", 0.1, {
+  opacity: 1,
+},"<50%");
+atxt2.to(".atxt11", 0.2, {
+  top: '0vh',
+  ease: "back.out(4)",
+},"<50%");
+atxt2.to(".atxt12", 0.1, {
+  opacity: 1,
+},"<50%");
+atxt2.to(".atxt12", 0.2, {
+  top: '0vh',
+  ease: "back.out(4)",
+},"<50%");
+atxt2.to(".atxt13", 0.1, {
+  opacity: 1,
+},"<50%");
+atxt2.to(".atxt13", 0.2, {
+  top: '0vh',
+  ease: "back.out(4)",
+},"<50%");
+atxt2.to(".atxt14", 0.1, {
+  opacity: 1,
+},"<50%");
+atxt2.to(".atxt14", 0.2, {
+  top: '0vh',
+  ease: "back.out(4)",
+},"<50%");
+atxt2.to(".atxt15", 0.1, {
+  opacity: 1,
+},"<50%");
+atxt2.to(".atxt15", 0.2, {
+  top: '0vh',
+  ease: "back.out(4)",
+},"<50%");
+atxt2.to(".atxt16", 0.1, {
+  opacity: 1,
+},"<50%");
+atxt2.to(".atxt16", 0.2, {
+  top: '0vh',
+  ease: "back.out(4)",
+},"<50%");
+atxt2.to(".atxt17", 0.1, {
+  opacity: 1,
+},"<50%");
+atxt2.to(".atxt17", 0.2, {
+  top: '0vh',
+  ease: "back.out(4)",
+},"<50%");
+atxt2.to(".atxt18", 0.1, {
+  opacity: 1,
+},"<250%");
+atxt2.to(".atxt18", 0.2, {
+  top: '0vh',
+  ease: "back.out(4)",
+},"<50%");
+atxt2.to(".atxt19", 0.1, {
+  opacity: 1,
+},"<50%");
+atxt2.to(".atxt19", 0.2, {
+  top: '0vh',
+  ease: "back.out(4)",
+},"<50%");
+atxt2.to(".atxt20", 0.1, {
+  opacity: 1,
+},"<50%");
+atxt2.to(".atxt20", 0.2, {
+  top: '0vh',
+  ease: "back.out(4)",
+},"<50%");
+atxt2.to(".atxt21", 0.1, {
+  opacity: 1,
+},"<50%");
+atxt2.to(".atxt21", 0.2, {
+  top: '0vh',
+  ease: "back.out(4)",
+},"<50%");
+atxt2.to(".atxt22", 0.1, {
+  opacity: 1,
+},"<50%");
+atxt2.to(".atxt22", 0.2, {
+  top: '0vh',
+  ease: "back.out(4)",
+},"<50%");
+atxt2.to(".atxt23", 0.1, {
+  opacity: 1,
+},"<50%");
+atxt2.to(".atxt23", 0.2, {
+  top: '0vh',
+  ease: "back.out(4)",
+},"<50%");
+atxt2.to(".atxt24", 0.1, {
+  opacity: 1,
+},"<50%");
+atxt2.to(".atxt24", 0.2, {
+  top: '0vh',
+  ease: "back.out(4)",
+},"<50%");
+
 
 var cm1 = gsap.to("#cerchiomouse1", 0.3, {
   backgroundPosition:  "100% 50%",

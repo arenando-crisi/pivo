@@ -829,6 +829,128 @@ div{
     }
 }
 
+.atxt1{
+    position: relative;
+    opacity: 0;
+    top: 1vh;
+}
+.atxt2{
+    position: relative;
+    opacity: 0;
+    top: 1vh;
+}
+.atxt3{
+    position: relative;
+    opacity: 0;
+    top: 1vh;
+}
+.atxt4{
+    position: relative;
+    opacity: 0;
+    top: 1vh;
+}
+.atxt5{
+    position: relative;
+    opacity: 0;
+    top: 1vh;
+}
+.atxt6{
+    position: relative;
+    opacity: 0;
+    top: 1vh;
+}
+.atxt7{
+    position: relative;
+    opacity: 0;
+    top: 1vh;
+}
+.atxt8{
+    position: relative;
+    opacity: 0;
+    top: 1vh;
+}
+
+.atxt9{
+    position: relative;
+    opacity: 0;
+    top: 1vh;
+}
+.atxt10{
+    position: relative;
+    opacity: 0;
+    top: 1vh;
+}
+.atxt11{
+    position: relative;
+    opacity: 0;
+    top: 1vh;
+}
+.atxt12{
+    position: relative;
+    opacity: 0;
+    top: 1vh;
+}
+.atxt13{
+    position: relative;
+    opacity: 0;
+    top: 1vh;
+}
+.atxt14{
+    position: relative;
+    opacity: 0;
+    top: 1vh;
+}
+.atxt15{
+    position: relative;
+    opacity: 0;
+    top: 1vh;
+}
+.atxt16{
+    position: relative;
+    opacity: 0;
+    top: 1vh;
+}
+.atxt17{
+    position: relative;
+    opacity: 0;
+    top: 1vh;
+}
+.atxt18{
+    position: relative;
+    opacity: 0;
+    top: 1vh;
+}
+.atxt19{
+    position: relative;
+    opacity: 0;
+    top: 1vh;
+}
+.atxt20{
+    position: relative;
+    opacity: 0;
+    top: 1vh;
+}
+.atxt21{
+    position: relative;
+    opacity: 0;
+    top: 1vh;
+}
+.atxt22{
+    position: relative;
+    opacity: 0;
+    top: 1vh;
+}
+.atxt23{
+    position: relative;
+    opacity: 0;
+    top: 1vh;
+}
+.atxt24{
+    position: relative;
+    opacity: 0;
+    top: 1vh;
+}
+
 /*-------------------------------COSA SIAMO-------------------------------*/
 
 .cosasiamo{
@@ -1079,6 +1201,19 @@ div{
     text-align: center;
 }
 
+.cerchio5{
+    background-image: url('../asset/cerchiobianco.png');
+    background-size: 2700% 100%;
+    background-repeat: no-repeat;
+    background-position: 100% 0%;
+    z-index: 5;
+    position: absolute;
+    top: 9vh;
+    left: 41vw;
+    height: 3.5vw;
+    width: 18vw;
+}
+
 .slide1{
     background-color: #A07EFF;
     border-radius: 16px;
@@ -1107,6 +1242,19 @@ div{
     width: 10vw;
     z-index: 2;
     text-align: left;
+}
+
+.cerchio6{
+    background-image: url('../asset/cerchionero.png');
+    background-size: 2700% 100%;
+    background-repeat: no-repeat;
+    background-position: 100% 0%;
+    z-index: 5;
+    position: absolute;
+    top: 2vh;
+    left: 1.5vw;
+    height: 3vw;
+    width: 10vw;
 }
 
 .copyorganizza{
@@ -1181,6 +1329,19 @@ div{
     text-align: left;
 }
 
+.cerchio7{
+    background-image: url('../asset/cerchionero.png');
+    background-size: 2700% 100%;
+    background-repeat: no-repeat;
+    background-position: 100% 0%;
+    z-index: 5;
+    position: absolute;
+    top: 2.5vh;
+    left: 1.5vw;
+    height: 3vw;
+    width: 6vw;
+}
+
 .copygioca{
     position: absolute;
     margin: 0;
@@ -1229,6 +1390,19 @@ div{
     width: 10vw;
     z-index: 2;
     text-align: left;
+}
+
+.cerchio8{
+    background-image: url('../asset/cerchionero.png');
+    background-size: 2700% 100%;
+    background-repeat: no-repeat;
+    background-position: 100% 0%;
+    z-index: 5;
+    position: absolute;
+    top: 2vh;
+    left: 1.5vw;
+    height: 3vw;
+    width: 10vw;
 }
 
 .copycondividi{
@@ -2125,6 +2299,7 @@ div{
 @media screen and (max-width: 768px) { /*  Ipad mini  */
     .footer{
         top: 930vh;
+        height: 20vh;
     }
 }
 
@@ -2399,6 +2574,12 @@ div{
     margin: 0;
     text-align: left;
     z-index: 100;
+}
+
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    .footerscopri{
+        height: 20vh;
+    }
 }
 /*-------------------------------SCOPRI: ORGANIZZA-------------------------------*/
 .audioplayer{
@@ -2952,6 +3133,12 @@ div{
     display: flex;
 }
 
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    .valori{
+        flex-direction: column;
+    }
+}
+
 .video1{
     position: absolute;
     margin: 0;
@@ -2963,6 +3150,41 @@ div{
     overflow: hidden;
     border-radius: 25px;
     z-index: 3;
+}
+
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    .video1{
+        top: 22vh;
+        width: 90vw;
+        height:40vh;
+    }
+}
+
+.statementmobile2{
+    position: relative;
+    top: 60vh;
+    margin: 0;
+    padding: 0;
+    font-family: Formula;
+    font-size: 6vw;
+    width: 90vw;
+    left: 5vw;
+    z-index: 2;
+    text-align: left;
+    display: none;
+}
+
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    .statementmobile2{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 390px) { /*  Telefono  */
+    .statementmobile2{
+        font-size: 8vw;
+        top: 62vh;
+    }
 }
 
 /*-------------------------------VALORI SLIDE-------------------------------*/
@@ -2978,6 +3200,12 @@ div{
     position: absolute;
     display: flex;
     overflow: hidden;
+}
+
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    .valorislide{
+        display: none;
+    }
 }
 
 .slidesx{
@@ -3068,6 +3296,86 @@ div{
     z-index: 2;
     text-align: center;
 }
+
+.slide1mobilecs{
+    display: none;
+}
+
+.slide2mobilecs{
+    display: none;
+}
+
+.slide3mobilecs{
+    display: none;
+}
+
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    .slide1mobilecs{
+        display: block;
+        width: 100vw;
+        position: absolute;
+        top: 100vh;
+        height: 100vh;
+        background-color: #A07EFF;
+    }
+
+    .slide2mobilecs{
+        display: block;
+        width: 100vw;
+        position: absolute;
+        top: 200vh;
+        height: 100vh;
+        background-color: #DFFF9C;
+    }
+
+    .slide3mobilecs{
+        display: block;
+        width: 100vw;
+        position: absolute;
+        top: 300vh;
+        height: 100vh;
+        background-color: #FA4928;
+    }
+}
+
+.titolettoslmobilecs{
+    position: absolute;
+    top: 55vh;
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-family: Montreal;
+    font-size: 6vw;
+    width: 20vw;
+    z-index: 2;
+    text-align: left;
+    left: 5vw;
+}
+
+@media screen and (max-width: 390px) { /*  Telefono  */
+    .titolettoslmobilecs{
+        font-size: 8vw;
+    }
+}
+
+.testoslmobilecs{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 65vh;
+    left: 5vw;
+    font-family: Formula;
+    font-size: 6vw;
+    width: 90vw;
+    z-index: 2;
+    text-align: left;
+}
+
+@media screen and (max-width: 390px) { /*  Telefono  */
+    .testoslmobilecs{
+        font-size: 8vw;
+    }
+}
 /*-------------------------------CREW-------------------------------*/
 
 .crew{
@@ -3083,6 +3391,12 @@ div{
     overflow: auto;
     white-space: nowrap;
     align-items: center;
+}
+
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    .crew{
+        top: 400vh;
+    }
 }
 
 .crew1{
@@ -3145,8 +3459,21 @@ div{
     margin: 0;
     padding: 0;
     height: 45vh;
+    width: 25vw;
     overflow: hidden;
     border-radius: 25px 25px 0 0;
+}
+
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    .imgcrew1{
+        width: 60vw;
+    }
+}
+
+@media screen and (max-width: 390px) { /*  Telefono  */
+    .imgcrew1{
+        width: 80vw;
+    }
 }
 
 .nomecrew{
@@ -3161,6 +3488,19 @@ div{
     z-index: 2;
 }
 
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    .nomecrew{
+        width: 60vw;
+        font-size: 4vw;
+    }
+}
+
+@media screen and (max-width: 390px) { /*  Telefono  */
+    .nomecrew{
+        width: 80vw;
+    }
+}
+
 .txtcrew{
     position: relative;
     margin: 0;
@@ -3173,6 +3513,19 @@ div{
     z-index: 2;
 }
 
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    .txtcrew{
+        width: 60vw;
+        font-size: 2.5vw;
+    }
+}
+
+@media screen and (max-width: 390px) { /*  Telefono  */
+    .txtcrew{
+        width: 80vw;
+    }
+}
+
 .titolettocrew{
     position: absolute;
     top: 460vh;
@@ -3183,6 +3536,13 @@ div{
     width: 100vw;
     z-index: 2;
     text-align: center;
+}
+
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    .titolettocrew{
+        top: 410vh;
+        font-size: 7vw;
+    }
 }
 
 .freccinaorizzontale{
@@ -3199,6 +3559,12 @@ div{
     transform: rotate(-90deg);
 }
 
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    .freccinaorizzontale{
+        display: none;
+    }
+}
+
 /*-------------------------------CAMERETTA 3-------------------------------*/
 
 .ctadadefinire3{
@@ -3211,6 +3577,12 @@ div{
     display: flex;
     align-items: center;
     flex-direction: column;
+}
+
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    .ctadadefinire3{
+        top: 500vh;
+    }
 }
 
 /*-------------------------------FOOTER CHI SIAMO-------------------------------*/
@@ -3229,6 +3601,13 @@ div{
     margin: 0;
     text-align: left;
     z-index: 100;
+}
+
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    .footercrew{
+        top: 600vh;
+        height: 20vh;
+    }
 }
 
 /*-------------------------------TRIGGER CHI SIAMO-------------------------------*/

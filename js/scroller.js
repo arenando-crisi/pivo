@@ -489,6 +489,19 @@ gsap.to(".titolettosl", {
     }
 })
 
+gsap.to(".cerchio5", {
+    top: '269vh',
+    duration: 0.4,
+    ease:Linear.easeNone,
+    scrollTrigger: {
+        trigger: ".triggerslider",
+        toggleActions: 'restart none none reverse',
+        start: "top 0%",
+        end: "bottom 0%",
+        scrub: true,
+    }
+})
+
 gsap.to(".titolettosl2", {
     top: '270vh',
     duration: 0.4,
