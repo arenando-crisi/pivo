@@ -1617,10 +1617,6 @@ div{
     width: 20vw;
 }
 
-@media screen and (max-width: 390px) { /*  Telefono  */
-
-1sd}
-
 .cerchio10{
     background-image: url('../asset/cerchionero.png');
     background-size: 2700% 100%;
@@ -2824,6 +2820,7 @@ div{
     align-items: center;
     height: 10vh;
     z-index: 100;
+    opacity: 1;
 }
 
 .headerblack1{
@@ -2831,7 +2828,7 @@ div{
     position: fixed;
     top: 0vh;
     left: 0;
-    display: flex;
+    display: none;
     background-color: black;
     font-family: Montreal;
     align-items: center;
@@ -2898,6 +2895,19 @@ div{
     width: 100vw;
     z-index: 1;
     position: absolute;
+}
+
+.cerchio15{
+    background-image: url('../asset/cerchionero.png');
+    background-size: 2700% 100%;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    z-index: 5;
+    position: absolute;
+    top: 15vh;
+    left: 44vw;
+    height: 2.5vw;
+    width: 12vw;
 }
 
 .titoletto3{
@@ -3277,7 +3287,7 @@ div{
     left: 0;
     width: 10vw;
     height: 1px;
-    border: 1px solid black;
+    border: 1px solid gold;
     z-index: 1000;
     display: none;
 }
@@ -3288,7 +3298,7 @@ div{
     left: 0;
     width: 10vw;
     height: 1px;
-    border: 1px solid black;
+    border: 1px solid gold;
     z-index: 1000;
     display: none;
 }
@@ -3299,7 +3309,7 @@ div{
     left: 0;
     width: 10vw;
     height: 1px;
-    border: 1px solid black;
+    border: 1px solid gold;
     z-index: 1000;
     display: none;
 }
@@ -3310,7 +3320,7 @@ div{
     left: 0;
     width: 10vw;
     height: 1px;
-    border: 1px solid black;
+    border: 1px solid gold;
     z-index: 1000;
     display: none;
 }
@@ -3321,7 +3331,7 @@ div{
     left: 0;
     width: 10vw;
     height: 1px;
-    border: 1px solid black;
+    border: 1px solid gold;
     z-index: 1000;
     display: none;
 }
@@ -3332,7 +3342,7 @@ div{
     left: 0;
     width: 10vw;
     height: 1px;
-    border: 1px solid black;
+    border: 1px solid gold;
     z-index: 1000;
     display: none;
 }
@@ -3376,13 +3386,27 @@ div{
     position: fixed;
     top: 0vh;
     left: 0;
-    display: flex;
+    display: none;
     background-color: black;
     font-family: Montreal;
     align-items: center;
     height: 10vh;
     z-index: 101;
     opacity: 0;
+}
+
+.header2{
+    width: 100vw;
+    position: fixed;
+    top: 0vh;
+    left: 0;
+    display: flex;
+    background-color: #F0F0F0;
+    font-family: Montreal;
+    align-items: center;
+    height: 10vh;
+    z-index: 100;
+    opacity: 1;
 }
 
 .cerchiocs{
@@ -3922,7 +3946,7 @@ div{
     left: 0;
     width: 10vw;
     height: 1px;
-    border: 1px solid black;
+    border: 1px solid gold;
     z-index: 1000;
     display: none;
 }
