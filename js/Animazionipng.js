@@ -262,7 +262,7 @@ gsap.to(".cerchio2", 1, {
 
 let cosacerchi = gsap.timeline({
   scrollTrigger: {
-  trigger: ".triggerheaderb1",
+  trigger: ".trigger10",
   toggleActions: 'play none none none',
   start: "top 0%",
   end: "bottom 0%",
@@ -443,7 +443,7 @@ gsap.to(".cerchio11", {
 
 let cerchiobiettivi = gsap.timeline({
   scrollTrigger: {
-  trigger: ".triggerheaderb2",
+  trigger: ".trigger11",
   toggleActions: 'play none none none',
   start: "top 0%",
   end: "bottom 0%",

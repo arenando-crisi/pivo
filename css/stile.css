@@ -2680,6 +2680,28 @@ div{
     display: none;
 }
 
+.trigger10{
+    position: absolute;
+    top: 190vh;
+    left: 0;
+    width: 10vw;
+    height: 1px;
+    border: 1px solid black;
+    z-index: 1000;
+    display: none;
+}
+
+.trigger11{
+    position: absolute;
+    top: 640vh;
+    left: 0;
+    width: 10vw;
+    height: 1px;
+    border: 1px solid black;
+    z-index: 1000;
+    display: none;
+}
+
 .triggerheaderb1{
     position: absolute;
     top: 220vh;
