@@ -794,21 +794,53 @@ div{
     z-index: 80;
 }
 
-#sticker{
+#sticker1{
     position: absolute;
     z-index: 80;
+    top: 60vh;
+    left: 40vw;
 }
 
 #sticker2{
     position: absolute;
-    top: 50vh;
     z-index: 80;
+    top: 40vh;
+    left: 80vw;
 }
 
 #sticker3{
     position: absolute;
-    top: 100vh;
     z-index: 80;
+    top: 140vh;
+    left: 20vw;
+}
+
+#sticker4{
+    position: absolute;
+    z-index: 80;
+    top: 190vh;
+    left: 70vw;
+}
+
+#sticker5{
+    position: absolute;
+    z-index: 80;
+    top: 300vh;
+    left: 80vw;
+}
+
+#sticker6{
+    position: absolute;
+    z-index: 80;
+    top: 890vh;
+    left: 5vw;
+}
+
+#sticker7{
+    position: absolute;
+    z-index: 80;
+    top: 940vh;
+    left: 70vw;
 }
 
 @media screen and (max-width: 768px) { /*  Ipad mini  */
@@ -816,7 +848,7 @@ div{
         display: none;
     }
     
-    #sticker{
+    #sticker1{
         display: none;
     }
     
@@ -825,6 +857,22 @@ div{
     }
     
     #sticker3{
+        display: none;
+    }
+    
+    #sticker4{
+        display: none;
+    }
+
+    #sticker5{
+        display: none;
+    }
+
+    #sticker6{
+        display: none;
+    }
+
+    #sticker7{
         display: none;
     }
 }
