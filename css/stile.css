@@ -2910,6 +2910,14 @@ div{
     width: 12vw;
 }
 
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    .cerchio15{
+        left: 38vw;
+        height: 6vw;
+        width: 25vw;
+    }
+}
+
 .titoletto3{
     position: relative;
     top: 15vh;
@@ -2946,6 +2954,28 @@ div{
     width: 90vw;
     z-index: 2;
     text-align: left;
+}
+
+.cerchio16{
+    background-image: url('../asset/cerchionero.png');
+    background-size: 2700% 100%;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    z-index: 5;
+    position: absolute;
+    top: 48vh;
+    left: 10.5vw;
+    height: 6vw;
+    width: 40vw;
+}
+
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    .cerchio16{
+        top: 46vh;
+        left: 4vw;
+        height: 9vw;
+        width: 60vw;
+    }
 }
 
 .statement4mobile{
@@ -2986,6 +3016,45 @@ div{
     align-items: center;
     text-align: center;
     vertical-align: baseline;
+}
+
+.cerchio17{
+    background-image: url('../asset/cerchionero.png');
+    background-size: 2700% 100%;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    z-index: 5;
+    position: relative;
+    top: -8vh;
+    left: 12.5vw;
+    height: 2.3vw;
+    width: 7.5vw;
+}
+
+.cerchio18{
+    background-image: url('../asset/cerchionero.png');
+    background-size: 2700% 100%;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    z-index: 5;
+    position: relative;
+    top: -8vh;
+    left: 10vw;
+    height: 2.3vw;
+    width: 12vw;
+}
+
+.cerchio19{
+    background-image: url('../asset/cerchionero.png');
+    background-size: 2700% 100%;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    z-index: 5;
+    position: relative;
+    top: -8vh;
+    left: 12.5vw;
+    height: 2.3vw;
+    width: 7.5vw;
 }
 
 @media screen and (max-width: 768px) { /*  Ipad mini  */
@@ -3124,6 +3193,123 @@ div{
     flex-direction: column;
 }
 
+.cerchio20{
+    background-image: url('../asset/cerchionero.png');
+    background-size: 2700% 100%;
+    background-repeat: no-repeat;
+    background-position: 100% 0%;
+    z-index: 5;
+    position: absolute;
+    top: 4vh;
+    left: 30vw;
+    height: 9vw;
+    width: 30vw;
+}
+
+.cerchio21{
+    background-image: url('../asset/cerchionero.png');
+    background-size: 2700% 100%;
+    background-repeat: no-repeat;
+    background-position: 100% 0%;
+    z-index: 5;
+    position: relative;
+    top: -12vh;
+    left: 19vw;
+    height: 24vw;
+    width: 52vw;
+}
+
+.cerchio22{
+    background-image: url('../asset/cerchionero.png');
+    background-size: 2700% 100%;
+    background-repeat: no-repeat;
+    background-position: 100% 0%;
+    z-index: 5;
+    position: relative;
+    top: -12vh;
+    left: 30vw;
+    height: 24vw;
+    width: 30vw;
+}
+
+.cerchio28{
+    background-image: url('../asset/cerchionero.png');
+    background-size: 2700% 100%;
+    background-repeat: no-repeat;
+    background-position: 100% 0%;
+    z-index: 5;
+    position: absolute;
+    top: 4vh;
+    left: 30vw;
+    height: 9vw;
+    width: 30vw;
+}
+
+.cerchio29{
+    background-image: url('../asset/cerchionero.png');
+    background-size: 2700% 100%;
+    background-repeat: no-repeat;
+    background-position: 100% 0%;
+    z-index: 5;
+    position: relative;
+    top: -12vh;
+    left: 19vw;
+    height: 24vw;
+    width: 52vw;
+}
+
+.cerchio30{
+    background-image: url('../asset/cerchionero.png');
+    background-size: 2700% 100%;
+    background-repeat: no-repeat;
+    background-position: 100% 0%;
+    z-index: 5;
+    position: relative;
+    top: -12vh;
+    left: 30vw;
+    height: 24vw;
+    width: 30vw;
+}
+
+.cerchio36{
+    background-image: url('../asset/cerchionero.png');
+    background-size: 2700% 100%;
+    background-repeat: no-repeat;
+    background-position: 100% 0%;
+    z-index: 5;
+    position: absolute;
+    top: 4vh;
+    left: 23vw;
+    height: 9vw;
+    width: 45vw;
+}
+
+.cerchio37{
+    background-image: url('../asset/cerchionero.png');
+    background-size: 2700% 100%;
+    background-repeat: no-repeat;
+    background-position: 100% 0%;
+    z-index: 5;
+    position: relative;
+    top: -12vh;
+    left: 19vw;
+    height: 24vw;
+    width: 52vw;
+}
+
+.cerchio38{
+    background-image: url('../asset/cerchionero.png');
+    background-size: 2700% 100%;
+    background-repeat: no-repeat;
+    background-position: 100% 0%;
+    z-index: 5;
+    position: relative;
+    top: -12vh;
+    left: 23vw;
+    height: 24vw;
+    width: 45vw;
+}
+
 @media screen and (max-width: 390px) { /*  Telefono  */
     .screen1mobile{
         margin: 4vw;
@@ -3180,6 +3366,71 @@ div{
     position: absolute;
 }
 
+.cerchio23{
+    background-image: url('../asset/cerchionero.png');
+    background-size: 2700% 100%;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    z-index: 5;
+    position: absolute;
+    top: 15vh;
+    left: 47vw;
+    height: 2.5vw;
+    width: 6vw;
+}
+
+.cerchio24{
+    background-image: url('../asset/cerchionero.png');
+    background-size: 2700% 100%;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    z-index: 5;
+    position: absolute;
+    top: 37vh;
+    left: 38vw;
+    height: 6vw;
+    width: 37vw;
+}
+
+.cerchio25{
+    background-image: url('../asset/cerchionero.png');
+    background-size: 2700% 100%;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    z-index: 5;
+    position: relative;
+    top: -8vh;
+    left: 12.5vw;
+    height: 2.3vw;
+    width: 7.5vw;
+}
+
+.cerchio26{
+    background-image: url('../asset/cerchionero.png');
+    background-size: 2700% 100%;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    z-index: 5;
+    position: relative;
+    top: -8vh;
+    left: 9vw;
+    height: 2.3vw;
+    width: 14vw;
+}
+
+.cerchio27{
+    background-image: url('../asset/cerchionero.png');
+    background-size: 2700% 100%;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    z-index: 5;
+    position: relative;
+    top: -8vh;
+    left: 12.5vw;
+    height: 2.3vw;
+    width: 7.5vw;
+}
+
 /*-------------------------------SCREEN GIOCA-------------------------------*/
 
 .screen_gioca{
@@ -3226,6 +3477,71 @@ div{
     width: 100vw;
     z-index: 1;
     position: absolute;
+}
+
+.cerchio31{
+    background-image: url('../asset/cerchionero.png');
+    background-size: 2700% 100%;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    z-index: 5;
+    position: absolute;
+    top: 15vh;
+    left: 45vw;
+    height: 2.5vw;
+    width: 10vw;
+}
+
+.cerchio32{
+    background-image: url('../asset/cerchionero.png');
+    background-size: 2700% 100%;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    z-index: 5;
+    position: absolute;
+    top: 24vh;
+    left: 55vw;
+    height: 6vw;
+    width: 20vw;
+}
+
+.cerchio33{
+    background-image: url('../asset/cerchionero.png');
+    background-size: 2700% 100%;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    z-index: 5;
+    position: relative;
+    top: -8vh;
+    left: 11vw;
+    height: 2.3vw;
+    width: 10vw;
+}
+
+.cerchio34{
+    background-image: url('../asset/cerchionero.png');
+    background-size: 2700% 100%;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    z-index: 5;
+    position: relative;
+    top: -8vh;
+    left: 9vw;
+    height: 2.3vw;
+    width: 14vw;
+}
+
+.cerchio35{
+    background-image: url('../asset/cerchionero.png');
+    background-size: 2700% 100%;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    z-index: 5;
+    position: relative;
+    top: -8vh;
+    left: 11vw;
+    height: 2.3vw;
+    width: 10vw;
 }
 
 /*-------------------------------SCREEN CONDIVIDI-------------------------------*/
@@ -3292,9 +3608,31 @@ div{
     display: none;
 }
 
+.triggersc1{
+    position: absolute;
+    top: 70vh;
+    left: 0;
+    width: 10vw;
+    height: 1px;
+    border: 1px solid gold;
+    z-index: 1000;
+    display: none;
+}
+
 .triggers2{
     position: absolute;
     top: 190vh;
+    left: 0;
+    width: 10vw;
+    height: 1px;
+    border: 1px solid gold;
+    z-index: 1000;
+    display: none;
+}
+
+.triggersc2{
+    top: 170vh;
+    position: absolute;
     left: 0;
     width: 10vw;
     height: 1px;
@@ -3314,9 +3652,31 @@ div{
     display: none;
 }
 
+.triggersc3{
+    position: absolute;
+    top: 270vh;
+    left: 0;
+    width: 10vw;
+    height: 1px;
+    border: 1px solid gold;
+    z-index: 1000;
+    display: none;
+}
+
 .triggers4{
     position: absolute;
     top: 390vh;
+    left: 0;
+    width: 10vw;
+    height: 1px;
+    border: 1px solid gold;
+    z-index: 1000;
+    display: none;
+}
+
+.triggersc4{
+    position: absolute;
+    top: 370vh;
     left: 0;
     width: 10vw;
     height: 1px;
@@ -3336,9 +3696,31 @@ div{
     display: none;
 }
 
+.triggersc5{
+    position: absolute;
+    top: 470vh;
+    left: 0;
+    width: 10vw;
+    height: 1px;
+    border: 1px solid gold;
+    z-index: 1000;
+    display: none;
+}
+
 .triggers6{
     position: absolute;
     top: 590vh;
+    left: 0;
+    width: 10vw;
+    height: 1px;
+    border: 1px solid gold;
+    z-index: 1000;
+    display: none;
+}
+
+.triggersc6{
+    position: absolute;
+    top: 570vh;
     left: 0;
     width: 10vw;
     height: 1px;

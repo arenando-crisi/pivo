@@ -1191,6 +1191,176 @@ gsap.to(".cerchio15", {
     duration: 0.8,
 });
 
+gsap.to(".cerchio16", { 
+    delay: 0.6,
+    backgroundPosition:  "100% 50%",
+    ease:SteppedEase.config(26),
+    duration: 0.8,
+});
+
+gsap.to(".cerchio17", {
+    scrollTrigger: {
+      trigger: ".triggersc1",
+      toggleActions: 'play none none none',
+      start: "top 0%",
+      end: "bottom 0%",
+    },  
+    backgroundPosition:  "100% 50%",
+    ease:SteppedEase.config(26),
+    duration: 0.8,
+});
+
+gsap.to(".cerchio18", {
+    scrollTrigger: {
+      trigger: ".triggersc1",
+      toggleActions: 'play none none none',
+      start: "top 0%",
+      end: "bottom 0%",
+    },  
+    delay: 0.3,
+    backgroundPosition:  "100% 50%",
+    ease:SteppedEase.config(26),
+    duration: 0.8,
+});
+
+gsap.to(".cerchio19", {
+    scrollTrigger: {
+      trigger: ".triggersc1",
+      toggleActions: 'play none none none',
+      start: "top 0%",
+      end: "bottom 0%",
+    }, 
+    delay: 0.6, 
+    backgroundPosition:  "100% 50%",
+    ease:SteppedEase.config(26),
+    duration: 0.8,
+});
+
+gsap.to(".cerchio23", { 
+    scrollTrigger: {
+        trigger: ".triggersc2",
+        toggleActions: 'play none none none',
+        start: "top 0%",
+        end: "bottom 0%",
+      }, 
+    backgroundPosition:  "100% 50%",
+    ease:SteppedEase.config(26),
+    duration: 0.8,
+});
+
+gsap.to(".cerchio24", { 
+    scrollTrigger: {
+        trigger: ".triggersc2",
+        toggleActions: 'play none none none',
+        start: "top 0%",
+        end: "bottom 0%",
+      }, 
+    delay: 0.6,
+    backgroundPosition:  "100% 50%",
+    ease:SteppedEase.config(26),
+    duration: 0.8,
+});
+
+gsap.to(".cerchio25", {
+    scrollTrigger: {
+      trigger: ".triggersc3",
+      toggleActions: 'play none none none',
+      start: "top 0%",
+      end: "bottom 0%",
+    },  
+    backgroundPosition:  "100% 50%",
+    ease:SteppedEase.config(26),
+    duration: 0.8,
+});
+
+gsap.to(".cerchio26", {
+    scrollTrigger: {
+      trigger: ".triggersc3",
+      toggleActions: 'play none none none',
+      start: "top 0%",
+      end: "bottom 0%",
+    },  
+    delay: 0.3,
+    backgroundPosition:  "100% 50%",
+    ease:SteppedEase.config(26),
+    duration: 0.8,
+});
+
+gsap.to(".cerchio27", {
+    scrollTrigger: {
+      trigger: ".triggersc3",
+      toggleActions: 'play none none none',
+      start: "top 0%",
+      end: "bottom 0%",
+    }, 
+    delay: 0.6, 
+    backgroundPosition:  "100% 50%",
+    ease:SteppedEase.config(26),
+    duration: 0.8,
+});
+
+gsap.to(".cerchio31", { 
+    scrollTrigger: {
+        trigger: ".triggersc4",
+        toggleActions: 'play none none none',
+        start: "top 0%",
+        end: "bottom 0%",
+      }, 
+    backgroundPosition:  "100% 50%",
+    ease:SteppedEase.config(26),
+    duration: 0.8,
+});
+
+gsap.to(".cerchio32", { 
+    scrollTrigger: {
+        trigger: ".triggersc4",
+        toggleActions: 'play none none none',
+        start: "top 0%",
+        end: "bottom 0%",
+      }, 
+    delay: 0.6,
+    backgroundPosition:  "100% 50%",
+    ease:SteppedEase.config(26),
+    duration: 0.8,
+});
+
+gsap.to(".cerchio33", {
+    scrollTrigger: {
+      trigger: ".triggersc5",
+      toggleActions: 'play none none none',
+      start: "top 0%",
+      end: "bottom 0%",
+    },  
+    backgroundPosition:  "100% 50%",
+    ease:SteppedEase.config(26),
+    duration: 0.8,
+});
+
+gsap.to(".cerchio34", {
+    scrollTrigger: {
+      trigger: ".triggersc5",
+      toggleActions: 'play none none none',
+      start: "top 0%",
+      end: "bottom 0%",
+    },  
+    delay: 0.3,
+    backgroundPosition:  "100% 50%",
+    ease:SteppedEase.config(26),
+    duration: 0.8,
+});
+
+gsap.to(".cerchio35", {
+    scrollTrigger: {
+      trigger: ".triggersc5",
+      toggleActions: 'play none none none',
+      start: "top 0%",
+      end: "bottom 0%",
+    }, 
+    delay: 0.6, 
+    backgroundPosition:  "100% 50%",
+    ease:SteppedEase.config(26),
+    duration: 0.8,
+});
 
 var cm1 = gsap.to("#cerchiomouse1", 0.3, {
     backgroundPosition:  "100% 50%",
