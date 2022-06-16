@@ -843,6 +843,62 @@ div{
     left: 70vw;
 }
 
+#sticker8{
+    position: absolute;
+    z-index: 80;
+    top: 20vh;
+    left: 70vw;
+}
+
+#sticker9{
+    position: absolute;
+    z-index: 80;
+    top: 40vh;
+    left: 60vw;
+}
+
+#sticker10{
+    position: absolute;
+    z-index: 80;
+    top: 70vh;
+    left: 60vw;
+}
+
+#sticker11{
+    position: absolute;
+    z-index: 80;
+    top: 260vh;
+    left: 65vw;
+}
+
+#sticker12{
+    position: absolute;
+    z-index: 80;
+    top: 470vh;
+    left: 70vw;
+}
+
+#sticker13{
+    position: absolute;
+    z-index: 80;
+    top: 610vh;
+    left: 80vw;
+}
+
+#sticker14{
+    position: absolute;
+    z-index: 80;
+    top: 30vh;
+    left: 40vw;
+}
+
+#sticker15{
+    position: absolute;
+    z-index: 80;
+    top: 560vh;
+    left: 10vw;
+}
+
 @media screen and (max-width: 768px) { /*  Ipad mini  */
     .sticker{
         display: none;
