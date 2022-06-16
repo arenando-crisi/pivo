@@ -1822,6 +1822,12 @@ div{
     }
 }
 
+@media screen and (max-width: 375px) { /*  Telefono piccolo  */
+    .testoslmobile{
+        font-size: 7vw;
+    }
+}
+
 .bottoneslmobile{
     padding: 15px;
     background-color: black;
@@ -1927,6 +1933,15 @@ div{
     left: 3.5vw;
     height: 5.5vw;
     width: 31vw;
+}
+
+@media screen and (max-width: 1024px) { /*  Ipad mini port  */
+    .cerchio13{
+        top: 59vh;
+        left: 3.5vw;
+        height: 5.7 vw;
+        width: 37vw;
+    }
 }
 
 @media screen and (max-width: 768px) { /*  Ipad mini  */
@@ -2039,7 +2054,7 @@ div{
     align-items: center;
 }
 
-@media screen and (max-width: 768px) { /*  Ipad mini  */
+@media screen and (max-width: 1024px) { /*  Ipad mini  */
     .community{
         display: none;
     }
@@ -2450,6 +2465,17 @@ div{
     display: none;
 }
 
+@media screen and (max-width: 1024px) { /*  Ipad mini port  */
+    .recemobile{
+        position: absolute;
+        top: 780vh;
+        height: 100vh;
+        width: 100vw;
+        background-color: #000000;
+        display: block;
+    }
+}
+
 @media screen and (max-width: 768px) { /*  Ipad mini  */
     .recemobile{
         position: absolute;
@@ -2460,6 +2486,7 @@ div{
         display: block;
     }
 }
+
 
 .titolettob{
     position: absolute;
@@ -2569,8 +2596,14 @@ div{
     padding: 0;
     overflow: hidden;
     height: 40vh;
-    width: 50vw;
+    width: 30vw;
     border-radius: 25px 25px 0 0;
+}
+
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    .imgrece1{
+        width: 50vw;
+    }
 }
 
 @media screen and (max-width: 390px) { /*  Telefono  */
@@ -2585,12 +2618,19 @@ div{
     padding: 0;
     bottom: 0vh;
     font-family: montreal_bold;
-    font-size: 3vw;
-    width: 50vw;
+    font-size: 2vw;
+    width: 30vw;
     text-align: center;
     margin: 0;
     z-index: 2;
     margin-bottom: 2vh;
+}
+
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    .nomerece{
+        width: 50vw;
+        font-size: 3vw;
+    }
 }
 
 @media screen and (max-width: 390px) { /*  Telefono  */
@@ -2606,18 +2646,25 @@ div{
     padding: 0;
     top: 2vh;
     font-family: Montreal;
-    font-size: 2.3vw;
-    width: 50vw;
+    font-size: 1.5vw;
+    width: 30vw;
     text-align: center;
     z-index: 2;
-    margin-bottom: 1vh;
+    margin-bottom: 3vh;
+}
+
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    .txtrece{
+        width: 50vw;
+        font-size: 2.3vw;
+    }
 }
 
 @media screen and (max-width: 390px) { /*  Telefono  */
     .txtrece{
-        font-size: 5vw;
+        font-size: 4.5vw;
         width: 83vw;
-        left: 7vw;
+        left: 0;
     }
 }
 
@@ -3357,6 +3404,12 @@ div{
     width: 7.5vw;
 }
 
+@media screen and (max-width: 1024px) { /*  Ipad mini port  */
+    .cerchio17{
+        top: -7vh;
+    }
+}
+
 .cerchio18{
     background-image: url('../asset/cerchionero.png');
     background-size: 3300% 100%;
@@ -3370,6 +3423,12 @@ div{
     width: 12vw;
 }
 
+@media screen and (max-width: 1024px) { /*  Ipad mini port  */
+    .cerchio18{
+        top: -7vh;
+    }
+}
+
 .cerchio19{
     background-image: url('../asset/cerchionero.png');
     background-size: 3300% 100%;
@@ -3381,6 +3440,12 @@ div{
     left: 12.5vw;
     height: 2.3vw;
     width: 7.5vw;
+}
+
+@media screen and (max-width: 1024px) { /*  Ipad mini port  */
+    .cerchio19{
+        top: -7vh;
+    }
 }
 
 @media screen and (max-width: 768px) { /*  Ipad mini  */
@@ -3411,6 +3476,12 @@ div{
     width: 32vw;
     text-align: center;
     z-index: 2;
+}
+
+@media screen and (max-width: 1024px) { /*  Ipad mini port  */
+    .txtscreen{
+        font-size: 1.5vw;
+    }
 }
 
 .imgscreen1{
@@ -3788,6 +3859,12 @@ div{
     width: 7.5vw;
 }
 
+@media screen and (max-width: 1024px) { /*  Ipad mini port  */
+    .cerchio25{
+        top: -7vh;
+    }
+}
+
 .cerchio26{
     background-image: url('../asset/cerchionero.png');
     background-size: 3300% 100%;
@@ -3801,6 +3878,12 @@ div{
     width: 14vw;
 }
 
+@media screen and (max-width: 1024px) { /*  Ipad mini port  */
+    .cerchio26{
+        top: -7vh;
+    }
+}
+
 .cerchio27{
     background-image: url('../asset/cerchionero.png');
     background-size: 3300% 100%;
@@ -3812,6 +3895,12 @@ div{
     left: 12.5vw;
     height: 2.3vw;
     width: 7.5vw;
+}
+
+@media screen and (max-width: 1024px) { /*  Ipad mini port  */
+    .cerchio27{
+        top: -7vh;
+    }
 }
 
 /*-------------------------------SCREEN GIOCA-------------------------------*/
@@ -3944,6 +4033,12 @@ div{
     width: 10vw;
 }
 
+@media screen and (max-width: 1024px) { /*  Ipad mini port  */
+    .cerchio33{
+        top: -7vh;
+    }
+}
+
 .cerchio34{
     background-image: url('../asset/cerchionero.png');
     background-size: 3300% 100%;
@@ -3957,6 +4052,12 @@ div{
     width: 14vw;
 }
 
+@media screen and (max-width: 1024px) { /*  Ipad mini port  */
+    .cerchio34{
+        top: -7vh;
+    }
+}
+
 .cerchio35{
     background-image: url('../asset/cerchionero.png');
     background-size: 3300% 100%;
@@ -3968,6 +4069,12 @@ div{
     left: 11vw;
     height: 2.3vw;
     width: 10vw;
+}
+
+@media screen and (max-width: 1024px) { /*  Ipad mini port  */
+    .cerchio35{
+        top: -7vh;
+    }
 }
 
 /*-------------------------------SCREEN CONDIVIDI-------------------------------*/
@@ -4287,6 +4394,12 @@ div{
     left: 3vw;
     height: 5.5vw;
     width: 33vw;
+}
+
+@media screen and (max-width: 1024px) { /*  Ipad mini port  */
+    .cerchio37{
+        top: 52vh;
+    }
 }
 
 @media screen and (max-width: 768px) { /*  Ipad mini  */
@@ -4836,6 +4949,12 @@ div{
     border-radius: 25px 25px 0 0;
 }
 
+@media screen and (max-width: 1024px) { /*  Ipad mini port */
+    .imgcrew1{
+        width: 40vw;
+    }
+}
+
 @media screen and (max-width: 768px) { /*  Ipad mini  */
     .imgcrew1{
         width: 60vw;
@@ -4860,6 +4979,13 @@ div{
     z-index: 2;
 }
 
+@media screen and (max-width: 1024px) { /*  Ipad mini port */
+    .nomecrew{
+        width: 40vw;
+        font-size: 2vw;
+    }
+}
+
 @media screen and (max-width: 768px) { /*  Ipad mini  */
     .nomecrew{
         width: 60vw;
@@ -4870,6 +4996,7 @@ div{
 @media screen and (max-width: 390px) { /*  Telefono  */
     .nomecrew{
         width: 80vw;
+        font-size: 6vw;
     }
 }
 
@@ -4885,6 +5012,14 @@ div{
     z-index: 2;
 }
 
+@media screen and (max-width: 1024px) { /*  Ipad mini port */
+    .txtcrew{
+        width: 40vw;
+        font-size: 1.5vw;
+        margin-top: 1vh;
+    }
+}
+
 @media screen and (max-width: 768px) { /*  Ipad mini  */
     .txtcrew{
         width: 60vw;
@@ -4895,6 +5030,7 @@ div{
 @media screen and (max-width: 390px) { /*  Telefono  */
     .txtcrew{
         width: 80vw;
+        font-size: 3vw;
     }
 }
 
