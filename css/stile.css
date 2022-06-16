@@ -606,7 +606,7 @@ div{
     transform: rotate(-10deg);
 }
 
-@media screen and (max-width: 768px) { /*  Ipad mini  */
+@media screen and (max-width: 1024px) { /*  Ipad mini  */
     .scrittina{
         display: none;
     }
@@ -937,36 +937,8 @@ div{
     left: 10vw;
 }
 
-@media screen and (max-width: 768px) { /*  Ipad mini  */
+@media screen and (max-width: 1024px) { /*  Ipad mini  */
     .sticker{
-        display: none;
-    }
-    
-    #sticker1{
-        display: none;
-    }
-    
-    #sticker2{
-        display: none;
-    }
-    
-    #sticker3{
-        display: none;
-    }
-    
-    #sticker4{
-        display: none;
-    }
-
-    #sticker5{
-        display: none;
-    }
-
-    #sticker6{
-        display: none;
-    }
-
-    #sticker7{
         display: none;
     }
 }
@@ -3153,6 +3125,37 @@ div{
         height: 20vh;
     }
 }
+
+.cerchio45{
+    background-image: url('../asset/cerchionero.png');
+    background-size: 3300% 100%;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    z-index: 5;
+    position: absolute;
+    top: 19vh;
+    left: 44vw;
+    height: 3vw;
+    width: 12vw;
+}
+
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    .cerchio45{
+        top: 5vh;
+        left: 35vw;
+        height: 6vw;
+        width: 30vw;
+    }
+}
+
+@media screen and (max-width: 390px) { /*  Telefono  */
+    .cerchio45{
+        top: 9vh;
+        left: 28vw;
+        height: 8vw;
+        width: 43vw;
+    }
+}
 /*-------------------------------SCOPRI: ORGANIZZA-------------------------------*/
 .audioplayer{
     position: fixed;
@@ -3163,7 +3166,7 @@ div{
     width: 12.5vw;
 }
 
-@media screen and (max-width: 768px) { /*  Ipad mini  */
+@media screen and (max-width: 1024px) { /*  Ipad mini port  */
     .audioplayer{
         display: none;
     }
@@ -4729,6 +4732,37 @@ div{
     }
 }
 
+.cerchio46{
+    background-image: url('../asset/cerchionero.png');
+    background-size: 3300% 100%;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    z-index: 5;
+    position: absolute;
+    top: 459.5vh;
+    left: 44vw;
+    height: 3vw;
+    width: 12vw;
+}
+
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    .cerchio46{
+        top: 409.5vh;
+        left: 35vw;
+        height: 10vw;
+        width: 30vw;
+    }
+}
+
+@media screen and (max-width: 390px) { /*  Telefono  */
+    .cerchio46{
+        top: 409.5vh;
+        left: 28vw;
+        height: 9vw;
+        width: 43vw;
+    }
+}
+
 .crew1{
     top: 30vh;
     margin: 1vw;
@@ -4921,6 +4955,37 @@ div{
     flex-direction: column;
 }
 
+.cerchio47{
+    background-image: url('../asset/cerchionero.png');
+    background-size: 3300% 100%;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    z-index: 5;
+    position: absolute;
+    top: 19vh;
+    left: 44vw;
+    height: 3vw;
+    width: 12vw;
+}
+
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    .cerchio47{
+        top: 5vh;
+        left: 35vw;
+        height: 6vw;
+        width: 30vw;
+    }
+}
+
+@media screen and (max-width: 390px) { /*  Telefono  */
+    .cerchio47{
+        top: 9vh;
+        left: 28vw;
+        height: 8vw;
+        width: 43vw;
+    }
+}
+
 @media screen and (max-width: 768px) { /*  Ipad mini  */
     .ctadadefinire3{
         top: 500vh;
@@ -4965,6 +5030,12 @@ div{
     display: none;
 }
 
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    .triggerc1{
+        top: 390vh;
+    }
+}
+
 .triggerc2{
     position: absolute;
     top: 90vh;
@@ -5007,4 +5078,21 @@ div{
     border: 1px solid gold;
     z-index: 1000;
     display: none;
+}
+
+.triggerc6{
+    position: absolute;
+    top: 540vh;
+    left: 0;
+    width: 10vw;
+    height: 1px;
+    border: 1px solid gold;
+    z-index: 1000;
+    display: none;
+}
+
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    .triggerc6{
+        top: 490vh;
+    }
 }

@@ -1218,6 +1218,42 @@ gsap.to(".cerchio14", {
   duration: 0.8,
 });
 
+gsap.to(".cerchio45", {
+  scrollTrigger: {
+    trigger: ".triggersc6",
+    toggleActions: 'play none none none',
+    start: "top 0%",
+    end: "bottom 0%",
+  },  
+  backgroundPosition:  "100% 50%",
+  ease:SteppedEase.config(32),
+  duration: 0.8,
+});
+
+gsap.to(".cerchio46", {
+  scrollTrigger: {
+    trigger: ".triggerc1",
+    toggleActions: 'play none none none',
+    start: "top 0%",
+    end: "bottom 0%",
+  },  
+  backgroundPosition:  "100% 50%",
+  ease:SteppedEase.config(32),
+  duration: 0.8,
+});
+
+gsap.to(".cerchio47", {
+  scrollTrigger: {
+    trigger: ".triggerc6",
+    toggleActions: 'play none none none',
+    start: "top 0%",
+    end: "bottom 0%",
+  },  
+  backgroundPosition:  "100% 50%",
+  ease:SteppedEase.config(32),
+  duration: 0.8,
+});
+
 gsap.to(".freccinascroll", 2, {
   backgroundPosition:  "100% 50%",
   ease:SteppedEase.config(30),
