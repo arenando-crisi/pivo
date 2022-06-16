@@ -3147,56 +3147,63 @@ div{
 .imgscreen1{
     width: 32vw;
     height: 10vh;
-    margin-left: 5vw;
-    margin-right: 5vw;
+    margin-top: 5vh;
     overflow: hidden;
 }
 
 .imgscreen2{
     width: 32vw;
     height: 50vh;
+    margin-top: 5vh;
     overflow: hidden;
 }
 
 .imgscreen3{
     width: 32vw;
     height: 30vh;
+    margin-top: 5vh;
     overflow: hidden;
 }
 
 .imgscreen4{
     width: 32vw;
     height: 10vh;
+    margin-top: 5vh;
     overflow: hidden;
 }
 
 .imgscreen5{
     width: 32vw;
     height: 50vh;
+    margin-top: 5vh;
     overflow: hidden;
 }
 
 .imgscreen6{
     width: 32vw;
     height: 30vh;
+    margin-top: 5vh;
     overflow: hidden;
 }
 
 .imgscreen7{
     width: 32vw;
     height: 10vh;
+    margin-top: 5vh;
     overflow: hidden;
 }
 
 .imgscreen8{
     width: 32vw;
     height: 50vh;
+    margin-top: 5vh;
     overflow: hidden;
 }
 
 .imgscreen9{
     width: 32vw;
     height: 30vh;
+    margin-top: 5vh;
     overflow: hidden;
 }
 
