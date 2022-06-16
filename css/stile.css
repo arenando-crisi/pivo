@@ -1833,7 +1833,16 @@ div{
     right: 4vw;
     vertical-align: middle;
     z-index: 2;
+    border-radius: 30px;
     overflow: hidden;
+}
+
+.videocommunity{
+    margin: 0;
+    padding: 0;
+    border-radius: 30px;
+    overflow: hidden;
+    z-index: 3;
 }
 
 @media screen and (max-width: 768px) { /*  Ipad mini  */
@@ -3965,7 +3974,7 @@ div{
 .img1{
     margin: 0;
     padding: 0;
-    right: 2vw;
+    right: 1vw;
     top: 3.5vh;
     width: 27vw;
     height: 53vh;
