@@ -84,6 +84,18 @@ gsap.to(".claim", {
     }
 });
 
+gsap.to(".scrittina", {
+  opacity: 0,
+  duration: 0.4,
+  scrollTrigger: {
+      trigger: ".trigger2",
+      toggleActions: 'restart none none reverse',
+      start: "top 0%",
+      end: "bottom 0%",
+      scrub: true,
+  }
+});
+
 gsap.to(".freccinascroll", {
     opacity: 0,
     duration: 0.4,
@@ -534,6 +546,19 @@ gsap.to(".slidec3", {
     }
 });
 
+gsap.to(".cerchio38", {
+  top: '270vh',
+  duration: 0.4,
+  ease:Linear.easeNone,
+  scrollTrigger: {
+      trigger: ".triggerc2",
+      toggleActions: 'restart none none reverse',
+      start: "top 0%",
+      end: "bottom 0%",
+      scrub: true,
+  }
+});
+
 gsap.to(".titolettosl", {
     top: '270vh',
     duration: 0.4,
@@ -725,8 +750,12 @@ atxt1.to(".atxt4", 0.2, {
 },"<70%");
 atxt1.to(".cerchio1", 1, {
   backgroundPosition:  "100% 50%",
-  ease:SteppedEase.config(26),
+  ease:SteppedEase.config(32),
 });
+atxt1.to(".scrittina", 1.2, {
+  backgroundPosition:  "100% 50%",
+  ease:SteppedEase.config(30),
+},"<1%");
 
 let atxt1_1 = gsap.timeline();
 atxt1_1.to(".atxt5", 0.1, {
@@ -883,7 +912,7 @@ atxt2.to(".atxt24", 0.2, {
 
 gsap.to(".cerchio2", 1, {
   backgroundPosition:  "100% 50%",
-  ease:SteppedEase.config(26),
+  ease:SteppedEase.config(32),
   scrollTrigger: {
     trigger: ".trigger8",
     toggleActions: 'restart none none reverse',
@@ -901,7 +930,7 @@ let cosacerchi = gsap.timeline({
 }});
 cosacerchi.to(".cerchio3", {
   backgroundPosition:  "100% 50%",
-  ease:SteppedEase.config(26),
+  ease:SteppedEase.config(32),
   duration: 0.5,
 });
 cosacerchi.to(".atxt25", 0.1, {
@@ -983,7 +1012,7 @@ cosacerchi.to(".atxt35", 0.2, {
 },"<70%");
 cosacerchi.to(".cerchio4", {
   backgroundPosition:  "100% 50%",
-  ease:SteppedEase.config(26),
+  ease:SteppedEase.config(32),
   duration: 0.8,
 });
 
@@ -995,7 +1024,7 @@ gsap.to(".cerchio5", {
     end: "bottom 0%",
   },  
   backgroundPosition:  "100% 50%",
-  ease:SteppedEase.config(26),
+  ease:SteppedEase.config(32),
   duration: 0.8,
 });
 
@@ -1008,7 +1037,7 @@ gsap.to(".cerchio6", {
   },  
   delay: 0.6,
   backgroundPosition:  "100% 50%",
-  ease:SteppedEase.config(26),
+  ease:SteppedEase.config(32),
   duration: 0.8,
 });
 
@@ -1020,7 +1049,7 @@ gsap.to(".cerchio7", {
     end: "bottom 0%",
   },  
   backgroundPosition:  "100% 50%",
-  ease:SteppedEase.config(26),
+  ease:SteppedEase.config(32),
   duration: 0.8,
 });
 
@@ -1032,7 +1061,7 @@ gsap.to(".cerchio8", {
     end: "bottom 0%",
   },  
   backgroundPosition:  "100% 50%",
-  ease:SteppedEase.config(26),
+  ease:SteppedEase.config(32),
   duration: 0.8,
 });
 
@@ -1045,7 +1074,7 @@ gsap.to(".cerchio9", {
   },  
   delay: 0.6,
   backgroundPosition:  "100% 50%",
-  ease:SteppedEase.config(26),
+  ease:SteppedEase.config(32),
   duration: 0.8,
 });
 
@@ -1057,7 +1086,7 @@ gsap.to(".cerchio10", {
     end: "bottom 0%",
   },  
   backgroundPosition:  "100% 50%",
-  ease:SteppedEase.config(26),
+  ease:SteppedEase.config(32),
   duration: 0.8,
 });
 
@@ -1069,7 +1098,7 @@ gsap.to(".cerchio11", {
     end: "bottom 0%",
   },  
   backgroundPosition:  "100% 50%",
-  ease:SteppedEase.config(26),
+  ease:SteppedEase.config(32),
   duration: 0.8,
 });
 
@@ -1082,7 +1111,7 @@ let cerchiobiettivi = gsap.timeline({
 }});
 cerchiobiettivi.to(".cerchio12", {
   backgroundPosition:  "100% 50%",
-  ease:SteppedEase.config(26),
+  ease:SteppedEase.config(32),
   duration: 0.5,
 });
 cerchiobiettivi.to(".atxt36", 0.1, {
@@ -1157,7 +1186,7 @@ cerchiobiettivi.to(".atxt45", 0.2, {
 },"<70%");
 cerchiobiettivi.to(".cerchio13", {
   backgroundPosition:  "100% 50%",
-  ease:SteppedEase.config(26),
+  ease:SteppedEase.config(32),
   duration: 0.5,
 });
 
@@ -1169,7 +1198,7 @@ gsap.to(".cerchio14", {
     end: "bottom 0%",
   },  
   backgroundPosition:  "100% 50%",
-  ease:SteppedEase.config(26),
+  ease:SteppedEase.config(32),
   duration: 0.8,
 });
 
@@ -1187,14 +1216,14 @@ gsap.to(".freccinaorizzontale", 2, {
 
 gsap.to(".cerchio15", { 
     backgroundPosition:  "100% 50%",
-    ease:SteppedEase.config(26),
+    ease:SteppedEase.config(32),
     duration: 0.8,
 });
 
 gsap.to(".cerchio16", { 
     delay: 0.6,
     backgroundPosition:  "100% 50%",
-    ease:SteppedEase.config(26),
+    ease:SteppedEase.config(32),
     duration: 0.8,
 });
 
@@ -1206,7 +1235,7 @@ gsap.to(".cerchio17", {
       end: "bottom 0%",
     },  
     backgroundPosition:  "100% 50%",
-    ease:SteppedEase.config(26),
+    ease:SteppedEase.config(32),
     duration: 0.8,
 });
 
@@ -1219,7 +1248,7 @@ gsap.to(".cerchio18", {
     },  
     delay: 0.3,
     backgroundPosition:  "100% 50%",
-    ease:SteppedEase.config(26),
+    ease:SteppedEase.config(32),
     duration: 0.8,
 });
 
@@ -1232,7 +1261,7 @@ gsap.to(".cerchio19", {
     }, 
     delay: 0.6, 
     backgroundPosition:  "100% 50%",
-    ease:SteppedEase.config(26),
+    ease:SteppedEase.config(32),
     duration: 0.8,
 });
 
@@ -1244,7 +1273,7 @@ gsap.to(".cerchio23", {
         end: "bottom 0%",
       }, 
     backgroundPosition:  "100% 50%",
-    ease:SteppedEase.config(26),
+    ease:SteppedEase.config(32),
     duration: 0.8,
 });
 
@@ -1257,7 +1286,7 @@ gsap.to(".cerchio24", {
       }, 
     delay: 0.6,
     backgroundPosition:  "100% 50%",
-    ease:SteppedEase.config(26),
+    ease:SteppedEase.config(32),
     duration: 0.8,
 });
 
@@ -1269,7 +1298,7 @@ gsap.to(".cerchio25", {
       end: "bottom 0%",
     },  
     backgroundPosition:  "100% 50%",
-    ease:SteppedEase.config(26),
+    ease:SteppedEase.config(32),
     duration: 0.8,
 });
 
@@ -1282,7 +1311,7 @@ gsap.to(".cerchio26", {
     },  
     delay: 0.3,
     backgroundPosition:  "100% 50%",
-    ease:SteppedEase.config(26),
+    ease:SteppedEase.config(32),
     duration: 0.8,
 });
 
@@ -1295,7 +1324,7 @@ gsap.to(".cerchio27", {
     }, 
     delay: 0.6, 
     backgroundPosition:  "100% 50%",
-    ease:SteppedEase.config(26),
+    ease:SteppedEase.config(32),
     duration: 0.8,
 });
 
@@ -1307,7 +1336,7 @@ gsap.to(".cerchio31", {
         end: "bottom 0%",
       }, 
     backgroundPosition:  "100% 50%",
-    ease:SteppedEase.config(26),
+    ease:SteppedEase.config(32),
     duration: 0.8,
 });
 
@@ -1320,7 +1349,7 @@ gsap.to(".cerchio32", {
       }, 
     delay: 0.6,
     backgroundPosition:  "100% 50%",
-    ease:SteppedEase.config(26),
+    ease:SteppedEase.config(32),
     duration: 0.8,
 });
 
@@ -1332,7 +1361,7 @@ gsap.to(".cerchio33", {
       end: "bottom 0%",
     },  
     backgroundPosition:  "100% 50%",
-    ease:SteppedEase.config(26),
+    ease:SteppedEase.config(32),
     duration: 0.8,
 });
 
@@ -1345,7 +1374,7 @@ gsap.to(".cerchio34", {
     },  
     delay: 0.3,
     backgroundPosition:  "100% 50%",
-    ease:SteppedEase.config(26),
+    ease:SteppedEase.config(32),
     duration: 0.8,
 });
 
@@ -1358,13 +1387,75 @@ gsap.to(".cerchio35", {
     }, 
     delay: 0.6, 
     backgroundPosition:  "100% 50%",
-    ease:SteppedEase.config(26),
+    ease:SteppedEase.config(32),
     duration: 0.8,
+});
+
+gsap.to(".cerchio36", { 
+  backgroundPosition:  "100% 50%",
+  ease:SteppedEase.config(32),
+  duration: 0.8,
+});
+
+gsap.to(".cerchio37", { 
+  delay: 0.6,
+  backgroundPosition:  "100% 50%",
+  ease:SteppedEase.config(32),
+  duration: 0.8,
+});
+
+gsap.to(".cerchio38", {
+  scrollTrigger: {
+    trigger: ".triggerc3",
+    toggleActions: 'play none none none',
+    start: "top 0%",
+    end: "bottom 0%",
+  }, 
+  backgroundPosition:  "100% 50%",
+  ease:SteppedEase.config(32),
+  duration: 0.8,
+});
+
+gsap.to(".cerchio39", {
+  scrollTrigger: {
+    trigger: ".triggerc3",
+    toggleActions: 'play none none none',
+    start: "top 0%",
+    end: "bottom 0%",
+  }, 
+  delay: 0.6,
+  backgroundPosition:  "100% 50%",
+  ease:SteppedEase.config(32),
+  duration: 0.8,
+});
+
+gsap.to(".cerchio40", {
+  scrollTrigger: {
+    trigger: ".triggerc4",
+    toggleActions: 'play none none none',
+    start: "top 0%",
+    end: "bottom 0%",
+  }, 
+  backgroundPosition:  "100% 50%",
+  ease:SteppedEase.config(32),
+  duration: 0.8,
+});
+
+gsap.to(".cerchio41", {
+  scrollTrigger: {
+    trigger: ".triggerc5",
+    toggleActions: 'play none none none',
+    start: "top 0%",
+    end: "bottom 0%",
+  }, 
+  backgroundPosition:  "100% 50%",
+  ease:SteppedEase.config(32),
+  duration: 0.8,
 });
 
 var cm1 = gsap.to("#cerchiomouse1", 0.3, {
     backgroundPosition:  "100% 50%",
-    ease:SteppedEase.config(26),
+    ease:SteppedEase.config(32),
     paused: true,
   });
   document.querySelector("#cerchiomouse1").onmouseover = () => cm1.play();
@@ -1372,7 +1463,7 @@ var cm1 = gsap.to("#cerchiomouse1", 0.3, {
   
   var cm2 = gsap.to("#cerchiomouse2", 0.3, {
     backgroundPosition:  "100% 50%",
-    ease:SteppedEase.config(26),
+    ease:SteppedEase.config(32),
     paused: true,
   });
   document.querySelector("#cerchiomouse2").onmouseover = () => cm2.play();
@@ -1380,7 +1471,7 @@ var cm1 = gsap.to("#cerchiomouse1", 0.3, {
   
   var cm3 = gsap.to("#cerchiomouse3", 0.3, {
     backgroundPosition:  "100% 50%",
-    ease:SteppedEase.config(26),
+    ease:SteppedEase.config(32),
     paused: true,
   });
   document.querySelector("#cerchiomouse3").onmouseover = () => cm3.play();
@@ -1388,7 +1479,7 @@ var cm1 = gsap.to("#cerchiomouse1", 0.3, {
   
   var cm4 = gsap.to("#cerchiomouse4", 0.3, {
     backgroundPosition:  "100% 50%",
-    ease:SteppedEase.config(26),
+    ease:SteppedEase.config(32),
     paused: true,
   });
   document.querySelector("#cerchiomouse4").onmouseover = () => cm4.play();
@@ -1396,7 +1487,7 @@ var cm1 = gsap.to("#cerchiomouse1", 0.3, {
   
   var cm5 = gsap.to("#cerchiomouse5", 0.3, {
     backgroundPosition:  "100% 50%",
-    ease:SteppedEase.config(26),
+    ease:SteppedEase.config(32),
     paused: true,
   });
   document.querySelector("#cerchiomouse5").onmouseover = () => cm5.play();
@@ -1404,7 +1495,7 @@ var cm1 = gsap.to("#cerchiomouse1", 0.3, {
   
   var cm6 = gsap.to("#cerchiomouse6", 0.3, {
     backgroundPosition:  "100% 50%",
-    ease:SteppedEase.config(26),
+    ease:SteppedEase.config(32),
     paused: true,
   });
   document.querySelector("#cerchiomouse6").onmouseover = () => cm6.play();

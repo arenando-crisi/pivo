@@ -116,14 +116,14 @@ div{
 
 #cerchiomouse3{
     background-image: url('../asset/cerchionero.png');
-    background-size: 2700% 100%;
+    background-size: 3300% 100%;
     background-repeat: no-repeat;
     background-position: 0% 0%;
 }
 
 #cerchiomouse4{
     background-image: url('../asset/cerchionero.png');
-    background-size: 2700% 100%;
+    background-size: 3300% 100%;
     background-repeat: no-repeat;
     background-position: 0% 0%;
 }
@@ -163,14 +163,14 @@ div{
 
 #cerchiomouse5{
     background-image: url('../asset/cerchiobianco.png');
-    background-size: 2700% 100%;
+    background-size: 3300% 100%;
     background-repeat: no-repeat;
     background-position: 0% 0%;
 }
 
 #cerchiomouse6{
     background-image: url('../asset/cerchiobianco.png');
-    background-size: 2700% 100%;
+    background-size: 3300% 100%;
     background-repeat: no-repeat;
     background-position: 0% 0%;
 }
@@ -377,7 +377,7 @@ div{
     height: 3vh;
     width: 5vw;
     background-image: url('../asset/cerchiobianco.png');
-    background-size: 2700% 100%;
+    background-size: 3300% 100%;
     background-repeat: no-repeat;
     background-position: 0% 0%;
     display: block;
@@ -433,7 +433,7 @@ div{
     height: 3vh;
     width: 6vw;
     background-image: url('../asset/cerchiobianco.png');
-    background-size: 2700% 100%;
+    background-size: 3300% 100%;
     background-repeat: no-repeat;
     background-position: 0% 0%;
     display: block;
@@ -470,7 +470,7 @@ div{
 
 .cerchio1{
     background-image: url('../asset/cerchiobianco.png');
-    background-size: 2700% 100%;
+    background-size: 3300% 100%;
     background-repeat: no-repeat;
     background-position: 0% 0%;
     z-index: 3;
@@ -578,6 +578,26 @@ div{
     }
 }
 
+.scrittina{
+    background-image: url('../asset/scrittina.png');
+    background-size: 3100% 100%;
+    background-repeat: no-repeat;
+    background-position: 0% 50%;
+    z-index: 2;
+    position: absolute;
+    top: 73vh;
+    left: 38vw;
+    height: 4vw;
+    width: 9vw;
+    transform: rotate(-20deg);
+}
+
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    .scrittina{
+        display: none;
+    }
+}
+
 .video{
     position: fixed;
     top: 1vh;
@@ -644,7 +664,7 @@ div{
 
 .cerchio1{
     background-image: url('../asset/cerchiobianco.png');
-    background-size: 2700% 100%;
+    background-size: 3300% 100%;
     background-repeat: no-repeat;
     background-position: 0% 0%;
     z-index: 3;
@@ -722,7 +742,7 @@ div{
 
 .cerchio2{
     background-image: url('../asset/cerchiobianco.png');
-    background-size: 2700% 100%;
+    background-size: 3300% 100%;
     background-repeat: no-repeat;
     background-position: 0% 0%;
     z-index: 5;
@@ -797,8 +817,8 @@ div{
 #sticker1{
     position: absolute;
     z-index: 80;
-    top: 60vh;
-    left: 40vw;
+    top: 71vh;
+    left: 46vw;
 }
 
 #sticker2{
@@ -1203,7 +1223,7 @@ div{
 
 .cerchio3{
     background-image: url('../asset/cerchionero.png');
-    background-size: 2700% 100%;
+    background-size: 3300% 100%;
     background-repeat: no-repeat;
     background-position: 0% 0%;
     z-index: 5;
@@ -1290,7 +1310,7 @@ div{
 
 .cerchio4{
     background-image: url('../asset/cerchionero.png');
-    background-size: 2700% 100%;
+    background-size: 3300% 100%;
     background-repeat: no-repeat;
     background-position: 0% 0%;
     z-index: 5;
@@ -1413,7 +1433,7 @@ div{
 
 .cerchio5{
     background-image: url('../asset/cerchiobianco.png');
-    background-size: 2700% 100%;
+    background-size: 3300% 100%;
     background-repeat: no-repeat;
     background-position: 0% 0%;
     z-index: 5;
@@ -1456,7 +1476,7 @@ div{
 
 .cerchio6{
     background-image: url('../asset/cerchionero.png');
-    background-size: 2700% 100%;
+    background-size: 3300% 100%;
     background-repeat: no-repeat;
     background-position: 0% 0%;
     z-index: 5;
@@ -1474,10 +1494,25 @@ div{
     top: 10vh;
     left: 2vw;
     font-family: Formula;
-    font-size: 2.4vw;
+    font-size: 2.3vw;
     width: 30vw;
     z-index: 2;
     text-align: left;
+}
+
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    .copyorganizza{
+        top: 62vh;
+        left: 5vw;
+        font-size: 5vw;
+        width: 85vw;
+    }
+}
+
+@media screen and (max-width: 390px) { /*  Telefono  */
+    .copyorganizza{
+        font-size: 6vw;
+    }
 }
 
 .img1{
@@ -1541,7 +1576,7 @@ div{
 
 .cerchio7{
     background-image: url('../asset/cerchionero.png');
-    background-size: 2700% 100%;
+    background-size: 3300% 100%;
     background-repeat: no-repeat;
     background-position: 0% 0%;
     z-index: 5;
@@ -1604,7 +1639,7 @@ div{
 
 .cerchio8{
     background-image: url('../asset/cerchionero.png');
-    background-size: 2700% 100%;
+    background-size: 3300% 100%;
     background-repeat: no-repeat;
     background-position: 0% 0%;
     z-index: 5;
@@ -1710,7 +1745,7 @@ div{
 
 .cerchio9{
     background-image: url('../asset/cerchionero.png');
-    background-size: 2700% 100%;
+    background-size: 3300% 100%;
     background-repeat: no-repeat;
     background-position: 0% 0%;
     z-index: 5;
@@ -1721,9 +1756,18 @@ div{
     width: 20vw;
 }
 
+@media screen and (max-width: 390px) { /*  Telefono  */
+    .cerchio9{
+        top: 52vh;
+        left: 4vw;
+        height: 7vw;
+        width: 30vw;
+    }
+}
+
 .cerchio10{
     background-image: url('../asset/cerchionero.png');
-    background-size: 2700% 100%;
+    background-size: 3300% 100%;
     background-repeat: no-repeat;
     background-position: 0% 0%;
     z-index: 5;
@@ -1734,9 +1778,18 @@ div{
     width: 13vw;
 }
 
+@media screen and (max-width: 390px) { /*  Telefono  */
+    .cerchio10{
+        top: 52vh;
+        left: 4vw;
+        height: 7vw;
+        width: 18vw;
+    }
+}
+
 .cerchio11{
     background-image: url('../asset/cerchionero.png');
-    background-size: 2700% 100%;
+    background-size: 3300% 100%;
     background-repeat: no-repeat;
     background-position: 0% 0%;
     z-index: 5;
@@ -1745,6 +1798,15 @@ div{
     left: 4vw;
     height: 5vw;
     width: 20vw;
+}
+
+@media screen and (max-width: 390px) { /*  Telefono  */
+    .cerchio11{
+        top: 52vh;
+        left: 4vw;
+        height: 7vw;
+        width: 28vw;
+    }
 }
 
 @media screen and (max-width: 390px) { /*  Telefono  */
@@ -1833,7 +1895,7 @@ div{
 
 .cerchio12{
     background-image: url('../asset/cerchionero.png');
-    background-size: 2700% 100%;
+    background-size: 3300% 100%;
     background-repeat: no-repeat;
     background-position: 0% 0%;
     z-index: 5;
@@ -1857,9 +1919,18 @@ div{
     }
 }
 
+@media screen and (max-width: 390px) { /*  Telefono  */
+    .cerchio12{
+        top: 9vh;
+        left: 20vw;
+        height: 8vw;
+        width: 60vw;
+    }
+}
+
 .cerchio13{
     background-image: url('../asset/cerchionero.png');
-    background-size: 2700% 100%;
+    background-size: 3300% 100%;
     background-repeat: no-repeat;
     background-position: 0% 0%;
     z-index: 5;
@@ -1879,10 +1950,33 @@ div{
     }
 }
 
+@media screen and (max-width: 390px) { /*  Telefono  */
+    .cerchio13{
+        top: 43vh;
+        height: 11vw;
+        width: 70vw;
+    }
+}
+
+@media screen and (max-width: 375px) { /*  Telefono piccolo  */
+    .cerchio13{
+        top: 48vh;
+        height: 12vw;
+        width: 69vw;
+    }
+}
+
+@media screen and (max-width: 360px) { /*  Telefono piccolo piccolo  */
+    .cerchio13{
+        top: 42vh;
+        height: 12vw;
+        width: 70vw;
+    }
+}
+
 .screencommunity{
     position: absolute;
     margin: 0;
-    padding: 1vw;
     top: 30vh;
     width: 40vw;
     height: 60vh;
@@ -1893,16 +1987,29 @@ div{
     overflow: hidden;
 }
 
-.videocommunity{
+.screencommunitymobile{
+    display: none;
+    position: absolute;
     margin: 0;
-    padding: 0;
+    top: 30vh;
+    width: 40vw;
+    height: 60vh;
+    right: 4vw;
+    vertical-align: middle;
+    z-index: 2;
     border-radius: 30px;
     overflow: hidden;
-    z-index: 3;
 }
 
 @media screen and (max-width: 768px) { /*  Ipad mini  */
     .screencommunity{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    .screencommunitymobile{
+        display: block;
         left: 4vw;
         width: 90vw;
         top: 60vh;
@@ -1911,21 +2018,21 @@ div{
 }
 
 @media screen and (max-width: 390px) { /*  Telefono  */
-    .screencommunity{
+    .screencommunitymobile{
         top: 63vh;
         height: 33vh;
     }
 }
 
 @media screen and (max-width: 375px) { /*  Telefono piccolo  */
-    .screencommunity{
+    .screencommunitymobile{
         top: 70vh;
         height: 26vh;
     }
 }
 
 @media screen and (max-width: 360px) { /*  Telefono piccolo piccolo  */
-    .screencommunity{
+    .screencommunitymobile{
         top: 63vh;
         height: 33vh;
     }
@@ -2398,6 +2505,9 @@ div{
     background-color: #A07EFF;
     border-radius: 25px;
     height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .rece2{
@@ -2406,6 +2516,9 @@ div{
     background-color: #DFFF9C;
     border-radius: 25px;
     height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .rece3{
@@ -2414,6 +2527,9 @@ div{
     background-color: #FA4928;
     border-radius: 25px;
     height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .rece4{
@@ -2422,6 +2538,9 @@ div{
     background-color: #A07EFF;
     border-radius: 25px;
     height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .rece5{
@@ -2430,6 +2549,9 @@ div{
     background-color: #DFFF9C;
     border-radius: 25px;
     height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .rece6{
@@ -2438,6 +2560,9 @@ div{
     background-color: #FA4928;
     border-radius: 25px;
     height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .rece7{
@@ -2446,13 +2571,17 @@ div{
     background-color: #A07EFF;
     border-radius: 25px;
     height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .imgrece1{
     margin: 0;
     padding: 0;
-    height: 40vh;
     overflow: hidden;
+    height: 40vh;
+    width: 50vw;
     border-radius: 25px 25px 0 0;
 }
 
@@ -2460,12 +2589,14 @@ div{
     position: relative;
     margin: 0;
     padding: 0;
-    top: 2vh;
+    bottom: 0vh;
     font-family: montreal_bold;
     font-size: 3vw;
     width: 50vw;
     text-align: center;
+    margin: 0;
     z-index: 2;
+    margin-bottom: 2vh;
 }
 
 @media screen and (max-width: 390px) { /*  Telefono  */
@@ -2481,12 +2612,10 @@ div{
     padding: 0;
     top: 2vh;
     font-family: Montreal;
-    font-size: 3vw;
-    width: 10vw;
-    text-align: left;
+    font-size: 2.8vw;
+    width: 50vw;
+    text-align: center;
     z-index: 2;
-    height: 14vh;
-    left: 3vw;
 }
 
 @media screen and (max-width: 390px) { /*  Telefono  */
@@ -2532,7 +2661,7 @@ div{
 
 .cerchio14{
     background-image: url('../asset/cerchionero.png');
-    background-size: 2700% 100%;
+    background-size: 3300% 100%;
     background-repeat: no-repeat;
     background-position: 0% 0%;
     z-index: 5;
@@ -2541,6 +2670,24 @@ div{
     left: 44vw;
     height: 3vw;
     width: 12vw;
+}
+
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    .cerchio14{
+        top: 5vh;
+        left: 35vw;
+        height: 6vw;
+        width: 30vw;
+    }
+}
+
+@media screen and (max-width: 390px) { /*  Telefono  */
+    .cerchio14{
+        top: 9vh;
+        left: 28vw;
+        height: 8vw;
+        width: 43vw;
+    }
 }
 
 @media screen and (max-width: 768px) { /*  Ipad mini  */
@@ -2789,6 +2936,12 @@ div{
     display: none;
 }
 
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    .trigger9{
+        top: 800vh;
+    }
+}
+
 .trigger10{
     position: absolute;
     top: 190vh;
@@ -2806,9 +2959,15 @@ div{
     left: 0;
     width: 10vw;
     height: 1px;
-    border: 1px solid black;
+    border: 1px solid gold;
     z-index: 1000;
     display: none;
+}
+
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    .trigger11{
+        top: 600vh;
+    }
 }
 
 .triggerheaderb1{
@@ -3012,7 +3171,7 @@ div{
 
 .cerchio15{
     background-image: url('../asset/cerchionero.png');
-    background-size: 2700% 100%;
+    background-size: 3300% 100%;
     background-repeat: no-repeat;
     background-position: 0% 0%;
     z-index: 5;
@@ -3028,6 +3187,15 @@ div{
         left: 38vw;
         height: 6vw;
         width: 25vw;
+    }
+}
+
+
+@media screen and (max-width: 390px) { /*  Telefono  */
+    .cerchio15{
+        left: 34vw;
+        height: 8vw;
+        width: 32vw;
     }
 }
 
@@ -3071,7 +3239,7 @@ div{
 
 .cerchio16{
     background-image: url('../asset/cerchionero.png');
-    background-size: 2700% 100%;
+    background-size: 3300% 100%;
     background-repeat: no-repeat;
     background-position: 0% 0%;
     z-index: 5;
@@ -3088,6 +3256,25 @@ div{
         left: 4vw;
         height: 9vw;
         width: 60vw;
+    }
+}
+
+@media screen and (max-width: 390px) { /*  Telefono  */
+    .cerchio16{
+        top: 66vh;
+        height: 10vw;
+    }
+}
+
+@media screen and (max-width: 375px) { /*  Telefono piccolo  */
+    .cerchio16{
+        top: 59vh;
+    }
+}
+
+@media screen and (max-width: 360px) { /*  Telefono piccolo piccolo  */
+    .cerchio16{
+        top: 64vh;
     }
 }
 
@@ -3133,7 +3320,7 @@ div{
 
 .cerchio17{
     background-image: url('../asset/cerchionero.png');
-    background-size: 2700% 100%;
+    background-size: 3300% 100%;
     background-repeat: no-repeat;
     background-position: 0% 0%;
     z-index: 5;
@@ -3146,7 +3333,7 @@ div{
 
 .cerchio18{
     background-image: url('../asset/cerchionero.png');
-    background-size: 2700% 100%;
+    background-size: 3300% 100%;
     background-repeat: no-repeat;
     background-position: 0% 0%;
     z-index: 5;
@@ -3159,7 +3346,7 @@ div{
 
 .cerchio19{
     background-image: url('../asset/cerchionero.png');
-    background-size: 2700% 100%;
+    background-size: 3300% 100%;
     background-repeat: no-repeat;
     background-position: 0% 0%;
     z-index: 5;
@@ -3289,6 +3476,7 @@ div{
     border-radius: 25px;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .screen2mobile{
@@ -3301,6 +3489,7 @@ div{
     border-radius: 25px;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .screen3mobile{
@@ -3313,11 +3502,12 @@ div{
     border-radius: 25px;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .cerchio20{
     background-image: url('../asset/cerchionero.png');
-    background-size: 2700% 100%;
+    background-size: 3300% 100%;
     background-repeat: no-repeat;
     background-position: 100% 0%;
     z-index: 5;
@@ -3330,33 +3520,33 @@ div{
 
 .cerchio21{
     background-image: url('../asset/cerchionero.png');
-    background-size: 2700% 100%;
+    background-size: 3300% 100%;
     background-repeat: no-repeat;
     background-position: 100% 0%;
     z-index: 5;
-    position: relative;
-    top: -12vh;
-    left: 19vw;
-    height: 24vw;
-    width: 52vw;
+    position: absolute;
+    top: 4vh;
+    left: 20vw;
+    height: 9vw;
+    width: 50vw;
 }
 
 .cerchio22{
     background-image: url('../asset/cerchionero.png');
-    background-size: 2700% 100%;
+    background-size: 3300% 100%;
     background-repeat: no-repeat;
     background-position: 100% 0%;
     z-index: 5;
-    position: relative;
-    top: -12vh;
+    position: absolute;
+    top: 4vh;
     left: 30vw;
-    height: 24vw;
+    height: 9vw;
     width: 30vw;
 }
 
 .cerchio28{
     background-image: url('../asset/cerchionero.png');
-    background-size: 2700% 100%;
+    background-size: 3300% 100%;
     background-repeat: no-repeat;
     background-position: 100% 0%;
     z-index: 5;
@@ -3364,71 +3554,71 @@ div{
     top: 4vh;
     left: 30vw;
     height: 9vw;
-    width: 30vw;
+    width: 33vw;
 }
 
 .cerchio29{
     background-image: url('../asset/cerchionero.png');
-    background-size: 2700% 100%;
-    background-repeat: no-repeat;
-    background-position: 100% 0%;
-    z-index: 5;
-    position: relative;
-    top: -12vh;
-    left: 19vw;
-    height: 24vw;
-    width: 52vw;
-}
-
-.cerchio30{
-    background-image: url('../asset/cerchionero.png');
-    background-size: 2700% 100%;
-    background-repeat: no-repeat;
-    background-position: 100% 0%;
-    z-index: 5;
-    position: relative;
-    top: -12vh;
-    left: 30vw;
-    height: 24vw;
-    width: 30vw;
-}
-
-.cerchio36{
-    background-image: url('../asset/cerchionero.png');
-    background-size: 2700% 100%;
+    background-size: 3300% 100%;
     background-repeat: no-repeat;
     background-position: 100% 0%;
     z-index: 5;
     position: absolute;
-    top: 4vh;
-    left: 23vw;
-    height: 9vw;
-    width: 45vw;
+    top: 2vh;
+    left: 15vw;
+    height: 13vw;
+    width: 60vw;
 }
 
-.cerchio37{
+.cerchio30{
     background-image: url('../asset/cerchionero.png');
-    background-size: 2700% 100%;
+    background-size: 3300% 100%;
     background-repeat: no-repeat;
     background-position: 100% 0%;
     z-index: 5;
-    position: relative;
-    top: -12vh;
-    left: 19vw;
-    height: 24vw;
-    width: 52vw;
+    position: absolute;
+    top: 3vh;
+    left: 28vw;
+    height: 10vw;
+    width: 34vw;
 }
 
-.cerchio38{
+.cerchio42{
     background-image: url('../asset/cerchionero.png');
-    background-size: 2700% 100%;
+    background-size: 3300% 100%;
     background-repeat: no-repeat;
     background-position: 100% 0%;
     z-index: 5;
-    position: relative;
-    top: -12vh;
+    position: absolute;
+    top: 3vh;
+    left: 24vw;
+    height: 11vw;
+    width: 42vw;
+}
+
+.cerchio43{
+    background-image: url('../asset/cerchionero.png');
+    background-size: 3300% 100%;
+    background-repeat: no-repeat;
+    background-position: 100% 0%;
+    z-index: 5;
+    position: absolute;
+    top: 2vh;
+    left: 15vw;
+    height: 13vw;
+    width: 60vw;
+}
+
+.cerchio44{
+    background-image: url('../asset/cerchionero.png');
+    background-size: 3300% 100%;
+    background-repeat: no-repeat;
+    background-position: 100% 0%;
+    z-index: 5;
+    position: absolute;
+    top: 3vh;
     left: 23vw;
-    height: 24vw;
+    height: 11vw;
     width: 45vw;
 }
 
@@ -3462,7 +3652,6 @@ div{
 .txtscreenmobile{
     font-family: Montreal;
     font-size: 3vw;
-    margin-left: 5vw;
     width: 80vw;
     text-align: center;
 }
@@ -3470,6 +3659,8 @@ div{
 .imgscreenmobile{
     overflow: hidden;
     margin: 5vh;
+    margin-bottom: 1vh;
+    border-radius: 0 0 50px 50px;
 }
 
 @media screen and (max-width: 390px) { /*  Telefono  */
@@ -3490,7 +3681,7 @@ div{
 
 .cerchio23{
     background-image: url('../asset/cerchionero.png');
-    background-size: 2700% 100%;
+    background-size: 3300% 100%;
     background-repeat: no-repeat;
     background-position: 0% 0%;
     z-index: 5;
@@ -3501,9 +3692,26 @@ div{
     width: 6vw;
 }
 
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    .cerchio23{
+        top: 15vh;
+        left: 43vw;
+        height: 6vw;
+        width: 15vw;
+    }
+}
+
+@media screen and (max-width: 390px) { /*  Telefono  */
+    .cerchio23{
+        left: 40vw;
+        height: 8vw;
+        width: 20vw;
+    }
+}
+
 .cerchio24{
     background-image: url('../asset/cerchionero.png');
-    background-size: 2700% 100%;
+    background-size: 3300% 100%;
     background-repeat: no-repeat;
     background-position: 0% 0%;
     z-index: 5;
@@ -3514,9 +3722,36 @@ div{
     width: 37vw;
 }
 
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    .cerchio24{
+        top: 63vh;
+        left: 3vw;
+        height: 10vw;
+        width: 58vw;
+    }
+}
+
+@media screen and (max-width: 390px) { /*  Telefono  */
+    .cerchio24{
+        top: 77vh;
+    }
+}
+
+@media screen and (max-width: 375px) { /*  Telefono piccolo  */
+    .cerchio24{
+        top: 72.4vh;
+    }
+}
+
+@media screen and (max-width: 360px) { /*  Telefono piccolo piccolo  */
+    .cerchio24{
+        top: 76vh;
+    }
+}
+
 .cerchio25{
     background-image: url('../asset/cerchionero.png');
-    background-size: 2700% 100%;
+    background-size: 3300% 100%;
     background-repeat: no-repeat;
     background-position: 0% 0%;
     z-index: 5;
@@ -3529,7 +3764,7 @@ div{
 
 .cerchio26{
     background-image: url('../asset/cerchionero.png');
-    background-size: 2700% 100%;
+    background-size: 3300% 100%;
     background-repeat: no-repeat;
     background-position: 0% 0%;
     z-index: 5;
@@ -3542,7 +3777,7 @@ div{
 
 .cerchio27{
     background-image: url('../asset/cerchionero.png');
-    background-size: 2700% 100%;
+    background-size: 3300% 100%;
     background-repeat: no-repeat;
     background-position: 0% 0%;
     z-index: 5;
@@ -3603,7 +3838,7 @@ div{
 
 .cerchio31{
     background-image: url('../asset/cerchionero.png');
-    background-size: 2700% 100%;
+    background-size: 3300% 100%;
     background-repeat: no-repeat;
     background-position: 0% 0%;
     z-index: 5;
@@ -3616,7 +3851,7 @@ div{
 
 .cerchio32{
     background-image: url('../asset/cerchionero.png');
-    background-size: 2700% 100%;
+    background-size: 3300% 100%;
     background-repeat: no-repeat;
     background-position: 0% 0%;
     z-index: 5;
@@ -3627,9 +3862,52 @@ div{
     width: 20vw;
 }
 
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    .cerchio31{
+        top: 15vh;
+        left: 39vw;
+        height: 6vw;
+        width: 23vw;
+    }
+    
+    .cerchio32{
+        top: 45vh;
+        left: 4vw;
+        height: 10vw;
+        width: 30vw;
+    }
+}
+
+@media screen and (max-width: 390px) { /*  Telefono  */
+    .cerchio31{
+        left: 34vw;
+        height: 8vw;
+        width: 33vw;
+    }
+    
+    .cerchio32{
+        top: 65vh;
+        left: 4vw;
+        height: 13vw;
+        width: 30vw;
+    }
+}
+
+@media screen and (max-width: 375px) { /*  Telefono piccolo  */
+    .cerchio32{
+        top: 58vh;
+    }
+}
+
+@media screen and (max-width: 360px) { /*  Telefono piccolo piccolo  */
+    .cerchio32{
+        top: 63vh;
+    }
+}
+
 .cerchio33{
     background-image: url('../asset/cerchionero.png');
-    background-size: 2700% 100%;
+    background-size: 3300% 100%;
     background-repeat: no-repeat;
     background-position: 0% 0%;
     z-index: 5;
@@ -3642,7 +3920,7 @@ div{
 
 .cerchio34{
     background-image: url('../asset/cerchionero.png');
-    background-size: 2700% 100%;
+    background-size: 3300% 100%;
     background-repeat: no-repeat;
     background-position: 0% 0%;
     z-index: 5;
@@ -3655,7 +3933,7 @@ div{
 
 .cerchio35{
     background-image: url('../asset/cerchionero.png');
-    background-size: 2700% 100%;
+    background-size: 3300% 100%;
     background-repeat: no-repeat;
     background-position: 0% 0%;
     z-index: 5;
@@ -3915,14 +4193,14 @@ div{
 
 .cerchiocs{
     background-image: url('../asset/cerchionero.png');
-    background-size: 2700% 100%;
+    background-size: 3300% 100%;
     background-repeat: no-repeat;
     background-position: 100% 0%;
 }
 
 .cerchiocsb{
     background-image: url('../asset/cerchiobianco.png');
-    background-size: 2700% 100%;
+    background-size: 3300% 100%;
     background-repeat: no-repeat;
     background-position: 100% 0%;
 }
@@ -3939,6 +4217,86 @@ div{
     z-index: 1;
     position: absolute;
     display: flex;
+}
+
+.cerchio36{
+    background-image: url('../asset/cerchionero.png');
+    background-size: 3300% 100%;
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+    z-index: 10;
+    position: absolute;
+    top: 13vh;
+    left: 43vw;
+    height: 4vw;
+    width: 14vw;
+}
+
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    .cerchio36{
+        top: 15vh;
+        left: 33vw;
+        height: 6vw;
+        width: 35vw;
+    }
+}
+
+@media screen and (max-width: 390px) { /*  Telefono  */
+    .cerchio36{
+        top: 15vh;
+        left: 27vw;
+        height: 8vw;
+        width: 47vw;
+    }
+}
+
+.cerchio37{
+    background-image: url('../asset/cerchionero.png');
+    background-size: 3300% 100%;
+    background-repeat: no-repeat;
+    background-position: 0% 50%;
+    z-index: 10;
+    position: absolute;
+    top: 59vh;
+    left: 3vw;
+    height: 5.5vw;
+    width: 33vw;
+}
+
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    .cerchio37{
+        top: 83vh;
+        left: 3vw;
+        height: 8vw;
+        width: 52vw;
+    }
+}
+
+@media screen and (max-width: 390px) { /*  Telefono  */
+    .cerchio37{
+        top: 81vh;
+        left: 3vw;
+        height: 9vw;
+        width: 68vw;
+    }
+}
+
+@media screen and (max-width: 375px) { /*  Telefono piccolo  */
+    .cerchio37{
+        top: 85vh;
+        left: 3vw;
+        height: 10vw;
+        width: 68vw;
+    }
+}
+
+@media screen and (max-width: 360px) { /*  Telefono piccolo piccolo  */
+    .cerchio37{
+        top: 82vh;
+        left: 3vw;
+        height: 10vw;
+        width: 68vw;
+    }
 }
 
 @media screen and (max-width: 768px) { /*  Ipad mini  */
@@ -4010,6 +4368,107 @@ div{
     overflow: hidden;
 }
 
+.cerchio38{
+    background-image: url('../asset/cerchiobianco.png');
+    background-size: 3300% 100%;
+    background-repeat: no-repeat;
+    background-position: 0% 50%;
+    z-index: 10;
+    position: absolute;
+    top: 9.3vh;
+    left: 44vw;
+    height: 3vw;
+    width: 12vw;
+}
+
+.cerchio39{
+    background-image: url('../asset/cerchionero.png');
+    background-size: 3300% 100%;
+    background-repeat: no-repeat;
+    background-position: 0% 50%;
+    z-index: 10;
+    position: absolute;
+    top: 3vh;
+    left: 2vw;
+    height: 2.3vw;
+    width: 9vw;
+}
+
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    .cerchio39{
+        top: 55vh;
+        left: 4vw;
+        height: 7vw;
+        width: 28vw;
+    }
+}
+
+@media screen and (max-width: 390px) { /*  Telefono  */
+    .cerchio39{
+        height: 9vw;
+        width: 37vw;
+    }
+}
+
+.cerchio40{
+    background-image: url('../asset/cerchionero.png');
+    background-size: 3300% 100%;
+    background-repeat: no-repeat;
+    background-position: 0% 50%;
+    z-index: 10;
+    position: absolute;
+    top: 3vh;
+    left: 2vw;
+    height: 2.3vw;
+    width: 11vw;
+}
+
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    .cerchio40{
+        top: 55vh;
+        left: 4vw;
+        height: 7vw;
+        width: 34vw;
+    }
+}
+
+@media screen and (max-width: 390px) { /*  Telefono  */
+    .cerchio40{
+        height: 9vw;
+        width: 45vw;
+    }
+}
+
+.cerchio41{
+    background-image: url('../asset/cerchionero.png');
+    background-size: 3300% 100%;
+    background-repeat: no-repeat;
+    background-position: 0% 50%;
+    z-index: 10;
+    position: absolute;
+    top: 3vh;
+    left: 2vw;
+    height: 2.3vw;
+    width: 12vw;
+}
+
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    .cerchio41{
+        top: 55vh;
+        left: 4vw;
+        height: 7vw;
+        width: 36vw;
+    }
+}
+
+@media screen and (max-width: 390px) { /*  Telefono  */
+    .cerchio41{
+        height: 9vw;
+        width: 48vw;
+    }
+}
+
+
 @media screen and (max-width: 768px) { /*  Ipad mini  */
     .valorislide{
         display: none;
@@ -4032,6 +4491,22 @@ div{
     width: 30vw;
     text-align: left;
     z-index: 2; 
+}
+
+@media screen and (max-width: 768px) { /*  Ipad mini  */
+    .descrizione{
+        left: 5vw;
+        bottom: 3vh;
+        font-size: 3vw;
+        width: 85vw;
+    }
+}
+
+@media screen and (max-width: 390px) { /*  Telefono  */
+    .descrizione{
+        font-size: 4.5vw;
+        width: 90vw;
+    }
 }
 
 .img1{
@@ -4287,6 +4762,14 @@ div{
     height: 60vh;
 }
 
+.crew8{
+    top: 30vh;
+    margin: 1vw;
+    background-color: #DFFF9C;
+    border-radius: 25px;
+    height: 60vh;
+}
+
 .imgcrew1{
     margin: 0;
     padding: 0;
@@ -4377,6 +4860,7 @@ div{
     }
 }
 
+
 .freccinaorizzontale{
     background-image: url('../asset/freccinascrollnera.png');
     background-size: 3000% 100%;
@@ -4384,7 +4868,7 @@ div{
     background-position: 0% 50%;
     z-index: 2;
     position: absolute;
-    top: 531vh;
+    top: 495vh;
     left: 95vw;
     height: 5vw;
     width: 3vw;
@@ -4393,7 +4877,10 @@ div{
 
 @media screen and (max-width: 768px) { /*  Ipad mini  */
     .freccinaorizzontale{
-        display: none;
+        top: 482vh;
+        left: 93vw;
+        height: 9vw;
+        width: 6vw;
     }
 }
 
@@ -4462,6 +4949,39 @@ div{
     width: 10vw;
     height: 260vh;
     border: 1px solid rebeccapurple;
+    z-index: 1000;
+    display: none;
+}
+
+.triggerc3{
+    position: absolute;
+    top: 90vh;
+    left: 0;
+    width: 10vw;
+    height: 1px;
+    border: 1px solid gold;
+    z-index: 1000;
+    display: none;
+}
+
+.triggerc4{
+    position: absolute;
+    top: 180vh;
+    left: 0;
+    width: 10vw;
+    height: 1px;
+    border: 1px solid gold;
+    z-index: 1000;
+    display: none;
+}
+
+.triggerc5{
+    position: absolute;
+    top: 300vh;
+    left: 0;
+    width: 10vw;
+    height: 1px;
+    border: 1px solid gold;
     z-index: 1000;
     display: none;
 }
