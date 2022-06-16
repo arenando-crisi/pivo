@@ -1,12 +1,12 @@
 body{
     margin: 0;
-    height: 1013vh;
+    height: 683vh;
     width: 100vw;
 }
 
 @media screen and (max-width: 768px) { /*  Ipad mini  */
     body{
-        height: 943vh;
+        height: 620vh;
     }
 }
 
@@ -837,6 +837,7 @@ div{
     z-index: 80;
     top: 71vh;
     left: 46vw;
+    display: none;
 }
 
 #sticker2{
@@ -844,6 +845,7 @@ div{
     z-index: 80;
     top: 20vh;
     left: 70vw;
+    display: none;
 }
 
 #sticker3{
@@ -851,6 +853,7 @@ div{
     z-index: 80;
     top: 140vh;
     left: 20vw;
+    display: none;
 }
 
 #sticker4{
@@ -858,6 +861,7 @@ div{
     z-index: 80;
     top: 190vh;
     left: 70vw;
+    display: none;
 }
 
 #sticker5{
@@ -865,6 +869,7 @@ div{
     z-index: 80;
     top: 300vh;
     left: 80vw;
+    display: none;
 }
 
 #sticker6{
@@ -872,6 +877,7 @@ div{
     z-index: 80;
     top: 890vh;
     left: 5vw;
+    display: none;
 }
 
 #sticker7{
@@ -879,6 +885,7 @@ div{
     z-index: 80;
     top: 940vh;
     left: 70vw;
+    display: none;
 }
 
 #sticker8{
@@ -934,7 +941,6 @@ div{
     z-index: 80;
     top: 30vh;
     left: 40vw;
-    display: none;
 }
 
 #sticker15{
@@ -942,7 +948,6 @@ div{
     z-index: 80;
     top: 560vh;
     left: 10vw;
-    display: none;
 }
 
 @media screen and (max-width: 1024px) { /*  Ipad mini  */
