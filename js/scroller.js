@@ -96,6 +96,18 @@ gsap.to(".scrittina", {
   }
 });
 
+gsap.to(".scrittina2", {
+  opacity: 0,
+  duration: 0.4,
+  scrollTrigger: {
+      trigger: ".trigger2",
+      toggleActions: 'restart none none reverse',
+      start: "top 0%",
+      end: "bottom 0%",
+      scrub: true,
+  }
+});
+
 gsap.to(".freccinascroll", {
     opacity: 0,
     duration: 0.4,
@@ -755,6 +767,10 @@ atxt1.to(".cerchio1", 1, {
 atxt1.to(".scrittina", 1.2, {
   backgroundPosition:  "100% 50%",
   ease:SteppedEase.config(30),
+},"<1%");
+atxt1.to(".scrittina2", 1.2, {
+  backgroundPosition:  "100% 50%",
+  ease:SteppedEase.config(41),
 },"<1%");
 
 let atxt1_1 = gsap.timeline();

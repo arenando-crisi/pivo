@@ -592,8 +592,26 @@ div{
     transform: rotate(-20deg);
 }
 
+.scrittina2{
+    background-image: url('../asset/scrittina2.png');
+    background-size: 4300% 100%;
+    background-repeat: no-repeat;
+    background-position: 0% 50%;
+    z-index: 10;
+    position: absolute;
+    top: 75vh;
+    left: 78vw;
+    height: 4vw;
+    width: 9vw;
+    transform: rotate(-10deg);
+}
+
 @media screen and (max-width: 768px) { /*  Ipad mini  */
     .scrittina{
+        display: none;
+    }
+    
+    .scrittina2{
         display: none;
     }
 }
@@ -824,8 +842,8 @@ div{
 #sticker2{
     position: absolute;
     z-index: 80;
-    top: 40vh;
-    left: 80vw;
+    top: 20vh;
+    left: 70vw;
 }
 
 #sticker3{
@@ -1737,10 +1755,9 @@ div{
     color: black;
     font-family: Montreal;
     font-size: 4vw;
-    width: 20vw;
+    width: 100vw;
     z-index: 2;
-    text-align: left;
-    left: 5vw;
+    text-align: center;
 }
 
 .cerchio9{
@@ -1751,7 +1768,7 @@ div{
     z-index: 5;
     position: absolute;
     top: 52vh;
-    left: 4vw;
+    left: 40vw;
     height: 5vw;
     width: 20vw;
 }
@@ -1759,7 +1776,7 @@ div{
 @media screen and (max-width: 390px) { /*  Telefono  */
     .cerchio9{
         top: 52vh;
-        left: 4vw;
+        left: 35vw;
         height: 7vw;
         width: 30vw;
     }
@@ -1773,7 +1790,7 @@ div{
     z-index: 5;
     position: absolute;
     top: 52vh;
-    left: 4vw;
+    left: 43.5vw;
     height: 5vw;
     width: 13vw;
 }
@@ -1781,7 +1798,7 @@ div{
 @media screen and (max-width: 390px) { /*  Telefono  */
     .cerchio10{
         top: 52vh;
-        left: 4vw;
+        left: 41vw;
         height: 7vw;
         width: 18vw;
     }
@@ -1795,7 +1812,7 @@ div{
     z-index: 5;
     position: absolute;
     top: 52vh;
-    left: 4vw;
+    left: 40vw;
     height: 5vw;
     width: 20vw;
 }
@@ -1803,7 +1820,7 @@ div{
 @media screen and (max-width: 390px) { /*  Telefono  */
     .cerchio11{
         top: 52vh;
-        left: 4vw;
+        left: 36vw;
         height: 7vw;
         width: 28vw;
     }
@@ -1820,12 +1837,11 @@ div{
     margin: 0;
     padding: 0;
     top: 58vh;
-    left: 5vw;
     font-family: Formula;
     font-size: 6vw;
-    width: 90vw;
+    width: 100vw;
     z-index: 2;
-    text-align: left;
+    text-align: center;
 }
 
 @media screen and (max-width: 390px) { /*  Telefono  */
@@ -2585,6 +2601,12 @@ div{
     border-radius: 25px 25px 0 0;
 }
 
+@media screen and (max-width: 390px) { /*  Telefono  */
+    .imgrece1{
+        width: 83vw;
+    }
+}
+
 .nomerece{
     position: relative;
     margin: 0;
@@ -2612,10 +2634,11 @@ div{
     padding: 0;
     top: 2vh;
     font-family: Montreal;
-    font-size: 2.8vw;
+    font-size: 2.3vw;
     width: 50vw;
     text-align: center;
     z-index: 2;
+    margin-bottom: 1vh;
 }
 
 @media screen and (max-width: 390px) { /*  Telefono  */
