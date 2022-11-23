@@ -1,3 +1,4 @@
 {
-    "liveServer.settings.multiRootWorkspaceName": "pivo"
+  "liveServer.settings.multiRootWorkspaceName": "pivo",
+  "liveServer.settings.port": 5501
 }
