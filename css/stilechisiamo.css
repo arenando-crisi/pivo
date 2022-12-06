@@ -1,17 +1,19 @@
-body{
-    margin: 0;
-    height: 683vh;
-    width: 100vw;
+body {
+  margin: 0;
+  height: 683vh;
+  width: 100vw;
+  overscroll-behavior-y: none;
 }
 
-@media screen and (max-width: 768px) { /*  Ipad mini  */
-    body{
-        height: 620vh;
-    }
+@media screen and (max-width: 768px) {
+  /*  Ipad mini  */
+  body {
+    height: 620vh;
+  }
 }
 
-div{
-    margin: 0;
+div {
+  margin: 0;
 }
 
 /*---------------------------------------------------------------------------*/
@@ -20,3115 +22,3218 @@ div{
 
 /*-------------------------------HEADER-------------------------------*/
 
-.splash{
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background-color: #ffffff;
-    z-index: 10000;
-    position: fixed;
-    display: block;
-    overflow: hidden;
+.splash {
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #ffffff;
+  z-index: 10000;
+  position: fixed;
+  display: block;
+  overflow: hidden;
 }
 
-.splash video{
-    top: 0;
-    left: 100vw;
-    width: 100vw;
+.splash video {
+  top: 0;
+  left: 100vw;
+  width: 100vw;
 }
 
-.header{
-    width: 100vw;
-    position: fixed;
-    top: 0vh;
-    left: 0;
+.header {
+  width: 100vw;
+  position: fixed;
+  top: 0vh;
+  left: 0;
+  display: none;
+  background-color: #f0f0f0;
+  font-family: Montreal;
+  align-items: center;
+  height: 10vh;
+  z-index: 100;
+  opacity: 0;
+}
+
+.headerblack {
+  width: 100vw;
+  position: fixed;
+  top: 0vh;
+  left: 0;
+  display: flex;
+  background-color: black;
+  font-family: Montreal;
+  align-items: center;
+  height: 10vh;
+  z-index: 99;
+  opacity: 1;
+}
+
+.logo {
+  padding: 0;
+  margin-left: 10vw;
+}
+
+@media screen and (max-width: 768px) {
+  /*  Ipad mini  */
+  .logo {
+    margin-left: 17vw;
+  }
+}
+
+.logob {
+  padding: 0;
+  margin-left: 10vw;
+}
+
+@media screen and (max-width: 768px) {
+  /*  Ipad mini  */
+  .logob {
+    margin-left: 17vw;
+  }
+}
+
+.menù {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin-left: 6vw;
+}
+
+@media screen and (max-width: 768px) {
+  /*  Ipad mini  */
+  .menù {
+    margin-left: 0;
+  }
+}
+
+.menù li {
+  display: inline-block;
+  padding: 10px;
+}
+
+.menù li a {
+  color: black;
+  text-decoration: none;
+  display: block;
+}
+
+#cerchiomouse3 {
+  background-image: url("../asset/cerchionero.png");
+  background-size: 3300% 100%;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+}
+
+#cerchiomouse4 {
+  background-image: url("../asset/cerchionero.png");
+  background-size: 3300% 100%;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+}
+
+@media screen and (max-width: 390px) {
+  /*  Telefono  */
+  .menù {
     display: none;
-    background-color: #F0F0F0;
-    font-family: Montreal;
-    align-items: center;
-    height: 10vh;
-    z-index: 100;
-    opacity: 0;
+  }
 }
 
-.headerblack{
-    width: 100vw;
-    position: fixed;
-    top: 0vh;
-    left: 0;
-    display: flex;
-    background-color: black;
-    font-family: Montreal;
-    align-items: center;
-    height: 10vh;
-    z-index: 99;
-    opacity: 1;
+.menùb {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin-left: 6vw;
 }
 
-.logo{
-    padding: 0;
-    margin-left: 10vw;
+@media screen and (max-width: 768px) {
+  /*  Ipad mini  */
+  .menùb {
+    margin-left: 0;
+  }
 }
 
-@media screen and (max-width: 768px) { /*  Ipad mini  */
-    .logo{
-        margin-left: 17vw;
-    }
+.menùb li {
+  display: inline-block;
+  padding: 10px;
+  color: #f0f0f0;
 }
 
-.logob{
-    padding: 0;
-    margin-left: 10vw;
+.menùb li a {
+  color: #f0f0f0;
+  text-decoration: none;
+  display: block;
 }
 
-@media screen and (max-width: 768px) { /*  Ipad mini  */
-    .logob{
-        margin-left: 17vw;
-    }
+#cerchiomouse5 {
+  background-image: url("../asset/cerchiobianco.png");
+  background-size: 3300% 100%;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
 }
 
-.menù{
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0;
-    margin-left: 6vw ;
+#cerchiomouse6 {
+  background-image: url("../asset/cerchiobianco.png");
+  background-size: 3300% 100%;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
 }
 
-@media screen and (max-width: 768px) { /*  Ipad mini  */
-    .menù{
-        margin-left: 0;
-    }
-}
-
-.menù li{
-    display: inline-block;
-    padding: 10px;
-}
-
-.menù li a{
-    color: black;
-    text-decoration: none;
-    display: block;
-}
-
-#cerchiomouse3{
-    background-image: url('../asset/cerchionero.png');
-    background-size: 3300% 100%;
-    background-repeat: no-repeat;
-    background-position: 0% 0%;
-}
-
-#cerchiomouse4{
-    background-image: url('../asset/cerchionero.png');
-    background-size: 3300% 100%;
-    background-repeat: no-repeat;
-    background-position: 0% 0%;
-}
-
-@media screen and (max-width: 390px) { /*  Telefono  */
-    .menù{
-        display: none;
-    }
-}
-
-.menùb{
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0;
-    margin-left: 6vw ;
-}
-
-@media screen and (max-width: 768px) { /*  Ipad mini  */
-    .menùb{
-        margin-left: 0;
-    }
-}
-
-.menùb li{
-    display: inline-block;
-    padding: 10px;
-    color: #F0F0F0;
-}
-
-.menùb li a{
-    color: #F0F0F0;
-    text-decoration: none;
-    display: block;
-}
-
-#cerchiomouse5{
-    background-image: url('../asset/cerchiobianco.png');
-    background-size: 3300% 100%;
-    background-repeat: no-repeat;
-    background-position: 0% 0%;
-}
-
-#cerchiomouse6{
-    background-image: url('../asset/cerchiobianco.png');
-    background-size: 3300% 100%;
-    background-repeat: no-repeat;
-    background-position: 0% 0%;
-}
-
-@media screen and (max-width: 390px) { /*  Telefono  */
-    .menùb{
-        display: none;
-    }
-}
-
-.cta{
-    margin-right: 10vw;
-    width: 140px;
-}
-
-@media screen and (max-width: 390px) { /*  Telefono  */
-    .cta{
-        display: none;
-    }
-}
-
-@media screen and (max-width: 768px) { /*  Ipad mini  */
-    .cta{
-        margin-right: 7vw;
-    }
-}
-
-.button{
-    padding: 15px;
-    background-color: black;
-    color: #F0F0F0;
-    display: inline-block;
-    text-decoration: none;
-    border-radius: 50px;
-    font-family: montreal_bold;
-    width: 110px;
-    text-align: center;
-    margin-right: 10vw;
-    border: 2px solid black;
-    transition: 0.3s;
-}
-
-.button:hover{
-    background-color: #F0F0F0;
-    color: black;
-}
-
-@media screen and (max-width: 768px) { /*  Ipad mini  */
-    .button{
-        margin-right: 12vw;
-    }
-}
-
-.buttonb{
-    padding: 15px;
-    background-color: #F0F0F0;
-    color: black;
-    display: inline-block;
-    text-decoration: none;
-    border-radius: 50px;
-    font-family: montreal_bold;
-    width: 110px;
-    text-align: center;
-    margin-right: 10vw;
-    border: 2px solid #F0F0F0;
-    transition: 0.3s;
-}
-
-.buttonb:hover{
-    background-color: black;
-    color: #f0f0f0;
-}
-
-@media screen and (max-width: 768px) { /*  Ipad mini  */
-    .buttonb{
-        margin-right: 12vw;
-    }
-}
-
-.hamburger{
+@media screen and (max-width: 390px) {
+  /*  Telefono  */
+  .menùb {
     display: none;
+  }
 }
 
-@media screen and (max-width: 390px) { /*  Telefono  */
-    .hamburger{
-        display: block;
-        width: 30px;
-        height: 30px;
-        position: absolute;
-        right: 10vw;
-    }
+.cta {
+  margin-right: 10vw;
+  width: 140px;
 }
 
-.hamburgerb{
+@media screen and (max-width: 390px) {
+  /*  Telefono  */
+  .cta {
     display: none;
+  }
 }
 
-@media screen and (max-width: 390px) { /*  Telefono  */
-    .hamburgerb{
-        display: block;
-        width: 30px;
-        height: 30px;
-        position: absolute;
-        right: 10vw;
-    }
+@media screen and (max-width: 768px) {
+  /*  Ipad mini  */
+  .cta {
+    margin-right: 7vw;
+  }
+}
+
+.button {
+  padding: 15px;
+  background-color: black;
+  color: #f0f0f0;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 50px;
+  font-family: montreal_bold;
+  width: 110px;
+  text-align: center;
+  margin-right: 10vw;
+  border: 2px solid black;
+  transition: 0.3s;
+}
+
+.button:hover {
+  background-color: #f0f0f0;
+  color: black;
+}
+
+@media screen and (max-width: 768px) {
+  /*  Ipad mini  */
+  .button {
+    margin-right: 12vw;
+  }
+}
+
+.buttonb {
+  padding: 15px;
+  background-color: #f0f0f0;
+  color: black;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 50px;
+  font-family: montreal_bold;
+  width: 110px;
+  text-align: center;
+  margin-right: 10vw;
+  border: 2px solid #f0f0f0;
+  transition: 0.3s;
+}
+
+.buttonb:hover {
+  background-color: black;
+  color: #f0f0f0;
+}
+
+@media screen and (max-width: 768px) {
+  /*  Ipad mini  */
+  .buttonb {
+    margin-right: 12vw;
+  }
+}
+
+.hamburger {
+  display: none;
+}
+
+@media screen and (max-width: 390px) {
+  /*  Telefono  */
+  .hamburger {
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 10vw;
+  }
+}
+
+.hamburgerb {
+  display: none;
+}
+
+@media screen and (max-width: 390px) {
+  /*  Telefono  */
+  .hamburgerb {
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 10vw;
+  }
 }
 
 .overlay {
-    height: 100vh;
-    width: 0;
-    position: fixed;
-    z-index: 100;
-    top: 10vh;
-    left: 0;
-    background-color: rgb(0,0,0);
-    overflow-x: hidden;
+  height: 100vh;
+  width: 0;
+  position: fixed;
+  z-index: 100;
+  top: 10vh;
+  left: 0;
+  background-color: rgb(0, 0, 0);
+  overflow-x: hidden;
+  transition: 0.4s;
+}
+
+@media screen and (max-width: 390px) {
+  /*  Telefono  */
+  .breadup,
+  .meat,
+  .breaddown {
+    background-color: black;
+    display: block;
+    height: 3px;
+    margin-bottom: 33%;
     transition: 0.4s;
+  }
+
+  .change .breadup {
+    transform: rotate(-45deg) translate(-6px, 8px);
+  }
+
+  .change .meat {
+    opacity: 0;
+  }
+
+  .change .breaddown {
+    transform: rotate(45deg) translate(-10px, -12px);
+  }
+
+  .breadupb,
+  .meatb,
+  .breaddownb {
+    background-color: #f0f0f0;
+    display: block;
+    height: 3px;
+    margin-bottom: 33%;
+    transition: 0.4s;
+  }
+
+  .changeb .breadupb {
+    transform: rotate(-45deg) translate(-6px, 8px);
+  }
+
+  .changeb .meatb {
+    opacity: 0;
+  }
+
+  .changeb .breaddownb {
+    transform: rotate(45deg) translate(-10px, -12px);
+  }
+
+  .menùol {
+    font-family: montreal_bold;
+    text-align: center;
+    position: relative;
+    top: 30vh;
+    padding: 10vw;
+    opacity: 0;
+    font-size: 7vw;
+  }
+
+  .menùol a {
+    text-decoration: none;
+    color: #f0f0f0;
+  }
 }
-
-@media screen and (max-width: 390px) { /*  Telefono  */
-    .breadup, .meat, .breaddown{
-        background-color: black;
-        display: block;
-        height: 3px;
-        margin-bottom: 33%;
-        transition: 0.4s;
-    }
-
-    .change .breadup {
-        transform: rotate(-45deg) translate(-6px, 8px);
-      }
-      
-    .change .meat {
-        opacity: 0;
-    }
-      
-    .change .breaddown {
-        transform: rotate(45deg) translate(-10px, -12px);
-    }
-
-    .breadupb, .meatb, .breaddownb{
-        background-color: #F0F0F0;
-        display: block;
-        height: 3px;
-        margin-bottom: 33%;
-        transition: 0.4s;
-    }
-
-    .changeb .breadupb {
-        transform: rotate(-45deg) translate(-6px, 8px);
-      }
-      
-    .changeb .meatb {
-        opacity: 0;
-    }
-      
-    .changeb .breaddownb {
-        transform: rotate(45deg) translate(-10px, -12px);
-    }
-
-    .menùol{
-        font-family: montreal_bold;
-        text-align: center;
-        position: relative;
-        top: 30vh;
-        padding: 10vw;
-        opacity: 0;
-        font-size: 7vw;
-    }
-
-    .menùol a{
-        text-decoration: none;
-        color: #F0F0F0;
-    }
-}
-
 
 /*-------------------------------TITOLO/CLAIM e CALL TO ACTION-------------------------------*/
 
-.hero{
-    background-color: #000000;
-    height: 230vh;
-    width: 100vw;
-    z-index: 1;
-    position: absolute;
-    display: block;
+.hero {
+  background-color: #000000;
+  height: 230vh;
+  width: 100vw;
+  z-index: 1;
+  position: absolute;
+  display: block;
 }
 
-@media screen and (max-width: 768px) { /*  Ipad mini  */
-    .hero{
-        background-color: #f0f0f0;
-    }
+@media screen and (max-width: 768px) {
+  /*  Ipad mini  */
+  .hero {
+    background-color: #f0f0f0;
+  }
 }
 
-.aboutus{
+.aboutus {
+  top: 1vh;
+  left: 1vw;
+}
+
+#cerchiomouse1 {
+  position: fixed;
+  top: 2.5vh;
+  left: 1.5vw;
+  height: 3vh;
+  width: 5vw;
+  background-image: url("../asset/cerchiobianco.png");
+  background-size: 3300% 100%;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  display: block;
+}
+
+@media screen and (max-width: 768px) {
+  /*  Ipad mini  */
+  #cerchiomouse1 {
+    display: none;
+  }
+}
+
+.aboutus a {
+  font-family: Montreal;
+  text-decoration: none;
+  color: #f0f0f0;
+  position: fixed;
+  top: 3vh;
+  left: 2vw;
+  font-size: 1vw;
+  display: block;
+}
+
+@media screen and (max-width: 768px) {
+  /*  Ipad mini  */
+  .aboutus a {
+    color: black;
+    font-size: 3vw;
+    top: 1.2vh;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  /*  Telefono  */
+  .aboutus a {
+    display: none;
+  }
+}
+
+.scarica1 {
+  top: 1vh;
+  font-family: Montreal;
+  text-decoration: none;
+  color: #f0f0f0;
+  position: fixed;
+  top: 3vh;
+  left: 42vw;
+  font-size: 1vw;
+  display: block;
+}
+
+#cerchiomouse2 {
+  position: fixed;
+  top: 2.5vh;
+  left: 42vw;
+  height: 3vh;
+  width: 6vw;
+  background-image: url("../asset/cerchiobianco.png");
+  background-size: 3300% 100%;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  display: block;
+}
+
+.scarica1mobile {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  /*  Ipad mini  */
+  .scarica1 {
+    display: none;
+  }
+
+  .scarica1mobile {
     top: 1vh;
-    left: 1vw;
-}
-
-#cerchiomouse1{
-    position: fixed;
-    top: 2.5vh;
-    left: 1.5vw;
-    height: 3vh;
-    width: 5vw;
-    background-image: url('../asset/cerchiobianco.png');
-    background-size: 3300% 100%;
-    background-repeat: no-repeat;
-    background-position: 0% 0%;
-    display: block;
-}
-
-@media screen and (max-width: 768px) { /*  Ipad mini  */
-    #cerchiomouse1{
-        display: none;
-    }
-}
-
-.aboutus a{
     font-family: Montreal;
     text-decoration: none;
-    color: #F0F0F0;
+    color: black;
     position: fixed;
-    top: 3vh;
-    left: 2vw;
-    font-size: 1vw;
+    top: 1.2vh;
+    left: 82vw;
+    font-size: 3vw;
     display: block;
+  }
 }
 
-@media screen and (max-width: 768px) { /*  Ipad mini  */
-    .aboutus a{
-        color: black;
-        font-size: 3vw;
-        top: 1.2vh;
-    }
-}
-
-@media screen and (max-width: 390px) { /*  Telefono  */
-    .aboutus a{
-        display: none;
-    }
-}
-
-.scarica1{
-    top: 1vh;
-    font-family: Montreal;
-    text-decoration: none;
-    color: #F0F0F0;
-    position: fixed;
-    top: 3vh;
-    left: 42vw;
-    font-size: 1vw;
-    display: block;
-}
-
-#cerchiomouse2{
-    position: fixed;
-    top: 2.5vh;
-    left: 42vw;
-    height: 3vh;
-    width: 6vw;
-    background-image: url('../asset/cerchiobianco.png');
-    background-size: 3300% 100%;
-    background-repeat: no-repeat;
-    background-position: 0% 0%;
-    display: block;
-}
-
-.scarica1mobile{
+@media screen and (max-width: 390px) {
+  /*  Telefono  */
+  .scarica1mobile {
     display: none;
+  }
 }
 
-@media screen and (max-width: 768px) { /*  Ipad mini  */
-    .scarica1{
-        display: none;
-    }
-
-    .scarica1mobile{
-        top: 1vh;
-        font-family: Montreal;
-        text-decoration: none;
-        color: black;
-        position: fixed;
-        top: 1.2vh;
-        left: 82vw;
-        font-size: 3vw;
-        display: block;
-    }
+.cerchio1 {
+  background-image: url("../asset/cerchiobianco.png");
+  background-size: 3300% 100%;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  z-index: 3;
+  position: relative;
+  top: 50vh;
+  left: 27.5vw;
+  height: 3vw;
+  width: 8vw;
 }
 
-@media screen and (max-width: 390px) { /*  Telefono  */
-    .scarica1mobile{
-        display: none;
-    }
+@media screen and (max-width: 768px) {
+  /*  Ipad mini  */
+  .cerchio1 {
+    background-image: url("../asset/cerchionero.png");
+  }
 }
 
-
-.cerchio1{
-    background-image: url('../asset/cerchiobianco.png');
-    background-size: 3300% 100%;
-    background-repeat: no-repeat;
-    background-position: 0% 0%;
-    z-index: 3;
-    position: relative;
-    top: 50vh;
-    left: 27.5vw;
-    height: 3vw;
-    width: 8vw;
+.loghinoiniz {
+  position: fixed;
+  height: 5vh;
+  top: 2vh;
+  left: 23vw;
+  display: block;
 }
 
-@media screen and (max-width: 768px) { /*  Ipad mini  */
-    .cerchio1{
-        background-image: url('../asset/cerchionero.png');
-    }
+.loghinoinizmobile {
+  display: none;
 }
 
-.loghinoiniz{
-    position: fixed;
-    height: 5vh;
-    top: 2vh;
-    left: 23vw;
-    display: block;
-}
-
-.loghinoinizmobile{
+@media screen and (max-width: 768px) {
+  /*  Ipad mini  */
+  .loghinoiniz {
     display: none;
-}
+  }
 
-@media screen and (max-width: 768px) { /*  Ipad mini  */
-    .loghinoiniz{
-        display: none;
-    }
-
-    .loghinoinizmobile{
-        position: fixed;
-        height: 4vh;
-        top: 0.4vh;
-        left: 50vw;
-        display: block;
-        transform: translate(-50%);
-    }
-}
-
-.titolo{
+  .loghinoinizmobile {
     position: fixed;
-    top: 30vh;
+    height: 4vh;
+    top: 0.4vh;
+    left: 50vw;
+    display: block;
+    transform: translate(-50%);
+  }
+}
+
+.titolo {
+  position: fixed;
+  top: 30vh;
+  margin: 0;
+  padding: 0;
+  font-family: Formula;
+  width: 50vw;
+  z-index: 2;
+  text-align: center;
+  color: #f0f0f0;
+}
+
+.titolomobile {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  /*  Ipad mini  */
+  .titolomobile {
+    display: block;
+    font-size: 25vw;
+    position: fixed;
     margin: 0;
     padding: 0;
     font-family: Formula;
-    width: 50vw;
+    width: 100vw;
     z-index: 2;
-    text-align: center;
-    color: #F0F0F0;
-}
-
-.titolomobile{
+    text-align: left;
+    top: 64vh;
+  }
+  .titolo {
     display: none;
+  }
 }
 
-@media screen and (max-width: 768px) { /*  Ipad mini  */
-    .titolomobile{
-        display: block;
-        font-size: 25vw;
-        position: fixed;
-        margin: 0;
-        padding: 0;
-        font-family: Formula;
-        width: 100vw;
-        z-index: 2;
-        text-align: left;
-        top: 64vh;
-    }
-    .titolo{
-        display: none;
-    }
+@media screen and (max-width: 390px) {
+  /*  Telefono  */
+  .titolomobile {
+    font-size: 36vw;
+  }
 }
 
-@media screen and (max-width: 390px) { /*  Telefono  */
-    .titolomobile{
-        font-size: 36vw;
-    }
-}
-  
-.freccinascroll{
-    background-image: url('../asset/freccinascroll.png');
-    background-size: 3000% 100%;
-    background-repeat: no-repeat;
-    background-position: 0% 50%;
-    z-index: 2;
-    position: absolute;
-    top: 87.5vh;
-    left: 22vw;
-    height: 5vw;
-    width: 5vw;
+.freccinascroll {
+  background-image: url("../asset/freccinascroll.png");
+  background-size: 3000% 100%;
+  background-repeat: no-repeat;
+  background-position: 0% 50%;
+  z-index: 2;
+  position: absolute;
+  top: 87.5vh;
+  left: 22vw;
+  height: 5vw;
+  width: 5vw;
 }
 
-@media screen and (max-width: 768px) { /*  Ipad mini  */
-    .freccinascroll{
-        background-image: url('../asset/freccinascrollnera.png');
-        top: 92vh;
-        left: 87vw;
-        height: 10vw;
-        width: 10vw;
-        transform: translate(-50%);
-    }
+@media screen and (max-width: 768px) {
+  /*  Ipad mini  */
+  .freccinascroll {
+    background-image: url("../asset/freccinascrollnera.png");
+    top: 92vh;
+    left: 87vw;
+    height: 10vw;
+    width: 10vw;
+    transform: translate(-50%);
+  }
 }
 
-.scrittina{
-    background-image: url('../asset/scrittina.png');
-    background-size: 3100% 100%;
-    background-repeat: no-repeat;
-    background-position: 0% 50%;
-    z-index: 2;
-    position: absolute;
-    top: 73vh;
-    left: 38vw;
-    height: 4vw;
-    width: 9vw;
-    transform: rotate(-20deg);
+.scrittina {
+  background-image: url("../asset/scrittina.png");
+  background-size: 3100% 100%;
+  background-repeat: no-repeat;
+  background-position: 0% 50%;
+  z-index: 2;
+  position: absolute;
+  top: 73vh;
+  left: 38vw;
+  height: 4vw;
+  width: 9vw;
+  transform: rotate(-20deg);
 }
 
-.scrittina2{
-    background-image: url('../asset/scrittina2.png');
-    background-size: 4300% 100%;
-    background-repeat: no-repeat;
-    background-position: 0% 50%;
-    z-index: 10;
-    position: absolute;
-    top: 75vh;
-    left: 78vw;
-    height: 4vw;
-    width: 9vw;
-    transform: rotate(-10deg);
+.scrittina2 {
+  background-image: url("../asset/scrittina2.png");
+  background-size: 4300% 100%;
+  background-repeat: no-repeat;
+  background-position: 0% 50%;
+  z-index: 10;
+  position: absolute;
+  top: 75vh;
+  left: 78vw;
+  height: 4vw;
+  width: 9vw;
+  transform: rotate(-10deg);
 }
 
-@media screen and (max-width: 1024px) { /*  Ipad mini  */
-    .scrittina{
-        display: none;
-    }
-    
-    .scrittina2{
-        display: none;
-    }
+@media screen and (max-width: 1024px) {
+  /*  Ipad mini  */
+  .scrittina {
+    display: none;
+  }
+
+  .scrittina2 {
+    display: none;
+  }
 }
 
-.video{
+.video {
+  position: fixed;
+  top: 1vh;
+  right: 1vw;
+  width: 49vw;
+  height: 96.5vh;
+  overflow: hidden;
+  border-radius: 25px;
+  z-index: 3;
+}
+
+@media screen and (max-width: 768px) {
+  /*  Ipad mini  */
+  .video {
+    display: none;
+  }
+}
+
+.videomobile {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  /*  Ipad mini  */
+  .videomobile {
+    display: block;
     position: fixed;
-    top: 1vh;
+    top: 5vh;
     right: 1vw;
-    width: 49vw;
-    height: 96.5vh;
+    width: 98vw;
+    height: 60vh;
     overflow: hidden;
     border-radius: 25px;
     z-index: 3;
+  }
 }
 
-@media screen and (max-width: 768px) { /*  Ipad mini  */
-    .video{
-        display: none;
-    }
+.claim {
+  position: absolute;
+  font-family: Montreal;
+  font-size: 2.5vw;
+  top: 50vh;
+  left: 0vw;
+  color: #f0f0f0;
+  width: 48vw;
+  text-align: center;
 }
 
-.videomobile{
-    display: none;
-}
-
-@media screen and (max-width: 768px) { /*  Ipad mini  */
-    .videomobile{
-        display: block;
-        position: fixed;
-        top: 5vh;
-        right: 1vw;
-        width: 98vw;
-        height: 60vh;
-        overflow: hidden;
-        border-radius: 25px;
-        z-index: 3;
-    }
-}
-
-.claim{
-    position: absolute;
-    font-family: Montreal;
-    font-size: 2.5vw;
-    top: 50vh;
-    left: 0vw;
-    color: #F0F0F0;
-    width: 48vw;
-    text-align: center;
-}
-
-@media screen and (max-width: 768px) { /*  Ipad mini  */
-    .claim{
-        color: black;
-        width: 95vw;
-        text-align: left;
-        left: 2vw;
-        font-size: 6vw;
-        top: 88vh;
-    }
-}
-
-@media screen and (max-width: 390px) { /*  Telefono  */
-    .claim{
-        left: 3vw;
-        top: 90vh;
-    }
-}
-
-.cerchio1{
-    background-image: url('../asset/cerchiobianco.png');
-    background-size: 3300% 100%;
-    background-repeat: no-repeat;
-    background-position: 0% 0%;
-    z-index: 3;
-    position: relative;
-    top: 50vh;
-    left: 27.5vw;
-    height: 3vw;
-    width: 8vw;
-}
-
-@media screen and (max-width: 768px) { /*  Ipad mini  */
-    .cerchio1{
-        background-image: url('../asset/cerchionero.png');
-        top: 89vh;
-        left: 38vw;
-        height: 5vw;
-        width: 18vw;
-    }
-}
-
-@media screen and (max-width: 390px) { /*  Telefono  */
-    .cerchio1{
-        top: 90.5vh;
-    }
-}
-
-.claim2{
-    position: absolute;
-    font-family: Montreal;
-    opacity: 1;
-    width: 35vw;
-    text-align: center;
-    font-size: 2.5vw;
-    top: 130vh;
-    left: 1.5vw;
-    color: #F0F0F0;
-}
-
-@media screen and (max-width: 768px) { /*  Ipad mini  */
-    .claim2{
-        width: 98vw;
-        text-align: left;
-        font-size: 5vw;
-        left: 1.5vw;
-        color: black;
-    }
-}
-
-
-.calltoaction{
-    position: absolute;
-    font-family: Formula;
-    font-size: 5vw;
-    z-index: 5;
-    width: 100vw;
-    top:165vh;
-    color: #DFFF9C;
-    opacity: 0;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    text-align: left;
-    left: 0;
-}
-
-@media screen and (max-width: 768px) { /*  Ipad mini  */
-    .calltoaction{
-        font-size: 15vw;
-        width: 80vw;
-        text-align: center;
-        transform: translate(-50%);
-        left: 50vw;
-    }
-}
-
-.cerchio2{
-    background-image: url('../asset/cerchiobianco.png');
-    background-size: 3300% 100%;
-    background-repeat: no-repeat;
-    background-position: 0% 0%;
-    z-index: 5;
-    position: absolute;
-    top: 163vh;
-    left: 57vw;
-    height: 8vw;
-    width: 18vw;
-}
-
-@media screen and (max-width: 768px) { /*  Ipad mini  */
-    .cerchio2{
-        top: 180vh;
-        left: 36vw;
-        height: 19vw;
-        width: 45vw;
-    }
-}
-
-@media screen and (max-width: 390px) { /*  Telefono  */
-    .cerchio2{
-        top: 174vh;
-    }
-}
-
-@media screen and (max-width: 375px) { /*  Telefono piccolo  */
-    .cerchio2{
-        top: 176.5vh;
-    }
-}
-
-@media screen and (max-width: 360px) { /*  Telefono piccolo piccolo  */
-    .cerchio2{
-        top: 175vh;
-    }
-}
-
-
-.bottonecta{
-    padding: 15px;
-    background-color: #F0F0F0;
+@media screen and (max-width: 768px) {
+  /*  Ipad mini  */
+  .claim {
     color: black;
-    display: inline-block;
-    text-decoration: none;
-    border-radius: 50px;
-    font-family: montreal_bold;
-    font-size: 1.5vw;
-    width: 15vw;
+    width: 95vw;
+    text-align: left;
+    left: 2vw;
+    font-size: 6vw;
+    top: 88vh;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  /*  Telefono  */
+  .claim {
+    left: 3vw;
+    top: 90vh;
+  }
+}
+
+.cerchio1 {
+  background-image: url("../asset/cerchiobianco.png");
+  background-size: 3300% 100%;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  z-index: 3;
+  position: relative;
+  top: 50vh;
+  left: 27.5vw;
+  height: 3vw;
+  width: 8vw;
+}
+
+@media screen and (max-width: 768px) {
+  /*  Ipad mini  */
+  .cerchio1 {
+    background-image: url("../asset/cerchionero.png");
+    top: 89vh;
+    left: 38vw;
+    height: 5vw;
+    width: 18vw;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  /*  Telefono  */
+  .cerchio1 {
+    top: 90.5vh;
+  }
+}
+
+.claim2 {
+  position: absolute;
+  font-family: Montreal;
+  opacity: 1;
+  width: 35vw;
+  text-align: center;
+  font-size: 2.5vw;
+  top: 130vh;
+  left: 1.5vw;
+  color: #f0f0f0;
+}
+
+@media screen and (max-width: 768px) {
+  /*  Ipad mini  */
+  .claim2 {
+    width: 98vw;
+    text-align: left;
+    font-size: 5vw;
+    left: 1.5vw;
+    color: black;
+  }
+}
+
+.calltoaction {
+  position: absolute;
+  font-family: Formula;
+  font-size: 5vw;
+  z-index: 5;
+  width: 100vw;
+  top: 165vh;
+  color: #dfff9c;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: left;
+  left: 0;
+}
+
+@media screen and (max-width: 768px) {
+  /*  Ipad mini  */
+  .calltoaction {
+    font-size: 15vw;
+    width: 80vw;
     text-align: center;
-    transition: 0.3s;
-    margin-top: 2vh;
+    transform: translate(-50%);
+    left: 50vw;
+  }
 }
 
-@media screen and (max-width: 768px) { /*  Ipad mini  */
-    .bottonecta{
-        width: 35vw;
-        font-size: 3.5vw;
-    }
+.cerchio2 {
+  background-image: url("../asset/cerchiobianco.png");
+  background-size: 3300% 100%;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  z-index: 5;
+  position: absolute;
+  top: 163vh;
+  left: 57vw;
+  height: 8vw;
+  width: 18vw;
 }
 
-.bottonecta:hover{
-    background-color: black;
-    color: #F0F0F0;
-    padding: 20px;
+@media screen and (max-width: 768px) {
+  /*  Ipad mini  */
+  .cerchio2 {
+    top: 180vh;
+    left: 36vw;
+    height: 19vw;
+    width: 45vw;
+  }
 }
 
-.sticker{
-    position: absolute;
-    z-index: 80;
+@media screen and (max-width: 390px) {
+  /*  Telefono  */
+  .cerchio2 {
+    top: 174vh;
+  }
 }
 
-#sticker1{
-    position: absolute;
-    z-index: 80;
-    top: 71vh;
-    left: 46vw;
+@media screen and (max-width: 375px) {
+  /*  Telefono piccolo  */
+  .cerchio2 {
+    top: 176.5vh;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  /*  Telefono piccolo piccolo  */
+  .cerchio2 {
+    top: 175vh;
+  }
+}
+
+.bottonecta {
+  padding: 15px;
+  background-color: #f0f0f0;
+  color: black;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 50px;
+  font-family: montreal_bold;
+  font-size: 1.5vw;
+  width: 15vw;
+  text-align: center;
+  transition: 0.3s;
+  margin-top: 2vh;
+}
+
+@media screen and (max-width: 768px) {
+  /*  Ipad mini  */
+  .bottonecta {
+    width: 35vw;
+    font-size: 3.5vw;
+  }
+}
+
+.bottonecta:hover {
+  background-color: black;
+  color: #f0f0f0;
+  padding: 20px;
+}
+
+.sticker {
+  position: absolute;
+  z-index: 80;
+}
+
+#sticker1 {
+  position: absolute;
+  z-index: 80;
+  top: 71vh;
+  left: 46vw;
+  display: none;
+}
+
+#sticker2 {
+  position: absolute;
+  z-index: 80;
+  top: 20vh;
+  left: 70vw;
+  display: none;
+}
+
+#sticker3 {
+  position: absolute;
+  z-index: 80;
+  top: 140vh;
+  left: 20vw;
+  display: none;
+}
+
+#sticker4 {
+  position: absolute;
+  z-index: 80;
+  top: 190vh;
+  left: 70vw;
+  display: none;
+}
+
+#sticker5 {
+  position: absolute;
+  z-index: 80;
+  top: 300vh;
+  left: 80vw;
+  display: none;
+}
+
+#sticker6 {
+  position: absolute;
+  z-index: 80;
+  top: 890vh;
+  left: 5vw;
+  display: none;
+}
+
+#sticker7 {
+  position: absolute;
+  z-index: 80;
+  top: 940vh;
+  left: 70vw;
+  display: none;
+}
+
+#sticker8 {
+  position: absolute;
+  z-index: 80;
+  top: 20vh;
+  left: 70vw;
+  display: none;
+}
+
+#sticker9 {
+  position: absolute;
+  z-index: 80;
+  top: 40vh;
+  left: 60vw;
+  display: none;
+}
+
+#sticker10 {
+  position: absolute;
+  z-index: 80;
+  top: 70vh;
+  left: 60vw;
+  display: none;
+}
+
+#sticker11 {
+  position: absolute;
+  z-index: 80;
+  top: 260vh;
+  left: 65vw;
+  display: none;
+}
+
+#sticker12 {
+  position: absolute;
+  z-index: 80;
+  top: 470vh;
+  left: 70vw;
+  display: none;
+}
+
+#sticker13 {
+  position: absolute;
+  z-index: 80;
+  top: 610vh;
+  left: 80vw;
+  display: none;
+}
+
+#sticker14 {
+  position: absolute;
+  z-index: 80;
+  top: 30vh;
+  left: 40vw;
+}
+
+#sticker15 {
+  position: absolute;
+  z-index: 80;
+  top: 560vh;
+  left: 10vw;
+}
+
+@media screen and (max-width: 1024px) {
+  /*  Ipad mini  */
+  .sticker {
     display: none;
+  }
 }
 
-#sticker2{
-    position: absolute;
-    z-index: 80;
-    top: 20vh;
-    left: 70vw;
-    display: none;
+.atxt1 {
+  position: relative;
+  opacity: 0;
+  top: 1vh;
+}
+.atxt2 {
+  position: relative;
+  opacity: 0;
+  top: 1vh;
+}
+.atxt3 {
+  position: relative;
+  opacity: 0;
+  top: 1vh;
+}
+.atxt4 {
+  position: relative;
+  opacity: 0;
+  top: 1vh;
+}
+.atxt5 {
+  position: relative;
+  opacity: 0;
+  top: 1vh;
+}
+.atxt6 {
+  position: relative;
+  opacity: 0;
+  top: 1vh;
+}
+.atxt7 {
+  position: relative;
+  opacity: 0;
+  top: 1vh;
+}
+.atxt8 {
+  position: relative;
+  opacity: 0;
+  top: 1vh;
 }
 
-#sticker3{
-    position: absolute;
-    z-index: 80;
-    top: 140vh;
-    left: 20vw;
-    display: none;
+.atxt9 {
+  position: relative;
+  opacity: 0;
+  top: 1vh;
 }
-
-#sticker4{
-    position: absolute;
-    z-index: 80;
-    top: 190vh;
-    left: 70vw;
-    display: none;
+.atxt10 {
+  position: relative;
+  opacity: 0;
+  top: 1vh;
 }
-
-#sticker5{
-    position: absolute;
-    z-index: 80;
-    top: 300vh;
-    left: 80vw;
-    display: none;
+.atxt11 {
+  position: relative;
+  opacity: 0;
+  top: 1vh;
 }
-
-#sticker6{
-    position: absolute;
-    z-index: 80;
-    top: 890vh;
-    left: 5vw;
-    display: none;
+.atxt12 {
+  position: relative;
+  opacity: 0;
+  top: 1vh;
 }
-
-#sticker7{
-    position: absolute;
-    z-index: 80;
-    top: 940vh;
-    left: 70vw;
-    display: none;
+.atxt13 {
+  position: relative;
+  opacity: 0;
+  top: 1vh;
 }
-
-#sticker8{
-    position: absolute;
-    z-index: 80;
-    top: 20vh;
-    left: 70vw;
-    display: none;
+.atxt14 {
+  position: relative;
+  opacity: 0;
+  top: 1vh;
 }
-
-#sticker9{
-    position: absolute;
-    z-index: 80;
-    top: 40vh;
-    left: 60vw;
-    display: none;
+.atxt15 {
+  position: relative;
+  opacity: 0;
+  top: 1vh;
 }
-
-#sticker10{
-    position: absolute;
-    z-index: 80;
-    top: 70vh;
-    left: 60vw;
-    display: none;
+.atxt16 {
+  position: relative;
+  opacity: 0;
+  top: 1vh;
 }
-
-#sticker11{
-    position: absolute;
-    z-index: 80;
-    top: 260vh;
-    left: 65vw;
-    display: none;
+.atxt17 {
+  position: relative;
+  opacity: 0;
+  top: 1vh;
 }
-
-#sticker12{
-    position: absolute;
-    z-index: 80;
-    top: 470vh;
-    left: 70vw;
-    display: none;
+.atxt18 {
+  position: relative;
+  opacity: 0;
+  top: 1vh;
 }
-
-#sticker13{
-    position: absolute;
-    z-index: 80;
-    top: 610vh;
-    left: 80vw;
-    display: none;
+.atxt19 {
+  position: relative;
+  opacity: 0;
+  top: 1vh;
 }
-
-#sticker14{
-    position: absolute;
-    z-index: 80;
-    top: 30vh;
-    left: 40vw;
+.atxt20 {
+  position: relative;
+  opacity: 0;
+  top: 1vh;
 }
-
-#sticker15{
-    position: absolute;
-    z-index: 80;
-    top: 560vh;
-    left: 10vw;
+.atxt21 {
+  position: relative;
+  opacity: 0;
+  top: 1vh;
 }
-
-@media screen and (max-width: 1024px) { /*  Ipad mini  */
-    .sticker{
-        display: none;
-    }
+.atxt22 {
+  position: relative;
+  opacity: 0;
+  top: 1vh;
 }
-
-.atxt1{
-    position: relative;
-    opacity: 0;
-    top: 1vh;
+.atxt23 {
+  position: relative;
+  opacity: 0;
+  top: 1vh;
 }
-.atxt2{
-    position: relative;
-    opacity: 0;
-    top: 1vh;
+.atxt24 {
+  position: relative;
+  opacity: 0;
+  top: 1vh;
 }
-.atxt3{
-    position: relative;
-    opacity: 0;
-    top: 1vh;
+.atxt25 {
+  position: relative;
+  opacity: 0;
+  top: 1vh;
 }
-.atxt4{
-    position: relative;
-    opacity: 0;
-    top: 1vh;
+.atxt26 {
+  position: relative;
+  opacity: 0;
+  top: 1vh;
 }
-.atxt5{
-    position: relative;
-    opacity: 0;
-    top: 1vh;
+.atxt27 {
+  position: relative;
+  opacity: 0;
+  top: 1vh;
 }
-.atxt6{
-    position: relative;
-    opacity: 0;
-    top: 1vh;
+.atxt28 {
+  position: relative;
+  opacity: 0;
+  top: 1vh;
 }
-.atxt7{
-    position: relative;
-    opacity: 0;
-    top: 1vh;
+.atxt29 {
+  position: relative;
+  opacity: 0;
+  top: 1vh;
 }
-.atxt8{
-    position: relative;
-    opacity: 0;
-    top: 1vh;
+.atxt30 {
+  position: relative;
+  opacity: 0;
+  top: 1vh;
 }
-
-.atxt9{
-    position: relative;
-    opacity: 0;
-    top: 1vh;
+.atxt31 {
+  position: relative;
+  opacity: 0;
+  top: 1vh;
 }
-.atxt10{
-    position: relative;
-    opacity: 0;
-    top: 1vh;
+.atxt32 {
+  position: relative;
+  opacity: 0;
+  top: 1vh;
 }
-.atxt11{
-    position: relative;
-    opacity: 0;
-    top: 1vh;
+.atxt33 {
+  position: relative;
+  opacity: 0;
+  top: 1vh;
 }
-.atxt12{
-    position: relative;
-    opacity: 0;
-    top: 1vh;
+.atxt34 {
+  position: relative;
+  opacity: 0;
+  top: 1vh;
 }
-.atxt13{
-    position: relative;
-    opacity: 0;
-    top: 1vh;
+.atxt35 {
+  position: relative;
+  opacity: 0;
+  top: 1vh;
 }
-.atxt14{
-    position: relative;
-    opacity: 0;
-    top: 1vh;
+.atxt36 {
+  position: relative;
+  opacity: 0;
+  top: 1vh;
 }
-.atxt15{
-    position: relative;
-    opacity: 0;
-    top: 1vh;
+.atxt37 {
+  position: relative;
+  opacity: 0;
+  top: 1vh;
 }
-.atxt16{
-    position: relative;
-    opacity: 0;
-    top: 1vh;
+.atxt38 {
+  position: relative;
+  opacity: 0;
+  top: 1vh;
 }
-.atxt17{
-    position: relative;
-    opacity: 0;
-    top: 1vh;
+.atxt39 {
+  position: relative;
+  opacity: 0;
+  top: 1vh;
 }
-.atxt18{
-    position: relative;
-    opacity: 0;
-    top: 1vh;
+.atxt40 {
+  position: relative;
+  opacity: 0;
+  top: 1vh;
 }
-.atxt19{
-    position: relative;
-    opacity: 0;
-    top: 1vh;
+.atxt41 {
+  position: relative;
+  opacity: 0;
+  top: 1vh;
 }
-.atxt20{
-    position: relative;
-    opacity: 0;
-    top: 1vh;
+.atxt42 {
+  position: relative;
+  opacity: 0;
+  top: 1vh;
 }
-.atxt21{
-    position: relative;
-    opacity: 0;
-    top: 1vh;
+.atxt43 {
+  position: relative;
+  opacity: 0;
+  top: 1vh;
 }
-.atxt22{
-    position: relative;
-    opacity: 0;
-    top: 1vh;
+.atxt44 {
+  position: relative;
+  opacity: 0;
+  top: 1vh;
 }
-.atxt23{
-    position: relative;
-    opacity: 0;
-    top: 1vh;
+.atxt45 {
+  position: relative;
+  opacity: 0;
+  top: 1vh;
 }
-.atxt24{
-    position: relative;
-    opacity: 0;
-    top: 1vh;
-}
-.atxt25{
-    position: relative;
-    opacity: 0;
-    top: 1vh;
-}
-.atxt26{
-    position: relative;
-    opacity: 0;
-    top: 1vh;
-}
-.atxt27{
-    position: relative;
-    opacity: 0;
-    top: 1vh;
-}
-.atxt28{
-    position: relative;
-    opacity: 0;
-    top: 1vh;
-}
-.atxt29{
-    position: relative;
-    opacity: 0;
-    top: 1vh;
-}
-.atxt30{
-    position: relative;
-    opacity: 0;
-    top: 1vh;
-}
-.atxt31{
-    position: relative;
-    opacity: 0;
-    top: 1vh;
-}
-.atxt32{
-    position: relative;
-    opacity: 0;
-    top: 1vh;
-}
-.atxt33{
-    position: relative;
-    opacity: 0;
-    top: 1vh;
-}
-.atxt34{
-    position: relative;
-    opacity: 0;
-    top: 1vh;
-}
-.atxt35{
-    position: relative;
-    opacity: 0;
-    top: 1vh;
-}
-.atxt36{
-    position: relative;
-    opacity: 0;
-    top: 1vh;
-}
-.atxt37{
-    position: relative;
-    opacity: 0;
-    top: 1vh;
-}
-.atxt38{
-    position: relative;
-    opacity: 0;
-    top: 1vh;
-}
-.atxt39{
-    position: relative;
-    opacity: 0;
-    top: 1vh;
-}
-.atxt40{
-    position: relative;
-    opacity: 0;
-    top: 1vh;
-}
-.atxt41{
-    position: relative;
-    opacity: 0;
-    top: 1vh;
-}
-.atxt42{
-    position: relative;
-    opacity: 0;
-    top: 1vh;
-}
-.atxt43{
-    position: relative;
-    opacity: 0;
-    top: 1vh;
-}
-.atxt44{
-    position: relative;
-    opacity: 0;
-    top: 1vh;
-}
-.atxt45{
-    position: relative;
-    opacity: 0;
-    top: 1vh;
-}
-
 
 /*-------------------------------COSA SIAMO-------------------------------*/
 
-.cosasiamo{
-    background-color: #F0F0F0;
-    top: 230vh;
-    height: 100vh;
-    width: 100vw;
-    z-index: 1;
-    position: absolute;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+.cosasiamo {
+  background-color: #f0f0f0;
+  top: 230vh;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
-.titoletto{
-    position: absolute;
-    top: 20vh;
-    margin: 0;
-    padding: 0;
-    font-family: Montreal;
-    font-size: 2vw;
-    width: 100vw;
-    z-index: 2;
-    text-align: center;
+.titoletto {
+  position: absolute;
+  top: 20vh;
+  margin: 0;
+  padding: 0;
+  font-family: Montreal;
+  font-size: 2vw;
+  width: 100vw;
+  z-index: 2;
+  text-align: center;
 }
 
-@media screen and (max-width: 768px) { /*  Ipad mini  */
-    .titoletto{
-        font-size: 5vw;
-        top: 5vh;
-    }
+@media screen and (max-width: 768px) {
+  /*  Ipad mini  */
+  .titoletto {
+    font-size: 5vw;
+    top: 5vh;
+  }
 }
 
-@media screen and (max-width: 390px) { /*  Telefono  */
-    .titoletto{
-        font-size: 7vw;
-        top: 9vh;
-    }
+@media screen and (max-width: 390px) {
+  /*  Telefono  */
+  .titoletto {
+    font-size: 7vw;
+    top: 9vh;
+  }
 }
 
-.cerchio3{
-    background-image: url('../asset/cerchionero.png');
-    background-size: 3300% 100%;
-    background-repeat: no-repeat;
-    background-position: 0% 0%;
-    z-index: 5;
-    position: absolute;
-    top: 19vh;
-    left: 44vw;
-    height: 3vw;
-    width: 12vw;
+.cerchio3 {
+  background-image: url("../asset/cerchionero.png");
+  background-size: 3300% 100%;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  z-index: 5;
+  position: absolute;
+  top: 19vh;
+  left: 44vw;
+  height: 3vw;
+  width: 12vw;
 }
 
-@media screen and (max-width: 768px) { /*  Ipad mini  */
-    .cerchio3{
-        top: 5vh;
-        left: 35vw;
-        height: 6vw;
-        width: 30vw;
-    }
+@media screen and (max-width: 768px) {
+  /*  Ipad mini  */
+  .cerchio3 {
+    top: 5vh;
+    left: 35vw;
+    height: 6vw;
+    width: 30vw;
+  }
 }
 
-@media screen and (max-width: 390px) { /*  Telefono  */
-    .cerchio3{
-        top: 9vh;
-        left: 29vw;
-        height: 8vw;
-        width: 42vw;
-    }
+@media screen and (max-width: 390px) {
+  /*  Telefono  */
+  .cerchio3 {
+    top: 9vh;
+    left: 29vw;
+    height: 8vw;
+    width: 42vw;
+  }
 }
 
-.statement{
+.statement {
+  position: relative;
+  top: 30vh;
+  margin: 0;
+  padding: 0;
+  font-family: Formula;
+  font-size: 4vw;
+  width: 100vw;
+  z-index: 2;
+  text-align: center;
+  display: block;
+}
+
+.statementmobile {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  /*  Ipad mini  */
+  .statementmobile {
     position: relative;
-    top: 30vh;
+    top: 15vh;
     margin: 0;
     padding: 0;
     font-family: Formula;
-    font-size: 4vw;
-    width: 100vw;
+    font-size: 7vw;
+    width: 90vw;
     z-index: 2;
-    text-align: center;
+    text-align: left;
     display: block;
-}
+    left: 3vw;
+  }
 
-.statementmobile{
+  .statement {
     display: none;
+  }
 }
 
-@media screen and (max-width: 768px) { /*  Ipad mini  */
-    .statementmobile{
-        position: relative;
-        top: 15vh;
-        margin: 0;
-        padding: 0;
-        font-family: Formula;
-        font-size: 7vw;
-        width: 90vw;
-        z-index: 2;
-        text-align: left;
-        display: block;
-        left: 3vw;
-    }
-
-    .statement{
-        display: none;
-    }
+@media screen and (max-width: 390px) {
+  /*  Telefono  */
+  .statementmobile {
+    font-size: 9vw;
+    top: 20vh;
+  }
 }
 
-@media screen and (max-width: 390px) { /*  Telefono  */
-    .statementmobile{
-        font-size: 9vw;
-        top: 20vh;
-    }
+@media screen and (max-width: 375px) {
+  /*  Telefono piccolo  */
+  .statementmobile {
+    top: 20vh;
+  }
 }
 
-@media screen and (max-width: 375px) { /*  Telefono piccolo  */
-    .statementmobile{
-        top: 20vh;
-    }
+@media screen and (max-width: 360px) {
+  /*  Telefono piccolo piccolo  */
+  .statementmobile {
+    top: 18vh;
+  }
 }
 
-@media screen and (max-width: 360px) { /*  Telefono piccolo piccolo  */
-    .statementmobile{
-        top: 18vh;
-    }
+.cerchio4 {
+  background-image: url("../asset/cerchionero.png");
+  background-size: 3300% 100%;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  z-index: 5;
+  position: absolute;
+  top: 30vh;
+  left: 25vw;
+  height: 5vw;
+  width: 27vw;
+  display: block;
 }
 
-.cerchio4{
-    background-image: url('../asset/cerchionero.png');
-    background-size: 3300% 100%;
-    background-repeat: no-repeat;
-    background-position: 0% 0%;
-    z-index: 5;
-    position: absolute;
+@media screen and (max-width: 768px) {
+  /*  Ipad mini  */
+  .cerchio4 {
+    display: none;
+  }
+}
+
+.esplora {
+  position: relative;
+  top: 40vh;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  width: 13vw;
+  display: flex;
+  align-items: center;
+  z-index: 2;
+}
+
+@media screen and (max-width: 768px) {
+  /*  Ipad mini  */
+  .esplora {
+    top: 20vh;
+    width: 30vw;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  /*  Telefono  */
+  .esplora {
     top: 30vh;
-    left: 25vw;
-    height: 5vw;
-    width: 27vw;
-    display: block;
+  }
 }
 
-@media screen and (max-width: 768px) { /*  Ipad mini  */
-    .cerchio4{
-        display: none;
-    }
+@media screen and (max-width: 375px) {
+  /*  Telefono piccolo  */
+  .esplora {
+    top: 23.5vh;
+  }
 }
 
-.esplora{
-    position: relative;
-    top: 40vh;
-    left: 0;
-    margin: 0;
-    padding: 0;
-    width: 13vw;
-    display: flex;
-    align-items: center;
-    z-index: 2;
+@media screen and (max-width: 360px) {
+  /*  Telefono piccolo piccolo  */
+  .esplora {
+    top: 27vh;
+  }
 }
 
-@media screen and (max-width: 768px) { /*  Ipad mini  */
-    .esplora{
-        top: 20vh;
-        width: 30vw;
-    }
+.bottoneesplora {
+  padding: 15px;
+  background-color: black;
+  color: #f0f0f0;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 50px;
+  font-family: montreal_bold;
+  font-size: 1.5vw;
+  width: 13vw;
+  text-align: center;
+  transition: 0.3s;
+  border: 2px solid black;
 }
 
-@media screen and (max-width: 390px) { /*  Telefono  */
-    .esplora{
-        top: 30vh;
-    }
+@media screen and (max-width: 768px) {
+  /*  Ipad mini  */
+  .bottoneesplora {
+    font-size: 3vw;
+    width: 30vw;
+  }
 }
 
-@media screen and (max-width: 375px) { /*  Telefono piccolo  */
-    .esplora{
-        top: 23.5vh;
-    }
+@media screen and (max-width: 390px) {
+  /*  Telefono  */
+  .bottoneesplora {
+    font-size: 5vw;
+  }
 }
 
-@media screen and (max-width: 360px) { /*  Telefono piccolo piccolo  */
-    .esplora{
-        top: 27vh;
-    }
-}
-
-.bottoneesplora{
-    padding: 15px;
-    background-color: black;
-    color: #F0F0F0;
-    display: inline-block;
-    text-decoration: none;
-    border-radius: 50px;
-    font-family: montreal_bold;
-    font-size: 1.5vw;
-    width: 13vw;
-    text-align: center;
-    transition: 0.3s;
-    border: 2px solid black;
-}
-
-@media screen and (max-width: 768px) { /*  Ipad mini  */
-    .bottoneesplora{
-        font-size: 3vw;
-        width: 30vw;
-    }
-}
-
-@media screen and (max-width: 390px) { /*  Telefono  */
-    .bottoneesplora{
-        font-size: 5vw;
-    }
-}
-
-.bottoneesplora:hover{
-    background-color: #F0F0F0;
-    color: black;
+.bottoneesplora:hover {
+  background-color: #f0f0f0;
+  color: black;
 }
 
 /*-------------------------------COSA FAI-------------------------------*/
 
-.cosafai{
-    background-color: black;
-    top: 330vh;
-    height: 350vh;
-    width: 100vw;
-    z-index: 1;
-    position: absolute;
-    display: block;
-    align-items: center;
-    overflow: hidden;
+.cosafai {
+  background-color: black;
+  top: 330vh;
+  height: 350vh;
+  width: 100vw;
+  z-index: 1;
+  position: absolute;
+  display: block;
+  align-items: center;
+  overflow: hidden;
 }
 
-@media screen and (max-width: 768px) { /*  Ipad mini  */
-    .cosafai{
-        display: none;
-    }
-}
-
-.titolettosl{
-    position: absolute;
-    top: 10vh;
-    margin: 0;
-    padding: 0;
-    color: #F0F0F0;
-    font-family: Montreal;
-    font-size: 2vw;
-    width: 100vw;
-    z-index: 2;
-    text-align: center;
-}
-
-.cerchio5{
-    background-image: url('../asset/cerchiobianco.png');
-    background-size: 3300% 100%;
-    background-repeat: no-repeat;
-    background-position: 0% 0%;
-    z-index: 5;
-    position: absolute;
-    top: 9vh;
-    left: 45.5vw;
-    height: 3.5vw;
-    width: 9vw;
-}
-
-.slide1{
-    background-color: #A07EFF;
-    border-radius: 16px;
-    position: absolute;
-    margin: 0;
-    padding: 0;
-    height: 60vh;
-    width: 60vw;
-    z-index: 2;
-    display: block;
-    align-items: center;
-    align-content: center;
-    top: 20vh;
-    left: 50vw;
-    transform: translate(-50%, 0%);
-}
-
-.organizza{
-    position: absolute;
-    margin: 0;
-    padding: 0;
-    top: 3vh;
-    left: 2vw;
-    font-family: Montreal;
-    font-size: 2vw;
-    width: 10vw;
-    z-index: 2;
-    text-align: left;
-}
-
-.cerchio6{
-    background-image: url('../asset/cerchionero.png');
-    background-size: 3300% 100%;
-    background-repeat: no-repeat;
-    background-position: 0% 0%;
-    z-index: 5;
-    position: absolute;
-    top: 2vh;
-    left: 1.5vw;
-    height: 3vw;
-    width: 10vw;
-}
-
-.copyorganizza{
-    position: absolute;
-    margin: 0;
-    padding: 0;
-    top: 10vh;
-    left: 2vw;
-    font-family: Formula;
-    font-size: 2.3vw;
-    width: 30vw;
-    z-index: 2;
-    text-align: left;
-}
-
-@media screen and (max-width: 768px) { /*  Ipad mini  */
-    .copyorganizza{
-        top: 62vh;
-        left: 5vw;
-        font-size: 5vw;
-        width: 85vw;
-    }
-}
-
-@media screen and (max-width: 390px) { /*  Telefono  */
-    .copyorganizza{
-        font-size: 6vw;
-    }
-}
-
-.img1{
-    position: absolute;
-    margin: 0;
-    padding: 1vw;
-    right: 0;
-    z-index: 2;
-}
-
-.bottonescopri{
-    padding: 15px;
-    background-color: black;
-    position: absolute;
-    color: #F0F0F0;
-    display: inline-block;
-    text-decoration: none;
-    border-radius: 50px;
-    font-family: montreal_bold;
-    font-size: 1.5vw;
-    width: 13vw;
-    text-align: center;
-    top: 45vh;
-    left: 8vw;
-    transition: 0.3s;
-}
-
-.bottonescopri:hover{
-    background-color: #F0F0F0;
-    color: black;
-}
-
-.slide2{
-    background-color: #DFFF9C;
-    border-radius: 16px;
-    position: absolute;
-    margin: 0;
-    padding: 0;
-    height: 60vh;
-    width: 60vw;
-    z-index: 2;
-    display: block;
-    align-items: center;
-    align-content: center;
-    top: 20vh;
-    left: 85vw;
-} 
-
-.gioca{
-    position: absolute;
-    margin: 0;
-    padding: 0;
-    top: 3vh;
-    left: 2vw;
-    font-family: Montreal;
-    font-size: 2vw;
-    width: 10vw;
-    z-index: 2;
-    text-align: left;
-}
-
-.cerchio7{
-    background-image: url('../asset/cerchionero.png');
-    background-size: 3300% 100%;
-    background-repeat: no-repeat;
-    background-position: 0% 0%;
-    z-index: 5;
-    position: absolute;
-    top: 2.5vh;
-    left: 1.5vw;
-    height: 3vw;
-    width: 6vw;
-}
-
-.copygioca{
-    position: absolute;
-    margin: 0;
-    padding: 0;
-    top: 10vh;
-    left: 2vw;
-    font-family: Formula;
-    font-size: 2.4vw;
-    width: 30vw;
-    z-index: 2;
-    text-align: left;
-}
-
-.img2{
-    position: absolute;
-    margin: 0;
-    padding: 1vh;
-    right: 2vw;
-    z-index: 2;
-}
-
-.slide3{
-    background-color: #FA4928;
-    border-radius: 16px;
-    position: absolute;
-    margin: 0;
-    padding: 0;
-    height: 60vh;
-    width: 60vw;
-    z-index: 2;
-    display: block;
-    align-items: center;
-    align-content: center;
-    top: 20vh;
-    left: 150vw;
-} 
-
-.condividi{
-    position: absolute;
-    margin: 0;
-    padding: 0;
-    top: 3vh;
-    left: 2vw;
-    font-family: Montreal;
-    font-size: 2vw;
-    width: 10vw;
-    z-index: 2;
-    text-align: left;
-}
-
-.cerchio8{
-    background-image: url('../asset/cerchionero.png');
-    background-size: 3300% 100%;
-    background-repeat: no-repeat;
-    background-position: 0% 0%;
-    z-index: 5;
-    position: absolute;
-    top: 2vh;
-    left: 1.5vw;
-    height: 3vw;
-    width: 10vw;
-}
-
-.copycondividi{
-    position: absolute;
-    margin: 0;
-    padding: 0;
-    top: 10vh;
-    left: 2vw;
-    font-family: Formula;
-    font-size: 2.4vw;
-    width: 30vw;
-    z-index: 2;
-    text-align: left;
-}
-
-.img3{
-    position: absolute;
-    margin: 0;
-    padding: 1vh;
-    right: 2vw;
-    z-index: 2;
-}
-
-.slide1mobile{
+@media screen and (max-width: 768px) {
+  /*  Ipad mini  */
+  .cosafai {
     display: none;
+  }
 }
 
-.slide2mobile{
-    display: none;
+.titolettosl {
+  position: absolute;
+  top: 10vh;
+  margin: 0;
+  padding: 0;
+  color: #f0f0f0;
+  font-family: Montreal;
+  font-size: 2vw;
+  width: 100vw;
+  z-index: 2;
+  text-align: center;
 }
 
-.slide3mobile{
-    display: none;
+.cerchio5 {
+  background-image: url("../asset/cerchiobianco.png");
+  background-size: 3300% 100%;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  z-index: 5;
+  position: absolute;
+  top: 9vh;
+  left: 45.5vw;
+  height: 3.5vw;
+  width: 9vw;
 }
 
-@media screen and (max-width: 768px) { /*  Ipad mini  */
-    .slide1mobile{
-        display: block;
-        width: 100vw;
-        position: absolute;
-        top: 330vh;
-        height: 100vh;
-        background-color: #A07EFF;
-    }
-
-    .slide2mobile{
-        display: block;
-        width: 100vw;
-        position: absolute;
-        top: 430vh;
-        height: 100vh;
-        background-color: #DFFF9C;
-    }
-
-    .slide3mobile{
-        display: block;
-        width: 100vw;
-        position: absolute;
-        top: 530vh;
-        height: 100vh;
-        background-color: #FA4928;
-    }
+.slide1 {
+  background-color: #a07eff;
+  border-radius: 16px;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  height: 60vh;
+  width: 60vw;
+  z-index: 2;
+  display: block;
+  align-items: center;
+  align-content: center;
+  top: 20vh;
+  left: 50vw;
+  transform: translate(-50%, 0%);
 }
 
-.imgslmobile{
-    width: 60vw;
-    left: 20vw;
-    top: 4vh;
-    height: 45vh;
-    position: absolute;
-    overflow: hidden;
-    border-radius: 30px;
+.organizza {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  top: 3vh;
+  left: 2vw;
+  font-family: Montreal;
+  font-size: 2vw;
+  width: 10vw;
+  z-index: 2;
+  text-align: left;
 }
 
-@media screen and (max-width: 390px) { /*  Telefono  */
-    .imgslmobile{
-        width: 90vw;
-        left: 5vw;
-    }
+.cerchio6 {
+  background-image: url("../asset/cerchionero.png");
+  background-size: 3300% 100%;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  z-index: 5;
+  position: absolute;
+  top: 2vh;
+  left: 1.5vw;
+  height: 3vw;
+  width: 10vw;
 }
 
-.titolettoslmobile{
-    position: absolute;
-    top: 52vh;
-    margin: 0;
-    padding: 0;
-    color: black;
-    font-family: Montreal;
-    font-size: 4vw;
-    width: 100vw;
-    z-index: 2;
-    text-align: center;
+.copyorganizza {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  top: 10vh;
+  left: 2vw;
+  font-family: Formula;
+  font-size: 2.3vw;
+  width: 30vw;
+  z-index: 2;
+  text-align: left;
 }
 
-.cerchio9{
-    background-image: url('../asset/cerchionero.png');
-    background-size: 3300% 100%;
-    background-repeat: no-repeat;
-    background-position: 0% 0%;
-    z-index: 5;
-    position: absolute;
-    top: 52vh;
-    left: 40vw;
-    height: 5vw;
-    width: 20vw;
+@media screen and (max-width: 768px) {
+  /*  Ipad mini  */
+  .copyorganizza {
+    top: 62vh;
+    left: 5vw;
+    font-size: 5vw;
+    width: 85vw;
+  }
 }
 
-@media screen and (max-width: 390px) { /*  Telefono  */
-    .cerchio9{
-        top: 52vh;
-        left: 35vw;
-        height: 7vw;
-        width: 30vw;
-    }
-}
-
-.cerchio10{
-    background-image: url('../asset/cerchionero.png');
-    background-size: 3300% 100%;
-    background-repeat: no-repeat;
-    background-position: 0% 0%;
-    z-index: 5;
-    position: absolute;
-    top: 52vh;
-    left: 43.5vw;
-    height: 5vw;
-    width: 13vw;
-}
-
-@media screen and (max-width: 390px) { /*  Telefono  */
-    .cerchio10{
-        top: 52vh;
-        left: 41vw;
-        height: 7vw;
-        width: 18vw;
-    }
-}
-
-.cerchio11{
-    background-image: url('../asset/cerchionero.png');
-    background-size: 3300% 100%;
-    background-repeat: no-repeat;
-    background-position: 0% 0%;
-    z-index: 5;
-    position: absolute;
-    top: 52vh;
-    left: 40vw;
-    height: 5vw;
-    width: 20vw;
-}
-
-@media screen and (max-width: 390px) { /*  Telefono  */
-    .cerchio11{
-        top: 52vh;
-        left: 36vw;
-        height: 7vw;
-        width: 28vw;
-    }
-}
-
-@media screen and (max-width: 390px) { /*  Telefono  */
-    .titolettoslmobile{
-        font-size: 6vw;
-    }
-}
-
-.testoslmobile{
-    position: absolute;
-    margin: 0;
-    padding: 0;
-    top: 58vh;
-    font-family: Formula;
+@media screen and (max-width: 390px) {
+  /*  Telefono  */
+  .copyorganizza {
     font-size: 6vw;
+  }
+}
+
+.img1 {
+  position: absolute;
+  margin: 0;
+  padding: 1vw;
+  right: 0;
+  z-index: 2;
+}
+
+.bottonescopri {
+  padding: 15px;
+  background-color: black;
+  position: absolute;
+  color: #f0f0f0;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 50px;
+  font-family: montreal_bold;
+  font-size: 1.5vw;
+  width: 13vw;
+  text-align: center;
+  top: 45vh;
+  left: 8vw;
+  transition: 0.3s;
+}
+
+.bottonescopri:hover {
+  background-color: #f0f0f0;
+  color: black;
+}
+
+.slide2 {
+  background-color: #dfff9c;
+  border-radius: 16px;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  height: 60vh;
+  width: 60vw;
+  z-index: 2;
+  display: block;
+  align-items: center;
+  align-content: center;
+  top: 20vh;
+  left: 85vw;
+}
+
+.gioca {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  top: 3vh;
+  left: 2vw;
+  font-family: Montreal;
+  font-size: 2vw;
+  width: 10vw;
+  z-index: 2;
+  text-align: left;
+}
+
+.cerchio7 {
+  background-image: url("../asset/cerchionero.png");
+  background-size: 3300% 100%;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  z-index: 5;
+  position: absolute;
+  top: 2.5vh;
+  left: 1.5vw;
+  height: 3vw;
+  width: 6vw;
+}
+
+.copygioca {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  top: 10vh;
+  left: 2vw;
+  font-family: Formula;
+  font-size: 2.4vw;
+  width: 30vw;
+  z-index: 2;
+  text-align: left;
+}
+
+.img2 {
+  position: absolute;
+  margin: 0;
+  padding: 1vh;
+  right: 2vw;
+  z-index: 2;
+}
+
+.slide3 {
+  background-color: #fa4928;
+  border-radius: 16px;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  height: 60vh;
+  width: 60vw;
+  z-index: 2;
+  display: block;
+  align-items: center;
+  align-content: center;
+  top: 20vh;
+  left: 150vw;
+}
+
+.condividi {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  top: 3vh;
+  left: 2vw;
+  font-family: Montreal;
+  font-size: 2vw;
+  width: 10vw;
+  z-index: 2;
+  text-align: left;
+}
+
+.cerchio8 {
+  background-image: url("../asset/cerchionero.png");
+  background-size: 3300% 100%;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  z-index: 5;
+  position: absolute;
+  top: 2vh;
+  left: 1.5vw;
+  height: 3vw;
+  width: 10vw;
+}
+
+.copycondividi {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  top: 10vh;
+  left: 2vw;
+  font-family: Formula;
+  font-size: 2.4vw;
+  width: 30vw;
+  z-index: 2;
+  text-align: left;
+}
+
+.img3 {
+  position: absolute;
+  margin: 0;
+  padding: 1vh;
+  right: 2vw;
+  z-index: 2;
+}
+
+.slide1mobile {
+  display: none;
+}
+
+.slide2mobile {
+  display: none;
+}
+
+.slide3mobile {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  /*  Ipad mini  */
+  .slide1mobile {
+    display: block;
     width: 100vw;
-    z-index: 2;
-    text-align: center;
-}
-
-@media screen and (max-width: 390px) { /*  Telefono  */
-    .testoslmobile{
-        font-size: 8vw;
-    }
-}
-
-@media screen and (max-width: 375px) { /*  Telefono piccolo  */
-    .testoslmobile{
-        font-size: 7vw;
-    }
-}
-
-.bottoneslmobile{
-    padding: 15px;
-    background-color: black;
     position: absolute;
-    color: #F0F0F0;
-    display: inline-block;
-    text-decoration: none;
-    border-radius: 50px;
-    font-family: montreal_bold;
-    font-size: 3vw;
-    width: 30vw;
-    text-align: center;
-    top: 89vh;
-    left: 50vw;
-    transform: translate(-50%);
-    transition: 0.3s;
+    top: 330vh;
+    height: 100vh;
+    background-color: #a07eff;
+  }
+
+  .slide2mobile {
+    display: block;
+    width: 100vw;
+    position: absolute;
+    top: 430vh;
+    height: 100vh;
+    background-color: #dfff9c;
+  }
+
+  .slide3mobile {
+    display: block;
+    width: 100vw;
+    position: absolute;
+    top: 530vh;
+    height: 100vh;
+    background-color: #fa4928;
+  }
 }
 
-@media screen and (max-width: 390px) { /*  Telefono  */
-    .bottoneslmobile{
-        font-size: 5vw;
-        width: 40vw;
-        top: 86.5vh;
-    }
+.imgslmobile {
+  width: 60vw;
+  left: 20vw;
+  top: 4vh;
+  height: 45vh;
+  position: absolute;
+  overflow: hidden;
+  border-radius: 30px;
+}
+
+@media screen and (max-width: 390px) {
+  /*  Telefono  */
+  .imgslmobile {
+    width: 90vw;
+    left: 5vw;
+  }
+}
+
+.titolettoslmobile {
+  position: absolute;
+  top: 52vh;
+  margin: 0;
+  padding: 0;
+  color: black;
+  font-family: Montreal;
+  font-size: 4vw;
+  width: 100vw;
+  z-index: 2;
+  text-align: center;
+}
+
+.cerchio9 {
+  background-image: url("../asset/cerchionero.png");
+  background-size: 3300% 100%;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  z-index: 5;
+  position: absolute;
+  top: 52vh;
+  left: 40vw;
+  height: 5vw;
+  width: 20vw;
+}
+
+@media screen and (max-width: 390px) {
+  /*  Telefono  */
+  .cerchio9 {
+    top: 52vh;
+    left: 35vw;
+    height: 7vw;
+    width: 30vw;
+  }
+}
+
+.cerchio10 {
+  background-image: url("../asset/cerchionero.png");
+  background-size: 3300% 100%;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  z-index: 5;
+  position: absolute;
+  top: 52vh;
+  left: 43.5vw;
+  height: 5vw;
+  width: 13vw;
+}
+
+@media screen and (max-width: 390px) {
+  /*  Telefono  */
+  .cerchio10 {
+    top: 52vh;
+    left: 41vw;
+    height: 7vw;
+    width: 18vw;
+  }
+}
+
+.cerchio11 {
+  background-image: url("../asset/cerchionero.png");
+  background-size: 3300% 100%;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  z-index: 5;
+  position: absolute;
+  top: 52vh;
+  left: 40vw;
+  height: 5vw;
+  width: 20vw;
+}
+
+@media screen and (max-width: 390px) {
+  /*  Telefono  */
+  .cerchio11 {
+    top: 52vh;
+    left: 36vw;
+    height: 7vw;
+    width: 28vw;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  /*  Telefono  */
+  .titolettoslmobile {
+    font-size: 6vw;
+  }
+}
+
+.testoslmobile {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  top: 58vh;
+  font-family: Formula;
+  font-size: 6vw;
+  width: 100vw;
+  z-index: 2;
+  text-align: center;
+}
+
+@media screen and (max-width: 390px) {
+  /*  Telefono  */
+  .testoslmobile {
+    font-size: 8vw;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  /*  Telefono piccolo  */
+  .testoslmobile {
+    font-size: 7vw;
+  }
+}
+
+.bottoneslmobile {
+  padding: 15px;
+  background-color: black;
+  position: absolute;
+  color: #f0f0f0;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 50px;
+  font-family: montreal_bold;
+  font-size: 3vw;
+  width: 30vw;
+  text-align: center;
+  top: 89vh;
+  left: 50vw;
+  transform: translate(-50%);
+  transition: 0.3s;
+}
+
+@media screen and (max-width: 390px) {
+  /*  Telefono  */
+  .bottoneslmobile {
+    font-size: 5vw;
+    width: 40vw;
+    top: 86.5vh;
+  }
 }
 
 /*-------------------------------OBIETTIVI-------------------------------*/
 
-.obiettivi{
-    background-color: #F0F0F0;
-    top: 680vh;
-    height: 100vh;
-    width: 100vw;
-    z-index: 1;
-    position: absolute;
-    display: flex;
+.obiettivi {
+  background-color: #f0f0f0;
+  top: 680vh;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+  position: absolute;
+  display: flex;
 }
 
-
-@media screen and (max-width: 768px) { /*  Ipad mini  */
-    .obiettivi{
-        top: 630vh;
-        flex-direction: column;
-    }
+@media screen and (max-width: 768px) {
+  /*  Ipad mini  */
+  .obiettivi {
+    top: 630vh;
+    flex-direction: column;
+  }
 }
 
-.statement2{
-    position: absolute;
-    top: 30vh;
-    left: 4vw;
-    margin: 0;
-    padding: 0;
-    font-family: Formula;
-    font-size: 4vw;
-    width: 45vw;
-    z-index: 2;
-    text-align: left;
+.statement2 {
+  position: absolute;
+  top: 30vh;
+  left: 4vw;
+  margin: 0;
+  padding: 0;
+  font-family: Formula;
+  font-size: 4vw;
+  width: 45vw;
+  z-index: 2;
+  text-align: left;
 }
 
-.cerchio12{
-    background-image: url('../asset/cerchionero.png');
-    background-size: 3300% 100%;
-    background-repeat: no-repeat;
-    background-position: 0% 0%;
-    z-index: 5;
-    position: absolute;
-    top: 20vh;
-    left: 42vw;
-    height: 2.5vw;
-    width: 16vw;
+.cerchio12 {
+  background-image: url("../asset/cerchionero.png");
+  background-size: 3300% 100%;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  z-index: 5;
+  position: absolute;
+  top: 20vh;
+  left: 42vw;
+  height: 2.5vw;
+  width: 16vw;
 }
 
-@media screen and (max-width: 768px) { /*  Ipad mini  */
-    .statement2{
-        display: none;
-    }
+@media screen and (max-width: 768px) {
+  /*  Ipad mini  */
+  .statement2 {
+    display: none;
+  }
 
-    .cerchio12{
-        top: 5.5vh;
-        left: 30vw;
-        height: 5vw;
-        width: 41vw;
-    }
+  .cerchio12 {
+    top: 5.5vh;
+    left: 30vw;
+    height: 5vw;
+    width: 41vw;
+  }
 }
 
-@media screen and (max-width: 390px) { /*  Telefono  */
-    .cerchio12{
-        top: 9vh;
-        left: 20vw;
-        height: 8vw;
-        width: 60vw;
-    }
+@media screen and (max-width: 390px) {
+  /*  Telefono  */
+  .cerchio12 {
+    top: 9vh;
+    left: 20vw;
+    height: 8vw;
+    width: 60vw;
+  }
 }
 
-.cerchio13{
-    background-image: url('../asset/cerchionero.png');
-    background-size: 3300% 100%;
-    background-repeat: no-repeat;
-    background-position: 0% 0%;
-    z-index: 5;
-    position: absolute;
+.cerchio13 {
+  background-image: url("../asset/cerchionero.png");
+  background-size: 3300% 100%;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  z-index: 5;
+  position: absolute;
+  top: 59vh;
+  left: 3.5vw;
+  height: 5.5vw;
+  width: 31vw;
+}
+
+@media screen and (max-width: 1024px) {
+  /*  Ipad mini port  */
+  .cerchio13 {
     top: 59vh;
     left: 3.5vw;
-    height: 5.5vw;
-    width: 31vw;
+    height: 5.7 vw;
+    width: 37vw;
+  }
 }
 
-@media screen and (max-width: 1024px) { /*  Ipad mini port  */
-    .cerchio13{
-        top: 59vh;
-        left: 3.5vw;
-        height: 5.7 vw;
-        width: 37vw;
-    }
+@media screen and (max-width: 768px) {
+  /*  Ipad mini  */
+  .cerchio13 {
+    top: 37vh;
+    left: 2vw;
+    height: 9vw;
+    width: 56vw;
+  }
 }
 
-@media screen and (max-width: 768px) { /*  Ipad mini  */
-    .cerchio13{
-        top: 37vh;
-        left: 2vw;
-        height: 9vw;
-        width: 56vw;
-    }
+@media screen and (max-width: 390px) {
+  /*  Telefono  */
+  .cerchio13 {
+    top: 43vh;
+    height: 11vw;
+    width: 70vw;
+  }
 }
 
-@media screen and (max-width: 390px) { /*  Telefono  */
-    .cerchio13{
-        top: 43vh;
-        height: 11vw;
-        width: 70vw;
-    }
+@media screen and (max-width: 375px) {
+  /*  Telefono piccolo  */
+  .cerchio13 {
+    top: 48vh;
+    height: 12vw;
+    width: 69vw;
+  }
 }
 
-@media screen and (max-width: 375px) { /*  Telefono piccolo  */
-    .cerchio13{
-        top: 48vh;
-        height: 12vw;
-        width: 69vw;
-    }
+@media screen and (max-width: 360px) {
+  /*  Telefono piccolo piccolo  */
+  .cerchio13 {
+    top: 42vh;
+    height: 12vw;
+    width: 70vw;
+  }
 }
 
-@media screen and (max-width: 360px) { /*  Telefono piccolo piccolo  */
-    .cerchio13{
-        top: 42vh;
-        height: 12vw;
-        width: 70vw;
-    }
+.screencommunity {
+  position: absolute;
+  margin: 0;
+  top: 30vh;
+  width: 40vw;
+  height: 60vh;
+  right: 4vw;
+  vertical-align: middle;
+  z-index: 2;
+  border-radius: 30px;
+  overflow: hidden;
 }
 
-.screencommunity{
-    position: absolute;
-    margin: 0;
-    top: 30vh;
-    width: 40vw;
-    height: 60vh;
-    right: 4vw;
-    vertical-align: middle;
-    z-index: 2;
-    border-radius: 30px;
-    overflow: hidden;
+.screencommunitymobile {
+  display: none;
+  position: absolute;
+  margin: 0;
+  top: 30vh;
+  width: 40vw;
+  height: 60vh;
+  right: 4vw;
+  vertical-align: middle;
+  z-index: 2;
+  border-radius: 30px;
+  overflow: hidden;
 }
 
-.screencommunitymobile{
+@media screen and (max-width: 768px) {
+  /*  Ipad mini  */
+  .screencommunity {
     display: none;
-    position: absolute;
-    margin: 0;
-    top: 30vh;
-    width: 40vw;
-    height: 60vh;
-    right: 4vw;
-    vertical-align: middle;
-    z-index: 2;
-    border-radius: 30px;
-    overflow: hidden;
+  }
 }
 
-@media screen and (max-width: 768px) { /*  Ipad mini  */
-    .screencommunity{
-        display: none;
-    }
+@media screen and (max-width: 768px) {
+  /*  Ipad mini  */
+  .screencommunitymobile {
+    display: block;
+    left: 4vw;
+    width: 90vw;
+    top: 60vh;
+    height: 35vh;
+  }
 }
 
-@media screen and (max-width: 768px) { /*  Ipad mini  */
-    .screencommunitymobile{
-        display: block;
-        left: 4vw;
-        width: 90vw;
-        top: 60vh;
-        height: 35vh;
-    }
+@media screen and (max-width: 390px) {
+  /*  Telefono  */
+  .screencommunitymobile {
+    top: 63vh;
+    height: 33vh;
+  }
 }
 
-@media screen and (max-width: 390px) { /*  Telefono  */
-    .screencommunitymobile{
-        top: 63vh;
-        height: 33vh;
-    }
+@media screen and (max-width: 375px) {
+  /*  Telefono piccolo  */
+  .screencommunitymobile {
+    top: 70vh;
+    height: 26vh;
+  }
 }
 
-@media screen and (max-width: 375px) { /*  Telefono piccolo  */
-    .screencommunitymobile{
-        top: 70vh;
-        height: 26vh;
-    }
-}
-
-@media screen and (max-width: 360px) { /*  Telefono piccolo piccolo  */
-    .screencommunitymobile{
-        top: 63vh;
-        height: 33vh;
-    }
+@media screen and (max-width: 360px) {
+  /*  Telefono piccolo piccolo  */
+  .screencommunitymobile {
+    top: 63vh;
+    height: 33vh;
+  }
 }
 
 /*-------------------------------COMMUNITY & RECENSIONI-------------------------------*/
 
-.community{
-    background-color: black;
-    top: 780vh;
-    height: 100vh;
-    width: 100vw;
-    z-index: 1;
-    position: absolute;
-    display: block;
-    align-items: center;
+.community {
+  background-color: black;
+  top: 780vh;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+  position: absolute;
+  display: block;
+  align-items: center;
 }
 
-@media screen and (max-width: 1024px) { /*  Ipad mini  */
-    .community{
-        display: none;
-    }
+@media screen and (max-width: 1024px) {
+  /*  Ipad mini  */
+  .community {
+    display: none;
+  }
 }
 
-.titoletto2{
-    position: absolute;
-    top: 10vh;
-    margin: 0;
-    padding: 0;
-    color: #F0F0F0;
-    font-family: Montreal;
-    font-size: 2vw;
-    width: 100vw;
-    z-index: 2;
-    text-align: center;
+.titoletto2 {
+  position: absolute;
+  top: 10vh;
+  margin: 0;
+  padding: 0;
+  color: #f0f0f0;
+  font-family: Montreal;
+  font-size: 2vw;
+  width: 100vw;
+  z-index: 2;
+  text-align: center;
 }
 
-.rec1{
-    position: absolute;
-    background-color: #DFFF9C;
-    border-radius: 30px;
-    font-family: Montreal;
-    width: 15vw;
-    height: 40vh;
-    margin: 0;
-    padding: 0;
-    top: 20vh;
-    left: 5vw;
-    transform: translate(-50%, -50%);
-    display: block;
-    overflow: hidden;
-    transform: scale(0);
-    opacity: 0;
+.rec1 {
+  position: absolute;
+  background-color: #dfff9c;
+  border-radius: 30px;
+  font-family: Montreal;
+  width: 15vw;
+  height: 40vh;
+  margin: 0;
+  padding: 0;
+  top: 20vh;
+  left: 5vw;
+  transform: translate(-50%, -50%);
+  display: block;
+  overflow: hidden;
+  transform: scale(0);
+  opacity: 0;
 }
 
-.contenitorerec1{
-    height: 15vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+.contenitorerec1 {
+  height: 15vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.imgrec1{
-    height: 25vh;
-    overflow: hidden;
+.imgrec1 {
+  height: 25vh;
+  overflow: hidden;
 }
 
-.textrec1{
-    margin: 2vh;
-    width: 13vw;
+.textrec1 {
+  margin: 2vh;
+  width: 13vw;
 }
 
-.prof1{
-    display: flex;
-    vertical-align: middle;
+.prof1 {
+  display: flex;
+  vertical-align: middle;
 }
 
-.nomerec1{
-    position: relative;
-    font-family: montreal_bold;
-    margin: 1vw;
-    width: 12vw;
-    height: 1vh;
-    padding: 0;
+.nomerec1 {
+  position: relative;
+  font-family: montreal_bold;
+  margin: 1vw;
+  width: 12vw;
+  height: 1vh;
+  padding: 0;
 }
 
-.profilorec1{
-    width: 3vw;
-    height: 3vw;
-    margin: 0;
-    bottom: 0;
-    overflow: hidden;
-    border-radius: 30px;
+.profilorec1 {
+  width: 3vw;
+  height: 3vw;
+  margin: 0;
+  bottom: 0;
+  overflow: hidden;
+  border-radius: 30px;
 }
 
-.rec2{
-    position: absolute;
-    background-color: #FA4928;
-    border-radius: 30px;
-    font-family: Montreal;
-    width: 35vw;
-    height: 15vh;
-    margin: 0;
-    padding: 0;
-    top: 20vh;
-    left: 22vw;
-    transform: translate(-50%, -50%);
-    display: flex;
-    overflow: hidden;
-    transform: scale(0);
-    opacity: 0;
+.rec2 {
+  position: absolute;
+  background-color: #fa4928;
+  border-radius: 30px;
+  font-family: Montreal;
+  width: 35vw;
+  height: 15vh;
+  margin: 0;
+  padding: 0;
+  top: 20vh;
+  left: 22vw;
+  transform: translate(-50%, -50%);
+  display: flex;
+  overflow: hidden;
+  transform: scale(0);
+  opacity: 0;
 }
 
-.contenitorerec2{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+.contenitorerec2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.imgrec2{
-    width: 30vw;
-    height: auto;
-    overflow: hidden;
+.imgrec2 {
+  width: 30vw;
+  height: auto;
+  overflow: hidden;
 }
 
-.textrec2{
-    margin: 2vh;
-    width: 20vw;
+.textrec2 {
+  margin: 2vh;
+  width: 20vw;
 }
 
-.prof2{
-    display: flex;
-    vertical-align: middle;
+.prof2 {
+  display: flex;
+  vertical-align: middle;
 }
 
-.nomerec2{
-    position: relative;
-    font-family: montreal_bold;
-    margin: 1vw;
-    width: 12vw;
-    height: 1vh;
-    padding: 0;
+.nomerec2 {
+  position: relative;
+  font-family: montreal_bold;
+  margin: 1vw;
+  width: 12vw;
+  height: 1vh;
+  padding: 0;
 }
 
-.profilorec2{
-    width: 3vw;
-    height: 3vw;
-    margin: 0;
-    bottom: 0;
-    overflow: hidden;
-    border-radius: 30px;
+.profilorec2 {
+  width: 3vw;
+  height: 3vw;
+  margin: 0;
+  bottom: 0;
+  overflow: hidden;
+  border-radius: 30px;
 }
 
-.rec3{
-    position: absolute;
-    background-color: #A07EFF;
-    border-radius: 30px;
-    font-family: Montreal;
-    width: 15vw;
-    height: 17vh;
-    margin: 0;
-    padding: 0;
-    top: 64vh;
-    left: 5vw;
-    transform: translate(-50%, -50%);
-    display: flex;
-    overflow: hidden;
-    transform: scale(0);
-    opacity: 0;
+.rec3 {
+  position: absolute;
+  background-color: #a07eff;
+  border-radius: 30px;
+  font-family: Montreal;
+  width: 15vw;
+  height: 17vh;
+  margin: 0;
+  padding: 0;
+  top: 64vh;
+  left: 5vw;
+  transform: translate(-50%, -50%);
+  display: flex;
+  overflow: hidden;
+  transform: scale(0);
+  opacity: 0;
 }
 
-.contenitorerec3{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+.contenitorerec3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.textrec3{
-    margin: 2vh;
-    width: 13vw;
+.textrec3 {
+  margin: 2vh;
+  width: 13vw;
 }
 
-.prof3{
-    display: flex;
-    vertical-align: middle;
+.prof3 {
+  display: flex;
+  vertical-align: middle;
 }
 
-.nomerec3{
-    position: relative;
-    font-family: montreal_bold;
-    margin: 1vw;
-    width: 12vw;
-    height: 1vh;
-    padding: 0;
+.nomerec3 {
+  position: relative;
+  font-family: montreal_bold;
+  margin: 1vw;
+  width: 12vw;
+  height: 1vh;
+  padding: 0;
 }
 
-.profilorec3{
-    width: 3vw;
-    height: 3vw;
-    margin: 0;
-    bottom: 0;
-    overflow: hidden;
-    border-radius: 30px;
+.profilorec3 {
+  width: 3vw;
+  height: 3vw;
+  margin: 0;
+  bottom: 0;
+  overflow: hidden;
+  border-radius: 30px;
 }
 
-.rec4{
-    position: absolute;
-    background-color: #DFFF9C;
-    border-radius: 30px;
-    font-family: Montreal;
-    width: 35vw;
-    height: 42vh;
-    margin: 0;
-    padding: 0;
-    top: 39vh;
-    left: 22vw;
-    transform: translate(-50%, -50%);
-    display: block;
-    overflow: hidden;
-    transform: scale(0);
-    opacity: 0;
+.rec4 {
+  position: absolute;
+  background-color: #dfff9c;
+  border-radius: 30px;
+  font-family: Montreal;
+  width: 35vw;
+  height: 42vh;
+  margin: 0;
+  padding: 0;
+  top: 39vh;
+  left: 22vw;
+  transform: translate(-50%, -50%);
+  display: block;
+  overflow: hidden;
+  transform: scale(0);
+  opacity: 0;
 }
 
-.contenitorerec4{
-    height: 15vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+.contenitorerec4 {
+  height: 15vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.imgrec4{
-    height: 27vh;
-    overflow: hidden;
+.imgrec4 {
+  height: 27vh;
+  overflow: hidden;
 }
 
-.textrec4{
-    margin: 2vh;
-    width: 33vw;
+.textrec4 {
+  margin: 2vh;
+  width: 33vw;
 }
 
-.prof4{
-    display: flex;
-    vertical-align: middle;
+.prof4 {
+  display: flex;
+  vertical-align: middle;
 }
 
-.nomerec4{
-    position: relative;
-    font-family: montreal_bold;
-    margin: 1vw;
-    width: 12vw;
-    height: 1vh;
-    padding: 0;
+.nomerec4 {
+  position: relative;
+  font-family: montreal_bold;
+  margin: 1vw;
+  width: 12vw;
+  height: 1vh;
+  padding: 0;
 }
 
-.profilorec4{
-    width: 3vw;
-    height: 3vw;
-    margin: 0;
-    bottom: 0;
-    overflow: hidden;
-    border-radius: 30px;
+.profilorec4 {
+  width: 3vw;
+  height: 3vw;
+  margin: 0;
+  bottom: 0;
+  overflow: hidden;
+  border-radius: 30px;
 }
 
-.rec5{
-    position: absolute;
-    background-color: #A07EFF;
-    border-radius: 30px;
-    font-family: Montreal;
-    width: 35vw;
-    height: 40vh;
-    margin: 0;
-    padding: 0;
-    top: 20vh;
-    left: 59vw;
-    transform: translate(-50%, -50%);
-    display: block;
-    overflow: hidden;
-    transform: scale(0);
-    opacity: 0;
+.rec5 {
+  position: absolute;
+  background-color: #a07eff;
+  border-radius: 30px;
+  font-family: Montreal;
+  width: 35vw;
+  height: 40vh;
+  margin: 0;
+  padding: 0;
+  top: 20vh;
+  left: 59vw;
+  transform: translate(-50%, -50%);
+  display: block;
+  overflow: hidden;
+  transform: scale(0);
+  opacity: 0;
 }
 
-.contenitorerec5{
-    height: 15vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+.contenitorerec5 {
+  height: 15vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.imgrec5{
-    height: 25vh;
-    overflow: hidden;
+.imgrec5 {
+  height: 25vh;
+  overflow: hidden;
 }
 
-.textrec5{
-    margin: 2vh;
-    width: 33vw;
+.textrec5 {
+  margin: 2vh;
+  width: 33vw;
 }
 
-.prof5{
-    display: flex;
-    vertical-align: middle;
+.prof5 {
+  display: flex;
+  vertical-align: middle;
 }
 
-.nomerec5{
-    position: relative;
-    font-family: montreal_bold;
-    margin: 1vw;
-    width: 12vw;
-    height: 1vh;
-    padding: 0;
+.nomerec5 {
+  position: relative;
+  font-family: montreal_bold;
+  margin: 1vw;
+  width: 12vw;
+  height: 1vh;
+  padding: 0;
 }
 
 .profilorec5 {
-    width: 3vw;
-    height: 3vw;
-    margin: 0;
-    bottom: 0;
-    overflow: hidden;
-    border-radius: 30px;
+  width: 3vw;
+  height: 3vw;
+  margin: 0;
+  bottom: 0;
+  overflow: hidden;
+  border-radius: 30px;
 }
 
-.rec6{
+.rec6 {
+  position: absolute;
+  background-color: #fa4928;
+  border-radius: 30px;
+  font-family: Montreal;
+  width: 16.5vw;
+  height: 17vh;
+  margin: 0;
+  padding: 0;
+  top: 64vh;
+  left: 59vw;
+  transform: translate(-50%, -50%);
+  display: flex;
+  overflow: hidden;
+  transform: scale(0);
+  opacity: 0;
+}
+
+.contenitorerec6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.textrec6 {
+  margin: 2vh;
+  width: 13vw;
+}
+
+.prof6 {
+  display: flex;
+  vertical-align: middle;
+}
+
+.nomerec6 {
+  position: relative;
+  font-family: montreal_bold;
+  margin: 1vw;
+  width: 12vw;
+  height: 1vh;
+  padding: 0;
+}
+
+.profilorec6 {
+  width: 3vw;
+  height: 3vw;
+  margin: 0;
+  bottom: 0;
+  overflow: hidden;
+  border-radius: 30px;
+}
+
+.rec7 {
+  position: absolute;
+  background-color: #dfff9c;
+  border-radius: 30px;
+  font-family: Montreal;
+  width: 16.5vw;
+  height: 17vh;
+  margin: 0;
+  padding: 0;
+  top: 64vh;
+  left: 77.5vw;
+  transform: translate(-50%, -50%);
+  display: flex;
+  overflow: hidden;
+  transform: scale(0);
+  opacity: 0;
+}
+
+.contenitorerec7 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.textrec7 {
+  margin: 2vh;
+  width: 13vw;
+}
+
+.prof7 {
+  display: flex;
+  vertical-align: middle;
+}
+
+.nomerec7 {
+  position: relative;
+  font-family: montreal_bold;
+  margin: 1vw;
+  width: 12vw;
+  height: 1vh;
+  padding: 0;
+}
+
+.profilorec7 {
+  width: 3vw;
+  height: 3vw;
+  margin: 0;
+  bottom: 0;
+  overflow: hidden;
+  border-radius: 30px;
+}
+
+.recemobile {
+  display: none;
+}
+
+@media screen and (max-width: 1024px) {
+  /*  Ipad mini port  */
+  .recemobile {
     position: absolute;
-    background-color: #FA4928;
-    border-radius: 30px;
-    font-family: Montreal;
-    width: 16.5vw;
-    height: 17vh;
-    margin: 0;
-    padding: 0;
-    top: 64vh;
-    left: 59vw;
-    transform: translate(-50%, -50%);
-    display: flex;
-    overflow: hidden;
-    transform: scale(0);
-    opacity: 0;
-}
-
-.contenitorerec6{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.textrec6{
-    margin: 2vh;
-    width: 13vw;
-}
-
-.prof6{
-    display: flex;
-    vertical-align: middle;
-}
-
-.nomerec6{
-    position: relative;
-    font-family: montreal_bold;
-    margin: 1vw;
-    width: 12vw;
-    height: 1vh;
-    padding: 0;
-}
-
-.profilorec6{
-    width: 3vw;
-    height: 3vw;
-    margin: 0;
-    bottom: 0;
-    overflow: hidden;
-    border-radius: 30px;
-}
-
-.rec7{
-    position: absolute;
-    background-color: #DFFF9C;
-    border-radius: 30px;
-    font-family: Montreal;
-    width: 16.5vw;
-    height: 17vh;
-    margin: 0;
-    padding: 0;
-    top: 64vh;
-    left: 77.5vw;
-    transform: translate(-50%, -50%);
-    display: flex;
-    overflow: hidden;
-    transform: scale(0);
-    opacity: 0;
-}
-
-.contenitorerec7{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.textrec7{
-    margin: 2vh;
-    width: 13vw;
-}
-
-.prof7{
-    display: flex;
-    vertical-align: middle;
-}
-
-.nomerec7{
-    position: relative;
-    font-family: montreal_bold;
-    margin: 1vw;
-    width: 12vw;
-    height: 1vh;
-    padding: 0;
-}
-
-.profilorec7{
-    width: 3vw;
-    height: 3vw;
-    margin: 0;
-    bottom: 0;
-    overflow: hidden;
-    border-radius: 30px;
-}
-
-.recemobile{
-    display: none;
-}
-
-@media screen and (max-width: 1024px) { /*  Ipad mini port  */
-    .recemobile{
-        position: absolute;
-        top: 780vh;
-        height: 100vh;
-        width: 100vw;
-        background-color: #000000;
-        display: block;
-    }
-}
-
-@media screen and (max-width: 768px) { /*  Ipad mini  */
-    .recemobile{
-        position: absolute;
-        top: 730vh;
-        height: 100vh;
-        width: 100vw;
-        background-color: #000000;
-        display: block;
-    }
-}
-
-
-.titolettob{
-    position: absolute;
-    top: 5vh;
-    margin: 0;
-    padding: 0;
-    font-family: Montreal;
-    font-size: 5vw;
-    width: 100vw;
-    text-align: center;
-    color: #F0F0F0;
-}
-
-.rece{
-    top: 0vh;
-    left: 0;
+    top: 780vh;
     height: 100vh;
     width: 100vw;
-    z-index: 1;
+    background-color: #000000;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /*  Ipad mini  */
+  .recemobile {
     position: absolute;
-    display: flex;
-    text-align: center;
-    overflow: auto;
-    white-space: nowrap;
-    align-items: center;
+    top: 730vh;
+    height: 100vh;
+    width: 100vw;
+    background-color: #000000;
+    display: block;
+  }
 }
 
-.rece1{
-    top: 30vh;
-    margin: 2vw;
-    background-color: #A07EFF;
-    border-radius: 25px;
-    height: 60vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+.titolettob {
+  position: absolute;
+  top: 5vh;
+  margin: 0;
+  padding: 0;
+  font-family: Montreal;
+  font-size: 5vw;
+  width: 100vw;
+  text-align: center;
+  color: #f0f0f0;
 }
 
-.rece2{
-    top: 30vh;
-    margin: 2vw;
-    background-color: #DFFF9C;
-    border-radius: 25px;
-    height: 60vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+.rece {
+  top: 0vh;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+  position: absolute;
+  display: flex;
+  text-align: center;
+  overflow: auto;
+  white-space: nowrap;
+  align-items: center;
 }
 
-.rece3{
-    top: 30vh;
-    margin: 2vw;
-    background-color: #FA4928;
-    border-radius: 25px;
-    height: 60vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+.rece1 {
+  top: 30vh;
+  margin: 2vw;
+  background-color: #a07eff;
+  border-radius: 25px;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.rece4{
-    top: 30vh;
-    margin: 2vw;
-    background-color: #A07EFF;
-    border-radius: 25px;
-    height: 60vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+.rece2 {
+  top: 30vh;
+  margin: 2vw;
+  background-color: #dfff9c;
+  border-radius: 25px;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.rece5{
-    top: 30vh;
-    margin: 2vw;
-    background-color: #DFFF9C;
-    border-radius: 25px;
-    height: 60vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+.rece3 {
+  top: 30vh;
+  margin: 2vw;
+  background-color: #fa4928;
+  border-radius: 25px;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.rece6{
-    top: 30vh;
-    margin: 2vw;
-    background-color: #FA4928;
-    border-radius: 25px;
-    height: 60vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+.rece4 {
+  top: 30vh;
+  margin: 2vw;
+  background-color: #a07eff;
+  border-radius: 25px;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.rece7{
-    top: 30vh;
-    margin: 2vw;
-    background-color: #A07EFF;
-    border-radius: 25px;
-    height: 60vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+.rece5 {
+  top: 30vh;
+  margin: 2vw;
+  background-color: #dfff9c;
+  border-radius: 25px;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.imgrece1{
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    height: 40vh;
-    width: 30vw;
-    border-radius: 25px 25px 0 0;
+.rece6 {
+  top: 30vh;
+  margin: 2vw;
+  background-color: #fa4928;
+  border-radius: 25px;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-@media screen and (max-width: 768px) { /*  Ipad mini  */
-    .imgrece1{
-        width: 50vw;
-    }
+.rece7 {
+  top: 30vh;
+  margin: 2vw;
+  background-color: #a07eff;
+  border-radius: 25px;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-@media screen and (max-width: 390px) { /*  Telefono  */
-    .imgrece1{
-        width: 83vw;
-    }
+.imgrece1 {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 40vh;
+  width: 30vw;
+  border-radius: 25px 25px 0 0;
 }
 
-.nomerece{
-    position: relative;
-    margin: 0;
-    padding: 0;
-    bottom: 0vh;
-    font-family: montreal_bold;
-    font-size: 2vw;
-    width: 30vw;
-    text-align: center;
-    margin: 0;
-    z-index: 2;
-    margin-bottom: 2vh;
+@media screen and (max-width: 768px) {
+  /*  Ipad mini  */
+  .imgrece1 {
+    width: 50vw;
+  }
 }
 
-@media screen and (max-width: 768px) { /*  Ipad mini  */
-    .nomerece{
-        width: 50vw;
-        font-size: 3vw;
-    }
+@media screen and (max-width: 390px) {
+  /*  Telefono  */
+  .imgrece1 {
+    width: 83vw;
+  }
 }
 
-@media screen and (max-width: 390px) { /*  Telefono  */
-    .nomerece{
-        font-size: 5vw;
-        width: 83vw;
-    }
+.nomerece {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  bottom: 0vh;
+  font-family: montreal_bold;
+  font-size: 2vw;
+  width: 30vw;
+  text-align: center;
+  margin: 0;
+  z-index: 2;
+  margin-bottom: 2vh;
 }
 
-.txtrece{
-    position: relative;
-    margin: 0;
-    padding: 0;
-    top: 2vh;
-    font-family: Montreal;
-    font-size: 1.5vw;
-    width: 30vw;
-    text-align: center;
-    z-index: 2;
-    margin-bottom: 3vh;
+@media screen and (max-width: 768px) {
+  /*  Ipad mini  */
+  .nomerece {
+    width: 50vw;
+    font-size: 3vw;
+  }
 }
 
-@media screen and (max-width: 768px) { /*  Ipad mini  */
-    .txtrece{
-        width: 50vw;
-        font-size: 2.3vw;
-    }
+@media screen and (max-width: 390px) {
+  /*  Telefono  */
+  .nomerece {
+    font-size: 5vw;
+    width: 83vw;
+  }
 }
 
-@media screen and (max-width: 390px) { /*  Telefono  */
-    .txtrece{
-        font-size: 4.5vw;
-        width: 83vw;
-        left: 0;
-    }
+.txtrece {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  top: 2vh;
+  font-family: Montreal;
+  font-size: 1.5vw;
+  width: 30vw;
+  text-align: center;
+  z-index: 2;
+  margin-bottom: 3vh;
+}
+
+@media screen and (max-width: 768px) {
+  /*  Ipad mini  */
+  .txtrece {
+    width: 50vw;
+    font-size: 2.3vw;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  /*  Telefono  */
+  .txtrece {
+    font-size: 4.5vw;
+    width: 83vw;
+    left: 0;
+  }
 }
 
 /*-------------------------------CAMERETTA-------------------------------*/
 
-.ctadadefinire1{
-    background-color: #FA4928;
-    top: 880vh;
-    height: 100vh;
-    width: 100vw;
-    z-index: 1;
-    position: absolute;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+.ctadadefinire1 {
+  background-color: #fa4928;
+  top: 880vh;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
-@media screen and (max-width: 768px) { /*  Ipad mini  */
-    .ctadadefinire1{
-        top: 830vh;
-    }
+@media screen and (max-width: 768px) {
+  /*  Ipad mini  */
+  .ctadadefinire1 {
+    top: 830vh;
+  }
 }
 
-.statement3{
-    position: relative;
-    top: 30vh;
-    margin: 0;
-    padding: 0;
-    font-family: Formula;
+.statement3 {
+  position: relative;
+  top: 30vh;
+  margin: 0;
+  padding: 0;
+  font-family: Formula;
+  font-size: 5vw;
+  line-height: 12vh;
+  width: 100vw;
+  z-index: 2;
+  text-align: center;
+}
+
+.cerchio14 {
+  background-image: url("../asset/cerchionero.png");
+  background-size: 3300% 100%;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  z-index: 5;
+  position: absolute;
+  top: 19vh;
+  left: 44vw;
+  height: 3vw;
+  width: 12vw;
+}
+
+@media screen and (max-width: 768px) {
+  /*  Ipad mini  */
+  .cerchio14 {
+    top: 5vh;
+    left: 35vw;
+    height: 6vw;
+    width: 30vw;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  /*  Telefono  */
+  .cerchio14 {
+    top: 9vh;
+    left: 28vw;
+    height: 8vw;
+    width: 43vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /*  Ipad mini  */
+  .statement3 {
+    display: none;
+  }
+}
+
+.scarica {
+  position: relative;
+  top: 40vh;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  width: 13vw;
+  display: flex;
+  align-items: center;
+  z-index: 2;
+}
+
+.bottonescarica {
+  padding: 15px;
+  background-color: black;
+  color: #f0f0f0;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 50px;
+  font-family: montreal_bold;
+  font-size: 1.5vw;
+  width: 13vw;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.bottonescarica:hover {
+  background-color: #f0f0f0;
+  color: #000000;
+}
+
+@media screen and (max-width: 768px) {
+  /*  Ipad mini  */
+  .scarica {
+    width: 30vw;
+  }
+  .bottonescarica {
+    font-size: 3vw;
+    width: 30vw;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  /*  Telefono  */
+  .scarica {
+    width: 50vw;
+  }
+  .bottonescarica {
     font-size: 5vw;
-    line-height: 12vh;
-    width: 100vw;
-    z-index: 2;
-    text-align: center;
-}
-
-.cerchio14{
-    background-image: url('../asset/cerchionero.png');
-    background-size: 3300% 100%;
-    background-repeat: no-repeat;
-    background-position: 0% 0%;
-    z-index: 5;
-    position: absolute;
-    top: 19vh;
-    left: 44vw;
-    height: 3vw;
-    width: 12vw;
-}
-
-@media screen and (max-width: 768px) { /*  Ipad mini  */
-    .cerchio14{
-        top: 5vh;
-        left: 35vw;
-        height: 6vw;
-        width: 30vw;
-    }
-}
-
-@media screen and (max-width: 390px) { /*  Telefono  */
-    .cerchio14{
-        top: 9vh;
-        left: 28vw;
-        height: 8vw;
-        width: 43vw;
-    }
-}
-
-@media screen and (max-width: 768px) { /*  Ipad mini  */
-    .statement3{
-        display: none;
-    }
-}
-
-.scarica{
-    position: relative;
-    top: 40vh;
-    left: 0;
-    margin: 0;
-    padding: 0;
-    width: 13vw;
-    display: flex;
-    align-items: center;
-    z-index: 2;
-}
-
-.bottonescarica{
-    padding: 15px;
-    background-color: black;
-    color: #F0F0F0;
-    display: inline-block;
-    text-decoration: none;
-    border-radius: 50px;
-    font-family: montreal_bold;
-    font-size: 1.5vw;
-    width: 13vw;
-    text-align: center;
-    transition: 0.3s;
-}
-
-.bottonescarica:hover{
-    background-color: #f0f0f0;
-    color: #000000;
-}
-
-@media screen and (max-width: 768px) { /*  Ipad mini  */
-    .scarica{
-        width: 30vw;
-    }
-    .bottonescarica{
-        font-size: 3vw;
-        width: 30vw;
-    }
-}
-
-@media screen and (max-width: 390px) { /*  Telefono  */
-    .scarica{
-        width: 50vw;
-    }
-    .bottonescarica{
-        font-size: 5vw;
-        width: 50vw;
-    }
+    width: 50vw;
+  }
 }
 
 /*-------------------------------FOOTER-------------------------------*/
-.footer{
-    background-color: black;
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    color: #F0F0F0;
-    font-family: montreal_bold;
-    font-size: 1.5vw;
-    width: 100vw;
-    height: 33vh;
-    top: 980vh;
-    margin: 0;
-    text-align: left;
-    z-index: 100;
+.footer {
+  background-color: black;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  color: #f0f0f0;
+  font-family: montreal_bold;
+  font-size: 1.5vw;
+  width: 100vw;
+  height: 33vh;
+  top: 980vh;
+  margin: 0;
+  text-align: left;
+  z-index: 100;
 }
 
-@media screen and (max-width: 768px) { /*  Ipad mini  */
-    .footer{
-        top: 930vh;
-        height: 20vh;
-    }
+@media screen and (max-width: 768px) {
+  /*  Ipad mini  */
+  .footer {
+    top: 930vh;
+    height: 20vh;
+  }
 }
 
-.footerup{
-    display: flex;
-    justify-content: space-around;
-    padding: 10vh;
-    align-items: center;
+.footerup {
+  display: flex;
+  justify-content: space-around;
+  padding: 10vh;
+  align-items: center;
 }
 
-@media screen and (max-width: 768px) { /*  Ipad mini  */
-    .footerup{
-        padding: 3vh;
-    }
+@media screen and (max-width: 768px) {
+  /*  Ipad mini  */
+  .footerup {
+    padding: 3vh;
+  }
 }
 
-.blocchetto a{
-    display: flex;
-    flex-direction: column;
-    color: #F0F0F0;
-    font-family: Montreal;
-    font-size: 1vw; 
-    text-decoration: none;
+.blocchetto a {
+  display: flex;
+  flex-direction: column;
+  color: #f0f0f0;
+  font-family: Montreal;
+  font-size: 1vw;
+  text-decoration: none;
 }
 
-@media screen and (max-width: 768px) { /*  Ipad mini  */
-    .blocchetto a{
-        font-size: 3vw; 
-    }
+@media screen and (max-width: 768px) {
+  /*  Ipad mini  */
+  .blocchetto a {
+    font-size: 3vw;
+  }
 }
 
-.footerdown{
-    color: #F0F0F0;
-    font-family: Montreal;
-    font-size: 0.5vw;
-    width: 50vw;
-    position: relative;;
-    left: 37.5vw;
+.footerdown {
+  color: #f0f0f0;
+  font-family: Montreal;
+  font-size: 0.5vw;
+  width: 50vw;
+  position: relative;
+  left: 37.5vw;
 }
 
-@media screen and (max-width: 768px) { /*  Ipad mini  */
-    .footerdown{
-        font-size: 1.8vw;
-        left: 2vw;
-        width: 98vw;
-    }
+@media screen and (max-width: 768px) {
+  /*  Ipad mini  */
+  .footerdown {
+    font-size: 1.8vw;
+    left: 2vw;
+    width: 98vw;
+  }
 }
 
 /*-------------------------------TRIGGER INDEX-------------------------------*/
 
-.trigger1{
-    position: absolute;
-    top: 52vh;
-    left: 0;
-    width: 10vw;
-    height: 1px;
-    border: 1px solid rebeccapurple;
-    z-index: 1000;
-    display: none;
+.trigger1 {
+  position: absolute;
+  top: 52vh;
+  left: 0;
+  width: 10vw;
+  height: 1px;
+  border: 1px solid rebeccapurple;
+  z-index: 1000;
+  display: none;
 }
 
-.trigger2{
-    position: absolute;
-    top: 0vh;
-    left: 0;
-    width: 10vw;
-    height: 8vh;
-    border: 1px solid rebeccapurple;
-    z-index: 1000;
-    display: none;
+.trigger2 {
+  position: absolute;
+  top: 0vh;
+  left: 0;
+  width: 10vw;
+  height: 8vh;
+  border: 1px solid rebeccapurple;
+  z-index: 1000;
+  display: none;
 }
 
-.trigger3{
-    position: absolute;
-    top: 40vh;
-    left: 0;
-    width: 10vw;
-    height: 24vh;
-    border: 1px solid rebeccapurple;
-    z-index: 1000;
-    display: none;
+.trigger3 {
+  position: absolute;
+  top: 40vh;
+  left: 0;
+  width: 10vw;
+  height: 24vh;
+  border: 1px solid rebeccapurple;
+  z-index: 1000;
+  display: none;
 }
 
-@media screen and (max-width: 768px) { /*  Ipad mini  */
-    .trigger3{
-        top: 30vh;
-        height: 15vh;
-    }
+@media screen and (max-width: 768px) {
+  /*  Ipad mini  */
+  .trigger3 {
+    top: 30vh;
+    height: 15vh;
+  }
 }
 
-.trigger4{
-    position: absolute;
-    top: 52vh;
-    left: 0;
-    width: 10vw;
-    height: 12vh;
-    border: 1px solid rebeccapurple;
-    z-index: 1000;
-    display: none;
+.trigger4 {
+  position: absolute;
+  top: 52vh;
+  left: 0;
+  width: 10vw;
+  height: 12vh;
+  border: 1px solid rebeccapurple;
+  z-index: 1000;
+  display: none;
 }
 
-.trigger5{
-    position: absolute;
-    top: 80vh;
-    left: 0;
-    width: 10vw;
-    height: 10vh;
-    border: 1px solid rebeccapurple;
-    z-index: 1000;
-    display: none;
+.trigger5 {
+  position: absolute;
+  top: 80vh;
+  left: 0;
+  width: 10vw;
+  height: 10vh;
+  border: 1px solid rebeccapurple;
+  z-index: 1000;
+  display: none;
 }
 
-@media screen and (max-width: 768px) { /*  Ipad mini  */
-    .trigger5{
-        top: 50vh;
-    }
+@media screen and (max-width: 768px) {
+  /*  Ipad mini  */
+  .trigger5 {
+    top: 50vh;
+  }
 }
 
-.trigger6{
-    position: absolute;
-    top: 100vh;
-    left: 0;
-    width: 10vw;
-    height: 30vh;
-    border: 1px solid rebeccapurple;
-    z-index: 1000;
-    display: none;
+.trigger6 {
+  position: absolute;
+  top: 100vh;
+  left: 0;
+  width: 10vw;
+  height: 30vh;
+  border: 1px solid rebeccapurple;
+  z-index: 1000;
+  display: none;
 }
 
-@media screen and (max-width: 768px) { /*  Ipad mini  */
-    .trigger6{
-        top: 90vh;
-    }
+@media screen and (max-width: 768px) {
+  /*  Ipad mini  */
+  .trigger6 {
+    top: 90vh;
+  }
 }
 
-.trigger7{
-    position: absolute;
-    top: 130vh;
-    left: 0;
-    width: 10vw;
-    height: 1px;
-    border: 1px solid rebeccapurple;
-    z-index: 1000;
-    display: none;
+.trigger7 {
+  position: absolute;
+  top: 130vh;
+  left: 0;
+  width: 10vw;
+  height: 1px;
+  border: 1px solid rebeccapurple;
+  z-index: 1000;
+  display: none;
 }
 
-.trigger8{
-    position: absolute;
-    top: 110vh;
-    left: 0;
-    width: 10vw;
-    height: 1px;
-    border: 1px solid rebeccapurple;
-    z-index: 1000;
-    display: none;
+.trigger8 {
+  position: absolute;
+  top: 110vh;
+  left: 0;
+  width: 10vw;
+  height: 1px;
+  border: 1px solid rebeccapurple;
+  z-index: 1000;
+  display: none;
 }
 
-.trigger9{
-    position: absolute;
-    top: 870vh;
-    left: 0;
-    width: 10vw;
-    height: 1px;
-    border: 1px solid black;
-    z-index: 1000;
-    display: none;
+.trigger9 {
+  position: absolute;
+  top: 870vh;
+  left: 0;
+  width: 10vw;
+  height: 1px;
+  border: 1px solid black;
+  z-index: 1000;
+  display: none;
 }
 
-@media screen and (max-width: 768px) { /*  Ipad mini  */
-    .trigger9{
-        top: 800vh;
-    }
+@media screen and (max-width: 768px) {
+  /*  Ipad mini  */
+  .trigger9 {
+    top: 800vh;
+  }
 }
 
-.trigger10{
-    position: absolute;
-    top: 190vh;
-    left: 0;
-    width: 10vw;
-    height: 1px;
-    border: 1px solid black;
-    z-index: 1000;
-    display: none;
+.trigger10 {
+  position: absolute;
+  top: 190vh;
+  left: 0;
+  width: 10vw;
+  height: 1px;
+  border: 1px solid black;
+  z-index: 1000;
+  display: none;
 }
 
-.trigger11{
-    position: absolute;
-    top: 640vh;
-    left: 0;
-    width: 10vw;
-    height: 1px;
-    border: 1px solid gold;
-    z-index: 1000;
-    display: none;
+.trigger11 {
+  position: absolute;
+  top: 640vh;
+  left: 0;
+  width: 10vw;
+  height: 1px;
+  border: 1px solid gold;
+  z-index: 1000;
+  display: none;
 }
 
-@media screen and (max-width: 768px) { /*  Ipad mini  */
-    .trigger11{
-        top: 600vh;
-    }
+@media screen and (max-width: 768px) {
+  /*  Ipad mini  */
+  .trigger11 {
+    top: 600vh;
+  }
 }
 
-.triggerheaderb1{
-    position: absolute;
-    top: 220vh;
-    left: 0;
-    width: 10vw;
-    height: 1px;
-    border: 1px solid black;
-    z-index: 1000;
-    display: none;
+.triggerheaderb1 {
+  position: absolute;
+  top: 220vh;
+  left: 0;
+  width: 10vw;
+  height: 1px;
+  border: 1px solid black;
+  z-index: 1000;
+  display: none;
 }
 
-.triggerheaderb2{
-    position: absolute;
-    top: 670vh;
-    left: 0;
-    width: 10vw;
-    height: 1px;
-    border: 1px solid black;
-    z-index: 1000;
-    display: none;
+.triggerheaderb2 {
+  position: absolute;
+  top: 670vh;
+  left: 0;
+  width: 10vw;
+  height: 1px;
+  border: 1px solid black;
+  z-index: 1000;
+  display: none;
 }
 
-@media screen and (max-width: 768px) { /*  Ipad mini  */
-    .triggerheaderb2{
-        top: 620vh;
-    }
+@media screen and (max-width: 768px) {
+  /*  Ipad mini  */
+  .triggerheaderb2 {
+    top: 620vh;
+  }
 }
 
-.triggerheaderw1{
-    position: absolute;
-    top: 320vh;
-    left: 0;
-    width: 10vw;
-    height: 1px;
-    border: 1px solid black;
-    z-index: 1000;
-    display: none;
+.triggerheaderw1 {
+  position: absolute;
+  top: 320vh;
+  left: 0;
+  width: 10vw;
+  height: 1px;
+  border: 1px solid black;
+  z-index: 1000;
+  display: none;
 }
 
-.triggerslider{
-    position: absolute;
-    top: 320vh;
-    left: 0;
-    width: 10vw;
-    height: 260vh;
-    border: 1px solid rebeccapurple;
-    z-index: 1000;
-    display: none;
+.triggerslider {
+  position: absolute;
+  top: 320vh;
+  left: 0;
+  width: 10vw;
+  height: 260vh;
+  border: 1px solid rebeccapurple;
+  z-index: 1000;
+  display: none;
 }
 
-.triggerslc1{
-    position: absolute;
-    top: 420vh;
-    left: 0;
-    width: 10vw;
-    height: 1px;
-    border: 1px solid gold;
-    z-index: 1000;
-    display: none;
+.triggerslc1 {
+  position: absolute;
+  top: 420vh;
+  left: 0;
+  width: 10vw;
+  height: 1px;
+  border: 1px solid gold;
+  z-index: 1000;
+  display: none;
 }
 
-.triggerslc2{
-    position: absolute;
-    top: 550vh;
-    left: 0;
-    width: 10vw;
-    height: 1px;
-    border: 1px solid gold;
-    z-index: 1000;
-    display: none;
+.triggerslc2 {
+  position: absolute;
+  top: 550vh;
+  left: 0;
+  width: 10vw;
+  height: 1px;
+  border: 1px solid gold;
+  z-index: 1000;
+  display: none;
 }
 
-@media screen and (max-width: 768px) { /*  Ipad mini  */
-    .triggerslc2{
-        top: 520vh;
-    }
+@media screen and (max-width: 768px) {
+  /*  Ipad mini  */
+  .triggerslc2 {
+    top: 520vh;
+  }
 }
 
-.triggerheaderw2{
-    position: absolute;
-    top: 770vh;
-    left: 0;
-    width: 10vw;
-    height: 1px;
-    border: 1px solid black;
-    z-index: 1000;
-    display: none;
+.triggerheaderw2 {
+  position: absolute;
+  top: 770vh;
+  left: 0;
+  width: 10vw;
+  height: 1px;
+  border: 1px solid black;
+  z-index: 1000;
+  display: none;
 }
 
-@media screen and (max-width: 768px) { /*  Ipad mini  */
-    .triggerheaderw2{
-        top: 720vh;
-    }
-}
-
-.triggerrec{
-    position: absolute;
+@media screen and (max-width: 768px) {
+  /*  Ipad mini  */
+  .triggerheaderw2 {
     top: 720vh;
-    left: 0;
-    width: 10vw;
-    height: 50vh;
-    border: 1px solid rebeccapurple;
-    z-index: 1000;
-    display: none;
+  }
+}
+
+.triggerrec {
+  position: absolute;
+  top: 720vh;
+  left: 0;
+  width: 10vw;
+  height: 50vh;
+  border: 1px solid rebeccapurple;
+  z-index: 1000;
+  display: none;
 }
 
 /*---------------------------------------------------------------------------*/
@@ -3136,2112 +3241,2193 @@ div{
 /*---------------------------------------------------------------------------*/
 
 /*-------------------------------HEADER 1 & FOOTER-------------------------------*/
-.header1{
-    width: 100vw;
-    position: fixed;
-    top: 0vh;
-    left: 0;
-    display: flex;
-    background-color: #F0F0F0;
-    font-family: Montreal;
-    align-items: center;
-    height: 10vh;
-    z-index: 100;
-    opacity: 1;
+.header1 {
+  width: 100vw;
+  position: fixed;
+  top: 0vh;
+  left: 0;
+  display: flex;
+  background-color: #f0f0f0;
+  font-family: Montreal;
+  align-items: center;
+  height: 10vh;
+  z-index: 100;
+  opacity: 1;
 }
 
-.headerblack1{
-    width: 100vw;
-    position: fixed;
-    top: 0vh;
-    left: 0;
-    display: none;
-    background-color: black;
-    font-family: Montreal;
-    align-items: center;
-    height: 10vh;
-    z-index: 101;
-    opacity: 0;
+.headerblack1 {
+  width: 100vw;
+  position: fixed;
+  top: 0vh;
+  left: 0;
+  display: none;
+  background-color: black;
+  font-family: Montreal;
+  align-items: center;
+  height: 10vh;
+  z-index: 101;
+  opacity: 0;
 }
 
-.footerscopri{
-    background-color: black;
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    color: #F0F0F0;
-    font-family: montreal_bold;
-    font-size: 1.5vw;
-    width: 100vw;
-    height: 33vh;
-    top: 700vh;
-    margin: 0;
-    text-align: left;
-    z-index: 100;
+.footerscopri {
+  background-color: black;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  color: #f0f0f0;
+  font-family: montreal_bold;
+  font-size: 1.5vw;
+  width: 100vw;
+  height: 33vh;
+  top: 700vh;
+  margin: 0;
+  text-align: left;
+  z-index: 100;
 }
 
-@media screen and (max-width: 768px) { /*  Ipad mini  */
-    .footerscopri{
-        height: 20vh;
-    }
+@media screen and (max-width: 768px) {
+  /*  Ipad mini  */
+  .footerscopri {
+    height: 20vh;
+  }
 }
 
-.cerchio45{
-    background-image: url('../asset/cerchionero.png');
-    background-size: 3300% 100%;
-    background-repeat: no-repeat;
-    background-position: 0% 0%;
-    z-index: 5;
-    position: absolute;
-    top: 19vh;
-    left: 44vw;
-    height: 3vw;
-    width: 12vw;
+.cerchio45 {
+  background-image: url("../asset/cerchionero.png");
+  background-size: 3300% 100%;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  z-index: 5;
+  position: absolute;
+  top: 19vh;
+  left: 44vw;
+  height: 3vw;
+  width: 12vw;
 }
 
-@media screen and (max-width: 768px) { /*  Ipad mini  */
-    .cerchio45{
-        top: 5vh;
-        left: 35vw;
-        height: 6vw;
-        width: 30vw;
-    }
+@media screen and (max-width: 768px) {
+  /*  Ipad mini  */
+  .cerchio45 {
+    top: 5vh;
+    left: 35vw;
+    height: 6vw;
+    width: 30vw;
+  }
 }
 
-@media screen and (max-width: 390px) { /*  Telefono  */
-    .cerchio45{
-        top: 9vh;
-        left: 28vw;
-        height: 8vw;
-        width: 43vw;
-    }
+@media screen and (max-width: 390px) {
+  /*  Telefono  */
+  .cerchio45 {
+    top: 9vh;
+    left: 28vw;
+    height: 8vw;
+    width: 43vw;
+  }
 }
 /*-------------------------------SCOPRI: ORGANIZZA-------------------------------*/
-.audioplayer{
-    position: fixed;
-    display: flex;
-    bottom: 6vh;
-    right: 0vw;
-    z-index: 100;
-    width: 12.5vw;
+.audioplayer {
+  position: fixed;
+  display: flex;
+  bottom: 6vh;
+  right: 0vw;
+  z-index: 100;
+  width: 12.5vw;
 }
 
-@media screen and (max-width: 1024px) { /*  Ipad mini port  */
-    .audioplayer{
-        display: none;
-    }
+@media screen and (max-width: 1024px) {
+  /*  Ipad mini port  */
+  .audioplayer {
+    display: none;
+  }
 }
 
-.rotate{
-    animation: rotation 5s infinite linear;
+.rotate {
+  animation: rotation 5s infinite linear;
 }
 
 @keyframes rotation {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(359deg);
-    }
+  from {
+    transform: rotate(0deg);
   }
+  to {
+    transform: rotate(359deg);
+  }
+}
 /*-------------------------------SCOPRI: ORGANIZZA-------------------------------*/
 
-.scopri_organizza{
-    background-color: #A07EFF;
-    top: 0;
-    height: 100vh;
-    width: 100vw;
-    z-index: 1;
-    position: absolute;
+.scopri_organizza {
+  background-color: #a07eff;
+  top: 0;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+  position: absolute;
 }
 
-.cerchio15{
-    background-image: url('../asset/cerchionero.png');
-    background-size: 3300% 100%;
-    background-repeat: no-repeat;
-    background-position: 0% 0%;
-    z-index: 5;
-    position: absolute;
-    top: 15vh;
-    left: 44vw;
-    height: 2.5vw;
-    width: 12vw;
+.cerchio15 {
+  background-image: url("../asset/cerchionero.png");
+  background-size: 3300% 100%;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  z-index: 5;
+  position: absolute;
+  top: 15vh;
+  left: 44vw;
+  height: 2.5vw;
+  width: 12vw;
 }
 
-@media screen and (max-width: 768px) { /*  Ipad mini  */
-    .cerchio15{
-        left: 38vw;
-        height: 6vw;
-        width: 25vw;
-    }
-}
-
-
-@media screen and (max-width: 390px) { /*  Telefono  */
-    .cerchio15{
-        left: 34vw;
-        height: 8vw;
-        width: 32vw;
-    }
-}
-
-.titoletto3{
-    position: relative;
-    top: 15vh;
-    margin: 0;
-    padding: 0;
-    font-family: Montreal;
-    font-size: 2vw;
-    width: 100vw;
-    z-index: 2;
-    text-align: center;
-}
-
-@media screen and (max-width: 768px) { /*  Ipad mini  */
-    .titoletto3{
-        font-size: 5vw;
-    }
-}
-
-@media screen and (max-width: 390px) { /*  Telefono  */
-    .titoletto3{
-        font-size: 6.5vw;
-    }
-}
-
-.statement4{
-    position: relative;
-    top: 20vh;
-    left: 5vw;
-    margin: 0;
-    padding: 0;
-    font-family: Formula;
-    font-size: 5vw;
-    line-height: 12vh;
-    width: 90vw;
-    z-index: 2;
-    text-align: left;
-}
-
-.cerchio16{
-    background-image: url('../asset/cerchionero.png');
-    background-size: 3300% 100%;
-    background-repeat: no-repeat;
-    background-position: 0% 0%;
-    z-index: 5;
-    position: absolute;
-    top: 48vh;
-    left: 10.5vw;
+@media screen and (max-width: 768px) {
+  /*  Ipad mini  */
+  .cerchio15 {
+    left: 38vw;
     height: 6vw;
-    width: 40vw;
+    width: 25vw;
+  }
 }
 
-@media screen and (max-width: 768px) { /*  Ipad mini  */
-    .cerchio16{
-        top: 46vh;
-        left: 4vw;
-        height: 9vw;
-        width: 60vw;
-    }
-}
-
-@media screen and (max-width: 390px) { /*  Telefono  */
-    .cerchio16{
-        top: 66vh;
-        height: 10vw;
-    }
-}
-
-@media screen and (max-width: 375px) { /*  Telefono piccolo  */
-    .cerchio16{
-        top: 59vh;
-    }
-}
-
-@media screen and (max-width: 360px) { /*  Telefono piccolo piccolo  */
-    .cerchio16{
-        top: 64vh;
-    }
-}
-
-.statement4mobile{
-    display: none;
-}
-
-@media screen and (max-width: 768px) { /*  Ipad mini  */
-    .statement4{
-        display: none;
-    }
-
-    .statement4mobile{
-        position: absolute;
-        bottom: 1vh;
-        left: 5vw;
-        margin: 0;
-        padding: 0;
-        font-family: Formula;
-        font-size: 8.5vw;
-        width: 90vw;
-        z-index: 2;
-        text-align: left;
-        display: block;
-    }
-}
-
-/*-------------------------------SCREEN ORGANIZZA-------------------------------*/
-
-.screen_organizza{
-    background-color: #F0F0F0;
-    top: 100vh;
-    height: 100vh;
-    width: 100vw;
-    z-index: 1;
-    position: absolute;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
-    vertical-align: baseline;
-}
-
-.cerchio17{
-    background-image: url('../asset/cerchionero.png');
-    background-size: 3300% 100%;
-    background-repeat: no-repeat;
-    background-position: 0% 0%;
-    z-index: 5;
-    position: relative;
-    top: -8vh;
-    left: 12.5vw;
-    height: 2.3vw;
-    width: 7.5vw;
-}
-
-@media screen and (max-width: 1024px) { /*  Ipad mini port  */
-    .cerchio17{
-        top: -7vh;
-    }
-}
-
-.cerchio18{
-    background-image: url('../asset/cerchionero.png');
-    background-size: 3300% 100%;
-    background-repeat: no-repeat;
-    background-position: 0% 0%;
-    z-index: 5;
-    position: relative;
-    top: -8vh;
-    left: 10vw;
-    height: 2.3vw;
-    width: 12vw;
-}
-
-@media screen and (max-width: 1024px) { /*  Ipad mini port  */
-    .cerchio18{
-        top: -7vh;
-    }
-}
-
-.cerchio19{
-    background-image: url('../asset/cerchionero.png');
-    background-size: 3300% 100%;
-    background-repeat: no-repeat;
-    background-position: 0% 0%;
-    z-index: 5;
-    position: relative;
-    top: -8vh;
-    left: 12.5vw;
-    height: 2.3vw;
-    width: 7.5vw;
-}
-
-@media screen and (max-width: 1024px) { /*  Ipad mini port  */
-    .cerchio19{
-        top: -7vh;
-    }
-}
-
-@media screen and (max-width: 768px) { /*  Ipad mini  */
-    .screen_organizza{
-        display: none;
-    }
-}
-
-.ctascreen{
-    position: relative;
-    margin: 0;
-    padding: 0;
-    font-family: Formula;
-    font-size: 2vw;
+@media screen and (max-width: 390px) {
+  /*  Telefono  */
+  .cerchio15 {
+    left: 34vw;
+    height: 8vw;
     width: 32vw;
-    text-align: center;
-    z-index: 2;
-    margin-bottom: 3vh;
-    margin-top: 15vh;
+  }
 }
 
-.txtscreen{
-    position: relative;
-    margin: 0;
-    padding: 0;
-    font-family: Montreal;
-    font-size: 1vw;
-    width: 32vw;
-    text-align: center;
-    z-index: 2;
+.titoletto3 {
+  position: relative;
+  top: 15vh;
+  margin: 0;
+  padding: 0;
+  font-family: Montreal;
+  font-size: 2vw;
+  width: 100vw;
+  z-index: 2;
+  text-align: center;
 }
 
-@media screen and (max-width: 1024px) { /*  Ipad mini port  */
-    .txtscreen{
-        font-size: 1.5vw;
-    }
+@media screen and (max-width: 768px) {
+  /*  Ipad mini  */
+  .titoletto3 {
+    font-size: 5vw;
+  }
 }
 
-.imgscreen1{
-    width: 32vw;
-    height: 10vh;
-    margin-top: 5vh;
-    overflow: hidden;
+@media screen and (max-width: 390px) {
+  /*  Telefono  */
+  .titoletto3 {
+    font-size: 6.5vw;
+  }
 }
 
-.imgscreen2{
-    width: 32vw;
-    height: 50vh;
-    margin-top: 5vh;
-    overflow: hidden;
+.statement4 {
+  position: relative;
+  top: 20vh;
+  left: 5vw;
+  margin: 0;
+  padding: 0;
+  font-family: Formula;
+  font-size: 5vw;
+  line-height: 12vh;
+  width: 90vw;
+  z-index: 2;
+  text-align: left;
 }
 
-.imgscreen3{
-    width: 32vw;
-    height: 30vh;
-    margin-top: 5vh;
-    overflow: hidden;
+.cerchio16 {
+  background-image: url("../asset/cerchionero.png");
+  background-size: 3300% 100%;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  z-index: 5;
+  position: absolute;
+  top: 48vh;
+  left: 10.5vw;
+  height: 6vw;
+  width: 40vw;
 }
 
-.imgscreen4{
-    width: 32vw;
-    height: 10vh;
-    margin-top: 5vh;
-    overflow: hidden;
-}
-
-.imgscreen5{
-    width: 32vw;
-    height: 50vh;
-    margin-top: 5vh;
-    overflow: hidden;
-}
-
-.imgscreen6{
-    width: 32vw;
-    height: 30vh;
-    margin-top: 5vh;
-    overflow: hidden;
-}
-
-.imgscreen7{
-    width: 32vw;
-    height: 10vh;
-    margin-top: 5vh;
-    overflow: hidden;
-}
-
-.imgscreen8{
-    width: 32vw;
-    height: 50vh;
-    margin-top: 5vh;
-    overflow: hidden;
-}
-
-.imgscreen9{
-    width: 32vw;
-    height: 30vh;
-    margin-top: 5vh;
-    overflow: hidden;
-}
-
-.screenmobileorganizza{
-    display: none;
-}
-
-@media screen and (max-width: 768px) { /*  Ipad mini  */
-    .screenmobileorganizza{
-        display: flex;
-        position: absolute;
-        background-color: #F0F0F0;
-        top: 100vh;
-        height: 100vh;
-        width: 100vw;
-        overflow: scroll;
-    }
-}
-
-.screen1mobile{
-    position: relative;
-    background-color: #A07EFF;
-    height: 85vh;
-    top: 6vh;
-    width: 90vw;
-    margin: 2vw;
-    border-radius: 25px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.screen2mobile{
-    position: relative;
-    background-color: #DFFF9C;
-    height: 85vh;
-    top: 6vh;
-    width: 90vw;
-    margin: 2vw;
-    border-radius: 25px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.screen3mobile{
-    position: relative;
-    background-color: #FA4928;
-    height: 85vh;
-    top: 6vh;
-    width: 90vw;
-    margin: 2vw;
-    border-radius: 25px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.cerchio20{
-    background-image: url('../asset/cerchionero.png');
-    background-size: 3300% 100%;
-    background-repeat: no-repeat;
-    background-position: 100% 0%;
-    z-index: 5;
-    position: absolute;
-    top: 4vh;
-    left: 30vw;
+@media screen and (max-width: 768px) {
+  /*  Ipad mini  */
+  .cerchio16 {
+    top: 46vh;
+    left: 4vw;
     height: 9vw;
-    width: 30vw;
-}
-
-.cerchio21{
-    background-image: url('../asset/cerchionero.png');
-    background-size: 3300% 100%;
-    background-repeat: no-repeat;
-    background-position: 100% 0%;
-    z-index: 5;
-    position: absolute;
-    top: 4vh;
-    left: 20vw;
-    height: 9vw;
-    width: 50vw;
-}
-
-.cerchio22{
-    background-image: url('../asset/cerchionero.png');
-    background-size: 3300% 100%;
-    background-repeat: no-repeat;
-    background-position: 100% 0%;
-    z-index: 5;
-    position: absolute;
-    top: 4vh;
-    left: 30vw;
-    height: 9vw;
-    width: 30vw;
-}
-
-.cerchio28{
-    background-image: url('../asset/cerchionero.png');
-    background-size: 3300% 100%;
-    background-repeat: no-repeat;
-    background-position: 100% 0%;
-    z-index: 5;
-    position: absolute;
-    top: 4vh;
-    left: 30vw;
-    height: 9vw;
-    width: 33vw;
-}
-
-.cerchio29{
-    background-image: url('../asset/cerchionero.png');
-    background-size: 3300% 100%;
-    background-repeat: no-repeat;
-    background-position: 100% 0%;
-    z-index: 5;
-    position: absolute;
-    top: 2vh;
-    left: 15vw;
-    height: 13vw;
     width: 60vw;
+  }
 }
 
-.cerchio30{
-    background-image: url('../asset/cerchionero.png');
-    background-size: 3300% 100%;
-    background-repeat: no-repeat;
-    background-position: 100% 0%;
-    z-index: 5;
-    position: absolute;
-    top: 3vh;
-    left: 28vw;
+@media screen and (max-width: 390px) {
+  /*  Telefono  */
+  .cerchio16 {
+    top: 66vh;
     height: 10vw;
-    width: 34vw;
+  }
 }
 
-.cerchio42{
-    background-image: url('../asset/cerchionero.png');
-    background-size: 3300% 100%;
-    background-repeat: no-repeat;
-    background-position: 100% 0%;
-    z-index: 5;
+@media screen and (max-width: 375px) {
+  /*  Telefono piccolo  */
+  .cerchio16 {
+    top: 59vh;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  /*  Telefono piccolo piccolo  */
+  .cerchio16 {
+    top: 64vh;
+  }
+}
+
+.statement4mobile {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  /*  Ipad mini  */
+  .statement4 {
+    display: none;
+  }
+
+  .statement4mobile {
     position: absolute;
-    top: 3vh;
-    left: 24vw;
-    height: 11vw;
-    width: 42vw;
-}
-
-.cerchio43{
-    background-image: url('../asset/cerchionero.png');
-    background-size: 3300% 100%;
-    background-repeat: no-repeat;
-    background-position: 100% 0%;
-    z-index: 5;
-    position: absolute;
-    top: 2vh;
-    left: 15vw;
-    height: 13vw;
-    width: 60vw;
-}
-
-.cerchio44{
-    background-image: url('../asset/cerchionero.png');
-    background-size: 3300% 100%;
-    background-repeat: no-repeat;
-    background-position: 100% 0%;
-    z-index: 5;
-    position: absolute;
-    top: 3vh;
-    left: 23vw;
-    height: 11vw;
-    width: 45vw;
-}
-
-@media screen and (max-width: 390px) { /*  Telefono  */
-    .screen1mobile{
-        margin: 4vw;
-    }
-
-    .screen2mobile{
-        margin: 4vw;
-    }
-
-    .screen3mobile{
-        margin: 4vw;
-    }
-}
-
-.ctascreenmobile{
-    position: relative;
+    bottom: 1vh;
+    left: 5vw;
     margin: 0;
     padding: 0;
     font-family: Formula;
     font-size: 8.5vw;
     width: 90vw;
-    text-align: center;
     z-index: 2;
-    margin-bottom: 3vh;
-    margin-top: 3.5vh;
+    text-align: left;
+    display: block;
+  }
 }
 
-.txtscreenmobile{
-    font-family: Montreal;
-    font-size: 3vw;
-    width: 80vw;
-    text-align: center;
+/*-------------------------------SCREEN ORGANIZZA-------------------------------*/
+
+.screen_organizza {
+  background-color: #f0f0f0;
+  top: 100vh;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  vertical-align: baseline;
 }
 
-.imgscreenmobile{
-    overflow: hidden;
-    margin: 5vh;
-    margin-bottom: 1vh;
-    border-radius: 0 0 50px 50px;
+.cerchio17 {
+  background-image: url("../asset/cerchionero.png");
+  background-size: 3300% 100%;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  z-index: 5;
+  position: relative;
+  top: -8vh;
+  left: 12.5vw;
+  height: 2.3vw;
+  width: 7.5vw;
 }
 
-@media screen and (max-width: 390px) { /*  Telefono  */
-    .imgscreenmobile{
-        margin: 3vh;
-    }
+@media screen and (max-width: 1024px) {
+  /*  Ipad mini port  */
+  .cerchio17 {
+    top: -7vh;
+  }
+}
+
+.cerchio18 {
+  background-image: url("../asset/cerchionero.png");
+  background-size: 3300% 100%;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  z-index: 5;
+  position: relative;
+  top: -8vh;
+  left: 10vw;
+  height: 2.3vw;
+  width: 12vw;
+}
+
+@media screen and (max-width: 1024px) {
+  /*  Ipad mini port  */
+  .cerchio18 {
+    top: -7vh;
+  }
+}
+
+.cerchio19 {
+  background-image: url("../asset/cerchionero.png");
+  background-size: 3300% 100%;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  z-index: 5;
+  position: relative;
+  top: -8vh;
+  left: 12.5vw;
+  height: 2.3vw;
+  width: 7.5vw;
+}
+
+@media screen and (max-width: 1024px) {
+  /*  Ipad mini port  */
+  .cerchio19 {
+    top: -7vh;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /*  Ipad mini  */
+  .screen_organizza {
+    display: none;
+  }
+}
+
+.ctascreen {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  font-family: Formula;
+  font-size: 2vw;
+  width: 32vw;
+  text-align: center;
+  z-index: 2;
+  margin-bottom: 3vh;
+  margin-top: 15vh;
+}
+
+.txtscreen {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  font-family: Montreal;
+  font-size: 1vw;
+  width: 32vw;
+  text-align: center;
+  z-index: 2;
+}
+
+@media screen and (max-width: 1024px) {
+  /*  Ipad mini port  */
+  .txtscreen {
+    font-size: 1.5vw;
+  }
+}
+
+.imgscreen1 {
+  width: 32vw;
+  height: 10vh;
+  margin-top: 5vh;
+  overflow: hidden;
+}
+
+.imgscreen2 {
+  width: 32vw;
+  height: 50vh;
+  margin-top: 5vh;
+  overflow: hidden;
+}
+
+.imgscreen3 {
+  width: 32vw;
+  height: 30vh;
+  margin-top: 5vh;
+  overflow: hidden;
+}
+
+.imgscreen4 {
+  width: 32vw;
+  height: 10vh;
+  margin-top: 5vh;
+  overflow: hidden;
+}
+
+.imgscreen5 {
+  width: 32vw;
+  height: 50vh;
+  margin-top: 5vh;
+  overflow: hidden;
+}
+
+.imgscreen6 {
+  width: 32vw;
+  height: 30vh;
+  margin-top: 5vh;
+  overflow: hidden;
+}
+
+.imgscreen7 {
+  width: 32vw;
+  height: 10vh;
+  margin-top: 5vh;
+  overflow: hidden;
+}
+
+.imgscreen8 {
+  width: 32vw;
+  height: 50vh;
+  margin-top: 5vh;
+  overflow: hidden;
+}
+
+.imgscreen9 {
+  width: 32vw;
+  height: 30vh;
+  margin-top: 5vh;
+  overflow: hidden;
+}
+
+.screenmobileorganizza {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  /*  Ipad mini  */
+  .screenmobileorganizza {
+    display: flex;
+    position: absolute;
+    background-color: #f0f0f0;
+    top: 100vh;
+    height: 100vh;
+    width: 100vw;
+    overflow: scroll;
+  }
+}
+
+.screen1mobile {
+  position: relative;
+  background-color: #a07eff;
+  height: 85vh;
+  top: 6vh;
+  width: 90vw;
+  margin: 2vw;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.screen2mobile {
+  position: relative;
+  background-color: #dfff9c;
+  height: 85vh;
+  top: 6vh;
+  width: 90vw;
+  margin: 2vw;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.screen3mobile {
+  position: relative;
+  background-color: #fa4928;
+  height: 85vh;
+  top: 6vh;
+  width: 90vw;
+  margin: 2vw;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cerchio20 {
+  background-image: url("../asset/cerchionero.png");
+  background-size: 3300% 100%;
+  background-repeat: no-repeat;
+  background-position: 100% 0%;
+  z-index: 5;
+  position: absolute;
+  top: 4vh;
+  left: 30vw;
+  height: 9vw;
+  width: 30vw;
+}
+
+.cerchio21 {
+  background-image: url("../asset/cerchionero.png");
+  background-size: 3300% 100%;
+  background-repeat: no-repeat;
+  background-position: 100% 0%;
+  z-index: 5;
+  position: absolute;
+  top: 4vh;
+  left: 20vw;
+  height: 9vw;
+  width: 50vw;
+}
+
+.cerchio22 {
+  background-image: url("../asset/cerchionero.png");
+  background-size: 3300% 100%;
+  background-repeat: no-repeat;
+  background-position: 100% 0%;
+  z-index: 5;
+  position: absolute;
+  top: 4vh;
+  left: 30vw;
+  height: 9vw;
+  width: 30vw;
+}
+
+.cerchio28 {
+  background-image: url("../asset/cerchionero.png");
+  background-size: 3300% 100%;
+  background-repeat: no-repeat;
+  background-position: 100% 0%;
+  z-index: 5;
+  position: absolute;
+  top: 4vh;
+  left: 30vw;
+  height: 9vw;
+  width: 33vw;
+}
+
+.cerchio29 {
+  background-image: url("../asset/cerchionero.png");
+  background-size: 3300% 100%;
+  background-repeat: no-repeat;
+  background-position: 100% 0%;
+  z-index: 5;
+  position: absolute;
+  top: 2vh;
+  left: 15vw;
+  height: 13vw;
+  width: 60vw;
+}
+
+.cerchio30 {
+  background-image: url("../asset/cerchionero.png");
+  background-size: 3300% 100%;
+  background-repeat: no-repeat;
+  background-position: 100% 0%;
+  z-index: 5;
+  position: absolute;
+  top: 3vh;
+  left: 28vw;
+  height: 10vw;
+  width: 34vw;
+}
+
+.cerchio42 {
+  background-image: url("../asset/cerchionero.png");
+  background-size: 3300% 100%;
+  background-repeat: no-repeat;
+  background-position: 100% 0%;
+  z-index: 5;
+  position: absolute;
+  top: 3vh;
+  left: 24vw;
+  height: 11vw;
+  width: 42vw;
+}
+
+.cerchio43 {
+  background-image: url("../asset/cerchionero.png");
+  background-size: 3300% 100%;
+  background-repeat: no-repeat;
+  background-position: 100% 0%;
+  z-index: 5;
+  position: absolute;
+  top: 2vh;
+  left: 15vw;
+  height: 13vw;
+  width: 60vw;
+}
+
+.cerchio44 {
+  background-image: url("../asset/cerchionero.png");
+  background-size: 3300% 100%;
+  background-repeat: no-repeat;
+  background-position: 100% 0%;
+  z-index: 5;
+  position: absolute;
+  top: 3vh;
+  left: 23vw;
+  height: 11vw;
+  width: 45vw;
+}
+
+@media screen and (max-width: 390px) {
+  /*  Telefono  */
+  .screen1mobile {
+    margin: 4vw;
+  }
+
+  .screen2mobile {
+    margin: 4vw;
+  }
+
+  .screen3mobile {
+    margin: 4vw;
+  }
+}
+
+.ctascreenmobile {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  font-family: Formula;
+  font-size: 8.5vw;
+  width: 90vw;
+  text-align: center;
+  z-index: 2;
+  margin-bottom: 3vh;
+  margin-top: 3.5vh;
+}
+
+.txtscreenmobile {
+  font-family: Montreal;
+  font-size: 3vw;
+  width: 80vw;
+  text-align: center;
+}
+
+.imgscreenmobile {
+  overflow: hidden;
+  margin: 5vh;
+  margin-bottom: 1vh;
+  border-radius: 0 0 50px 50px;
+}
+
+@media screen and (max-width: 390px) {
+  /*  Telefono  */
+  .imgscreenmobile {
+    margin: 3vh;
+  }
 }
 /*-------------------------------SCOPRI: GIOCA-------------------------------*/
 
-#scopri_gioca{
-    background-color: #DFFF9C;
-    top: 200vh;
-    height: 100vh;
-    width: 100vw;
-    z-index: 1;
-    position: absolute;
+#scopri_gioca {
+  background-color: #dfff9c;
+  top: 200vh;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+  position: absolute;
 }
 
-.cerchio23{
-    background-image: url('../asset/cerchionero.png');
-    background-size: 3300% 100%;
-    background-repeat: no-repeat;
-    background-position: 0% 0%;
-    z-index: 5;
-    position: absolute;
+.cerchio23 {
+  background-image: url("../asset/cerchionero.png");
+  background-size: 3300% 100%;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  z-index: 5;
+  position: absolute;
+  top: 15vh;
+  left: 47vw;
+  height: 2.5vw;
+  width: 6vw;
+}
+
+@media screen and (max-width: 768px) {
+  /*  Ipad mini  */
+  .cerchio23 {
     top: 15vh;
-    left: 47vw;
-    height: 2.5vw;
-    width: 6vw;
-}
-
-@media screen and (max-width: 768px) { /*  Ipad mini  */
-    .cerchio23{
-        top: 15vh;
-        left: 43vw;
-        height: 6vw;
-        width: 15vw;
-    }
-}
-
-@media screen and (max-width: 390px) { /*  Telefono  */
-    .cerchio23{
-        left: 40vw;
-        height: 8vw;
-        width: 20vw;
-    }
-}
-
-.cerchio24{
-    background-image: url('../asset/cerchionero.png');
-    background-size: 3300% 100%;
-    background-repeat: no-repeat;
-    background-position: 0% 0%;
-    z-index: 5;
-    position: absolute;
-    top: 37vh;
-    left: 38vw;
+    left: 43vw;
     height: 6vw;
-    width: 37vw;
+    width: 15vw;
+  }
 }
 
-@media screen and (max-width: 768px) { /*  Ipad mini  */
-    .cerchio24{
-        top: 63vh;
-        left: 3vw;
-        height: 10vw;
-        width: 58vw;
-    }
+@media screen and (max-width: 390px) {
+  /*  Telefono  */
+  .cerchio23 {
+    left: 40vw;
+    height: 8vw;
+    width: 20vw;
+  }
 }
 
-@media screen and (max-width: 390px) { /*  Telefono  */
-    .cerchio24{
-        top: 77vh;
-    }
+.cerchio24 {
+  background-image: url("../asset/cerchionero.png");
+  background-size: 3300% 100%;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  z-index: 5;
+  position: absolute;
+  top: 37vh;
+  left: 38vw;
+  height: 6vw;
+  width: 37vw;
 }
 
-@media screen and (max-width: 375px) { /*  Telefono piccolo  */
-    .cerchio24{
-        top: 72.4vh;
-    }
+@media screen and (max-width: 768px) {
+  /*  Ipad mini  */
+  .cerchio24 {
+    top: 63vh;
+    left: 3vw;
+    height: 10vw;
+    width: 58vw;
+  }
 }
 
-@media screen and (max-width: 360px) { /*  Telefono piccolo piccolo  */
-    .cerchio24{
-        top: 76vh;
-    }
+@media screen and (max-width: 390px) {
+  /*  Telefono  */
+  .cerchio24 {
+    top: 77vh;
+  }
 }
 
-.cerchio25{
-    background-image: url('../asset/cerchionero.png');
-    background-size: 3300% 100%;
-    background-repeat: no-repeat;
-    background-position: 0% 0%;
-    z-index: 5;
-    position: relative;
-    top: -8vh;
-    left: 12.5vw;
-    height: 2.3vw;
-    width: 7.5vw;
+@media screen and (max-width: 375px) {
+  /*  Telefono piccolo  */
+  .cerchio24 {
+    top: 72.4vh;
+  }
 }
 
-@media screen and (max-width: 1024px) { /*  Ipad mini port  */
-    .cerchio25{
-        top: -7vh;
-    }
+@media screen and (max-width: 360px) {
+  /*  Telefono piccolo piccolo  */
+  .cerchio24 {
+    top: 76vh;
+  }
 }
 
-.cerchio26{
-    background-image: url('../asset/cerchionero.png');
-    background-size: 3300% 100%;
-    background-repeat: no-repeat;
-    background-position: 0% 0%;
-    z-index: 5;
-    position: relative;
-    top: -8vh;
-    left: 9vw;
-    height: 2.3vw;
-    width: 14vw;
+.cerchio25 {
+  background-image: url("../asset/cerchionero.png");
+  background-size: 3300% 100%;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  z-index: 5;
+  position: relative;
+  top: -8vh;
+  left: 12.5vw;
+  height: 2.3vw;
+  width: 7.5vw;
 }
 
-@media screen and (max-width: 1024px) { /*  Ipad mini port  */
-    .cerchio26{
-        top: -7vh;
-    }
+@media screen and (max-width: 1024px) {
+  /*  Ipad mini port  */
+  .cerchio25 {
+    top: -7vh;
+  }
 }
 
-.cerchio27{
-    background-image: url('../asset/cerchionero.png');
-    background-size: 3300% 100%;
-    background-repeat: no-repeat;
-    background-position: 0% 0%;
-    z-index: 5;
-    position: relative;
-    top: -8vh;
-    left: 12.5vw;
-    height: 2.3vw;
-    width: 7.5vw;
+.cerchio26 {
+  background-image: url("../asset/cerchionero.png");
+  background-size: 3300% 100%;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  z-index: 5;
+  position: relative;
+  top: -8vh;
+  left: 9vw;
+  height: 2.3vw;
+  width: 14vw;
 }
 
-@media screen and (max-width: 1024px) { /*  Ipad mini port  */
-    .cerchio27{
-        top: -7vh;
-    }
+@media screen and (max-width: 1024px) {
+  /*  Ipad mini port  */
+  .cerchio26 {
+    top: -7vh;
+  }
+}
+
+.cerchio27 {
+  background-image: url("../asset/cerchionero.png");
+  background-size: 3300% 100%;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  z-index: 5;
+  position: relative;
+  top: -8vh;
+  left: 12.5vw;
+  height: 2.3vw;
+  width: 7.5vw;
+}
+
+@media screen and (max-width: 1024px) {
+  /*  Ipad mini port  */
+  .cerchio27 {
+    top: -7vh;
+  }
 }
 
 /*-------------------------------SCREEN GIOCA-------------------------------*/
 
-.screen_gioca{
-    background-color: #F0F0F0;
+.screen_gioca {
+  background-color: #f0f0f0;
+  top: 300vh;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  /*  Ipad mini  */
+  .screen_gioca {
+    display: none;
+  }
+}
+
+.screenmobilegioca {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  /*  Ipad mini  */
+  .screenmobilegioca {
+    display: flex;
+    position: absolute;
+    background-color: #f0f0f0;
     top: 300vh;
     height: 100vh;
     width: 100vw;
-    z-index: 1;
-    position: absolute;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
-}
-
-@media screen and (max-width: 768px) { /*  Ipad mini  */
-    .screen_gioca{
-        display: none;
-    }
-}
-
-.screenmobilegioca{
-    display: none;
-}
-
-@media screen and (max-width: 768px) { /*  Ipad mini  */
-    .screenmobilegioca{
-        display: flex;
-        position: absolute;
-        background-color: #F0F0F0;
-        top: 300vh;
-        height: 100vh;
-        width: 100vw;
-        overflow: scroll;
-    }
+    overflow: scroll;
+  }
 }
 
 /*-------------------------------SCOPRI: CONDIVIDI-------------------------------*/
 
-#scopri_condividi{
-    background-color: #FA4928;
-    top: 400vh;
-    height: 100vh;
-    width: 100vw;
-    z-index: 1;
-    position: absolute;
+#scopri_condividi {
+  background-color: #fa4928;
+  top: 400vh;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+  position: absolute;
 }
 
-.cerchio31{
-    background-image: url('../asset/cerchionero.png');
-    background-size: 3300% 100%;
-    background-repeat: no-repeat;
-    background-position: 0% 0%;
-    z-index: 5;
-    position: absolute;
+.cerchio31 {
+  background-image: url("../asset/cerchionero.png");
+  background-size: 3300% 100%;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  z-index: 5;
+  position: absolute;
+  top: 15vh;
+  left: 45vw;
+  height: 2.5vw;
+  width: 10vw;
+}
+
+.cerchio32 {
+  background-image: url("../asset/cerchionero.png");
+  background-size: 3300% 100%;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  z-index: 5;
+  position: absolute;
+  top: 24vh;
+  left: 55vw;
+  height: 6vw;
+  width: 20vw;
+}
+
+@media screen and (max-width: 768px) {
+  /*  Ipad mini  */
+  .cerchio31 {
     top: 15vh;
-    left: 45vw;
-    height: 2.5vw;
-    width: 10vw;
-}
-
-.cerchio32{
-    background-image: url('../asset/cerchionero.png');
-    background-size: 3300% 100%;
-    background-repeat: no-repeat;
-    background-position: 0% 0%;
-    z-index: 5;
-    position: absolute;
-    top: 24vh;
-    left: 55vw;
+    left: 39vw;
     height: 6vw;
-    width: 20vw;
+    width: 23vw;
+  }
+
+  .cerchio32 {
+    top: 45vh;
+    left: 4vw;
+    height: 10vw;
+    width: 30vw;
+  }
 }
 
-@media screen and (max-width: 768px) { /*  Ipad mini  */
-    .cerchio31{
-        top: 15vh;
-        left: 39vw;
-        height: 6vw;
-        width: 23vw;
-    }
-    
-    .cerchio32{
-        top: 45vh;
-        left: 4vw;
-        height: 10vw;
-        width: 30vw;
-    }
+@media screen and (max-width: 390px) {
+  /*  Telefono  */
+  .cerchio31 {
+    left: 34vw;
+    height: 8vw;
+    width: 33vw;
+  }
+
+  .cerchio32 {
+    top: 65vh;
+    left: 4vw;
+    height: 13vw;
+    width: 30vw;
+  }
 }
 
-@media screen and (max-width: 390px) { /*  Telefono  */
-    .cerchio31{
-        left: 34vw;
-        height: 8vw;
-        width: 33vw;
-    }
-    
-    .cerchio32{
-        top: 65vh;
-        left: 4vw;
-        height: 13vw;
-        width: 30vw;
-    }
+@media screen and (max-width: 375px) {
+  /*  Telefono piccolo  */
+  .cerchio32 {
+    top: 58vh;
+  }
 }
 
-@media screen and (max-width: 375px) { /*  Telefono piccolo  */
-    .cerchio32{
-        top: 58vh;
-    }
+@media screen and (max-width: 360px) {
+  /*  Telefono piccolo piccolo  */
+  .cerchio32 {
+    top: 63vh;
+  }
 }
 
-@media screen and (max-width: 360px) { /*  Telefono piccolo piccolo  */
-    .cerchio32{
-        top: 63vh;
-    }
+.cerchio33 {
+  background-image: url("../asset/cerchionero.png");
+  background-size: 3300% 100%;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  z-index: 5;
+  position: relative;
+  top: -8vh;
+  left: 11vw;
+  height: 2.3vw;
+  width: 10vw;
 }
 
-.cerchio33{
-    background-image: url('../asset/cerchionero.png');
-    background-size: 3300% 100%;
-    background-repeat: no-repeat;
-    background-position: 0% 0%;
-    z-index: 5;
-    position: relative;
-    top: -8vh;
-    left: 11vw;
-    height: 2.3vw;
-    width: 10vw;
+@media screen and (max-width: 1024px) {
+  /*  Ipad mini port  */
+  .cerchio33 {
+    top: -7vh;
+  }
 }
 
-@media screen and (max-width: 1024px) { /*  Ipad mini port  */
-    .cerchio33{
-        top: -7vh;
-    }
+.cerchio34 {
+  background-image: url("../asset/cerchionero.png");
+  background-size: 3300% 100%;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  z-index: 5;
+  position: relative;
+  top: -8vh;
+  left: 9vw;
+  height: 2.3vw;
+  width: 14vw;
 }
 
-.cerchio34{
-    background-image: url('../asset/cerchionero.png');
-    background-size: 3300% 100%;
-    background-repeat: no-repeat;
-    background-position: 0% 0%;
-    z-index: 5;
-    position: relative;
-    top: -8vh;
-    left: 9vw;
-    height: 2.3vw;
-    width: 14vw;
+@media screen and (max-width: 1024px) {
+  /*  Ipad mini port  */
+  .cerchio34 {
+    top: -7vh;
+  }
 }
 
-@media screen and (max-width: 1024px) { /*  Ipad mini port  */
-    .cerchio34{
-        top: -7vh;
-    }
+.cerchio35 {
+  background-image: url("../asset/cerchionero.png");
+  background-size: 3300% 100%;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  z-index: 5;
+  position: relative;
+  top: -8vh;
+  left: 11vw;
+  height: 2.3vw;
+  width: 10vw;
 }
 
-.cerchio35{
-    background-image: url('../asset/cerchionero.png');
-    background-size: 3300% 100%;
-    background-repeat: no-repeat;
-    background-position: 0% 0%;
-    z-index: 5;
-    position: relative;
-    top: -8vh;
-    left: 11vw;
-    height: 2.3vw;
-    width: 10vw;
-}
-
-@media screen and (max-width: 1024px) { /*  Ipad mini port  */
-    .cerchio35{
-        top: -7vh;
-    }
+@media screen and (max-width: 1024px) {
+  /*  Ipad mini port  */
+  .cerchio35 {
+    top: -7vh;
+  }
 }
 
 /*-------------------------------SCREEN CONDIVIDI-------------------------------*/
 
-.screen_condividi{
-    background-color: #F0F0F0;
+.screen_condividi {
+  background-color: #f0f0f0;
+  top: 500vh;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  /*  Ipad mini  */
+  .screen_condividi {
+    display: none;
+  }
+}
+
+.screenmobilecondividi {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  /*  Ipad mini  */
+  .screenmobilecondividi {
+    display: flex;
+    position: absolute;
+    background-color: #f0f0f0;
     top: 500vh;
     height: 100vh;
     width: 100vw;
-    z-index: 1;
-    position: absolute;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
-}
-
-@media screen and (max-width: 768px) { /*  Ipad mini  */
-    .screen_condividi{
-        display: none;
-    }
-}
-
-.screenmobilecondividi{
-    display: none;
-}
-
-@media screen and (max-width: 768px) { /*  Ipad mini  */
-    .screenmobilecondividi{
-        display: flex;
-        position: absolute;
-        background-color: #F0F0F0;
-        top: 500vh;
-        height: 100vh;
-        width: 100vw;
-        overflow: scroll;
-    }
+    overflow: scroll;
+  }
 }
 
 /*-------------------------------CAMERETTA 2-------------------------------*/
 
-.ctadadefinire2{
-    background-color: #A07EFF;
-    top: 600vh;
-    height: 100vh;
-    width: 100vw;
-    z-index: 1;
-    position: absolute;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+.ctadadefinire2 {
+  background-color: #a07eff;
+  top: 600vh;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 /*-------------------------------TRIGGER SCOPRI-------------------------------*/
 
-.triggers1{
-    position: absolute;
-    top: 90vh;
-    left: 0;
-    width: 10vw;
-    height: 1px;
-    border: 1px solid gold;
-    z-index: 1000;
-    display: none;
+.triggers1 {
+  position: absolute;
+  top: 90vh;
+  left: 0;
+  width: 10vw;
+  height: 1px;
+  border: 1px solid gold;
+  z-index: 1000;
+  display: none;
 }
 
-.triggersc1{
-    position: absolute;
-    top: 70vh;
-    left: 0;
-    width: 10vw;
-    height: 1px;
-    border: 1px solid gold;
-    z-index: 1000;
-    display: none;
+.triggersc1 {
+  position: absolute;
+  top: 70vh;
+  left: 0;
+  width: 10vw;
+  height: 1px;
+  border: 1px solid gold;
+  z-index: 1000;
+  display: none;
 }
 
-.triggers2{
-    position: absolute;
-    top: 190vh;
-    left: 0;
-    width: 10vw;
-    height: 1px;
-    border: 1px solid gold;
-    z-index: 1000;
-    display: none;
+.triggers2 {
+  position: absolute;
+  top: 190vh;
+  left: 0;
+  width: 10vw;
+  height: 1px;
+  border: 1px solid gold;
+  z-index: 1000;
+  display: none;
 }
 
-.triggersc2{
-    top: 170vh;
-    position: absolute;
-    left: 0;
-    width: 10vw;
-    height: 1px;
-    border: 1px solid gold;
-    z-index: 1000;
-    display: none;
+.triggersc2 {
+  top: 170vh;
+  position: absolute;
+  left: 0;
+  width: 10vw;
+  height: 1px;
+  border: 1px solid gold;
+  z-index: 1000;
+  display: none;
 }
 
-.triggers3{
-    position: absolute;
-    top: 290vh;
-    left: 0;
-    width: 10vw;
-    height: 1px;
-    border: 1px solid gold;
-    z-index: 1000;
-    display: none;
+.triggers3 {
+  position: absolute;
+  top: 290vh;
+  left: 0;
+  width: 10vw;
+  height: 1px;
+  border: 1px solid gold;
+  z-index: 1000;
+  display: none;
 }
 
-.triggersc3{
-    position: absolute;
-    top: 270vh;
-    left: 0;
-    width: 10vw;
-    height: 1px;
-    border: 1px solid gold;
-    z-index: 1000;
-    display: none;
+.triggersc3 {
+  position: absolute;
+  top: 270vh;
+  left: 0;
+  width: 10vw;
+  height: 1px;
+  border: 1px solid gold;
+  z-index: 1000;
+  display: none;
 }
 
-.triggers4{
-    position: absolute;
-    top: 390vh;
-    left: 0;
-    width: 10vw;
-    height: 1px;
-    border: 1px solid gold;
-    z-index: 1000;
-    display: none;
+.triggers4 {
+  position: absolute;
+  top: 390vh;
+  left: 0;
+  width: 10vw;
+  height: 1px;
+  border: 1px solid gold;
+  z-index: 1000;
+  display: none;
 }
 
-.triggersc4{
-    position: absolute;
-    top: 370vh;
-    left: 0;
-    width: 10vw;
-    height: 1px;
-    border: 1px solid gold;
-    z-index: 1000;
-    display: none;
+.triggersc4 {
+  position: absolute;
+  top: 370vh;
+  left: 0;
+  width: 10vw;
+  height: 1px;
+  border: 1px solid gold;
+  z-index: 1000;
+  display: none;
 }
 
-.triggers5{
-    position: absolute;
-    top: 490vh;
-    left: 0;
-    width: 10vw;
-    height: 1px;
-    border: 1px solid gold;
-    z-index: 1000;
-    display: none;
+.triggers5 {
+  position: absolute;
+  top: 490vh;
+  left: 0;
+  width: 10vw;
+  height: 1px;
+  border: 1px solid gold;
+  z-index: 1000;
+  display: none;
 }
 
-.triggersc5{
-    position: absolute;
-    top: 470vh;
-    left: 0;
-    width: 10vw;
-    height: 1px;
-    border: 1px solid gold;
-    z-index: 1000;
-    display: none;
+.triggersc5 {
+  position: absolute;
+  top: 470vh;
+  left: 0;
+  width: 10vw;
+  height: 1px;
+  border: 1px solid gold;
+  z-index: 1000;
+  display: none;
 }
 
-.triggers6{
-    position: absolute;
-    top: 590vh;
-    left: 0;
-    width: 10vw;
-    height: 1px;
-    border: 1px solid gold;
-    z-index: 1000;
-    display: none;
+.triggers6 {
+  position: absolute;
+  top: 590vh;
+  left: 0;
+  width: 10vw;
+  height: 1px;
+  border: 1px solid gold;
+  z-index: 1000;
+  display: none;
 }
 
-.triggersc6{
-    position: absolute;
-    top: 570vh;
-    left: 0;
-    width: 10vw;
-    height: 1px;
-    border: 1px solid gold;
-    z-index: 1000;
-    display: none;
+.triggersc6 {
+  position: absolute;
+  top: 570vh;
+  left: 0;
+  width: 10vw;
+  height: 1px;
+  border: 1px solid gold;
+  z-index: 1000;
+  display: none;
 }
 
-.triggerscreen1{
-    position: absolute;
-    top: 10vh;
-    left: 0;
-    width: 10vw;
-    height: 50vw;
-    border: 1px solid black;
-    z-index: 1000;
-    display: none;
+.triggerscreen1 {
+  position: absolute;
+  top: 10vh;
+  left: 0;
+  width: 10vw;
+  height: 50vw;
+  border: 1px solid black;
+  z-index: 1000;
+  display: none;
 }
 
-.triggerscreen2{
-    position: absolute;
-    top: 200vh;
-    left: 0;
-    width: 10vw;
-    height: 50vw;
-    border: 1px solid black;
-    z-index: 1000;
-    display: none;
+.triggerscreen2 {
+  position: absolute;
+  top: 200vh;
+  left: 0;
+  width: 10vw;
+  height: 50vw;
+  border: 1px solid black;
+  z-index: 1000;
+  display: none;
 }
 
-.triggerscreen3{
-    position: absolute;
-    top: 400vh;
-    left: 0;
-    width: 10vw;
-    height: 50vw;
-    border: 1px solid black;
-    z-index: 1000;
-    display: none;
+.triggerscreen3 {
+  position: absolute;
+  top: 400vh;
+  left: 0;
+  width: 10vw;
+  height: 50vw;
+  border: 1px solid black;
+  z-index: 1000;
+  display: none;
 }
 /*-------------------------------CHI SIAMO-------------------------------*/
 
-.headerblack2{
-    width: 100vw;
-    position: fixed;
-    top: 0vh;
-    left: 0;
-    display: none;
-    background-color: black;
-    font-family: Montreal;
-    align-items: center;
-    height: 10vh;
-    z-index: 101;
-    opacity: 0;
+.headerblack2 {
+  width: 100vw;
+  position: fixed;
+  top: 0vh;
+  left: 0;
+  display: none;
+  background-color: black;
+  font-family: Montreal;
+  align-items: center;
+  height: 10vh;
+  z-index: 101;
+  opacity: 0;
 }
 
-.header2{
-    width: 100vw;
-    position: fixed;
-    top: 0vh;
-    left: 0;
-    display: flex;
-    background-color: #F0F0F0;
-    font-family: Montreal;
-    align-items: center;
-    height: 10vh;
-    z-index: 100;
-    opacity: 1;
+.header2 {
+  width: 100vw;
+  position: fixed;
+  top: 0vh;
+  left: 0;
+  display: flex;
+  background-color: #f0f0f0;
+  font-family: Montreal;
+  align-items: center;
+  height: 10vh;
+  z-index: 100;
+  opacity: 1;
 }
 
-.cerchiocs{
-    background-image: url('../asset/cerchionero.png');
-    background-size: 3300% 100%;
-    background-repeat: no-repeat;
-    background-position: 100% 0%;
+.cerchiocs {
+  background-image: url("../asset/cerchionero.png");
+  background-size: 3300% 100%;
+  background-repeat: no-repeat;
+  background-position: 100% 0%;
 }
 
-.cerchiocsb{
-    background-image: url('../asset/cerchiobianco.png');
-    background-size: 3300% 100%;
-    background-repeat: no-repeat;
-    background-position: 100% 0%;
+.cerchiocsb {
+  background-image: url("../asset/cerchiobianco.png");
+  background-size: 3300% 100%;
+  background-repeat: no-repeat;
+  background-position: 100% 0%;
 }
 
 /*-------------------------------VALORI-------------------------------*/
 
-.valori{
-    background-color: #FA4928;
-    margin: 0;
-    padding: 0;
-    top: 0;
-    height: 100vh;
-    width: 100vw;
-    z-index: 1;
-    position: absolute;
-    display: flex;
+.valori {
+  background-color: #fa4928;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+  position: absolute;
+  display: flex;
 }
 
-.cerchio36{
-    background-image: url('../asset/cerchionero.png');
-    background-size: 3300% 100%;
-    background-repeat: no-repeat;
-    background-position: 100% 50%;
-    z-index: 10;
-    position: absolute;
-    top: 13vh;
-    left: 43vw;
-    height: 4vw;
-    width: 14vw;
+.cerchio36 {
+  background-image: url("../asset/cerchionero.png");
+  background-size: 3300% 100%;
+  background-repeat: no-repeat;
+  background-position: 100% 50%;
+  z-index: 10;
+  position: absolute;
+  top: 13vh;
+  left: 43vw;
+  height: 4vw;
+  width: 14vw;
 }
 
-@media screen and (max-width: 768px) { /*  Ipad mini  */
-    .cerchio36{
-        top: 15vh;
-        left: 33vw;
-        height: 6vw;
-        width: 35vw;
-    }
+@media screen and (max-width: 768px) {
+  /*  Ipad mini  */
+  .cerchio36 {
+    top: 15vh;
+    left: 33vw;
+    height: 6vw;
+    width: 35vw;
+  }
 }
 
-@media screen and (max-width: 390px) { /*  Telefono  */
-    .cerchio36{
-        top: 15vh;
-        left: 27vw;
-        height: 8vw;
-        width: 47vw;
-    }
+@media screen and (max-width: 390px) {
+  /*  Telefono  */
+  .cerchio36 {
+    top: 15vh;
+    left: 27vw;
+    height: 8vw;
+    width: 47vw;
+  }
 }
 
-.cerchio37{
-    background-image: url('../asset/cerchionero.png');
-    background-size: 3300% 100%;
-    background-repeat: no-repeat;
-    background-position: 0% 50%;
-    z-index: 10;
-    position: absolute;
-    top: 59vh;
+.cerchio37 {
+  background-image: url("../asset/cerchionero.png");
+  background-size: 3300% 100%;
+  background-repeat: no-repeat;
+  background-position: 0% 50%;
+  z-index: 10;
+  position: absolute;
+  top: 59vh;
+  left: 3vw;
+  height: 5.5vw;
+  width: 33vw;
+}
+
+@media screen and (max-width: 1024px) {
+  /*  Ipad mini port  */
+  .cerchio37 {
+    top: 52vh;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /*  Ipad mini  */
+  .cerchio37 {
+    top: 83vh;
     left: 3vw;
-    height: 5.5vw;
-    width: 33vw;
+    height: 8vw;
+    width: 52vw;
+  }
 }
 
-@media screen and (max-width: 1024px) { /*  Ipad mini port  */
-    .cerchio37{
-        top: 52vh;
-    }
+@media screen and (max-width: 390px) {
+  /*  Telefono  */
+  .cerchio37 {
+    top: 81vh;
+    left: 3vw;
+    height: 9vw;
+    width: 68vw;
+  }
 }
 
-@media screen and (max-width: 768px) { /*  Ipad mini  */
-    .cerchio37{
-        top: 83vh;
-        left: 3vw;
-        height: 8vw;
-        width: 52vw;
-    }
+@media screen and (max-width: 375px) {
+  /*  Telefono piccolo  */
+  .cerchio37 {
+    top: 85vh;
+    left: 3vw;
+    height: 10vw;
+    width: 68vw;
+  }
 }
 
-@media screen and (max-width: 390px) { /*  Telefono  */
-    .cerchio37{
-        top: 81vh;
-        left: 3vw;
-        height: 9vw;
-        width: 68vw;
-    }
+@media screen and (max-width: 360px) {
+  /*  Telefono piccolo piccolo  */
+  .cerchio37 {
+    top: 82vh;
+    left: 3vw;
+    height: 10vw;
+    width: 68vw;
+  }
 }
 
-@media screen and (max-width: 375px) { /*  Telefono piccolo  */
-    .cerchio37{
-        top: 85vh;
-        left: 3vw;
-        height: 10vw;
-        width: 68vw;
-    }
+@media screen and (max-width: 768px) {
+  /*  Ipad mini  */
+  .valori {
+    flex-direction: column;
+  }
 }
 
-@media screen and (max-width: 360px) { /*  Telefono piccolo piccolo  */
-    .cerchio37{
-        top: 82vh;
-        left: 3vw;
-        height: 10vw;
-        width: 68vw;
-    }
+.video1 {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  top: 30vh;
+  right: 5vw;
+  width: 43vw;
+  height: 60vh;
+  overflow: hidden;
+  border-radius: 25px;
+  z-index: 3;
 }
 
-@media screen and (max-width: 768px) { /*  Ipad mini  */
-    .valori{
-        flex-direction: column;
-    }
-}
-
-.video1{
-    position: absolute;
-    margin: 0;
-    padding: 0;
-    top: 30vh;
-    right: 5vw;
-    width: 43vw;
-    height: 60vh;
-    overflow: hidden;
-    border-radius: 25px;
-    z-index: 3;
-}
-
-@media screen and (max-width: 768px) { /*  Ipad mini  */
-    .video1{
-        top: 22vh;
-        width: 90vw;
-        height:40vh;
-    }
-}
-
-.statementmobile2{
-    position: relative;
-    top: 60vh;
-    margin: 0;
-    padding: 0;
-    font-family: Formula;
-    font-size: 6vw;
+@media screen and (max-width: 768px) {
+  /*  Ipad mini  */
+  .video1 {
+    top: 22vh;
     width: 90vw;
-    left: 5vw;
-    z-index: 2;
-    text-align: left;
-    display: none;
+    height: 40vh;
+  }
 }
 
-@media screen and (max-width: 768px) { /*  Ipad mini  */
-    .statementmobile2{
-        display: block;
-    }
+.statementmobile2 {
+  position: relative;
+  top: 60vh;
+  margin: 0;
+  padding: 0;
+  font-family: Formula;
+  font-size: 6vw;
+  width: 90vw;
+  left: 5vw;
+  z-index: 2;
+  text-align: left;
+  display: none;
 }
 
-@media screen and (max-width: 390px) { /*  Telefono  */
-    .statementmobile2{
-        font-size: 8vw;
-        top: 62vh;
-    }
+@media screen and (max-width: 768px) {
+  /*  Ipad mini  */
+  .statementmobile2 {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  /*  Telefono  */
+  .statementmobile2 {
+    font-size: 8vw;
+    top: 62vh;
+  }
 }
 
 /*-------------------------------VALORI SLIDE-------------------------------*/
 
-.valorislide{
-    background-color:black;
-    margin: 0;
-    padding: 0;
-    top: 100vh;
-    height: 350vh;
-    width: 100vw;
-    z-index: 1;
-    position: absolute;
-    display: flex;
-    overflow: hidden;
+.valorislide {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  top: 100vh;
+  height: 350vh;
+  width: 100vw;
+  z-index: 1;
+  position: absolute;
+  display: flex;
+  overflow: hidden;
 }
 
-.cerchio38{
-    background-image: url('../asset/cerchiobianco.png');
-    background-size: 3300% 100%;
-    background-repeat: no-repeat;
-    background-position: 0% 50%;
-    z-index: 10;
-    position: absolute;
-    top: 9.3vh;
-    left: 44vw;
-    height: 3vw;
-    width: 12vw;
+.cerchio38 {
+  background-image: url("../asset/cerchiobianco.png");
+  background-size: 3300% 100%;
+  background-repeat: no-repeat;
+  background-position: 0% 50%;
+  z-index: 10;
+  position: absolute;
+  top: 9.3vh;
+  left: 44vw;
+  height: 3vw;
+  width: 12vw;
 }
 
-.cerchio39{
-    background-image: url('../asset/cerchionero.png');
-    background-size: 3300% 100%;
-    background-repeat: no-repeat;
-    background-position: 0% 50%;
-    z-index: 10;
-    position: absolute;
-    top: 3vh;
-    left: 2vw;
-    height: 2.3vw;
-    width: 9vw;
+.cerchio39 {
+  background-image: url("../asset/cerchionero.png");
+  background-size: 3300% 100%;
+  background-repeat: no-repeat;
+  background-position: 0% 50%;
+  z-index: 10;
+  position: absolute;
+  top: 3vh;
+  left: 2vw;
+  height: 2.3vw;
+  width: 9vw;
 }
 
-@media screen and (max-width: 768px) { /*  Ipad mini  */
-    .cerchio39{
-        top: 55vh;
-        left: 4vw;
-        height: 7vw;
-        width: 28vw;
-    }
-}
-
-@media screen and (max-width: 390px) { /*  Telefono  */
-    .cerchio39{
-        height: 9vw;
-        width: 37vw;
-    }
-}
-
-.cerchio40{
-    background-image: url('../asset/cerchionero.png');
-    background-size: 3300% 100%;
-    background-repeat: no-repeat;
-    background-position: 0% 50%;
-    z-index: 10;
-    position: absolute;
-    top: 3vh;
-    left: 2vw;
-    height: 2.3vw;
-    width: 11vw;
-}
-
-@media screen and (max-width: 768px) { /*  Ipad mini  */
-    .cerchio40{
-        top: 55vh;
-        left: 4vw;
-        height: 7vw;
-        width: 34vw;
-    }
-}
-
-@media screen and (max-width: 390px) { /*  Telefono  */
-    .cerchio40{
-        height: 9vw;
-        width: 45vw;
-    }
-}
-
-.cerchio41{
-    background-image: url('../asset/cerchionero.png');
-    background-size: 3300% 100%;
-    background-repeat: no-repeat;
-    background-position: 0% 50%;
-    z-index: 10;
-    position: absolute;
-    top: 3vh;
-    left: 2vw;
-    height: 2.3vw;
-    width: 12vw;
-}
-
-@media screen and (max-width: 768px) { /*  Ipad mini  */
-    .cerchio41{
-        top: 55vh;
-        left: 4vw;
-        height: 7vw;
-        width: 36vw;
-    }
-}
-
-@media screen and (max-width: 390px) { /*  Telefono  */
-    .cerchio41{
-        height: 9vw;
-        width: 48vw;
-    }
-}
-
-
-@media screen and (max-width: 768px) { /*  Ipad mini  */
-    .valorislide{
-        display: none;
-    }
-}
-
-.slidesx{
-    display: flex;
-    flex-direction: column;
-}
-
-.descrizione{
-    position: absolute;
-    margin: 0;
-    padding: 0;
-    left: 2vw;
-    bottom: 3vh;
-    font-family: Montreal;
-    font-size: 1.4vw;
-    width: 30vw;
-    text-align: left;
-    z-index: 2; 
-}
-
-@media screen and (max-width: 768px) { /*  Ipad mini  */
-    .descrizione{
-        left: 5vw;
-        bottom: 3vh;
-        font-size: 3vw;
-        width: 85vw;
-    }
-}
-
-@media screen and (max-width: 390px) { /*  Telefono  */
-    .descrizione{
-        font-size: 4.5vw;
-        width: 90vw;
-    }
-}
-
-.img1{
-    margin: 0;
-    padding: 0;
-    right: 1vw;
-    top: 3.5vh;
-    width: 27vw;
-    height: 53vh;
-    overflow: hidden;
-    border-radius: 25px;
-}
-
-.img2{
-    margin: 0;
-    padding: 0;
-    right: 2vw;
-    top: 3.5vh;
-    width: 27vw;
-    height: 53vh;
-    overflow: hidden;
-    border-radius: 25px;
-}
-
-.img3{
-    margin: 0;
-    padding: 0;
-    right: 2vw;
-    top: 3.5vh;
-    width: 27vw;
-    height: 53vh;
-    overflow: hidden;
-    border-radius: 25px;
-}
-
-.slidec1{
-    background-color: #A07EFF;
-    border-radius: 16px;
-    position: absolute;
-    margin: 0;
-    padding: 0;
-    height: 60vh;
-    width: 60vw;
-    z-index: 2;
-    display: block;
-    align-items: center;
-    align-content: center;
-    top: 20vh;
-    left: 50vw;
-    transform: translate(-50%, 0%);
-}
-
-.slidec2{
-    background-color: #DFFF9C;
-    border-radius: 16px;
-    position: absolute;
-    margin: 0;
-    padding: 0;
-    height: 60vh;
-    width: 60vw;
-    z-index: 2;
-    display: block;
-    align-items: center;
-    align-content: center;
-    top: 20vh;
-    left: 85vw;
-}
-
-.slidec3{
-    background-color: #FA4928;
-    border-radius: 16px;
-    position: absolute;
-    margin: 0;
-    padding: 0;
-    height: 60vh;
-    width: 60vw;
-    z-index: 2;
-    display: block;
-    align-items: center;
-    align-content: center;
-    top: 20vh;
-    left: 150vw;
-} 
-
-.titolettosl2{
-    position: absolute;
-    top: 10vh;
-    margin: 0;
-    padding: 0;
-    color: #F0F0F0;
-    font-family: Montreal;
-    font-size: 2vw;
-    width: 100vw;
-    z-index: 2;
-    text-align: center;
-}
-
-.slide1mobilecs{
-    display: none;
-}
-
-.slide2mobilecs{
-    display: none;
-}
-
-.slide3mobilecs{
-    display: none;
-}
-
-@media screen and (max-width: 768px) { /*  Ipad mini  */
-    .slide1mobilecs{
-        display: block;
-        width: 100vw;
-        position: absolute;
-        top: 100vh;
-        height: 100vh;
-        background-color: #A07EFF;
-    }
-
-    .slide2mobilecs{
-        display: block;
-        width: 100vw;
-        position: absolute;
-        top: 200vh;
-        height: 100vh;
-        background-color: #DFFF9C;
-    }
-
-    .slide3mobilecs{
-        display: block;
-        width: 100vw;
-        position: absolute;
-        top: 300vh;
-        height: 100vh;
-        background-color: #FA4928;
-    }
-}
-
-.titolettoslmobilecs{
-    position: absolute;
+@media screen and (max-width: 768px) {
+  /*  Ipad mini  */
+  .cerchio39 {
     top: 55vh;
-    margin: 0;
-    padding: 0;
-    color: black;
-    font-family: Montreal;
-    font-size: 6vw;
-    width: 20vw;
-    z-index: 2;
-    text-align: left;
-    left: 5vw;
+    left: 4vw;
+    height: 7vw;
+    width: 28vw;
+  }
 }
 
-@media screen and (max-width: 390px) { /*  Telefono  */
-    .titolettoslmobilecs{
-        font-size: 8vw;
-    }
+@media screen and (max-width: 390px) {
+  /*  Telefono  */
+  .cerchio39 {
+    height: 9vw;
+    width: 37vw;
+  }
 }
 
-.testoslmobilecs{
-    position: absolute;
-    margin: 0;
-    padding: 0;
-    top: 65vh;
+.cerchio40 {
+  background-image: url("../asset/cerchionero.png");
+  background-size: 3300% 100%;
+  background-repeat: no-repeat;
+  background-position: 0% 50%;
+  z-index: 10;
+  position: absolute;
+  top: 3vh;
+  left: 2vw;
+  height: 2.3vw;
+  width: 11vw;
+}
+
+@media screen and (max-width: 768px) {
+  /*  Ipad mini  */
+  .cerchio40 {
+    top: 55vh;
+    left: 4vw;
+    height: 7vw;
+    width: 34vw;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  /*  Telefono  */
+  .cerchio40 {
+    height: 9vw;
+    width: 45vw;
+  }
+}
+
+.cerchio41 {
+  background-image: url("../asset/cerchionero.png");
+  background-size: 3300% 100%;
+  background-repeat: no-repeat;
+  background-position: 0% 50%;
+  z-index: 10;
+  position: absolute;
+  top: 3vh;
+  left: 2vw;
+  height: 2.3vw;
+  width: 12vw;
+}
+
+@media screen and (max-width: 768px) {
+  /*  Ipad mini  */
+  .cerchio41 {
+    top: 55vh;
+    left: 4vw;
+    height: 7vw;
+    width: 36vw;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  /*  Telefono  */
+  .cerchio41 {
+    height: 9vw;
+    width: 48vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /*  Ipad mini  */
+  .valorislide {
+    display: none;
+  }
+}
+
+.slidesx {
+  display: flex;
+  flex-direction: column;
+}
+
+.descrizione {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  left: 2vw;
+  bottom: 3vh;
+  font-family: Montreal;
+  font-size: 1.4vw;
+  width: 30vw;
+  text-align: left;
+  z-index: 2;
+}
+
+@media screen and (max-width: 768px) {
+  /*  Ipad mini  */
+  .descrizione {
     left: 5vw;
-    font-family: Formula;
-    font-size: 6vw;
+    bottom: 3vh;
+    font-size: 3vw;
+    width: 85vw;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  /*  Telefono  */
+  .descrizione {
+    font-size: 4.5vw;
     width: 90vw;
-    z-index: 2;
-    text-align: left;
+  }
 }
 
-@media screen and (max-width: 390px) { /*  Telefono  */
-    .testoslmobilecs{
-        font-size: 8vw;
-    }
+.img1 {
+  margin: 0;
+  padding: 0;
+  right: 1vw;
+  top: 3.5vh;
+  width: 27vw;
+  height: 53vh;
+  overflow: hidden;
+  border-radius: 25px;
+}
+
+.img2 {
+  margin: 0;
+  padding: 0;
+  right: 2vw;
+  top: 3.5vh;
+  width: 27vw;
+  height: 53vh;
+  overflow: hidden;
+  border-radius: 25px;
+}
+
+.img3 {
+  margin: 0;
+  padding: 0;
+  right: 2vw;
+  top: 3.5vh;
+  width: 27vw;
+  height: 53vh;
+  overflow: hidden;
+  border-radius: 25px;
+}
+
+.slidec1 {
+  background-color: #a07eff;
+  border-radius: 16px;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  height: 60vh;
+  width: 60vw;
+  z-index: 2;
+  display: block;
+  align-items: center;
+  align-content: center;
+  top: 20vh;
+  left: 50vw;
+  transform: translate(-50%, 0%);
+}
+
+.slidec2 {
+  background-color: #dfff9c;
+  border-radius: 16px;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  height: 60vh;
+  width: 60vw;
+  z-index: 2;
+  display: block;
+  align-items: center;
+  align-content: center;
+  top: 20vh;
+  left: 85vw;
+}
+
+.slidec3 {
+  background-color: #fa4928;
+  border-radius: 16px;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  height: 60vh;
+  width: 60vw;
+  z-index: 2;
+  display: block;
+  align-items: center;
+  align-content: center;
+  top: 20vh;
+  left: 150vw;
+}
+
+.titolettosl2 {
+  position: absolute;
+  top: 10vh;
+  margin: 0;
+  padding: 0;
+  color: #f0f0f0;
+  font-family: Montreal;
+  font-size: 2vw;
+  width: 100vw;
+  z-index: 2;
+  text-align: center;
+}
+
+.slide1mobilecs {
+  display: none;
+}
+
+.slide2mobilecs {
+  display: none;
+}
+
+.slide3mobilecs {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  /*  Ipad mini  */
+  .slide1mobilecs {
+    display: block;
+    width: 100vw;
+    position: absolute;
+    top: 100vh;
+    height: 100vh;
+    background-color: #a07eff;
+  }
+
+  .slide2mobilecs {
+    display: block;
+    width: 100vw;
+    position: absolute;
+    top: 200vh;
+    height: 100vh;
+    background-color: #dfff9c;
+  }
+
+  .slide3mobilecs {
+    display: block;
+    width: 100vw;
+    position: absolute;
+    top: 300vh;
+    height: 100vh;
+    background-color: #fa4928;
+  }
+}
+
+.titolettoslmobilecs {
+  position: absolute;
+  top: 55vh;
+  margin: 0;
+  padding: 0;
+  color: black;
+  font-family: Montreal;
+  font-size: 6vw;
+  width: 20vw;
+  z-index: 2;
+  text-align: left;
+  left: 5vw;
+}
+
+@media screen and (max-width: 390px) {
+  /*  Telefono  */
+  .titolettoslmobilecs {
+    font-size: 8vw;
+  }
+}
+
+.testoslmobilecs {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  top: 65vh;
+  left: 5vw;
+  font-family: Formula;
+  font-size: 6vw;
+  width: 90vw;
+  z-index: 2;
+  text-align: left;
+}
+
+@media screen and (max-width: 390px) {
+  /*  Telefono  */
+  .testoslmobilecs {
+    font-size: 8vw;
+  }
 }
 /*-------------------------------CREW-------------------------------*/
 
-.crew{
-    background-color: #F0F0F0;
-    top: 450vh;
-    left: 0;
-    height: 100vh;
-    width: 100vw;
-    z-index: 1;
-    position: absolute;
-    display: flex;
-    text-align: center;
-    overflow: auto;
-    white-space: nowrap;
-    align-items: center;
+.crew {
+  background-color: #f0f0f0;
+  top: 450vh;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+  position: absolute;
+  display: flex;
+  text-align: center;
+  overflow: auto;
+  white-space: nowrap;
+  align-items: center;
 }
 
-@media screen and (max-width: 768px) { /*  Ipad mini  */
-    .crew{
-        top: 400vh;
-    }
+@media screen and (max-width: 768px) {
+  /*  Ipad mini  */
+  .crew {
+    top: 400vh;
+  }
 }
 
-.cerchio46{
-    background-image: url('../asset/cerchionero.png');
-    background-size: 3300% 100%;
-    background-repeat: no-repeat;
-    background-position: 0% 0%;
-    z-index: 5;
-    position: absolute;
-    top: 459.5vh;
-    left: 44vw;
-    height: 3vw;
-    width: 12vw;
+.cerchio46 {
+  background-image: url("../asset/cerchionero.png");
+  background-size: 3300% 100%;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  z-index: 5;
+  position: absolute;
+  top: 459.5vh;
+  left: 44vw;
+  height: 3vw;
+  width: 12vw;
 }
 
-@media screen and (max-width: 768px) { /*  Ipad mini  */
-    .cerchio46{
-        top: 409.5vh;
-        left: 35vw;
-        height: 10vw;
-        width: 30vw;
-    }
+@media screen and (max-width: 768px) {
+  /*  Ipad mini  */
+  .cerchio46 {
+    top: 409.5vh;
+    left: 35vw;
+    height: 10vw;
+    width: 30vw;
+  }
 }
 
-@media screen and (max-width: 390px) { /*  Telefono  */
-    .cerchio46{
-        top: 409.5vh;
-        left: 28vw;
-        height: 9vw;
-        width: 43vw;
-    }
+@media screen and (max-width: 390px) {
+  /*  Telefono  */
+  .cerchio46 {
+    top: 409.5vh;
+    left: 28vw;
+    height: 9vw;
+    width: 43vw;
+  }
 }
 
-.crew1{
-    top: 30vh;
-    margin: 1vw;
-    background-color: #A07EFF;
-    border-radius: 25px;
-    height: 60vh;
+.crew1 {
+  top: 30vh;
+  margin: 1vw;
+  background-color: #a07eff;
+  border-radius: 25px;
+  height: 60vh;
 }
 
-.crew2{
-    top: 30vh;
-    margin: 1vw;
-    background-color: #DFFF9C;
-    border-radius: 25px;
-    height: 60vh;
+.crew2 {
+  top: 30vh;
+  margin: 1vw;
+  background-color: #dfff9c;
+  border-radius: 25px;
+  height: 60vh;
 }
 
-.crew3{
-    top: 30vh;
-    margin: 1vw;
-    background-color: #FA4928;
-    border-radius: 25px;
-    height: 60vh;
+.crew3 {
+  top: 30vh;
+  margin: 1vw;
+  background-color: #fa4928;
+  border-radius: 25px;
+  height: 60vh;
 }
 
-.crew4{
-    top: 30vh;
-    margin: 1vw;
-    background-color: #A07EFF;
-    border-radius: 25px;
-    height: 60vh;
+.crew4 {
+  top: 30vh;
+  margin: 1vw;
+  background-color: #a07eff;
+  border-radius: 25px;
+  height: 60vh;
 }
 
-.crew5{
-    top: 30vh;
-    margin: 1vw;
-    background-color: #DFFF9C;
-    border-radius: 25px;
-    height: 60vh;
+.crew5 {
+  top: 30vh;
+  margin: 1vw;
+  background-color: #dfff9c;
+  border-radius: 25px;
+  height: 60vh;
 }
 
-.crew6{
-    top: 30vh;
-    margin: 1vw;
-    background-color: #FA4928;
-    border-radius: 25px;
-    height: 60vh;
+.crew6 {
+  top: 30vh;
+  margin: 1vw;
+  background-color: #fa4928;
+  border-radius: 25px;
+  height: 60vh;
 }
 
-.crew7{
-    top: 30vh;
-    margin: 1vw;
-    background-color: #A07EFF;
-    border-radius: 25px;
-    height: 60vh;
+.crew7 {
+  top: 30vh;
+  margin: 1vw;
+  background-color: #a07eff;
+  border-radius: 25px;
+  height: 60vh;
 }
 
-.crew8{
-    top: 30vh;
-    margin: 1vw;
-    background-color: #DFFF9C;
-    border-radius: 25px;
-    height: 60vh;
+.crew8 {
+  top: 30vh;
+  margin: 1vw;
+  background-color: #dfff9c;
+  border-radius: 25px;
+  height: 60vh;
 }
 
-.imgcrew1{
-    margin: 0;
-    padding: 0;
-    height: 45vh;
-    width: 25vw;
-    overflow: hidden;
-    border-radius: 25px 25px 0 0;
+.imgcrew1 {
+  margin: 0;
+  padding: 0;
+  height: 45vh;
+  width: 25vw;
+  overflow: hidden;
+  border-radius: 25px 25px 0 0;
 }
 
-@media screen and (max-width: 1024px) { /*  Ipad mini port */
-    .imgcrew1{
-        width: 40vw;
-    }
+@media screen and (max-width: 1024px) {
+  /*  Ipad mini port */
+  .imgcrew1 {
+    width: 40vw;
+  }
 }
 
-@media screen and (max-width: 768px) { /*  Ipad mini  */
-    .imgcrew1{
-        width: 60vw;
-    }
+@media screen and (max-width: 768px) {
+  /*  Ipad mini  */
+  .imgcrew1 {
+    width: 60vw;
+  }
 }
 
-@media screen and (max-width: 390px) { /*  Telefono  */
-    .imgcrew1{
-        width: 80vw;
-    }
+@media screen and (max-width: 390px) {
+  /*  Telefono  */
+  .imgcrew1 {
+    width: 80vw;
+  }
 }
 
-.nomecrew{
-    position: relative;
-    margin: 0;
-    padding: 0;
-    top: 4vh;
-    font-family: Formula;
-    font-size: 1.5vw;
-    width: 25vw;
-    text-align: center;
-    z-index: 2;
+.nomecrew {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  top: 4vh;
+  font-family: Formula;
+  font-size: 1.5vw;
+  width: 25vw;
+  text-align: center;
+  z-index: 2;
 }
 
-@media screen and (max-width: 1024px) { /*  Ipad mini port */
-    .nomecrew{
-        width: 40vw;
-        font-size: 2vw;
-    }
-}
-
-@media screen and (max-width: 768px) { /*  Ipad mini  */
-    .nomecrew{
-        width: 60vw;
-        font-size: 4vw;
-    }
-}
-
-@media screen and (max-width: 390px) { /*  Telefono  */
-    .nomecrew{
-        width: 80vw;
-        font-size: 6vw;
-    }
-}
-
-.txtcrew{
-    position: relative;
-    margin: 0;
-    padding: 0;
-    top: 4vh;
-    font-family: Formula;
-    font-size: 1vw;
-    width: 25vw;
-    text-align: center;
-    z-index: 2;
-}
-
-@media screen and (max-width: 1024px) { /*  Ipad mini port */
-    .txtcrew{
-        width: 40vw;
-        font-size: 1.5vw;
-        margin-top: 1vh;
-    }
-}
-
-@media screen and (max-width: 768px) { /*  Ipad mini  */
-    .txtcrew{
-        width: 60vw;
-        font-size: 2.5vw;
-    }
-}
-
-@media screen and (max-width: 390px) { /*  Telefono  */
-    .txtcrew{
-        width: 80vw;
-        font-size: 3vw;
-    }
-}
-
-.titolettocrew{
-    position: absolute;
-    top: 460vh;
-    margin: 0;
-    padding: 0;
-    font-family: Montreal;
+@media screen and (max-width: 1024px) {
+  /*  Ipad mini port */
+  .nomecrew {
+    width: 40vw;
     font-size: 2vw;
-    width: 100vw;
-    z-index: 2;
-    text-align: center;
+  }
 }
 
-@media screen and (max-width: 768px) { /*  Ipad mini  */
-    .titolettocrew{
-        top: 410vh;
-        font-size: 7vw;
-    }
+@media screen and (max-width: 768px) {
+  /*  Ipad mini  */
+  .nomecrew {
+    width: 60vw;
+    font-size: 4vw;
+  }
 }
 
-
-.freccinaorizzontale{
-    background-image: url('../asset/freccinascrollnera.png');
-    background-size: 3000% 100%;
-    background-repeat: no-repeat;
-    background-position: 0% 50%;
-    z-index: 2;
-    position: absolute;
-    top: 495vh;
-    left: 95vw;
-    height: 5vw;
-    width: 3vw;
-    transform: rotate(-90deg);
+@media screen and (max-width: 390px) {
+  /*  Telefono  */
+  .nomecrew {
+    width: 80vw;
+    font-size: 6vw;
+  }
 }
 
-@media screen and (max-width: 768px) { /*  Ipad mini  */
-    .freccinaorizzontale{
-        top: 482vh;
-        left: 93vw;
-        height: 9vw;
-        width: 6vw;
-    }
+.txtcrew {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  top: 4vh;
+  font-family: Formula;
+  font-size: 1vw;
+  width: 25vw;
+  text-align: center;
+  z-index: 2;
+}
+
+@media screen and (max-width: 1024px) {
+  /*  Ipad mini port */
+  .txtcrew {
+    width: 40vw;
+    font-size: 1.5vw;
+    margin-top: 1vh;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /*  Ipad mini  */
+  .txtcrew {
+    width: 60vw;
+    font-size: 2.5vw;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  /*  Telefono  */
+  .txtcrew {
+    width: 80vw;
+    font-size: 3vw;
+  }
+}
+
+.titolettocrew {
+  position: absolute;
+  top: 460vh;
+  margin: 0;
+  padding: 0;
+  font-family: Montreal;
+  font-size: 2vw;
+  width: 100vw;
+  z-index: 2;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  /*  Ipad mini  */
+  .titolettocrew {
+    top: 410vh;
+    font-size: 7vw;
+  }
+}
+
+.freccinaorizzontale {
+  background-image: url("../asset/freccinascrollnera.png");
+  background-size: 3000% 100%;
+  background-repeat: no-repeat;
+  background-position: 0% 50%;
+  z-index: 2;
+  position: absolute;
+  top: 495vh;
+  left: 95vw;
+  height: 5vw;
+  width: 3vw;
+  transform: rotate(-90deg);
+}
+
+@media screen and (max-width: 768px) {
+  /*  Ipad mini  */
+  .freccinaorizzontale {
+    top: 482vh;
+    left: 93vw;
+    height: 9vw;
+    width: 6vw;
+  }
 }
 
 /*-------------------------------CAMERETTA 3-------------------------------*/
 
-.ctadadefinire3{
-    background-color: #DFFF9C;
-    top: 550vh;
-    height: 100vh;
-    width: 100vw;
-    z-index: 1;
-    position: absolute;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+.ctadadefinire3 {
+  background-color: #dfff9c;
+  top: 550vh;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
-.cerchio47{
-    background-image: url('../asset/cerchionero.png');
-    background-size: 3300% 100%;
-    background-repeat: no-repeat;
-    background-position: 0% 0%;
-    z-index: 5;
-    position: absolute;
-    top: 19vh;
-    left: 44vw;
-    height: 3vw;
-    width: 12vw;
+.cerchio47 {
+  background-image: url("../asset/cerchionero.png");
+  background-size: 3300% 100%;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  z-index: 5;
+  position: absolute;
+  top: 19vh;
+  left: 44vw;
+  height: 3vw;
+  width: 12vw;
 }
 
-@media screen and (max-width: 768px) { /*  Ipad mini  */
-    .cerchio47{
-        top: 5vh;
-        left: 35vw;
-        height: 6vw;
-        width: 30vw;
-    }
+@media screen and (max-width: 768px) {
+  /*  Ipad mini  */
+  .cerchio47 {
+    top: 5vh;
+    left: 35vw;
+    height: 6vw;
+    width: 30vw;
+  }
 }
 
-@media screen and (max-width: 390px) { /*  Telefono  */
-    .cerchio47{
-        top: 9vh;
-        left: 28vw;
-        height: 8vw;
-        width: 43vw;
-    }
+@media screen and (max-width: 390px) {
+  /*  Telefono  */
+  .cerchio47 {
+    top: 9vh;
+    left: 28vw;
+    height: 8vw;
+    width: 43vw;
+  }
 }
 
-@media screen and (max-width: 768px) { /*  Ipad mini  */
-    .ctadadefinire3{
-        top: 500vh;
-    }
+@media screen and (max-width: 768px) {
+  /*  Ipad mini  */
+  .ctadadefinire3 {
+    top: 500vh;
+  }
 }
 
 /*-------------------------------FOOTER CHI SIAMO-------------------------------*/
 
-.footercrew{
-    background-color: black;
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    color: #F0F0F0;
-    font-family: montreal_bold;
-    font-size: 1.5vw;
-    width: 100vw;
-    height: 33vh;
-    top: 650vh;
-    margin: 0;
-    text-align: left;
-    z-index: 100;
+.footercrew {
+  background-color: black;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  color: #f0f0f0;
+  font-family: montreal_bold;
+  font-size: 1.5vw;
+  width: 100vw;
+  height: 33vh;
+  top: 650vh;
+  margin: 0;
+  text-align: left;
+  z-index: 100;
 }
 
-@media screen and (max-width: 768px) { /*  Ipad mini  */
-    .footercrew{
-        top: 600vh;
-        height: 20vh;
-    }
+@media screen and (max-width: 768px) {
+  /*  Ipad mini  */
+  .footercrew {
+    top: 600vh;
+    height: 20vh;
+  }
 }
 
 /*-------------------------------TRIGGER CHI SIAMO-------------------------------*/
 
-.triggerc1{
-    position: absolute;
-    top: 440vh;
-    left: 0;
-    width: 10vw;
-    height: 1px;
-    border: 1px solid gold;
-    z-index: 1000;
-    display: none;
+.triggerc1 {
+  position: absolute;
+  top: 440vh;
+  left: 0;
+  width: 10vw;
+  height: 1px;
+  border: 1px solid gold;
+  z-index: 1000;
+  display: none;
 }
 
-@media screen and (max-width: 768px) { /*  Ipad mini  */
-    .triggerc1{
-        top: 390vh;
-    }
+@media screen and (max-width: 768px) {
+  /*  Ipad mini  */
+  .triggerc1 {
+    top: 390vh;
+  }
 }
 
-.triggerc2{
-    position: absolute;
-    top: 90vh;
-    left: 0;
-    width: 10vw;
-    height: 260vh;
-    border: 1px solid rebeccapurple;
-    z-index: 1000;
-    display: none;
+.triggerc2 {
+  position: absolute;
+  top: 90vh;
+  left: 0;
+  width: 10vw;
+  height: 260vh;
+  border: 1px solid rebeccapurple;
+  z-index: 1000;
+  display: none;
 }
 
-.triggerc3{
-    position: absolute;
-    top: 90vh;
-    left: 0;
-    width: 10vw;
-    height: 1px;
-    border: 1px solid gold;
-    z-index: 1000;
-    display: none;
+.triggerc3 {
+  position: absolute;
+  top: 90vh;
+  left: 0;
+  width: 10vw;
+  height: 1px;
+  border: 1px solid gold;
+  z-index: 1000;
+  display: none;
 }
 
-.triggerc4{
-    position: absolute;
-    top: 180vh;
-    left: 0;
-    width: 10vw;
-    height: 1px;
-    border: 1px solid gold;
-    z-index: 1000;
-    display: none;
+.triggerc4 {
+  position: absolute;
+  top: 180vh;
+  left: 0;
+  width: 10vw;
+  height: 1px;
+  border: 1px solid gold;
+  z-index: 1000;
+  display: none;
 }
 
-.triggerc5{
-    position: absolute;
-    top: 300vh;
-    left: 0;
-    width: 10vw;
-    height: 1px;
-    border: 1px solid gold;
-    z-index: 1000;
-    display: none;
+.triggerc5 {
+  position: absolute;
+  top: 300vh;
+  left: 0;
+  width: 10vw;
+  height: 1px;
+  border: 1px solid gold;
+  z-index: 1000;
+  display: none;
 }
 
-.triggerc6{
-    position: absolute;
-    top: 540vh;
-    left: 0;
-    width: 10vw;
-    height: 1px;
-    border: 1px solid gold;
-    z-index: 1000;
-    display: none;
+.triggerc6 {
+  position: absolute;
+  top: 540vh;
+  left: 0;
+  width: 10vw;
+  height: 1px;
+  border: 1px solid gold;
+  z-index: 1000;
+  display: none;
 }
 
-@media screen and (max-width: 768px) { /*  Ipad mini  */
-    .triggerc6{
-        top: 490vh;
-    }
+@media screen and (max-width: 768px) {
+  /*  Ipad mini  */
+  .triggerc6 {
+    top: 490vh;
+  }
 }
